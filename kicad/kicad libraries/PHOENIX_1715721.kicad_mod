@@ -1,0 +1,236 @@
+(footprint "PHOENIX_1715721"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.175 -10.885 0)
+		(layer "F.SilkS")
+		(uuid "4f9a39f4-48e5-40c6-ab36-dac12cbd7c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHOENIX_1715721"
+		(at 9.525 1.115 0)
+		(layer "F.Fab")
+		(uuid "69ce249b-84b1-487b-b13b-45a366c9eda9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9308d473-a99f-42c3-97a7-2ae687fa42cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfd81a30-cd10-46e5-9f60-956580e1a89b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e4c27fa-3a6b-4d50-8ff2-39a88451ba27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0812edab-b3f1-4636-b303-1458c5cec9fe")
+	)
+	(fp_line
+		(start 0 0)
+		(end 10.16 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9befc50-fead-4665-828b-9037638abf81")
+	)
+	(fp_line
+		(start 10.16 -9.8)
+		(end 0 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b797355-44b7-4a7f-ae42-35f732457b51")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 10.16 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6341beee-b475-4492-b8a5-0ddf9647a825")
+	)
+	(fp_circle
+		(center -1.1 -4.6)
+		(end -1 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7964686b-a006-4fa0-8a74-d566d2fde4d6")
+	)
+	(fp_line
+		(start -0.82 -10.05)
+		(end -0.82 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4557823e-0bb8-49f8-9755-15be7ded291f")
+	)
+	(fp_line
+		(start -0.82 0.25)
+		(end 10.41 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0374e10e-1fde-44bc-ade3-eeeb55887cff")
+	)
+	(fp_line
+		(start 10.41 -10.05)
+		(end -0.82 -10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae80ec5a-571a-44f3-9be9-6ac051e59706")
+	)
+	(fp_line
+		(start 10.41 0.25)
+		(end 10.41 -10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dda6a6c-f9d6-44be-bea4-7ab371b80f7c")
+	)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70d3215d-2b80-462a-a284-9602c31b012c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 10.16 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c4208f1-2263-45be-accb-a4886319f96c")
+	)
+	(fp_line
+		(start 10.16 -9.8)
+		(end 0 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c3cbcbf-9824-4cd8-9ebf-c56f7267a8a4")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 10.16 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9d0cb00-e09a-4bbb-988d-c156123435cc")
+	)
+	(fp_circle
+		(center -1.1 -4.6)
+		(end -1 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ed1e5fc3-c9cd-4230-b6c7-039529ad7cb7")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 -4.6)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a3d31bcb-9c12-46b2-98bb-8ec00ef7c1d6")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 -4.6)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "013d3d38-33b3-4c8e-a3ac-aa135cdf4cd3")
+	)
+	(model "${KIPRJMOD}/kicad libraries/1715721.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
