@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(company "https://github.com/gobabygocarswithjoysticks gobabygocarswithjoysticks@gmail.com")
+		(comment 1 "by Joshua Phelps, ")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x09_Pin"
@@ -2624,7 +2625,7 @@
 				)
 			)
 		)
-		(symbol "library:1017503"
+		(symbol "library:1017514"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2632,7 +2633,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -2.54 6.35 0)
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2640,8 +2641,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "1017503"
-				(at -2.54 -10.16 0)
+			(property "Value" "1017514"
+				(at -2.54 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2649,7 +2650,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "kicad libraries:PHOENIX_1017503"
+			(property "Footprint" "kicad libraries:PHOENIX_1017514"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2677,26 +2678,6 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Phoenix Contact"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "19.2mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
@@ -2707,10 +2688,30 @@
 					(hide yes)
 				)
 			)
-			(symbol "1017503_0_0"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1017514_0_0"
 				(rectangle
-					(start -3.81 -7.62)
-					(end 5.08 5.08)
+					(start -3.81 -5.08)
+					(end 5.08 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2720,7 +2721,7 @@
 					)
 				)
 				(circle
-					(center -1.27 -3.81)
+					(center -1.905 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -2731,7 +2732,7 @@
 					)
 				)
 				(circle
-					(center -1.27 1.27)
+					(center -1.905 0)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -2741,83 +2742,17 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -1.905 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "1_2"
+					(name "1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1_2"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2828,14 +2763,14 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 5.08)
-					(name "2_1"
+					(name "2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2_1"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2843,20 +2778,407 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 -5.08 0)
+			)
+		)
+		(symbol "library:1017526"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1017526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "kicad libraries:CONN_1017526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "1017526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1017526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_1017526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1017526_0_1"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -5.08) (xy 6.985 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 6.985 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 0)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 5.08)
-					(name "2_2"
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2_2"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5222,18 +5544,6 @@
 		(uuid "2413a9fc-5fa4-494c-bafb-74ce0bdd7ee0")
 	)
 	(junction
-		(at 233.68 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a546d30-5f6f-4938-aa92-801bab25db8d")
-	)
-	(junction
-		(at 302.26 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41a8d3d6-cded-4410-8be3-be2a184aa67f")
-	)
-	(junction
 		(at 146.05 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5294,10 +5604,10 @@
 		(uuid "5e906c32-15ef-4c4c-b730-6a9ff53baeed")
 	)
 	(junction
-		(at 293.37 50.8)
+		(at 233.68 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60f737cb-5c02-48ee-8560-52372837c238")
+		(uuid "6165c0aa-8b1d-495c-b33c-d4240cf2dd7d")
 	)
 	(junction
 		(at 381 68.58)
@@ -5336,7 +5646,7 @@
 		(uuid "86cbe05c-3904-4778-87b2-9425227b1ea0")
 	)
 	(junction
-		(at 119.38 109.22)
+		(at 99.06 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a263c8e-4913-4791-8747-f4562d721de5")
@@ -5354,7 +5664,7 @@
 		(uuid "92adc33f-0c16-4ac3-8c9f-09c0b30db048")
 	)
 	(junction
-		(at 119.38 104.14)
+		(at 99.06 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99659a16-9aa6-4a75-bc51-2cad18e5bcc0")
@@ -5402,28 +5712,16 @@
 		(uuid "ade269ce-5279-417e-8b5f-c1489c9d466f")
 	)
 	(junction
-		(at 119.38 111.76)
+		(at 99.06 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b081087b-9349-472e-b3dc-35c6f78c6134")
 	)
 	(junction
-		(at 119.38 106.68)
+		(at 99.06 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b505ecb4-5162-4ef3-8d24-863a233876d6")
-	)
-	(junction
-		(at 302.26 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf28c7b4-1b63-4ca9-ad51-01d4814e314b")
-	)
-	(junction
-		(at 233.68 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c712006b-00a8-49e9-9654-7ddc5232b8d7")
 	)
 	(junction
 		(at 125.73 208.28)
@@ -5432,7 +5730,7 @@
 		(uuid "d07757ea-35fc-4548-9506-ed1e7043e82d")
 	)
 	(junction
-		(at 119.38 114.3)
+		(at 99.06 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ed9a04-ec71-4263-895f-b6d4cc1b4c3e")
@@ -5456,6 +5754,12 @@
 		(uuid "df559a63-4a9d-4dea-8559-e05c58ec62e6")
 	)
 	(junction
+		(at 233.68 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e144e588-8777-4cce-a51c-88cb8d9387e9")
+	)
+	(junction
 		(at 35.56 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5468,7 +5772,7 @@
 		(uuid "e2461cf2-bf05-4826-8355-96b223b2a284")
 	)
 	(junction
-		(at 119.38 99.06)
+		(at 99.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e263f171-e8ec-4225-8e69-0040a975864c")
@@ -5480,7 +5784,7 @@
 		(uuid "e812c60a-713b-43e3-ad2e-febc44212052")
 	)
 	(junction
-		(at 119.38 101.6)
+		(at 99.06 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e935a090-c5e3-40f2-8ef5-237f1a4514a6")
@@ -5490,12 +5794,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea1c4e6b-77bc-4d67-b7e1-4bde99d8db5a")
-	)
-	(junction
-		(at 293.37 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb22feb7-f0d5-4ed0-ae53-9576623530e8")
 	)
 	(junction
 		(at 283.21 147.32)
@@ -5522,11 +5820,11 @@
 		(uuid "fd987bc1-6228-4519-9e74-dba98cd3b332")
 	)
 	(no_connect
-		(at 68.58 50.8)
+		(at 48.26 48.26)
 		(uuid "09ec9529-cb41-406a-b346-bcc4b61270b6")
 	)
 	(no_connect
-		(at 68.58 53.34)
+		(at 48.26 50.8)
 		(uuid "3ded510d-3ce7-4d1c-b0fc-72f496e0a753")
 	)
 	(no_connect
@@ -5534,11 +5832,11 @@
 		(uuid "54b2679a-9f6a-4ed7-800e-621756d27fc4")
 	)
 	(no_connect
-		(at 119.38 45.72)
+		(at 99.06 43.18)
 		(uuid "84154182-fef5-46f1-baae-c1239ce7af04")
 	)
 	(no_connect
-		(at 119.38 38.1)
+		(at 99.06 35.56)
 		(uuid "97da288f-587a-451a-af42-b87fbf967351")
 	)
 	(no_connect
@@ -5559,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 86.36) (xy 153.67 83.82)
+			(xy 133.35 83.82) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5639,7 +5937,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 74.93) (xy 46.99 74.93)
+			(xy 27.94 72.39) (xy 26.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5967,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 73.66) (xy 46.99 74.93)
+			(xy 26.67 71.12) (xy 26.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5689,17 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 129.54) (xy 302.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ccf42a-c3d7-471c-a417-3c52d5e2a2d5")
-	)
-	(wire
-		(pts
-			(xy 143.51 58.42) (xy 142.24 58.42)
+			(xy 123.19 55.88) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5729,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 134.62 58.42)
+			(xy 113.03 55.88) (xy 114.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5749,7 +6037,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 124.46) (xy 302.26 129.54)
+			(xy 302.26 124.46) (xy 302.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +6057,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 88.9) (xy 153.67 95.25)
+			(xy 133.35 86.36) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5779,7 +6067,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 119.38 78.74)
+			(xy 116.84 76.2) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5809,13 +6097,23 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 48.26) (xy 293.37 50.8)
+			(xy 293.37 48.26) (xy 293.37 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2cefe087-a185-412a-a07a-8bd2fa6d5913")
+	)
+	(wire
+		(pts
+			(xy 233.68 224.79) (xy 233.68 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbc87ff-37cb-4f79-b864-22f93741af39")
 	)
 	(wire
 		(pts
@@ -5836,6 +6134,16 @@
 			(type default)
 		)
 		(uuid "31d6c189-a04b-4127-bfb9-95c26bf6daae")
+	)
+	(wire
+		(pts
+			(xy 233.68 222.25) (xy 233.68 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324747f2-a58c-4b75-8303-15823bef9815")
 	)
 	(wire
 		(pts
@@ -5899,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 119.38 111.76)
+			(xy 99.06 106.68) (xy 99.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5909,7 +6217,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 153.67 88.9)
+			(xy 99.06 86.36) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5959,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 71.12) (xy 57.15 71.12)
+			(xy 26.67 68.58) (xy 36.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5989,7 +6297,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 68.58 78.74)
+			(xy 26.67 76.2) (xy 48.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6059,7 +6367,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 149.86 86.36)
+			(xy 99.06 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6069,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 83.82) (xy 68.58 83.82)
+			(xy 26.67 81.28) (xy 48.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6099,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 149.86 81.28)
+			(xy 129.54 83.82) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6149,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 168.91 92.71)
+			(xy 147.32 90.17) (xy 148.59 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6179,16 +6487,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 38.1) (xy 293.37 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5404edf3-46a2-4801-b91a-90d3b6f33cef")
-	)
-	(wire
-		(pts
 			(xy 312.42 139.7) (xy 309.88 139.7)
 		)
 		(stroke
@@ -6199,7 +6497,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 43.18) (xy 293.37 45.72)
+			(xy 293.37 38.1) (xy 293.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +6527,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 168.91 97.79)
+			(xy 147.32 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6567,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 35.56) (xy 123.19 40.64)
+			(xy 102.87 33.02) (xy 102.87 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6299,7 +6597,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 109.22)
+			(xy 99.06 104.14) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6349,7 +6647,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 168.91 95.25)
+			(xy 233.68 217.17) (xy 233.68 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61428d96-0b71-4555-a216-2416ad9694c3")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6399,7 +6707,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 119.38 66.04)
+			(xy 116.84 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6436,6 +6744,16 @@
 			(type default)
 		)
 		(uuid "6c09bd39-b9c5-4296-85b9-8840b47a3f1d")
+	)
+	(wire
+		(pts
+			(xy 302.26 134.62) (xy 302.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d697744-b60f-4f91-b289-2913047307d6")
 	)
 	(wire
 		(pts
@@ -6529,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 68.58) (xy 119.38 68.58)
+			(xy 116.84 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6559,7 +6877,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 157.48 81.28)
+			(xy 129.54 78.74) (xy 137.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6579,7 +6897,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 125.73 58.42)
+			(xy 99.06 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6639,7 +6957,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 95.25) (xy 50.8 95.25)
+			(xy 26.67 92.71) (xy 30.48 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6649,7 +6967,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 83.82) (xy 153.67 83.82)
+			(xy 99.06 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6659,7 +6977,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 129.54 43.18)
+			(xy 99.06 40.64) (xy 109.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6739,16 +7057,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 215.9) (xy 233.68 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a714b0-4938-4c14-8925-ed6e086b73cc")
-	)
-	(wire
-		(pts
 			(xy 125.73 208.28) (xy 125.73 214.63)
 		)
 		(stroke
@@ -6799,7 +7107,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 119.38 101.6)
+			(xy 99.06 96.52) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6809,7 +7117,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 119.38 114.3)
+			(xy 99.06 109.22) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6819,7 +7127,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 119.38 76.2)
+			(xy 116.84 73.66) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6839,7 +7147,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 119.38 71.12)
+			(xy 116.84 68.58) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6849,7 +7157,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 101.6) (xy 119.38 104.14)
+			(xy 99.06 99.06) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6929,7 +7237,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 86.36) (xy 68.58 86.36)
+			(xy 26.67 83.82) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6959,7 +7267,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 88.9) (xy 68.58 88.9)
+			(xy 26.67 86.36) (xy 48.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6989,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 217.17) (xy 233.68 219.71)
+			(xy 233.68 215.9) (xy 233.68 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6999,7 +7307,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 81.28) (xy 68.58 81.28)
+			(xy 26.67 78.74) (xy 48.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7009,7 +7317,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 119.38 106.68)
+			(xy 99.06 101.6) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7109,7 +7417,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 99.06)
+			(xy 99.06 93.98) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7136,16 +7444,6 @@
 			(type default)
 		)
 		(uuid "c9833e3f-432c-4cf9-a8a7-c0694d4f1703")
-	)
-	(wire
-		(pts
-			(xy 302.26 137.16) (xy 302.26 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca0a4bd9-e729-4d0f-b75c-6b44bc33e910")
 	)
 	(wire
 		(pts
@@ -7179,7 +7477,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 76.2) (xy 68.58 76.2)
+			(xy 26.67 73.66) (xy 48.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7189,17 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 134.62) (xy 302.26 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc40aa04-ff05-4c0c-b54f-5b0a22314ea3")
-	)
-	(wire
-		(pts
-			(xy 156.21 83.82) (xy 156.21 80.01)
+			(xy 135.89 81.28) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7239,7 +7527,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 91.44) (xy 46.99 95.25)
+			(xy 26.67 88.9) (xy 26.67 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7279,7 +7567,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 237.49) (xy 252.73 241.3)
+			(xy 226.06 245.11) (xy 226.06 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7309,7 +7597,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 157.48 88.9)
+			(xy 135.89 86.36) (xy 137.16 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7349,7 +7637,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 26.67) (xy 123.19 27.94)
+			(xy 102.87 24.13) (xy 102.87 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7369,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 119.38 81.28)
+			(xy 116.84 78.74) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7379,17 +7667,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 50.8) (xy 293.37 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03289fd-f9a0-41d8-8d9d-06b5c066e0a5")
-	)
-	(wire
-		(pts
-			(xy 157.48 86.36) (xy 153.67 86.36)
+			(xy 137.16 83.82) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7479,7 +7757,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 40.64) (xy 123.19 40.64)
+			(xy 99.06 38.1) (xy 102.87 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7569,16 +7847,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 226.06) (xy 233.68 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51ee32d-0a08-489e-814f-ed54d2ba7eb8")
-	)
-	(wire
-		(pts
 			(xy 284.48 63.5) (xy 293.37 63.5)
 		)
 		(stroke
@@ -7606,16 +7874,6 @@
 			(type default)
 		)
 		(uuid "f7de0ba9-bdd7-4758-a126-94bfd05bff20")
-	)
-	(wire
-		(pts
-			(xy 233.68 222.25) (xy 233.68 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f848fba4-9ddb-4ba8-927a-a5d0ee794075")
 	)
 	(wire
 		(pts
@@ -7649,7 +7907,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 156.21 83.82)
+			(xy 137.16 81.28) (xy 135.89 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7697,15 +7955,45 @@
 		)
 		(uuid "ff57205d-9271-449d-a125-805bc3e272c4")
 	)
-	(text "SR to ground gives fastest switching time\nit is the most efficient, but could make more electrical noise\nMaybe it would also increase voltage spikes from inductors in motor?"
+	(text "SR to ground gives fastest switching time\nit is the most efficient (and easiest to wire), but could make more electrical noise\nMaybe it would also increase voltage spikes from inductors in motors so maybe review this?"
 		(exclude_from_sim no)
-		(at 285.242 79.756 0)
+		(at 280.924 82.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "2f9968f0-e30a-4bc5-9a0d-76da08de61d8")
+	)
+	(text "check resistor values"
+		(exclude_from_sim no)
+		(at 175.514 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "374dbb9d-c548-467f-9a8b-8e046dedb1b2")
+	)
+	(text "use webench to find alternative inductors \n	the current one isn't in stock, it's also large"
+		(exclude_from_sim no)
+		(at 116.332 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60a31ff0-1a97-4e2a-a9e8-08ba231990bc")
+	)
+	(text "3 pins or just 2 pins?"
+		(exclude_from_sim no)
+		(at 138.684 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a14c4867-cc76-496a-88b2-e08e5782cdf1")
 	)
 	(text "ok to leave disconnected?"
 		(exclude_from_sim no)
@@ -7719,7 +8007,7 @@
 	)
 	(global_label "bt4"
 		(shape input)
-		(at 68.58 68.58 180)
+		(at 48.26 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7729,7 +8017,7 @@
 		)
 		(uuid "193ae7e3-516d-4866-a9f6-830d1f06798b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 68.58 0)
+			(at 42.1906 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +8051,7 @@
 	)
 	(global_label "left_1"
 		(shape input)
-		(at 137.16 76.2 0)
+		(at 116.84 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7773,7 +8061,7 @@
 		)
 		(uuid "2242c955-498f-4fa1-a489-5a28cb60056a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5275 76.2 0)
+			(at 125.2075 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +8095,7 @@
 	)
 	(global_label "bt2"
 		(shape input)
-		(at 68.58 63.5 180)
+		(at 48.26 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7817,7 +8105,7 @@
 		)
 		(uuid "27f63542-9b20-437e-a930-b50d80ed246f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 63.5 0)
+			(at 42.1906 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +8117,7 @@
 	)
 	(global_label "bt6"
 		(shape input)
-		(at 68.58 73.66 180)
+		(at 48.26 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7839,7 +8127,7 @@
 		)
 		(uuid "35a5ec73-17bc-4f3b-9201-ca6e16fcbd73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 73.66 0)
+			(at 42.1906 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7851,7 +8139,7 @@
 	)
 	(global_label "bt1"
 		(shape input)
-		(at 68.58 60.96 180)
+		(at 48.26 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7861,7 +8149,7 @@
 		)
 		(uuid "3bb08efb-7ee6-43c3-a308-cbdd62066871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 60.96 0)
+			(at 42.1906 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +8205,7 @@
 	)
 	(global_label "bt3"
 		(shape input)
-		(at 68.58 66.04 180)
+		(at 48.26 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7927,7 +8215,7 @@
 		)
 		(uuid "541a0ef5-e579-45e4-a163-d23b18a71abd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 66.04 0)
+			(at 42.1906 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8271,7 @@
 	)
 	(global_label "left_en"
 		(shape input)
-		(at 137.16 78.74 0)
+		(at 116.84 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7993,7 +8281,7 @@
 		)
 		(uuid "6f66063c-b125-45a9-b011-6aaaa5ac62a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.5556 78.74 0)
+			(at 126.2356 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +8293,7 @@
 	)
 	(global_label "right_1"
 		(shape input)
-		(at 137.16 71.12 0)
+		(at 116.84 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8015,7 +8303,7 @@
 		)
 		(uuid "721c2598-171f-4297-9c8a-145f2c87fe2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.737 71.12 0)
+			(at 126.417 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8337,7 @@
 	)
 	(global_label "left_2"
 		(shape input)
-		(at 137.16 81.28 0)
+		(at 116.84 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8059,7 +8347,7 @@
 		)
 		(uuid "805779f7-a33e-4998-9c3c-69933a4cbc2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5275 81.28 0)
+			(at 125.2075 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8403,7 @@
 	)
 	(global_label "bt5"
 		(shape input)
-		(at 68.58 71.12 180)
+		(at 48.26 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8125,7 +8413,7 @@
 		)
 		(uuid "adf539a6-5302-41e7-8fa9-ea2c865afc2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 71.12 0)
+			(at 42.1906 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8447,7 @@
 	)
 	(global_label "right_2"
 		(shape input)
-		(at 137.16 66.04 0)
+		(at 116.84 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8169,7 +8457,7 @@
 		)
 		(uuid "d67683f4-50cd-483e-9aa7-8e296cb1543e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.737 66.04 0)
+			(at 126.417 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8513,7 @@
 	)
 	(global_label "right_en"
 		(shape input)
-		(at 137.16 68.58 0)
+		(at 116.84 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8235,7 +8523,7 @@
 		)
 		(uuid "fbe623c0-efcb-4593-9745-1b07237be199")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7651 68.58 0)
+			(at 127.4451 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,6 +8587,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "399-A750MV108M1EAAE014-ND"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90e46762-20c7-4539-98f5-8b8e1910be7d")
 		)
@@ -8333,7 +8657,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "green"
 			(at 165.1 216.2174 90)
 			(effects
 				(font
@@ -8351,7 +8675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
 			(at 161.29 213.36 0)
 			(effects
 				(font
@@ -8361,6 +8685,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".18"
 			(at 161.29 213.36 0)
 			(effects
 				(font
@@ -8616,7 +8976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STX-3000"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
 			(at 381 132.08 0)
 			(effects
 				(font
@@ -8626,7 +8986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/8\" audio jack"
 			(at 381 132.08 0)
 			(effects
 				(font
@@ -8635,7 +8995,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0.6"
 			(at 381 132.08 0)
 			(effects
 				(font
@@ -8644,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "Kycon, Inc."
 			(at 381 132.08 0)
 			(effects
 				(font
@@ -8653,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "STX-3000"
 			(at 381 132.08 0)
 			(effects
 				(font
@@ -8662,7 +9022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "2092-STX-3000-ND"
 			(at 381 132.08 0)
 			(effects
 				(font
@@ -8726,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 375.92 218.44 0)
 			(effects
 				(font
@@ -8744,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0"
 			(at 375.92 218.44 0)
 			(effects
 				(font
@@ -8753,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "DNP"
 			(at 375.92 218.44 0)
 			(effects
 				(font
@@ -8762,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "DNP"
 			(at 375.92 218.44 0)
 			(effects
 				(font
@@ -8771,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "DNP"
 			(at 375.92 218.44 0)
 			(effects
 				(font
@@ -8836,6 +9196,42 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "399-A750MV108M1EAAE014-ND"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1"
 			(at 203.2 34.29 0)
 			(effects
 				(font
@@ -8926,7 +9322,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 129.54 58.42 180)
+		(at 109.22 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8934,7 +9330,7 @@
 		(dnp no)
 		(uuid "1a876dd7-dbf6-4b8d-8012-2d155650772d")
 		(property "Reference" "D13"
-			(at 128.016 54.61 0)
+			(at 107.696 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,8 +9338,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 127.508 61.214 0)
+		(property "Value" "blue"
+			(at 107.188 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +9348,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 129.54 58.42 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,8 +9356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 129.54 58.42 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/american-bright-optoelectronics-corporation/BL-BBX1V4V-2-B02/22486905"
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +9366,43 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 129.54 58.42 0)
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "2007-BL-BBX1V4V-2-B02-ND"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "American Bright Optoelectronics Corporation"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BL-BBX1V4V-2-B02"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".36"
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,6 +9480,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 283.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 283.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 283.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 283.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "863490d6-e752-4cee-a120-7d6c945acc9c")
 		)
@@ -9099,7 +9567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -9109,6 +9577,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-3047-1-ND"
+			(at 125.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 125.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 125.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".15"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -9252,6 +9756,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f13ed80-bfe2-49d8-9632-2dc23cf919e7")
 		)
@@ -9313,7 +9853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 219.71 123.19 0)
 			(effects
 				(font
@@ -9322,7 +9862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 219.71 123.19 0)
 			(effects
 				(font
@@ -9331,7 +9871,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "IFX007TAUMA1CT-ND"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "2.6"
 			(at 219.71 123.19 0)
 			(effects
 				(font
@@ -9420,7 +9978,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.4"
 			(at 261.62 212.09 0)
 			(effects
 				(font
@@ -9483,7 +10077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9493,6 +10087,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-3047-1-ND"
+			(at 135.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 135.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 135.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".15"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9569,6 +10199,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey part number" ""
+			(at 97.79 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de354b02-ec5b-4eb7-8332-10236f4ae488")
 		)
@@ -9586,7 +10225,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 43.18 0)
+		(at 109.22 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9595,7 +10234,7 @@
 		(fields_autoplaced yes)
 		(uuid "28d64658-591c-4c5b-b50f-d6d0a0b38c67")
 		(property "Reference" "#PWR06"
-			(at 129.54 46.99 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +10243,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 38.1 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +10251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 43.18 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +10260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 43.18 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +10269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 43.18 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,7 +10325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STX-3000"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
 			(at 381 63.5 0)
 			(effects
 				(font
@@ -9696,7 +10335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/8\" audio jack"
 			(at 381 63.5 0)
 			(effects
 				(font
@@ -9705,7 +10344,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0.6"
 			(at 381 63.5 0)
 			(effects
 				(font
@@ -9714,7 +10353,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "Kycon, Inc."
 			(at 381 63.5 0)
 			(effects
 				(font
@@ -9723,7 +10362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "STX-3000"
 			(at 381 63.5 0)
 			(effects
 				(font
@@ -9732,7 +10371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "2092-STX-3000-ND"
 			(at 381 63.5 0)
 			(effects
 				(font
@@ -9861,7 +10500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -9871,6 +10510,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -9962,7 +10637,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 41.91 81.28 0)
+		(at 21.59 78.74 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9971,7 +10646,7 @@
 		(dnp no)
 		(uuid "321de2fc-a420-47e0-a981-1d74df0c8955")
 		(property "Reference" "J6"
-			(at 41.402 94.234 0)
+			(at 21.082 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +10654,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 36.576 70.866 0)
+			(at 16.256 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +10663,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 41.91 81.28 0)
+			(at 21.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,8 +10671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 81.28 0)
+		(property "Datasheet" "DNP"
+			(at 21.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +10681,43 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 41.91 81.28 0)
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "DNP"
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0"
+			(at 21.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206JR-13220RL/14286772"
 			(at 179.07 222.25 0)
 			(effects
 				(font
@@ -10094,6 +10805,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "13-RC1206JR-13220RLCT-ND"
+			(at 179.07 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 179.07 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-13220RL"
+			(at 179.07 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.02"
 			(at 179.07 222.25 0)
 			(effects
 				(font
@@ -10154,7 +10901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 375.92 224.79 0)
 			(effects
 				(font
@@ -10172,7 +10919,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0"
 			(at 375.92 224.79 0)
 			(effects
 				(font
@@ -10181,7 +10928,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "DNP"
 			(at 375.92 224.79 0)
 			(effects
 				(font
@@ -10190,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "DNP"
 			(at 375.92 224.79 0)
 			(effects
 				(font
@@ -10199,7 +10946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "DNP"
 			(at 375.92 224.79 0)
 			(effects
 				(font
@@ -10446,7 +11193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07680RL/729064"
 			(at 161.29 222.25 0)
 			(effects
 				(font
@@ -10456,6 +11203,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "311-680FRCT-ND"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-07680RL"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.017"
 			(at 161.29 222.25 0)
 			(effects
 				(font
@@ -10481,7 +11264,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 114.3 0)
+		(at 99.06 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10490,7 +11273,7 @@
 		(fields_autoplaced yes)
 		(uuid "446c0cb5-ae70-4b07-9a4d-ad4cf8458fde")
 		(property "Reference" "#PWR022"
-			(at 119.38 120.65 0)
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +11282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 119.38 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,7 +11290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 114.3 0)
+			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,7 +11299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 114.3 0)
+			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +11308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 114.3 0)
+			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +11543,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "green"
 			(at 182.88 216.2174 90)
 			(effects
 				(font
@@ -10778,7 +11561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
 			(at 179.07 213.36 0)
 			(effects
 				(font
@@ -10788,6 +11571,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".18"
 			(at 179.07 213.36 0)
 			(effects
 				(font
@@ -10943,7 +11762,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 50.8 95.25 0)
+		(at 30.48 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10951,7 +11770,7 @@
 		(dnp no)
 		(uuid "4a1f4457-91cb-4b42-8d5c-986c19c9d20d")
 		(property "Reference" "#PWR064"
-			(at 50.8 99.06 0)
+			(at 30.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +11779,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 52.832 93.98 0)
+			(at 32.512 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +11787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 95.25 0)
+			(at 30.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +11796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 95.25 0)
+			(at 30.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +11805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 95.25 0)
+			(at 30.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -11061,7 +11880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -11070,7 +11889,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
+			(at 220.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "IFX007TAUMA1CT-ND"
+			(at 220.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "2.6"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -11179,7 +12016,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 48.26 74.93 0)
+		(at 27.94 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11187,7 +12024,7 @@
 		(dnp no)
 		(uuid "4fb4f834-25a2-4ebf-95dd-1d469b9c770f")
 		(property "Reference" "#PWR052"
-			(at 48.26 78.74 0)
+			(at 27.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +12033,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 51.816 72.39 0)
+			(at 31.496 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +12041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 74.93 0)
+			(at 27.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,7 +12050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 74.93 0)
+			(at 27.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +12059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 74.93 0)
+			(at 27.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,6 +12421,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.4"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d00f1b1-0de1-4dbe-9112-ebe087545ed1")
 		)
@@ -11713,7 +12586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 218.44 149.86 0)
 			(effects
 				(font
@@ -11722,7 +12595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 218.44 149.86 0)
 			(effects
 				(font
@@ -11731,7 +12604,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "IFX007TAUMA1CT-ND"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "2.6"
 			(at 218.44 149.86 0)
 			(effects
 				(font
@@ -11810,7 +12701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 218.44 34.29 0)
 			(effects
 				(font
@@ -11820,6 +12711,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 218.44 34.29 0)
 			(effects
 				(font
@@ -11878,7 +12805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC022162/614558"
 			(at 293.37 215.9 0)
 			(effects
 				(font
@@ -11888,6 +12815,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 293.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "ED2609-ND"
+			(at 293.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "On Shore Technology Inc."
+			(at 293.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OSTTC022162"
+			(at 293.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".43"
 			(at 293.37 215.9 0)
 			(effects
 				(font
@@ -11948,7 +12911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -11958,6 +12921,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-3047-1-ND"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".15"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -12017,7 +13016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 306.07 147.32 0)
 			(effects
 				(font
@@ -12027,6 +13026,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 306.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 306.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 306.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 306.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 306.07 147.32 0)
 			(effects
 				(font
@@ -12087,7 +13122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 262.89 49.53 0)
 			(effects
 				(font
@@ -12097,6 +13132,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "DNP"
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0"
 			(at 262.89 44.45 0)
 			(effects
 				(font
@@ -12153,7 +13224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STX-3000"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
 			(at 381 40.64 0)
 			(effects
 				(font
@@ -12163,7 +13234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/8\" audio jack"
 			(at 381 40.64 0)
 			(effects
 				(font
@@ -12172,7 +13243,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0.6"
 			(at 381 40.64 0)
 			(effects
 				(font
@@ -12181,7 +13252,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "Kycon, Inc."
 			(at 381 40.64 0)
 			(effects
 				(font
@@ -12190,7 +13261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "STX-3000"
 			(at 381 40.64 0)
 			(effects
 				(font
@@ -12199,7 +13270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "2092-STX-3000-ND"
 			(at 381 40.64 0)
 			(effects
 				(font
@@ -12281,6 +13352,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 283.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 283.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 283.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 283.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d503d2e6-7583-437c-96d8-fa6d302dec2e")
 		)
@@ -12298,7 +13405,7 @@
 	)
 	(symbol
 		(lib_id "library:rpi pico")
-		(at 93.98 78.74 0)
+		(at 73.66 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12307,7 +13414,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a87062d-b6e2-4aa3-9a5d-309e69f55098")
 		(property "Reference" "U3"
-			(at 93.98 30.48 0)
+			(at 73.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +13422,7 @@
 			)
 		)
 		(property "Value" "rpi pico"
-			(at 93.98 33.02 0)
+			(at 73.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12323,7 +13430,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:MODULE_SC0918"
-			(at 93.98 78.74 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12332,8 +13439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.98 78.74 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/raspberry-pi/SC0918/16608263"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,8 +13448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 78.74 0)
+		(property "Description" "rpi pico 1/1W/2/2W"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,8 +13457,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
-			(at 93.98 78.74 0)
+		(property "price" "6"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12359,8 +13466,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
-			(at 93.98 78.74 0)
+		(property "Manufacturer_Name" "Raspberry Pi"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12368,8 +13475,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 93.98 78.74 0)
+		(property "Manufacturer_Part_Number" "SC0918"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,8 +13484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 93.98 78.74 0)
+		(property "digikey part number" "2648-SC0918CT-ND"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12582,7 +13689,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 123.19 26.67 0)
+		(at 102.87 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12590,7 +13697,7 @@
 		(dnp no)
 		(uuid "70baca89-8cf1-47c7-87dc-b418b42a4ece")
 		(property "Reference" "#PWR061"
-			(at 123.19 30.48 0)
+			(at 102.87 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12599,7 +13706,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 123.19 23.114 0)
+			(at 102.87 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12607,7 +13714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 26.67 0)
+			(at 102.87 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12616,7 +13723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 26.67 0)
+			(at 102.87 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,7 +13732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 26.67 0)
+			(at 102.87 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,6 +13799,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 283.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 283.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 283.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 283.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
 			(at 283.21 109.22 0)
 			(effects
 				(font
@@ -12770,6 +13913,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 284.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 284.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 284.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 284.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "498dcb84-4867-4c43-8bf6-00deb881e68c")
 		)
@@ -12787,7 +13966,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 58.42 0)
+		(at 123.19 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12795,7 +13974,7 @@
 		(dnp no)
 		(uuid "77744c0b-ebcb-49ff-9a05-6b3971cf7c8c")
 		(property "Reference" "#PWR046"
-			(at 143.51 64.77 0)
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12804,7 +13983,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.272 62.23 0)
+			(at 123.952 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +13991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 58.42 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,7 +14000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 58.42 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +14009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 58.42 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +14096,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 173.99 95.25 0)
+		(at 153.67 92.71 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12926,7 +14105,7 @@
 		(dnp no)
 		(uuid "79065539-58c9-4ac6-9216-7be50ca6625c")
 		(property "Reference" "J3"
-			(at 173.99 100.33 0)
+			(at 153.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,7 +14113,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 182.372 101.854 0)
+			(at 162.052 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12942,7 +14121,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 173.99 95.25 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12950,8 +14129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 173.99 95.25 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC032162/614559"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12959,8 +14138,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 95.25 0)
+		(property "Description" "0.2\" pitch"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,8 +14147,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
-			(at 173.99 95.25 0)
+		(property "price" ".6"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12977,8 +14156,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
-			(at 173.99 95.25 0)
+		(property "Manufacturer_Name" "On Shore Technology Inc."
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,8 +14165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 173.99 95.25 0)
+		(property "Manufacturer_Part_Number" "OSTTC032162"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,8 +14174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 173.99 95.25 0)
+		(property "digikey part number" "ED2610-ND"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +14303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -13134,6 +14313,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -13277,6 +14492,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey part number" ""
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f3d9f65-9531-44a2-bcc3-8e6a1aa6d164")
 		)
@@ -13328,7 +14552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -13338,6 +14562,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-3047-1-ND"
+			(at 146.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 146.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 146.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".15"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -13429,7 +14689,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 167.64 92.71 0)
+		(at 147.32 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13437,7 +14697,7 @@
 		(dnp no)
 		(uuid "81d83b42-17d5-4ee9-8f00-ecb1ad0b9994")
 		(property "Reference" "#PWR017"
-			(at 167.64 96.52 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13446,7 +14706,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 169.164 89.408 0)
+			(at 148.844 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +14714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 92.71 0)
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +14723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 92.71 0)
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +14732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 92.71 0)
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13612,6 +14872,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 283.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 283.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 283.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 283.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92f9821b-f8e1-459c-b64f-5d520327861b")
 		)
@@ -13729,7 +15025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 297.18 67.31 0)
 			(effects
 				(font
@@ -13739,6 +15035,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 297.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 297.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 297.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 297.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 297.18 67.31 0)
 			(effects
 				(font
@@ -13764,7 +15096,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 123.19 31.75 90)
+		(at 102.87 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13772,7 +15104,7 @@
 		(dnp no)
 		(uuid "8e66736f-fa34-45f6-af70-01de3247a95a")
 		(property "Reference" "D12"
-			(at 124.714 28.956 90)
+			(at 104.394 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +15113,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 124.714 31.496 90)
+			(at 104.394 28.956 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13790,7 +15122,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 123.19 31.75 0)
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13799,7 +15131,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/FS26/18667798"
-			(at 123.19 31.75 0)
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,7 +15140,43 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 123.19 31.75 0)
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Good-Ark Semiconductor"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS26"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "4786-FS26CT-ND"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13867,7 +15235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 306.07 139.7 0)
 			(effects
 				(font
@@ -13877,6 +15245,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 306.07 139.7 0)
 			(effects
 				(font
@@ -13968,7 +15372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 58.42 90)
+		(at 118.11 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13976,7 +15380,7 @@
 		(dnp no)
 		(uuid "9081fd80-ba14-46d0-90ca-4da039cee977")
 		(property "Reference" "R6"
-			(at 138.43 53.086 90)
+			(at 118.11 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +15388,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 138.43 55.626 90)
+			(at 118.11 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,7 +15396,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 138.43 60.198 90)
+			(at 118.11 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,8 +15404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 138.43 58.42 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206JR-13220RL/14286772"
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,7 +15414,43 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 58.42 0)
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "13-RC1206JR-13220RLCT-ND"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-13220RL"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.02"
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +15509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 306.07 124.46 0)
 			(effects
 				(font
@@ -14079,6 +15519,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 306.07 124.46 0)
 			(effects
 				(font
@@ -14269,7 +15745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 375.92 237.49 0)
 			(effects
 				(font
@@ -14287,7 +15763,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0"
 			(at 375.92 237.49 0)
 			(effects
 				(font
@@ -14296,7 +15772,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "DNP"
 			(at 375.92 237.49 0)
 			(effects
 				(font
@@ -14305,7 +15781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "DNP"
 			(at 375.92 237.49 0)
 			(effects
 				(font
@@ -14314,7 +15790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "DNP"
 			(at 375.92 237.49 0)
 			(effects
 				(font
@@ -14367,7 +15843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
 			(at 86.36 204.47 0)
 			(effects
 				(font
@@ -14377,6 +15853,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-3047-1-ND"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".15"
 			(at 86.36 204.47 0)
 			(effects
 				(font
@@ -14402,7 +15914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 241.3 0)
+		(at 226.06 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14410,7 +15922,7 @@
 		(dnp no)
 		(uuid "970f5b4e-1dcb-4fb6-a783-bac772fd8882")
 		(property "Reference" "#PWR065"
-			(at 252.73 247.65 0)
+			(at 226.06 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +15931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 253.492 245.11 0)
+			(at 226.822 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,7 +15939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 241.3 0)
+			(at 226.06 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14436,7 +15948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 241.3 0)
+			(at 226.06 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +15957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 241.3 0)
+			(at 226.06 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14467,7 +15979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 71.12 0)
+		(at 36.83 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14475,7 +15987,7 @@
 		(dnp no)
 		(uuid "99678042-11de-4a58-a3d6-d8ee039eff12")
 		(property "Reference" "#PWR051"
-			(at 57.15 77.47 0)
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +15996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.912 74.93 0)
+			(at 37.592 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,7 +16004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 71.12 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +16013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 71.12 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +16022,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 71.12 0)
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14662,7 +16174,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 162.56 83.82 0)
+		(at 142.24 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14670,7 +16182,7 @@
 		(dnp no)
 		(uuid "9c644d95-a11f-4416-9dde-826bbc443076")
 		(property "Reference" "J2"
-			(at 165.1 83.8199 0)
+			(at 144.78 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14679,7 +16191,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 164.338 85.852 0)
+			(at 144.018 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14688,7 +16200,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
-			(at 162.56 83.82 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14696,8 +16208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 83.82 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC042162/614560"
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14705,8 +16217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 83.82 0)
+		(property "Description" "0.2\" pitch"
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14714,8 +16226,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
-			(at 162.56 83.82 0)
+		(property "price" ".8"
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14723,8 +16235,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
-			(at 162.56 83.82 0)
+		(property "Manufacturer_Name" "On Shore Technology Inc."
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14732,8 +16244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 162.56 83.82 0)
+		(property "Manufacturer_Part_Number" "OSTTC042162"
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14741,8 +16253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 162.56 83.82 0)
+		(property "digikey part number" "ED2611-ND"
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14772,8 +16284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "library:1017503")
-		(at 241.3 219.71 0)
+		(lib_id "library:1017526")
+		(at 233.68 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14790,7 +16302,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1017503"
+		(property "Value" "1017526"
 			(at 247.65 222.2499 0)
 			(effects
 				(font
@@ -14799,8 +16311,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:PHOENIX_1017503"
-			(at 241.3 219.71 0)
+		(property "Footprint" "kicad libraries:CONN_1017526"
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,8 +16321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017503/9346604"
-			(at 241.3 219.71 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017526/9346599"
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,8 +16330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 219.71 0)
+		(property "Description" "screwless alternative is 1017531"
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14828,17 +16340,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Phoenix Contact"
-			(at 241.3 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "19.2mm"
-			(at 241.3 219.71 0)
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,7 +16350,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 241.3 219.71 0)
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14857,8 +16359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 241.3 219.71 0)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14866,8 +16368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 241.3 219.71 0)
+		(property "Manufacturer_Part_Number" "1017526"
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14875,17 +16377,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
-			(uuid "b2a4844f-2268-4a76-9ea2-4820da595f1f")
+		(property "digikey part number" "277-17509-ND"
+			(at 233.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2_1"
+		(property "price" "3.2"
+			(at 233.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "d125d3cc-e1d5-42ab-a905-9677fdebe364")
 		)
-		(pin "1_2"
-			(uuid "a9b787ed-63b0-45af-b212-875e51b5586e")
-		)
-		(pin "2_2"
+		(pin "1"
 			(uuid "6ad57082-afc7-4a1e-8c62-1babd74bd371")
+		)
+		(pin "4"
+			(uuid "e9df9969-1fa5-485a-88ec-f89481b7bcd0")
+		)
+		(pin "3"
+			(uuid "8a872346-6d41-4c3a-b096-c478ce341efb")
 		)
 		(instances
 			(project ""
@@ -14897,33 +16417,33 @@
 		)
 	)
 	(symbol
-		(lib_id "library:1017503")
-		(at 294.64 134.62 180)
+		(lib_id "library:1017514")
+		(at 294.64 132.08 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a325e662-4f47-4658-b597-8d46a69f4bf2")
 		(property "Reference" "J4"
-			(at 294.005 121.92 0)
+			(at 294.132 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1017503"
-			(at 294.005 124.46 0)
+		(property "Value" "1017514"
+			(at 294.132 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "kicad libraries:PHOENIX_1017503"
-			(at 294.64 134.62 0)
+		(property "Footprint" "kicad libraries:PHOENIX_1017514"
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14932,8 +16452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017503/9346604"
-			(at 294.64 134.62 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14941,8 +16461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 294.64 134.62 0)
+		(property "Description" "screwless alternative is 1017521"
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14951,7 +16471,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Phoenix Contact"
-			(at 294.64 134.62 0)
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14960,8 +16480,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "19.2mm"
-			(at 294.64 134.62 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14971,7 +16491,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 294.64 134.62 0)
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,8 +16500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 294.64 134.62 0)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14989,8 +16509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 294.64 134.62 0)
+		(property "Manufacturer_Part_Number" "1017514"
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,16 +16518,28 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
-			(uuid "6712abd5-2f64-46d6-9a8e-22197b8b84f3")
+		(property "digikey part number" "277-17504-ND"
+			(at 294.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2_1"
+		(property "price" ".87"
+			(at 294.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "a0b96e96-dbcb-4b6c-87d7-eb72397aee20")
 		)
-		(pin "1_2"
-			(uuid "6ce93d0c-a235-4834-af35-fcd8eca28ac9")
-		)
-		(pin "2_2"
+		(pin "1"
 			(uuid "2ac08725-e168-494f-b5f1-c15e68f596f6")
 		)
 		(instances
@@ -15139,6 +16671,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9a6b018-6799-4749-bc96-ba8557ebe55c")
 		)
@@ -15156,7 +16724,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 97.79 0)
+		(at 147.32 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15164,7 +16732,7 @@
 		(dnp no)
 		(uuid "b16c7df4-5736-4519-89c1-8755fe459e9a")
 		(property "Reference" "#PWR018"
-			(at 167.64 104.14 0)
+			(at 147.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15173,7 +16741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.402 101.6 0)
+			(at 148.082 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,7 +16749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 97.79 0)
+			(at 147.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15190,7 +16758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 97.79 0)
+			(at 147.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15199,7 +16767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 97.79 0)
+			(at 147.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15255,7 +16823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 300.99 27.94 0)
 			(effects
 				(font
@@ -15265,6 +16833,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 300.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 300.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 300.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 300.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 300.99 27.94 0)
 			(effects
 				(font
@@ -15290,7 +16894,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 156.21 80.01 0)
+		(at 135.89 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15298,7 +16902,7 @@
 		(dnp no)
 		(uuid "b3787900-f29c-4d5e-9d6c-76192c05aa61")
 		(property "Reference" "#PWR014"
-			(at 156.21 83.82 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15307,7 +16911,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 157.734 76.454 0)
+			(at 137.414 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,7 +16919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 80.01 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15324,7 +16928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 80.01 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15333,7 +16937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 80.01 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15454,7 +17058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STX-3000"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
 			(at 381 109.22 0)
 			(effects
 				(font
@@ -15464,7 +17068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/8\" audio jack"
 			(at 381 109.22 0)
 			(effects
 				(font
@@ -15473,7 +17077,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0.6"
 			(at 381 109.22 0)
 			(effects
 				(font
@@ -15482,7 +17086,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "Kycon, Inc."
 			(at 381 109.22 0)
 			(effects
 				(font
@@ -15491,7 +17095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "STX-3000"
 			(at 381 109.22 0)
 			(effects
 				(font
@@ -15500,7 +17104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "2092-STX-3000-ND"
 			(at 381 109.22 0)
 			(effects
 				(font
@@ -15528,17 +17132,17 @@
 		)
 	)
 	(symbol
-		(lib_id "library:1017503")
-		(at 300.99 45.72 0)
+		(lib_id "library:1017514")
+		(at 300.99 48.26 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8bde797-6a9b-4414-b18b-7ff2ccd43e36")
 		(property "Reference" "J1"
-			(at 307.34 45.7199 0)
+			(at 307.34 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,8 +17150,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1017503"
-			(at 307.34 48.2599 0)
+		(property "Value" "1017514"
+			(at 307.34 45.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15555,8 +17159,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:PHOENIX_1017503"
-			(at 300.99 45.72 0)
+		(property "Footprint" "kicad libraries:PHOENIX_1017514"
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15565,8 +17169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017503/9346604"
-			(at 300.99 45.72 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15574,8 +17178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 300.99 45.72 0)
+		(property "Description" "screwless alternative is 1017521"
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15584,7 +17188,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Phoenix Contact"
-			(at 300.99 45.72 0)
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,8 +17197,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "19.2mm"
-			(at 300.99 45.72 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15604,7 +17208,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 300.99 45.72 0)
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15613,8 +17217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 300.99 45.72 0)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15622,8 +17226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 300.99 45.72 0)
+		(property "Manufacturer_Part_Number" "1017514"
+			(at 300.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,16 +17235,28 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
+		(property "digikey part number" "277-17504-ND"
+			(at 300.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".87"
+			(at 300.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "b2a4844f-2268-4a76-9ea2-4820da595f20")
 		)
-		(pin "2_1"
-			(uuid "d125d3cc-e1d5-42ab-a905-9677fdebe365")
-		)
-		(pin "1_2"
-			(uuid "a9b787ed-63b0-45af-b212-875e51b5586f")
-		)
-		(pin "2_2"
+		(pin "2"
 			(uuid "6ad57082-afc7-4a1e-8c62-1babd74bd372")
 		)
 		(instances
@@ -15818,7 +17434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C680J5HACTU/7950604"
 			(at 102.87 213.36 0)
 			(effects
 				(font
@@ -15828,6 +17444,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "399-C1206C680J5HACTUCT-ND"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1206C680J5HACTU"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".07"
 			(at 102.87 213.36 0)
 			(effects
 				(font
@@ -16084,7 +17736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -16094,6 +17746,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -16237,6 +17925,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 283.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+			(at 283.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+			(at 283.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".3"
+			(at 283.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "680aa441-4ccb-46ba-bbb1-0e40a5fa98b4")
 		)
@@ -16304,6 +18028,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey part number" ""
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7389be9a-3a04-47ec-b92e-55a86e3f18f5")
 		)
@@ -16338,7 +18071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "green"
 			(at 313.69 212.4074 90)
 			(effects
 				(font
@@ -16356,7 +18089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
 			(at 309.88 209.55 0)
 			(effects
 				(font
@@ -16366,6 +18099,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 309.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 309.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
+			(at 309.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
+			(at 309.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".18"
 			(at 309.88 209.55 0)
 			(effects
 				(font
@@ -16489,7 +18258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC022162/614558"
 			(at 327.66 215.9 0)
 			(effects
 				(font
@@ -16498,7 +18267,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "ED2609-ND"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "On Shore Technology Inc."
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OSTTC022162"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".43"
 			(at 327.66 215.9 0)
 			(effects
 				(font
@@ -16654,7 +18459,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 257.81 237.49 0)
+		(at 231.14 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16663,7 +18468,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5ed4738-3a62-4cf9-b239-ff02cd8f77bf")
 		(property "Reference" "J7"
-			(at 260.35 236.2199 0)
+			(at 233.68 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16672,7 +18477,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 260.35 238.7599 0)
+			(at 233.68 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16681,7 +18486,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch3.81mm_Drill1.3mm"
-			(at 257.81 237.49 0)
+			(at 231.14 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,8 +18494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 257.81 237.49 0)
+		(property "Datasheet" "DNP"
+			(at 231.14 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16699,7 +18504,43 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 257.81 237.49 0)
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "DNP"
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0"
+			(at 231.14 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16756,7 +18597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 261.62 74.93 0)
 			(effects
 				(font
@@ -16766,6 +18607,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "DNP"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0"
 			(at 261.62 69.85 0)
 			(effects
 				(font
@@ -16822,7 +18699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STX-3000"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
 			(at 381 154.94 0)
 			(effects
 				(font
@@ -16832,7 +18709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/8\" audio jack"
 			(at 381 154.94 0)
 			(effects
 				(font
@@ -16841,7 +18718,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0.6"
 			(at 381 154.94 0)
 			(effects
 				(font
@@ -16850,7 +18727,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "Kycon, Inc."
 			(at 381 154.94 0)
 			(effects
 				(font
@@ -16859,7 +18736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "STX-3000"
 			(at 381 154.94 0)
 			(effects
 				(font
@@ -16868,7 +18745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "2092-STX-3000-ND"
 			(at 381 154.94 0)
 			(effects
 				(font
@@ -16998,7 +18875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 261.62 133.35 0)
 			(effects
 				(font
@@ -17008,6 +18885,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "DNP"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0"
 			(at 261.62 128.27 0)
 			(effects
 				(font
@@ -17072,6 +18985,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 276.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" ""
 			(at 276.86 215.9 0)
 			(effects
 				(font
@@ -17271,7 +19193,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "buck regulator"
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS54202HDDCR"
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "296-44396-1-ND"
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".69"
 			(at 60.96 213.36 0)
 			(effects
 				(font
@@ -17343,7 +19301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 297.18 59.69 0)
 			(effects
 				(font
@@ -17353,6 +19311,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 297.18 59.69 0)
 			(effects
 				(font
@@ -17412,7 +19406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 300.99 35.56 0)
 			(effects
 				(font
@@ -17422,6 +19416,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 300.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 300.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 300.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 300.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 300.99 35.56 0)
 			(effects
 				(font
@@ -17547,7 +19577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 260.35 160.02 0)
 			(effects
 				(font
@@ -17557,6 +19587,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "DNP"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0"
 			(at 260.35 154.94 0)
 			(effects
 				(font
@@ -17678,7 +19744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
 			(at 306.07 116.84 0)
 			(effects
 				(font
@@ -17688,6 +19754,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 306.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 306.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 306.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1276-1106-1-ND"
+			(at 306.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 306.07 116.84 0)
 			(effects
 				(font
@@ -17747,7 +19849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STX-3000"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -17757,7 +19859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/8\" audio jack"
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -17766,7 +19868,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0.6"
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -17775,7 +19877,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "Kycon, Inc."
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -17784,7 +19886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "STX-3000"
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -17793,7 +19895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "2092-STX-3000-ND"
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -17866,7 +19968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -17875,7 +19977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -17884,7 +19986,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "IFX007TAUMA1CT-ND"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "2.6"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -18111,6 +20231,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey part number" ""
+			(at 113.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f3d9f65-9531-44a2-bcc3-8e6a1aa6d165")
 		)
@@ -18128,7 +20257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 88.9 0)
+		(at 135.89 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18136,7 +20265,7 @@
 		(dnp no)
 		(uuid "f596c565-6649-4f80-845b-afdc0f8ba770")
 		(property "Reference" "#PWR015"
-			(at 156.21 95.25 0)
+			(at 135.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,7 +20274,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.972 92.71 0)
+			(at 136.652 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18153,7 +20282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 88.9 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18162,7 +20291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 88.9 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,7 +20300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 88.9 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18228,7 +20357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "DNP"
 			(at 375.92 231.14 0)
 			(effects
 				(font
@@ -18246,7 +20375,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey link" ""
+		(property "price" "0"
 			(at 375.92 231.14 0)
 			(effects
 				(font
@@ -18255,7 +20384,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "Manufacturer_Name" "DNP"
 			(at 375.92 231.14 0)
 			(effects
 				(font
@@ -18264,7 +20393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Part_Number" "DNP"
 			(at 375.92 231.14 0)
 			(effects
 				(font
@@ -18273,7 +20402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "digikey part number" "DNP"
 			(at 375.92 231.14 0)
 			(effects
 				(font
