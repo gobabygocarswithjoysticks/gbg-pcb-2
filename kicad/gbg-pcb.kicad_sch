@@ -2780,411 +2780,6 @@
 				)
 			)
 		)
-		(symbol "library:1017526"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "1017526"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "kicad libraries:CONN_1017526"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "1017526"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1017526"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_1017526"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1017526_0_1"
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 6.985 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 -7.62)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 0)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "library:IFX007TAUMA1"
 			(pin_names
 				(offset 0.254)
@@ -4325,6 +3920,609 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "library:VP0265840000G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "VP0265840000G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "kicad libraries:CONN04_VP026584_20P32X18P3_AMP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "VP0265840000G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VP0265840000G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN04_VP026584_20P32X18P3_AMP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VP0265840000G_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VP0265840000G_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5520,6 +5718,18 @@
 		(uuid "0f9ec78b-b482-4398-8e1d-f99ef0ec220f")
 	)
 	(junction
+		(at 279.4 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11a63df2-265a-46eb-b081-d8bf24e23fec")
+	)
+	(junction
+		(at 261.62 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14d5b299-bd9c-4d84-a70a-0846f943016a")
+	)
+	(junction
 		(at 299.72 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5530,6 +5740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19e4e799-d38b-46d0-9511-21f639c02da7")
+	)
+	(junction
+		(at 266.7 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ecbc593-1d65-400f-a8d8-e71f37a071b4")
 	)
 	(junction
 		(at 113.03 218.44)
@@ -5574,6 +5790,12 @@
 		(uuid "4be786da-8901-4e2a-bc99-0a0885e22498")
 	)
 	(junction
+		(at 251.46 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c26248-7a36-437d-a622-e44b08713a5a")
+	)
+	(junction
 		(at 381 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5602,12 +5824,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e906c32-15ef-4c4c-b730-6a9ff53baeed")
-	)
-	(junction
-		(at 233.68 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6165c0aa-8b1d-495c-b33c-d4240cf2dd7d")
 	)
 	(junction
 		(at 381 68.58)
@@ -5652,6 +5868,12 @@
 		(uuid "8a263c8e-4913-4791-8747-f4562d721de5")
 	)
 	(junction
+		(at 294.64 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ebf352f-651f-48cb-905a-fd1824829a14")
+	)
+	(junction
 		(at 113.03 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5674,6 +5896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b05a2ff-f51f-4af3-b377-9e7ea4d49a2f")
+	)
+	(junction
+		(at 232.41 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a93a99-4f33-419f-b0ac-d731551d09ee")
 	)
 	(junction
 		(at 270.51 204.47)
@@ -5724,6 +5952,12 @@
 		(uuid "b505ecb4-5162-4ef3-8d24-863a233876d6")
 	)
 	(junction
+		(at 284.48 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3d9afc-7284-42d2-9da7-bec3997fe33b")
+	)
+	(junction
 		(at 125.73 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5748,16 +5982,16 @@
 		(uuid "de02442f-17fe-46c1-b8a1-19a386055eec")
 	)
 	(junction
+		(at 232.41 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2ce760-0ad3-454c-85b9-03df532a7201")
+	)
+	(junction
 		(at 381 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df559a63-4a9d-4dea-8559-e05c58ec62e6")
-	)
-	(junction
-		(at 233.68 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e144e588-8777-4cce-a51c-88cb8d9387e9")
 	)
 	(junction
 		(at 35.56 210.82)
@@ -5977,16 +6211,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 226.06) (xy 233.68 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1274f6d9-ab05-461f-a0fa-5e5ebb78ed54")
-	)
-	(wire
-		(pts
 			(xy 123.19 55.88) (xy 121.92 55.88)
 		)
 		(stroke
@@ -6024,6 +6248,16 @@
 			(type default)
 		)
 		(uuid "1b9b34c8-4d28-4f04-b902-648afdbfb475")
+	)
+	(wire
+		(pts
+			(xy 232.41 215.9) (xy 232.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bad9045-644d-41a9-bfc2-8bcd9c1e1c6c")
 	)
 	(wire
 		(pts
@@ -6097,23 +6331,13 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 48.26) (xy 293.37 59.69)
+			(xy 226.06 226.06) (xy 232.41 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cefe087-a185-412a-a07a-8bd2fa6d5913")
-	)
-	(wire
-		(pts
-			(xy 233.68 224.79) (xy 233.68 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fbc87ff-37cb-4f79-b864-22f93741af39")
+		(uuid "2d686cf7-68f0-4399-863e-f6c0fc8e77c7")
 	)
 	(wire
 		(pts
@@ -6134,16 +6358,6 @@
 			(type default)
 		)
 		(uuid "31d6c189-a04b-4127-bfb9-95c26bf6daae")
-	)
-	(wire
-		(pts
-			(xy 233.68 222.25) (xy 233.68 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324747f2-a58c-4b75-8303-15823bef9815")
 	)
 	(wire
 		(pts
@@ -6287,7 +6501,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 215.9) (xy 233.68 215.9)
+			(xy 226.06 215.9) (xy 232.41 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6537,6 +6751,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 215.9) (xy 233.68 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5917730c-c064-436f-8c82-80c55afebc0e")
+	)
+	(wire
+		(pts
 			(xy 381 43.18) (xy 381 45.72)
 		)
 		(stroke
@@ -6644,16 +6868,6 @@
 			(type default)
 		)
 		(uuid "60dfca9e-7373-4386-b362-7f23f25c461d")
-	)
-	(wire
-		(pts
-			(xy 233.68 217.17) (xy 233.68 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61428d96-0b71-4555-a216-2416ad9694c3")
 	)
 	(wire
 		(pts
@@ -6787,6 +7001,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 222.25) (xy 232.41 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72feb30d-fcbe-492f-80f0-76eda7000776")
+	)
+	(wire
+		(pts
 			(xy 26.67 208.28) (xy 26.67 210.82)
 		)
 		(stroke
@@ -6844,6 +7068,16 @@
 			(type default)
 		)
 		(uuid "7946e851-ca5e-49e3-b4bb-b71cf97779f9")
+	)
+	(wire
+		(pts
+			(xy 293.37 48.26) (xy 293.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794eb1b8-3264-4e20-9969-c6befed78a42")
 	)
 	(wire
 		(pts
@@ -7187,6 +7421,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 219.71) (xy 232.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28c32fa-e86c-4f50-bd19-9fee85e7dff9")
+	)
+	(wire
+		(pts
 			(xy 260.35 125.73) (xy 273.05 125.73)
 		)
 		(stroke
@@ -7247,6 +7491,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 215.9) (xy 233.68 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab570f11-3eb5-4484-9a09-899e8b9380cc")
+	)
+	(wire
+		(pts
 			(xy 381 111.76) (xy 381 114.3)
 		)
 		(stroke
@@ -7297,16 +7551,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 215.9) (xy 233.68 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b364a584-a233-4609-ad52-acd65eb77717")
-	)
-	(wire
-		(pts
 			(xy 26.67 78.74) (xy 48.26 78.74)
 		)
 		(stroke
@@ -7324,6 +7568,26 @@
 			(type default)
 		)
 		(uuid "b98f381b-97c6-4970-a8e7-646a89ae7448")
+	)
+	(wire
+		(pts
+			(xy 232.41 222.25) (xy 232.41 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99450ff-9972-46ef-b62c-a6cf4f2582a1")
+	)
+	(wire
+		(pts
+			(xy 233.68 224.79) (xy 233.68 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7b1712-b427-421a-8f93-ec50e772749b")
 	)
 	(wire
 		(pts
@@ -7394,6 +7658,16 @@
 			(type default)
 		)
 		(uuid "c37a57a3-8cd2-4958-b328-ae0a8b622eec")
+	)
+	(wire
+		(pts
+			(xy 232.41 226.06) (xy 233.68 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46326c0-65e6-47cb-92fa-784b124ff8d9")
 	)
 	(wire
 		(pts
@@ -7965,15 +8239,15 @@
 		)
 		(uuid "2f9968f0-e30a-4bc5-9a0d-76da08de61d8")
 	)
-	(text "check resistor values"
+	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
-		(at 175.514 209.55 0)
+		(at 276.098 192.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "374dbb9d-c548-467f-9a8b-8e046dedb1b2")
+		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
 	)
 	(text "use webench to find alternative inductors \n	the current one isn't in stock, it's also large"
 		(exclude_from_sim no)
@@ -7985,6 +8259,16 @@
 		)
 		(uuid "60a31ff0-1a97-4e2a-a9e8-08ba231990bc")
 	)
+	(text "SQD40031EL_GE3\n	RDSon=0.0032\n	50 degreesC per Watt\n	temp increases 100 degrees from 2W = I^2*RDSon -> 25 Amps"
+		(exclude_from_sim no)
+		(at 285.75 232.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0853533-49d1-40a9-82b3-ef1bc9256670")
+	)
 	(text "3 pins or just 2 pins?"
 		(exclude_from_sim no)
 		(at 138.684 66.294 0)
@@ -7995,6 +8279,26 @@
 		)
 		(uuid "a14c4867-cc76-496a-88b2-e08e5782cdf1")
 	)
+	(text "VGS max must be > +BATT"
+		(exclude_from_sim no)
+		(at 272.542 194.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdbfdd45-1b26-4827-a6dc-bc4071f126f9")
+	)
+	(text "power switch\n"
+		(exclude_from_sim no)
+		(at 302.006 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce922220-317e-4e29-ae15-b6527ebd52f5")
+	)
 	(text "ok to leave disconnected?"
 		(exclude_from_sim no)
 		(at 206.502 72.898 0)
@@ -8004,6 +8308,16 @@
 			)
 		)
 		(uuid "dac7f151-f119-4fb3-8263-bd8cb321fefc")
+	)
+	(text "reverse polarity protection"
+		(exclude_from_sim no)
+		(at 237.744 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddf720ec-6763-4b0e-869a-afdd5a58c1b9")
 	)
 	(global_label "bt4"
 		(shape input)
@@ -9347,7 +9661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 109.22 55.88 0)
 			(effects
 				(font
@@ -9940,10 +10254,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2696dcb8-29b7-465c-b5fa-801883f898cd")
 		(property "Reference" "Q1"
-			(at 259.08 196.85 90)
+			(at 255.524 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +10281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SQD40031EL_GE3"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
 			(at 261.62 212.09 0)
 			(effects
 				(font
@@ -10859,6 +11172,120 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:VP0265840000G")
+		(at 233.68 224.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36882385-bf44-464d-82da-6f025a86ed54")
+		(property "Reference" "J5"
+			(at 246.888 226.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VP0265840000G"
+			(at 246.888 223.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad libraries:CONN04_VP026584_20P32X18P3_AMP"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-anytek/VP0265840000G/10378270"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Anytek"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VP0265840000G"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "1818-VP0265840000G-ND"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "2.85"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ea9dd84-6984-4f3e-acc2-5a0736745b8e")
+		)
+		(pin "2"
+			(uuid "eecb8067-b2e0-4a15-9c4f-6d8f1be09d61")
+		)
+		(pin "4"
+			(uuid "c875c2b3-5108-4635-a284-18629c82520b")
+		)
+		(pin "3"
+			(uuid "46cc88dd-af56-4b31-9ffb-7a4bfeffeb85")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12350,7 +12777,7 @@
 		(dnp no)
 		(uuid "53e6624f-d68b-44cb-83ce-81a7cf1c48a0")
 		(property "Reference" "Q2"
-			(at 287.02 196.85 90)
+			(at 283.718 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,7 +12802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SQD40031EL_GE3"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
 			(at 284.48 212.09 0)
 			(effects
 				(font
@@ -12387,33 +12814,6 @@
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
 			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 301.625 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 303.53 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 299.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +13196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad libraries:PHOENIX_1715721"
+		(property "Footprint" "kicad libraries:CONN_OSTTC022162_OST"
 			(at 293.37 215.9 0)
 			(effects
 				(font
@@ -13298,6 +13698,116 @@
 		)
 	)
 	(symbol
+		(lib_id "library:SQD40031EL_GE3")
+		(at 261.62 212.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "690c2cf4-67ec-4d7d-abbe-e004fb7ff3d5")
+		(property "Reference" "Q3"
+			(at 259.08 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQD40031EL_GE3"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.4"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80bb37e6-1600-42f9-b6aa-8a2b36621b11")
+		)
+		(pin "1"
+			(uuid "f3c20c64-c1dd-49af-923b-aa5fbdf6d6e2")
+		)
+		(pin "3"
+			(uuid "13faacf8-ec43-4d3a-8ff5-2b0f8c5989e9")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ME218_BaseLib:Diode")
 		(at 283.21 35.56 270)
 		(unit 1)
@@ -13457,7 +13967,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "6"
+		(property "price" "6.0"
 			(at 73.66 76.2 0)
 			(effects
 				(font
@@ -14474,7 +14984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD100K/2240403"
 			(at 113.03 213.36 0)
 			(effects
 				(font
@@ -14492,7 +15002,34 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" ""
+		(property "digikey part number" "738-RNCP1206FTD100KCT-ND"
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNCP1206FTD100K"
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.02"
 			(at 113.03 213.36 0)
 			(effects
 				(font
@@ -14616,6 +15153,114 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:SQD40031EL_GE3")
+		(at 284.48 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80e7631e-992f-4797-854c-a7ee0fd54501")
+		(property "Reference" "Q4"
+			(at 287.02 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQD40031EL_GE3"
+			(at 287.02 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.4"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18af00f2-85b2-457d-8da4-7933acf43796")
+		)
+		(pin "3"
+			(uuid "65165f69-e899-4194-b28a-c25561271b67")
+		)
+		(pin "1"
+			(uuid "9124932e-09e0-44e9-9a7a-28e5f6fbb5a2")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15387,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100"
 			(at 118.11 53.086 90)
 			(effects
 				(font
@@ -15404,7 +16049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206JR-13220RL/14286772"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206JR-13100RL/14286725"
 			(at 118.11 55.88 0)
 			(effects
 				(font
@@ -15422,7 +16067,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "13-RC1206JR-13220RLCT-ND"
+		(property "digikey part number" "13-RC1206JR-13100RLCT-ND"
 			(at 118.11 55.88 0)
 			(effects
 				(font
@@ -15440,7 +16085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC1206JR-13220RL"
+		(property "Manufacturer_Part_Number" "RC1206JR-13100RL"
 			(at 118.11 55.88 0)
 			(effects
 				(font
@@ -15449,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.02"
+		(property "price" "0.014"
 			(at 118.11 55.88 0)
 			(effects
 				(font
@@ -16284,139 +16929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:1017526")
-		(at 233.68 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1eb80b2-b79a-4295-88cf-aaccef955156")
-		(property "Reference" "J5"
-			(at 247.65 219.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1017526"
-			(at 247.65 222.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:CONN_1017526"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017526/9346599"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "screwless alternative is 1017531"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1017526"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey part number" "277-17509-ND"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "3.2"
-			(at 233.68 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d125d3cc-e1d5-42ab-a905-9677fdebe364")
-		)
-		(pin "1"
-			(uuid "6ad57082-afc7-4a1e-8c62-1babd74bd371")
-		)
-		(pin "4"
-			(uuid "e9df9969-1fa5-485a-88ec-f89481b7bcd0")
-		)
-		(pin "3"
-			(uuid "8a872346-6d41-4c3a-b096-c478ce341efb")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:1017514")
 		(at 294.64 132.08 0)
 		(mirror y)
@@ -16467,36 +16979,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 294.64 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
-			(at 294.64 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 294.64 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -17133,8 +17615,7 @@
 	)
 	(symbol
 		(lib_id "library:1017514")
-		(at 300.99 48.26 0)
-		(mirror x)
+		(at 300.99 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17142,7 +17623,7 @@
 		(dnp no)
 		(uuid "b8bde797-6a9b-4414-b18b-7ff2ccd43e36")
 		(property "Reference" "J1"
-			(at 307.34 48.2601 0)
+			(at 307.34 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17151,7 +17632,7 @@
 			)
 		)
 		(property "Value" "1017514"
-			(at 307.34 45.7201 0)
+			(at 307.34 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17160,7 +17641,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PHOENIX_1017514"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17170,7 +17651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17179,46 +17660,16 @@
 			)
 		)
 		(property "Description" "screwless alternative is 1017521"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 300.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
-			(at 300.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 300.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17678,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017514"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,7 +17687,7 @@
 			)
 		)
 		(property "digikey part number" "277-17504-ND"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,7 +17696,7 @@
 			)
 		)
 		(property "price" ".87"
-			(at 300.99 48.26 0)
+			(at 300.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17993,7 +18444,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "2.74k"
 			(at 312.674 219.71 90)
 			(effects
 				(font
@@ -18010,7 +18461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD2K74/2240349"
 			(at 309.88 219.71 0)
 			(effects
 				(font
@@ -18028,7 +18479,34 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" ""
+		(property "digikey part number" "RNCP1206FTD2K74CT-ND"
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNCP1206FTD2K74"
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.019"
 			(at 309.88 219.71 0)
 			(effects
 				(font
@@ -18249,7 +18727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kicad libraries:PHOENIX_1715721"
+		(property "Footprint" "kicad libraries:CONN_OSTTC022162_OST"
 			(at 327.66 215.9 0)
 			(effects
 				(font
@@ -18958,7 +19436,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "2.74k"
 			(at 276.86 213.106 90)
 			(effects
 				(font
@@ -18975,7 +19453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD2K74/2240349"
 			(at 276.86 215.9 0)
 			(effects
 				(font
@@ -18993,7 +19471,34 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" ""
+		(property "digikey part number" "RNCP1206FTD2K74CT-ND"
+			(at 276.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
+			(at 276.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNCP1206FTD2K74"
+			(at 276.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.019"
 			(at 276.86 215.9 0)
 			(effects
 				(font
@@ -20213,7 +20718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT13K7/1759069"
 			(at 113.03 223.52 0)
 			(effects
 				(font
@@ -20231,7 +20736,34 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" ""
+		(property "digikey part number" "738-RMCF1206FT13K7CT-ND"
+			(at 113.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
+			(at 113.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF1206FT13K7"
+			(at 113.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
 			(at 113.03 223.52 0)
 			(effects
 				(font
