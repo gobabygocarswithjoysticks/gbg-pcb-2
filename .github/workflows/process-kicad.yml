@@ -20,7 +20,7 @@ jobs:
           docker pull kicad/kicad:9.0
 
           docker run --rm -v ${{ github.workspace }}/kicad:/workspace kicad/kicad:9.0 /bin/bash -c "
-            mkdir -p /workspace/renders && chown -R $(id -u):$(id -g) /workspace/renders
+            mkdir -p /workspace/renders && chown -R $(id -u):$(id -g) /workspace/renders &&
             kicad-cli pcb render --output '/workspace/renders/top.jpg' --quality high --rotate '0,0,-90' --width 1000 --height 1000 /workspace/gbg-pcb.kicad_pcb &&
             kicad-cli pcb render --output '/workspace/renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,45' --width 1000 --height 1000 /workspace/gbg-pcb.kicad_pcb &&
             kicad-cli pcb render --output '/workspace/renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,-45' --width 1000 --height 1000 /workspace/gbg-pcb.kicad_pcb
