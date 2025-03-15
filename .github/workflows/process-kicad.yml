@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 concurrency:
-group: Compile
-cancel-in-progress: true
+  group: Compile
+  cancel-in-progress: true
 
 jobs:
   ProcessKicad:
