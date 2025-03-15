@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency:
+group: Compile
+cancel-in-progress: true
+
 jobs:
   ProcessKicad:
     runs-on: ubuntu-latest
