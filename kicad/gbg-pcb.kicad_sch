@@ -6015,13 +6015,13 @@
 		(uuid "749a7d89-c3a9-4295-adad-fd319015b6ef")
 	)
 	(junction
-		(at 293.37 59.69)
+		(at 308.61 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84ee6a1e-42e8-4045-9295-047b7e961a1f")
 	)
 	(junction
-		(at 293.37 31.75)
+		(at 308.61 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86cbe05c-3904-4778-87b2-9425227b1ea0")
@@ -6099,7 +6099,7 @@
 		(uuid "ab3aee45-c5bf-4ff6-90f5-0d64b573eaac")
 	)
 	(junction
-		(at 293.37 63.5)
+		(at 308.61 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ade269ce-5279-417e-8b5f-c1489c9d466f")
@@ -6213,7 +6213,7 @@
 		(uuid "fa8656bc-65e2-4619-a552-522bf3e62e34")
 	)
 	(junction
-		(at 293.37 38.1)
+		(at 308.61 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd987bc1-6228-4519-9e74-dba98cd3b332")
@@ -6276,7 +6276,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 35.56) (xy 297.18 38.1)
+			(xy 312.42 34.29) (xy 312.42 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6323,6 +6323,16 @@
 			(type default)
 		)
 		(uuid "097042f7-5e89-4d5f-bfdc-f7606a45e556")
+	)
+	(wire
+		(pts
+			(xy 283.21 30.48) (xy 283.21 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d8bd0d-d581-4ad6-ad31-a0d08ecad53d")
 	)
 	(wire
 		(pts
@@ -6636,7 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 31.75) (xy 293.37 38.1)
+			(xy 308.61 30.48) (xy 308.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6696,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 59.69) (xy 300.99 59.69)
+			(xy 318.77 58.42) (xy 316.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6766,7 +6776,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 29.21) (xy 293.37 29.21)
+			(xy 312.42 27.94) (xy 308.61 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6876,7 +6886,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 38.1) (xy 293.37 45.72)
+			(xy 308.61 36.83) (xy 308.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7236,7 +7246,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 48.26) (xy 293.37 59.69)
+			(xy 308.61 46.99) (xy 308.61 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7436,6 +7446,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 62.23) (xy 284.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929b43ce-eb10-44fc-8040-457376b29016")
+	)
+	(wire
+		(pts
 			(xy 294.64 204.47) (xy 309.88 204.47)
 		)
 		(stroke
@@ -7536,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 31.75) (xy 293.37 31.75)
+			(xy 283.21 30.48) (xy 308.61 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7886,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 27.94) (xy 297.18 29.21)
+			(xy 312.42 26.67) (xy 312.42 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7896,7 +7916,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 59.69) (xy 293.37 63.5)
+			(xy 308.61 58.42) (xy 308.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7936,7 +7956,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 27.94) (xy 304.8 27.94)
+			(xy 323.85 26.67) (xy 320.04 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8236,7 +8256,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 67.31) (xy 293.37 63.5)
+			(xy 308.61 66.04) (xy 308.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8256,7 +8276,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 29.21) (xy 293.37 31.75)
+			(xy 308.61 27.94) (xy 308.61 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8286,7 +8306,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 63.5) (xy 293.37 63.5)
+			(xy 284.48 62.23) (xy 308.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8336,7 +8356,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 38.1) (xy 293.37 38.1)
+			(xy 312.42 36.83) (xy 308.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8366,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 68.58) (xy 300.99 67.31)
+			(xy 316.23 67.31) (xy 316.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -11963,7 +11983,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 308.61 27.94 0)
+		(at 323.85 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11971,7 +11991,7 @@
 		(dnp no)
 		(uuid "4767bf04-5162-4b5a-b8bf-dbbd5d0f6ad5")
 		(property "Reference" "#PWR01"
-			(at 308.61 31.75 0)
+			(at 323.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +12000,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 308.356 24.384 0)
+			(at 323.596 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +12008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 27.94 0)
+			(at 323.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11997,7 +12017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 27.94 0)
+			(at 323.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12006,7 +12026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 308.61 27.94 0)
+			(at 323.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,7 +15731,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 297.18 67.31 90)
+		(at 312.42 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15719,7 +15739,7 @@
 		(dnp no)
 		(uuid "8de208f1-0597-4568-941c-0fd95776e0bb")
 		(property "Reference" "C7"
-			(at 295.402 66.294 0)
+			(at 310.642 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15748,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 299.212 67.056 0)
+			(at 314.452 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 300.99 66.3448 0)
+			(at 316.23 65.0748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 297.18 67.31 0)
+			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +15775,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 297.18 67.31 0)
+			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15764,7 +15784,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 297.18 67.31 0)
+			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15773,7 +15793,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 297.18 67.31 0)
+			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +15802,7 @@
 			)
 		)
 		(property "digikey part number" "1276-1106-1-ND"
-			(at 297.18 67.31 0)
+			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15791,7 +15811,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 297.18 67.31 0)
+			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,7 +16320,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 303.53 59.69 0)
+		(at 318.77 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16308,7 +16328,7 @@
 		(dnp no)
 		(uuid "91cf4e48-a7a0-46a4-b00a-256aca731e4c")
 		(property "Reference" "#PWR09"
-			(at 303.53 63.5 0)
+			(at 318.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16317,7 +16337,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 303.276 56.134 0)
+			(at 318.516 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16325,7 +16345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 59.69 0)
+			(at 318.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 59.69 0)
+			(at 318.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +16363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 303.53 59.69 0)
+			(at 318.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17346,7 +17366,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 300.99 27.94 90)
+		(at 316.23 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17354,7 +17374,7 @@
 		(dnp no)
 		(uuid "b1a39763-6fb8-4780-89a8-878ce903a27d")
 		(property "Reference" "C1"
-			(at 299.212 26.924 0)
+			(at 314.452 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +17383,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 303.022 27.686 0)
+			(at 318.262 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17372,7 +17392,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 304.8 26.9748 0)
+			(at 320.04 25.7048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17381,7 +17401,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 300.99 27.94 0)
+			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17390,7 +17410,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 300.99 27.94 0)
+			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17399,7 +17419,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 300.99 27.94 0)
+			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17408,7 +17428,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 300.99 27.94 0)
+			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17417,7 +17437,7 @@
 			)
 		)
 		(property "digikey part number" "1276-1106-1-ND"
-			(at 300.99 27.94 0)
+			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17426,7 +17446,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 300.99 27.94 0)
+			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17690,7 +17710,8 @@
 	)
 	(symbol
 		(lib_id "library:1017514")
-		(at 300.99 45.72 0)
+		(at 300.99 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17698,7 +17719,7 @@
 		(dnp no)
 		(uuid "b8bde797-6a9b-4414-b18b-7ff2ccd43e36")
 		(property "Reference" "J1"
-			(at 307.34 45.7199 0)
+			(at 294.64 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17707,7 +17728,7 @@
 			)
 		)
 		(property "Value" "1017514"
-			(at 307.34 48.2599 0)
+			(at 294.64 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17716,7 +17737,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PHOENIX_1017514"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17726,7 +17747,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17735,7 +17756,7 @@
 			)
 		)
 		(property "Description" "screwless alternative is 1017521"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,7 +17765,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17753,7 +17774,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017514"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17762,7 +17783,7 @@
 			)
 		)
 		(property "digikey part number" "277-17504-ND"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17771,7 +17792,7 @@
 			)
 		)
 		(property "price" ".87"
-			(at 300.99 45.72 0)
+			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18097,7 +18118,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 300.99 68.58 0)
+		(at 316.23 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18105,7 +18126,7 @@
 		(dnp no)
 		(uuid "bd18dc8b-00d8-4bc9-916b-4d12576ded8d")
 		(property "Reference" "#PWR012"
-			(at 300.99 74.93 0)
+			(at 316.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18114,7 +18135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 301.752 72.39 0)
+			(at 316.992 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18122,7 +18143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 68.58 0)
+			(at 316.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18131,7 +18152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 68.58 0)
+			(at 316.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18140,7 +18161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 300.99 68.58 0)
+			(at 316.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18333,7 +18354,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 304.8 35.56 0)
+		(at 320.04 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18341,7 +18362,7 @@
 		(dnp no)
 		(uuid "c729e51f-8da3-46d1-a000-36d7f8ffb3bb")
 		(property "Reference" "#PWR03"
-			(at 304.8 41.91 0)
+			(at 320.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18350,7 +18371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 305.562 39.37 0)
+			(at 320.802 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18358,7 +18379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 35.56 0)
+			(at 320.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18367,7 +18388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 35.56 0)
+			(at 320.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18376,7 +18397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 304.8 35.56 0)
+			(at 320.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19847,7 +19868,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 297.18 59.69 90)
+		(at 312.42 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19855,7 +19876,7 @@
 		(dnp no)
 		(uuid "e6d00197-c6b4-4f45-b070-f733eae97f2e")
 		(property "Reference" "C5"
-			(at 295.402 58.674 0)
+			(at 310.642 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19864,7 +19885,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 299.212 59.436 0)
+			(at 314.452 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19873,7 +19894,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 300.99 58.7248 0)
+			(at 316.23 57.4548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19882,7 +19903,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 297.18 59.69 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19891,7 +19912,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 297.18 59.69 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19900,7 +19921,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 297.18 59.69 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19909,7 +19930,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 297.18 59.69 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19918,7 +19939,7 @@
 			)
 		)
 		(property "digikey part number" "1276-1106-1-ND"
-			(at 297.18 59.69 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19927,7 +19948,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 297.18 59.69 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19952,7 +19973,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 300.99 35.56 90)
+		(at 316.23 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19960,7 +19981,7 @@
 		(dnp no)
 		(uuid "e8a8884f-b222-462d-96df-21f119518dc8")
 		(property "Reference" "C4"
-			(at 299.212 34.544 0)
+			(at 314.452 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +19990,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 303.022 35.306 0)
+			(at 318.262 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +19999,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 304.8 34.5948 0)
+			(at 320.04 33.3248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19987,7 +20008,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 300.99 35.56 0)
+			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19996,7 +20017,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 300.99 35.56 0)
+			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20005,7 +20026,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 300.99 35.56 0)
+			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20014,7 +20035,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 300.99 35.56 0)
+			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20023,7 +20044,7 @@
 			)
 		)
 		(property "digikey part number" "1276-1106-1-ND"
-			(at 300.99 35.56 0)
+			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20032,7 +20053,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 300.99 35.56 0)
+			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
