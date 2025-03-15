@@ -9,16 +9,15 @@ jobs:
   process:
     runs-on: ubuntu-latest
     steps:
+      - name: install KiCAD
+        steps:
+          - uses: actions-for-kicad/setup-kicad@v1
+            with:
+              version: "9.0" 
       - name: Checkout
         uses: actions/checkout@v4
       - name: Process
         run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
-          sudo apt-get install --yes kicad
-          KICAD_CONFIG_DIRECTORY="$HOME/.config/kicad/9.0/"
-          mkdir -p "$KICAD_CONFIG_DIRECTORY"
-          cp -r /usr/share/kicad/template/. "$KICAD_CONFIG_DIRECTORY"
-
           git config --global user.name 'gbg-with-joysticks'
           git config --global user.email 'gbg-with-joysticks@users.noreply.github.com'
           git pull
