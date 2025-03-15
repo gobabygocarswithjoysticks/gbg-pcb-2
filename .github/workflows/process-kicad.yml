@@ -5,26 +5,25 @@ on:
 concurrency:
   group: process-kicad
   cancel-in-progress: true
-jobs: 
+jobs:
   Process:
     runs-on: ubuntu-latest
     steps:
-      - name: install KiCAD
-        uses: actions-for-kicad/setup-kicad@v1
-        with:
-          version: "9.0" 
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set up Docker
+        run: docker pull ghcr.io/kicad/kicad_docker:9.0-stable
       - name: Process
         run: |
-          git config --global user.name 'gbg-with-joysticks'
-          git config --global user.email 'gbg-with-joysticks@users.noreply.github.com'
-          git pull
+          docker run --rm -v ${{ github.workspace }}:/workspace -w /workspace ghcr.io/kicad/kicad_docker:9.0-stable sh -c "
+          git config --global user.name 'gbg-with-joysticks' &&
+          git config --global user.email 'gbg-with-joysticks@users.noreply.github.com' &&
+          git pull &&
 
-          kicad-cli pcb render --output "renders/top.jpg" --quality high --rotate '0,0,-90' --width 1000 --height 1000 gbg-pcb.kicad_pcb
-          kicad-cli pcb render --output "renders/perspective1.jpg" --quality high --perspective --zoom 0.65 --rotate '-45,0,45' --width 1000 --height 1000 gbg-pcb.kicad_pcb
-          kicad-cli pcb render --output "renders/perspective2.jpg" --quality high --perspective --zoom 0.65 --rotate '-45,0,-45' --width 1000 --height 1000 gbg-pcb.kicad_pcb
-          
-          
-          git commit . -m "BOT add generated files" --allow-empty
+          kicad-cli pcb render --output 'renders/top.jpg' --quality high --rotate '0,0,-90' --width 1000 --height 1000 gbg-pcb.kicad_pcb &&
+          kicad-cli pcb render --output 'renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,45' --width 1000 --height 1000 gbg-pcb.kicad_pcb &&
+          kicad-cli pcb render --output 'renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,-45' --width 1000 --height 1000 gbg-pcb.kicad_pcb &&
+
+          git commit . -m 'BOT add generated files' --allow-empty &&
           git push
+          "
