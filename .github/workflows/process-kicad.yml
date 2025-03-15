@@ -18,9 +18,9 @@ jobs:
           docker pull kicad/kicad:9.0
 
           docker run --rm -v ${{ github.workspace }}:/workspace kicad/kicad:9.0 /bin/bash -c "
-            kicad-cli pcb render --output 'renders/top.jpg' --quality high --rotate '0,0,-90' --width 1000 --height 1000 gbg-pcb.kicad_pcb &&
-            kicad-cli pcb render --output 'renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,45' --width 1000 --height 1000 gbg-pcb.kicad_pcb &&
-            kicad-cli pcb render --output 'renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,-45' --width 1000 --height 1000 gbg-pcb.kicad_pcb &&
+            kicad-cli pcb render --output 'renders/top.jpg' --quality high --rotate '0,0,-90' --width 1000 --height 1000 gbg-pcb.kicad_pcb 
+            && kicad-cli pcb render --output 'renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,45' --width 1000 --height 1000 gbg-pcb.kicad_pcb 
+            && kicad-cli pcb render --output 'renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,-45' --width 1000 --height 1000 gbg-pcb.kicad_pcb
           "
           
           git commit . -m "BOT add generated files" --allow-empty
