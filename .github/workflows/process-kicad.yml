@@ -6,20 +6,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  ProcessKicad:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: |
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Process
+        run: |
           git config --global user.name 'gbg-with-joysticks'
           git config --global user.email 'gbg-with-joysticks@users.noreply.github.com'
           git pull
 
           docker pull kicad/kicad:9.0
 
-          docker run --rm -v ${{ github.workspace }}/kicad:/workspace kicad/kicad:9.0 /bin/bash -c "
+          docker run --privileged --rm -v ${{ github.workspace }}/kicad:/workspace kicad/kicad:9.0 /bin/bash -c "
             kicad-cli pcb render --output '/workspace/renders/top.jpg' --quality high --rotate '0,0,-90' --width 1000 --height 1000 /workspace/gbg-pcb.kicad_pcb &&
             kicad-cli pcb render --output '/workspace/renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,45' --width 1000 --height 1000 /workspace/gbg-pcb.kicad_pcb &&
             kicad-cli pcb render --output '/workspace/renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '-45,0,-45' --width 1000 --height 1000 /workspace/gbg-pcb.kicad_pcb
           "
+          git add .
+          git commit . -m "BOT process website" --allow-empty
+          git push
+
+          
           
