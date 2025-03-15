@@ -1,0 +1,20 @@
+name: process-kicad
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: process-kicad
+  cancel-in-progress: true
+jobs: 
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes kicad
+          KICAD_CONFIG_DIRECTORY="$HOME/.config/kicad/9.0/"
+          mkdir -p "$KICAD_CONFIG_DIRECTORY"
+          cp -r /usr/share/kicad/template/. "$KICAD_CONFIG_DIRECTORY"
+          
