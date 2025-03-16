@@ -5788,6 +5788,16 @@
 		)
 		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
 	)
+	(text "check car-code led for pico and pico W"
+		(exclude_from_sim no)
+		(at 120.142 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d6d93f4-3596-4ccb-b786-374d7d2e54a1")
+	)
 	(text "SQD40031EL_GE3\n	RDSon=0.0032\n	50 degreesC per Watt\n	temp increases 100 degrees from 2W = I^2*RDSon -> 25 Amps\n\nso I put two mosfets in parallel"
 		(exclude_from_sim no)
 		(at 285.75 232.664 0)
@@ -5879,12 +5889,6 @@
 		(uuid "11a63df2-265a-46eb-b081-d8bf24e23fec")
 	)
 	(junction
-		(at 261.62 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14d5b299-bd9c-4d84-a70a-0846f943016a")
-	)
-	(junction
 		(at 299.72 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5951,12 +5955,6 @@
 		(uuid "50c26248-7a36-437d-a622-e44b08713a5a")
 	)
 	(junction
-		(at 381 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54d73065-1026-4756-afeb-a31dc12ca02b")
-	)
-	(junction
 		(at 102.87 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5987,6 +5985,12 @@
 		(uuid "6393fa6e-5303-4202-81e3-041537c2960d")
 	)
 	(junction
+		(at 261.62 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6427520e-648e-4b4d-9aee-eda474295094")
+	)
+	(junction
 		(at 284.48 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6003,6 +6007,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "749a7d89-c3a9-4295-adad-fd319015b6ef")
+	)
+	(junction
+		(at 218.44 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81bbb5f9-faf4-45a7-955e-f16865c7b310")
 	)
 	(junction
 		(at 308.61 58.42)
@@ -6069,12 +6079,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8419210-03ee-470b-a47d-c33154e08f0d")
-	)
-	(junction
-		(at 218.44 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8e6bef2-aee9-4ac5-890d-99a1df401873")
 	)
 	(junction
 		(at 194.31 135.89)
@@ -6155,12 +6159,6 @@
 		(uuid "e16e4a17-ba29-4ba0-8647-01bf43bda5d0")
 	)
 	(junction
-		(at 218.44 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2461cf2-bf05-4826-8355-96b223b2a284")
-	)
-	(junction
 		(at 99.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6195,6 +6193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e6bc1d-5bb1-48dc-9018-f8428ae91d27")
+	)
+	(junction
+		(at 381 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91318d0-2a70-4035-a25e-803163d37d82")
 	)
 	(junction
 		(at 302.26 124.46)
@@ -6443,16 +6447,6 @@
 			(type default)
 		)
 		(uuid "221f60e2-07fd-488a-8dc2-01b484caf5f3")
-	)
-	(wire
-		(pts
-			(xy 218.44 39.37) (xy 220.98 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2414a189-6dac-4bd3-8d9c-2404606edfe5")
 	)
 	(wire
 		(pts
@@ -6926,16 +6920,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 43.18) (xy 381 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c48f64-ca4e-4c4d-aaf4-b6bfb7dbf121")
-	)
-	(wire
-		(pts
 			(xy 78.74 208.28) (xy 91.44 208.28)
 		)
 		(stroke
@@ -7206,6 +7190,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 214.63) (xy 261.62 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a9071b-bf09-4d05-9fc8-e5a2ceb1de72")
+	)
+	(wire
+		(pts
 			(xy 322.58 204.47) (xy 318.77 204.47)
 		)
 		(stroke
@@ -7216,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 222.25) (xy 135.89 226.06)
+			(xy 135.89 222.25) (xy 135.89 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7636,16 +7630,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 38.1) (xy 218.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a57390fe-5abd-48e0-929a-46470f107188")
-	)
-	(wire
-		(pts
 			(xy 299.72 215.9) (xy 298.45 215.9)
 		)
 		(stroke
@@ -7773,16 +7757,6 @@
 			(type default)
 		)
 		(uuid "be7afc77-5def-421a-b548-9968045c2a3e")
-	)
-	(wire
-		(pts
-			(xy 194.31 154.94) (xy 218.44 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb9fcc9-a97c-4a8f-866f-1b345b6e72e6")
 	)
 	(wire
 		(pts
@@ -8116,6 +8090,26 @@
 	)
 	(wire
 		(pts
+			(xy 381 43.18) (xy 381 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded026a4-00a3-4d2e-b7ce-64f4af0a9599")
+	)
+	(wire
+		(pts
+			(xy 218.44 38.1) (xy 218.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df39af27-b85e-4e6f-88f0-4c96c1f7f583")
+	)
+	(wire
+		(pts
 			(xy 137.16 83.82) (xy 133.35 83.82)
 		)
 		(stroke
@@ -8123,16 +8117,6 @@
 			(type default)
 		)
 		(uuid "e1d84958-23e2-43d8-9c4a-f4c3b7dd09a2")
-	)
-	(wire
-		(pts
-			(xy 218.44 154.94) (xy 219.71 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38f4df2-d709-475c-922f-0e03041abcae")
 	)
 	(wire
 		(pts
@@ -8276,6 +8260,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 154.94) (xy 218.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3be1bcb-afab-46db-b8a7-3d85ca5aa8b7")
+	)
+	(wire
+		(pts
 			(xy 91.44 208.28) (xy 91.44 204.47)
 		)
 		(stroke
@@ -8293,6 +8287,16 @@
 			(type default)
 		)
 		(uuid "f4702583-1ca6-42ea-b30a-4ca8ddc6b99a")
+	)
+	(wire
+		(pts
+			(xy 218.44 39.37) (xy 220.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5277735-55bb-4d2c-85f2-5cbc8727a3bd")
 	)
 	(wire
 		(pts
@@ -9019,6 +9023,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -9027,6 +9032,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9132,6 +9138,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -9140,6 +9147,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9159,7 +9167,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 226.06 0)
+		(at 135.89 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9168,7 +9176,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dc3976c-eafe-45ee-94f5-c66bcebba325")
 		(property "Reference" "#PWR037"
-			(at 135.89 232.41 0)
+			(at 135.89 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 231.14 0)
+			(at 135.89 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 226.06 0)
+			(at 135.89 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 226.06 0)
+			(at 135.89 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 226.06 0)
+			(at 135.89 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,6 +9449,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -9449,6 +9458,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -9664,6 +9674,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -9672,6 +9683,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9841,6 +9853,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -9849,6 +9862,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9954,6 +9968,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -9962,6 +9977,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10066,6 +10082,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -10074,6 +10091,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10244,6 +10262,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -10252,6 +10271,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10357,6 +10377,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -10365,6 +10386,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -10488,6 +10510,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -10496,6 +10519,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10603,6 +10627,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -10611,6 +10636,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10714,6 +10740,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -10722,6 +10749,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10813,7 +10841,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2aa5a8b2-fd14-4e53-b6b6-9b55bcb16903")
 		(property "Reference" "B2"
 			(at 360.68 53.34 0)
@@ -10893,14 +10920,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
-			(at 381 63.5 0)
+			(at 389.128 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11074,6 +11103,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -11082,6 +11112,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11252,6 +11283,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "DNP"
@@ -11260,6 +11292,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11383,6 +11416,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -11391,6 +11425,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11498,6 +11533,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -11506,6 +11542,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11916,6 +11953,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -11924,6 +11962,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12291,6 +12330,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -12299,6 +12339,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12383,7 +12424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 213.36 0)
+		(at 261.62 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12391,7 +12432,7 @@
 		(dnp no)
 		(uuid "48a2e547-6db0-4291-8ddd-8cd7090f0870")
 		(property "Reference" "#PWR040"
-			(at 261.62 219.71 0)
+			(at 261.62 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12400,7 +12441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.382 217.17 0)
+			(at 262.382 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12408,7 +12449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 213.36 0)
+			(at 261.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12417,7 +12458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 213.36 0)
+			(at 261.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,7 +12467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 213.36 0)
+			(at 261.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12599,6 +12640,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -12607,6 +12649,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -13120,14 +13163,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
-			(at 284.48 212.09 0)
+			(at 286.766 212.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13301,6 +13346,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -13309,6 +13355,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -13432,6 +13479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -13440,6 +13488,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13543,6 +13592,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -13551,6 +13601,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13656,6 +13707,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -13664,6 +13716,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13768,6 +13821,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -13776,6 +13830,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13881,6 +13936,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "DNP"
@@ -13889,6 +13945,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13991,6 +14048,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -13999,6 +14057,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14108,6 +14167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -14116,6 +14176,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14224,6 +14285,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -14232,6 +14294,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14693,6 +14756,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -14701,6 +14765,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14806,6 +14871,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -14814,6 +14880,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15047,6 +15114,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -15055,6 +15123,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15228,6 +15297,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -15236,6 +15306,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15406,6 +15477,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -15414,6 +15486,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15518,6 +15591,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -15526,6 +15600,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15630,14 +15705,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
-			(at 284.48 212.09 0)
+			(at 286.258 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15942,6 +16019,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -15950,6 +16028,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16120,6 +16199,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -16128,6 +16208,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16227,11 +16308,12 @@
 			)
 		)
 		(property "digikey_part_number" "4786-FS26CT-ND"
-			(at 102.87 29.21 0)
+			(at 98.806 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -16240,6 +16322,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16344,6 +16427,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -16352,6 +16436,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16520,6 +16605,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -16528,6 +16614,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16632,6 +16719,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -16640,6 +16728,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16980,6 +17069,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -16988,6 +17078,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17352,6 +17443,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -17360,6 +17452,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -17470,6 +17563,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -17478,6 +17572,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17648,6 +17743,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -17656,6 +17752,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17825,6 +17922,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -17833,6 +17931,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18068,6 +18167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -18076,6 +18176,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -18185,6 +18286,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -18193,6 +18295,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18427,6 +18530,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -18435,6 +18539,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18736,6 +18841,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -18744,6 +18850,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18914,6 +19021,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -18922,6 +19030,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19024,6 +19133,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -19032,6 +19142,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19137,6 +19248,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -19145,6 +19257,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19313,6 +19426,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -19321,6 +19435,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19556,6 +19671,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "DNP"
@@ -19564,6 +19680,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19666,6 +19783,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "DNP"
@@ -19674,6 +19792,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19776,6 +19895,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -19784,6 +19904,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -19958,6 +20079,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "DNP"
@@ -20065,6 +20187,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -20073,6 +20196,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20308,6 +20432,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -20316,6 +20441,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20432,6 +20558,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -20440,6 +20567,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20544,6 +20672,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -20552,6 +20681,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20722,6 +20852,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "DNP"
@@ -20730,6 +20861,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20896,6 +21028,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -20904,6 +21037,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21009,6 +21143,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "tht"
@@ -21017,6 +21152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -21125,6 +21261,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -21133,6 +21270,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -21386,6 +21524,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" "smd"
@@ -21394,6 +21533,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
