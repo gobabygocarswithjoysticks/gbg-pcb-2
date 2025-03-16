@@ -9004,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "399-A750MV108M1EAAE014-ND"
+		(property "price" "1"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -9013,13 +9013,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1"
+		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
 			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9092,15 +9099,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 161.29 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
 			(at 161.29 213.36 0)
 			(effects
@@ -9126,6 +9124,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9421,13 +9435,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 381 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 381 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -9530,13 +9551,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 375.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 375.92 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -9621,7 +9649,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "399-A750MV108M1EAAE014-ND"
+		(property "price" "1"
 			(at 203.2 34.29 0)
 			(effects
 				(font
@@ -9630,13 +9658,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1"
+		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
 			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9773,15 +9808,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2007-BL-BBX1V4V-2-B02-ND"
-			(at 109.22 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "American Bright Optoelectronics Corporation"
 			(at 109.22 55.88 0)
 			(effects
@@ -9807,6 +9833,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "2007-BL-BBX1V4V-2-B02-ND"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9897,7 +9939,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 283.21 27.94 0)
 			(effects
 				(font
@@ -9906,13 +9948,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 283.21 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 283.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9984,15 +10033,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "445-8035-1-ND"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 125.73 218.44 0)
 			(effects
@@ -10018,6 +10058,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "445-8035-1-ND"
+			(at 125.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 125.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10173,7 +10229,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -10182,13 +10238,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 283.21 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10279,7 +10342,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 219.71 123.19 0)
 			(effects
 				(font
@@ -10288,13 +10351,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -10403,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 261.62 212.09 0)
 			(effects
 				(font
@@ -10412,13 +10482,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 261.62 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10493,15 +10570,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "445-8035-1-ND"
-			(at 135.89 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 135.89 218.44 0)
 			(effects
@@ -10527,6 +10595,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "445-8035-1-ND"
+			(at 135.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 135.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10597,15 +10681,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "SRP6540-150MCT-ND"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Bourns Inc."
 			(at 97.79 208.28 0)
 			(effects
@@ -10631,6 +10706,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "SRP6540-150MCT-ND"
+			(at 97.79 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 97.79 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10796,13 +10887,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 381 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 381 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -10961,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -10970,13 +11068,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 209.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11114,15 +11219,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 21.59 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 21.59 78.74 0)
 			(effects
@@ -11148,6 +11244,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 21.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11238,15 +11350,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "13-RC1206JR-13220RLCT-ND"
-			(at 179.07 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "YAGEO"
 			(at 179.07 222.25 0)
 			(effects
@@ -11272,6 +11375,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "13-RC1206JR-13220RLCT-ND"
+			(at 179.07 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 179.07 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11364,7 +11483,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1818-VP0265840000G-ND"
+		(property "price" "2.85"
 			(at 233.68 224.79 0)
 			(effects
 				(font
@@ -11373,13 +11492,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "2.85"
+		(property "digikey_part_number" "1818-VP0265840000G-ND"
 			(at 233.68 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 233.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11485,13 +11611,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 375.92 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 375.92 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -11750,15 +11883,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "311-680FRCT-ND"
-			(at 161.29 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "YAGEO"
 			(at 161.29 222.25 0)
 			(effects
@@ -11784,6 +11908,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "311-680FRCT-ND"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12118,15 +12258,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 179.07 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
 			(at 179.07 213.36 0)
 			(effects
@@ -12152,6 +12283,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12437,7 +12584,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -12446,13 +12593,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 220.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -12951,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 284.48 212.09 0)
 			(effects
 				(font
@@ -12960,13 +13114,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 284.48 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13125,7 +13286,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 218.44 149.86 0)
 			(effects
 				(font
@@ -13134,13 +13295,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 218.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -13249,7 +13417,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 218.44 34.29 0)
 			(effects
 				(font
@@ -13258,13 +13426,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 218.44 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13335,15 +13510,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "ED2609-ND"
-			(at 293.37 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
 			(at 293.37 215.9 0)
 			(effects
@@ -13369,6 +13535,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "ED2609-ND"
+			(at 293.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 293.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13441,15 +13623,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "445-14696-1-ND"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 35.56 217.17 0)
 			(effects
@@ -13475,6 +13648,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "445-14696-1-ND"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13564,7 +13753,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 306.07 147.32 0)
 			(effects
 				(font
@@ -13573,13 +13762,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 306.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 306.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13652,15 +13848,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 262.89 44.45 0)
 			(effects
@@ -13686,6 +13873,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13782,13 +13985,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 381 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 381 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -13883,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 261.62 212.09 0)
 			(effects
 				(font
@@ -13892,13 +14102,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 261.62 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13992,7 +14209,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 283.21 35.56 0)
 			(effects
 				(font
@@ -14001,13 +14218,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 283.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 283.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14106,13 +14330,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2648-SC0918CT-ND"
+		(property "digikey_part_number" "2648-SC0918CT-ND"
 			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 73.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "40"
@@ -14447,7 +14678,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 283.21 109.22 0)
 			(effects
 				(font
@@ -14456,13 +14687,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 283.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 283.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14553,7 +14791,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 284.48 67.31 0)
 			(effects
 				(font
@@ -14562,13 +14800,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 284.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 284.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14796,13 +15041,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "ED2610-ND"
+		(property "digikey_part_number" "ED2610-ND"
 			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14961,7 +15213,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -14970,13 +15222,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 217.17 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15114,15 +15373,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "738-RNCP1206FTD100KCT-ND"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 113.03 213.36 0)
 			(effects
@@ -15148,6 +15398,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "738-RNCP1206FTD100KCT-ND"
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 113.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15219,15 +15485,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "445-8035-1-ND"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 146.05 218.44 0)
 			(effects
@@ -15253,6 +15510,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "445-8035-1-ND"
+			(at 146.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 146.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15342,7 +15615,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 284.48 212.09 0)
 			(effects
 				(font
@@ -15351,13 +15624,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 284.48 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 284.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15647,7 +15927,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 283.21 116.84 0)
 			(effects
 				(font
@@ -15656,13 +15936,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 283.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 283.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15818,7 +16105,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 312.42 66.04 0)
 			(effects
 				(font
@@ -15827,13 +16114,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 312.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 312.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15923,7 +16217,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "4786-FS26CT-ND"
+		(property "price" ".1"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -15932,13 +16226,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".1"
+		(property "digikey_part_number" "4786-FS26CT-ND"
 			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16028,7 +16329,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 306.07 139.7 0)
 			(effects
 				(font
@@ -16037,13 +16338,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 306.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16179,15 +16487,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "13-RC1206JR-13100RLCT-ND"
-			(at 118.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "YAGEO"
 			(at 118.11 55.88 0)
 			(effects
@@ -16213,6 +16512,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "13-RC1206JR-13100RLCT-ND"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16302,7 +16617,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 306.07 124.46 0)
 			(effects
 				(font
@@ -16311,13 +16626,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 306.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16547,13 +16869,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 375.92 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 375.92 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -16618,15 +16947,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "399-C1206C104K5RACTUCT-ND"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 86.36 204.47 0)
 			(effects
@@ -16652,6 +16972,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "399-C1206C104K5RACTUCT-ND"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 86.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17010,13 +17346,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "ED2611-ND"
+		(property "digikey_part_number" "ED2611-ND"
 			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -17112,7 +17455,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "277-17504-ND"
+		(property "price" ".87"
 			(at 294.64 132.08 0)
 			(effects
 				(font
@@ -17121,13 +17464,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".87"
+		(property "digikey_part_number" "277-17504-ND"
 			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 294.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17283,7 +17633,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -17292,13 +17642,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 284.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17453,7 +17810,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 316.23 26.67 0)
 			(effects
 				(font
@@ -17462,13 +17819,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 316.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 316.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17698,13 +18062,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 381 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 381 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -17799,7 +18170,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "277-17504-ND"
+		(property "price" ".87"
 			(at 300.99 44.45 0)
 			(effects
 				(font
@@ -17808,13 +18179,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".87"
+		(property "digikey_part_number" "277-17504-ND"
 			(at 300.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 300.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18016,15 +18394,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "399-C1206C680J5HACTUCT-ND"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 102.87 213.36 0)
 			(effects
@@ -18050,6 +18419,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "399-C1206C680J5HACTUCT-ND"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18336,7 +18721,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -18345,13 +18730,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 207.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18507,7 +18899,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 283.21 151.13 0)
 			(effects
 				(font
@@ -18516,13 +18908,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 283.21 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 283.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18592,15 +18991,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "RNCP1206FTD2K74CT-ND"
-			(at 309.88 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 309.88 219.71 0)
 			(effects
@@ -18626,6 +19016,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 309.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18698,15 +19104,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 309.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
 			(at 309.88 209.55 0)
 			(effects
@@ -18732,6 +19129,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 309.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 309.88 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18867,15 +19280,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "ED2609-ND"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
 			(at 327.66 215.9 0)
 			(effects
@@ -18901,6 +19305,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "ED2609-ND"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19103,15 +19523,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 231.14 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 231.14 245.11 0)
 			(effects
@@ -19137,6 +19548,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19206,15 +19633,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 261.62 69.85 0)
 			(effects
@@ -19240,6 +19658,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19336,13 +19770,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 381 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 381 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -19484,15 +19925,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 261.62 128.27 0)
 			(effects
@@ -19518,6 +19950,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19584,15 +20032,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "RNCP1206FTD2K74CT-ND"
-			(at 276.86 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 276.86 215.9 0)
 			(effects
@@ -19618,6 +20057,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
+			(at 276.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 276.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19838,7 +20293,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "296-44396-1-ND"
+		(property "price" ".69"
 			(at 60.96 213.36 0)
 			(effects
 				(font
@@ -19847,13 +20302,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".69"
+		(property "digikey_part_number" "296-44396-1-ND"
 			(at 60.96 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19955,7 +20417,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 312.42 58.42 0)
 			(effects
 				(font
@@ -19964,13 +20426,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 312.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 312.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20060,7 +20529,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 316.23 34.29 0)
 			(effects
 				(font
@@ -20069,13 +20538,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 316.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 316.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20213,15 +20689,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 260.35 154.94 0)
 			(effects
@@ -20247,6 +20714,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20398,7 +20881,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 306.07 116.84 0)
 			(effects
 				(font
@@ -20407,13 +20890,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 306.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 306.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20513,13 +21003,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 381 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 381 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -20613,7 +21110,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -20622,13 +21119,20 @@
 				(hide yes)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -20849,15 +21353,6 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "738-RMCF1206FT13K7CT-ND"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 113.03 223.52 0)
 			(effects
@@ -20883,6 +21378,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "738-RMCF1206FT13K7CT-ND"
+			(at 113.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 113.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21047,13 +21558,20 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 375.92 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 375.92 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances

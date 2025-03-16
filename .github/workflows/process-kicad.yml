@@ -28,6 +28,7 @@ jobs:
               kicad-cli pcb render --output '/workspace/renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '315,0,45' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
               kicad-cli pcb render --output '/workspace/renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '315,0,315' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
               kicad-cli sch export pdf --output '/workspace/schematic.pdf' /workspace/kicad/gbg-pcb.kicad_sch
+              kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM.csv --fields Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type
             "
             
           git add .

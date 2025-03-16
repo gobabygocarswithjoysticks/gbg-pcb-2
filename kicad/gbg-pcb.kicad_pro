@@ -723,8 +723,8 @@
         },
         {
           "group_by": false,
-          "label": "digikey part number",
-          "name": "digikey part number",
+          "label": "digikey_part_number",
+          "name": "digikey_part_number",
           "show": true
         },
         {
@@ -753,6 +753,12 @@
         },
         {
           "group_by": false,
+          "label": "mount_type",
+          "name": "mount_type",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -763,7 +769,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "digikey_part_number"
     },
     "connection_grid_size": 50.0,
     "drawing": {
