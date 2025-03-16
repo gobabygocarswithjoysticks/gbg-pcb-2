@@ -9,6 +9,6 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 # images of CAD
 
-![auto generated image, topview](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/kicad/renders/top.jpg)
-![auto generated image, p1](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/kicad/renders/perspective1.jpg)
-![auto generated image, p2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/kicad/renders/perspective2.jpg)
+![auto generated image, topview](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/top.jpg)
+![auto generated image, p1](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/perspective1.jpg)
+![auto generated image, p2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/perspective2.jpg)
