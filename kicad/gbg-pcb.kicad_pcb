@@ -248,19 +248,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "738-RMCF1206FT13K7CT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78c2069c-8338-41b6-ab3a-b4be0868d45c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 0 0 270)
 			(unlocked yes)
@@ -293,6 +280,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84ae2717-b846-40f2-a3de-d9533310ca1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "738-RMCF1206FT13K7CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f104d59-2b8b-43f5-b59f-89421fe0333f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc687ec-6c6c-449d-a75a-def8bb5bc402")
 			(effects
 				(font
 					(size 1 1)
@@ -526,12 +539,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9e2d4ef-82e9-4822-b1fd-8a0236d59ca7")
+			(uuid "768eebed-b5ed-409c-a284-f48a580fba73")
 			(effects
 				(font
 					(size 1 1)
@@ -539,12 +552,25 @@
 				)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "768eebed-b5ed-409c-a284-f48a580fba73")
+			(uuid "96aa843e-a5e2-46c4-b93d-92df60f7382d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2100d7b2-fffe-45a0-ada4-eba5ec6ba1b2")
 			(effects
 				(font
 					(size 1 1)
@@ -1054,12 +1080,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca9bf141-a804-46a4-b1d8-27e8753a917e")
+			(uuid "42043e9d-1a5b-4311-987f-5b7bc83a42b6")
 			(effects
 				(font
 					(size 1 1)
@@ -1067,12 +1093,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42043e9d-1a5b-4311-987f-5b7bc83a42b6")
+			(uuid "4fd30d1f-a161-4e2e-8efa-2079fe21070d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "356f5092-65cc-4157-8b1e-afffb69e1560")
 			(effects
 				(font
 					(size 1 1)
@@ -1281,19 +1320,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1c5076a0-adb3-4a8b-aa40-bb1d3f0dc250")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
@@ -1326,6 +1352,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c2facc6-98a3-49fc-a620-ae82d0df981c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad7f885-4534-4645-913e-bb929e3d402a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f7de15-cc1a-40d4-9bb6-170d8c93d539")
 			(effects
 				(font
 					(size 1 1)
@@ -1666,19 +1718,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70b58d1a-373c-48e1-843e-5b77b59131e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
@@ -1711,6 +1750,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a6e8006-6f31-474b-b6c5-293027dd1c7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c490838b-b896-457b-b74d-18930d2386db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9b5ddab-665a-42b8-89ee-431fcf0fe1c8")
 			(effects
 				(font
 					(size 1 1)
@@ -1954,12 +2019,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "ED2611-ND"
+		(property "digikey_part_number" "ED2611-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ba1eb7b-331a-43df-8b05-b3e7323353b4")
+			(uuid "4bac6c59-4e40-4fdc-9a74-ceb55a851fa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f888d0fc-331c-4711-98f9-e833d775efc9")
 			(effects
 				(font
 					(size 1 1)
@@ -2688,12 +2766,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e9853ed-05bc-4c26-8346-513c7f4eefa5")
+			(uuid "226449fc-9d9e-4018-a274-82bb687cd4f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e680fe1-9d10-4cd2-a480-34c1640a4738")
 			(effects
 				(font
 					(size 1 1)
@@ -2802,19 +2893,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "445-8035-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edf06ab2-363e-46e1-a7a8-1bdf17fdc57b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 0 0 90)
 			(unlocked yes)
@@ -2847,6 +2925,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08bb93fd-73db-40df-a748-4bf9a2963191")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "445-8035-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "588e9a97-7b12-4cf6-96ba-79519828e42a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cb38b6a-11a5-409c-8184-381906d5749a")
 			(effects
 				(font
 					(size 1 1)
@@ -3055,19 +3159,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "445-8035-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b54b5c1-b206-4735-b8ad-163290d167ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 0 0 90)
 			(unlocked yes)
@@ -3100,6 +3191,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a1fc7f7-bee1-4402-bd11-08dc00bd0359")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "445-8035-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbf00de4-6994-4e3e-9374-b77491a2aff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1359be3a-e496-43af-9ce5-974e59e4c609")
 			(effects
 				(font
 					(size 1 1)
@@ -3306,19 +3423,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "811aefb3-15af-4af5-8f67-efe44dc629e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(unlocked yes)
@@ -3351,6 +3455,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6feb626-2f7f-43a4-97dc-a8fb13606707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "642119e3-4c4c-4912-9db3-980195f60094")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b779da10-7e11-47b9-87ab-4e2980fa54be")
 			(effects
 				(font
 					(size 1 1)
@@ -3578,19 +3708,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "399-C1206C104K5RACTUCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80c5c194-7ec4-4aab-97c4-0e9454025dca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
@@ -3623,6 +3740,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "105f0aa2-b342-4c5d-a411-2b12c26f4dfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "399-C1206C104K5RACTUCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "564fc2e4-e120-4cb4-a6de-ad5cabeab1d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0daf724b-0080-4719-8775-aaf9b0ff19ac")
 			(effects
 				(font
 					(size 1 1)
@@ -3831,19 +3974,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "13-RC1206JR-13100RLCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3f7e8c8-9715-47d6-aa6c-6baa66ecb27c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -3876,6 +4006,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "26865ea3-e16a-48a7-8b5b-cc194d7210f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "13-RC1206JR-13100RLCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea6cf24-6a27-4df2-8c78-3b88b0ef9031")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0e7f9c-c536-4c2e-8db6-f5d48d68d3c7")
 			(effects
 				(font
 					(size 1 1)
@@ -4084,19 +4240,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "399-C1206C680J5HACTUCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55b81531-2993-4bbb-8f43-0a7ad3eb15b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "KEMET"
 			(at 0 0 270)
 			(unlocked yes)
@@ -4129,6 +4272,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10e8532a-8d7c-496f-83c7-b02574cb12d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "399-C1206C680J5HACTUCT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e1b741-f817-49db-aec7-bb00f07a3fed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0827404c-12df-4631-93e5-94502f067182")
 			(effects
 				(font
 					(size 1 1)
@@ -4363,12 +4532,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68c3e650-f706-41f9-a5b0-fe7743be3f03")
+			(uuid "79f0a139-457f-4ac6-8ce9-76dd91b2e9f9")
 			(effects
 				(font
 					(size 1 1)
@@ -4376,12 +4545,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79f0a139-457f-4ac6-8ce9-76dd91b2e9f9")
+			(uuid "1bfd86c2-55fc-4f26-b11a-78701bda61da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "259e7223-0327-4dd1-878e-5bd31641c1e4")
 			(effects
 				(font
 					(size 1 1)
@@ -4704,12 +4886,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f822bfa6-d7a2-4d9e-ab4c-d97980a5d64a")
+			(uuid "c8df051d-22a9-4259-b14b-d29a14550cce")
 			(effects
 				(font
 					(size 1 1)
@@ -4717,12 +4899,25 @@
 				)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8df051d-22a9-4259-b14b-d29a14550cce")
+			(uuid "e561ec47-ad73-4242-9c8a-c8b5280dbf3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dec2bb06-3294-42f4-ab0c-e44030150167")
 			(effects
 				(font
 					(size 1 1)
@@ -5589,12 +5784,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09967add-adf1-4cb3-b345-ff72bc08eca8")
+			(uuid "b0153e26-c8c3-4646-aec2-09792d10f9b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1afe8cea-2522-4b16-a96e-a9196763a3df")
 			(effects
 				(font
 					(size 1 1)
@@ -6119,12 +6327,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f52f288-18a5-423c-8e3e-212365e91eb7")
+			(uuid "2fd2650d-bf18-4d3b-b940-e78ffb446016")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b06d1e3e-7176-44f9-a324-303a84d92039")
 			(effects
 				(font
 					(size 1 1)
@@ -6229,19 +6450,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "SRP6540-150MCT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8137bc07-94ef-46d5-b08f-8e3601282045")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Bourns Inc."
 			(at 0 0 90)
 			(unlocked yes)
@@ -6274,6 +6482,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1c0839d-88cf-4179-b592-0792bb605400")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "SRP6540-150MCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b298bf91-8f22-424f-b53c-1b6d66f39099")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24356b48-c988-495b-b99f-90ad62caa47a")
 			(effects
 				(font
 					(size 1 1)
@@ -6513,19 +6747,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b6d75ef-2f95-4658-93d9-834f9e2955e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6558,6 +6779,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6263e817-aa76-44b5-a817-a0d991d813f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "145a9e4f-e3d7-4ab1-9718-46953f5432d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "882d325a-dd14-4512-9033-2d447bf2b783")
 			(effects
 				(font
 					(size 1 1)
@@ -6706,12 +6953,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4583913b-83d4-4e76-b066-510b36d0c9bb")
+			(uuid "1d54a5fa-5557-45e4-a0f2-99991d3d5152")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd4ead2-3c91-42b8-932a-a65964c31bc8")
 			(effects
 				(font
 					(size 1 1)
@@ -7231,12 +7491,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2648-SC0918CT-ND"
+		(property "digikey_part_number" "2648-SC0918CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1c21ad6-27d4-4636-a87e-08c77fe8e0a9")
+			(uuid "91f98f49-d226-418b-a482-494e91245ae6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e04e22cc-ba5f-4c4d-97db-5e36698a4278")
 			(effects
 				(font
 					(size 1 1)
@@ -10873,12 +11146,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d23a807d-561d-43e2-843a-35309549f14a")
+			(uuid "ef1ced35-0c7b-4251-8c0a-bb1cb352985b")
 			(effects
 				(font
 					(size 1 1)
@@ -10886,12 +11159,25 @@
 				)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef1ced35-0c7b-4251-8c0a-bb1cb352985b")
+			(uuid "26f852ee-4838-4c80-93e8-8f82a8b7bb8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "908cbf27-884a-4be4-87fe-84c380ac0b78")
 			(effects
 				(font
 					(size 1 1)
@@ -11719,19 +12005,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "ED2609-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "387ce534-cc27-46ed-9e9a-c290fd945c01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
 			(at 0 0 270)
 			(unlocked yes)
@@ -11764,6 +12037,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7db487b3-5968-4d22-b265-5651aa8ee20e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "ED2609-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf4922d1-e821-436c-955e-9a4a65b42a95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9697dcea-d52d-4853-bbd9-ccea7f4e22a4")
 			(effects
 				(font
 					(size 1 1)
@@ -12055,12 +12354,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "399-A750MV108M1EAAE014-ND"
+		(property "price" "1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ec03b9c-27fa-4f38-a6c6-ef0761a17577")
+			(uuid "3865cb0a-6a65-4cce-9f3b-afa0f67b851c")
 			(effects
 				(font
 					(size 1 1)
@@ -12068,12 +12367,25 @@
 				)
 			)
 		)
-		(property "price" "1"
+		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3865cb0a-6a65-4cce-9f3b-afa0f67b851c")
+			(uuid "9581b73b-0d8a-4adb-8894-6c0b220d8d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad45aa8d-0359-4403-a59e-600dc9b8a289")
 			(effects
 				(font
 					(size 1 1)
@@ -12243,12 +12555,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8faaa06-8c99-4304-ade2-bcec5712d1e2")
+			(uuid "7e4292ac-4f4d-476b-a31b-5c2179dfc084")
 			(effects
 				(font
 					(size 1 1)
@@ -12256,12 +12568,25 @@
 				)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e4292ac-4f4d-476b-a31b-5c2179dfc084")
+			(uuid "dccc3006-f92b-4b32-8f2b-5fa6f876888a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5cfe401-351d-4b9a-b465-655ade008f63")
 			(effects
 				(font
 					(size 1 1)
@@ -12754,19 +13079,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63dc0b77-4532-4182-8aad-1aa0155c5253")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(unlocked yes)
@@ -12799,6 +13111,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99e9dcdc-b87d-4189-a5ae-64e70571445f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b630740-8e9c-47d0-a5a1-68aee9108c47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "616b5108-728b-4f43-932d-da81dc2a09b2")
 			(effects
 				(font
 					(size 1 1)
@@ -13052,12 +13390,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "765975e7-67f7-4dc5-b9a5-e1903f2d60c5")
+			(uuid "7454a7ba-1e28-4d47-9646-af28f32a0c75")
 			(effects
 				(font
 					(size 1 1)
@@ -13065,12 +13403,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7454a7ba-1e28-4d47-9646-af28f32a0c75")
+			(uuid "010eb496-639b-4b2d-a3bd-275dad89bfd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c09098f7-7d32-48cd-8fb9-2515c2e937dd")
 			(effects
 				(font
 					(size 1 1)
@@ -13305,12 +13656,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b27c9ce-cf83-4d44-bfb6-d0f8c4b09d2f")
+			(uuid "ed7057c3-b6d8-472b-915b-b727e080f6a2")
 			(effects
 				(font
 					(size 1 1)
@@ -13318,12 +13669,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed7057c3-b6d8-472b-915b-b727e080f6a2")
+			(uuid "7415b879-9688-4a56-8e30-45af49076702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44c15afe-624d-4936-9de0-bca3b55fdd35")
 			(effects
 				(font
 					(size 1 1)
@@ -13647,12 +14011,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d23c0d32-20f8-43dc-967b-6664ff4b849a")
+			(uuid "564b3b7f-a286-4a13-9f02-c2803a442d41")
 			(effects
 				(font
 					(size 1 1)
@@ -13660,12 +14024,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "564b3b7f-a286-4a13-9f02-c2803a442d41")
+			(uuid "5a57d34f-d255-4b0a-bafd-ace02bebb026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "255b2e13-ef3b-4795-8e70-785d8e85d446")
 			(effects
 				(font
 					(size 1 1)
@@ -13874,19 +14251,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "311-680FRCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42dd4e4c-9c5e-4b82-8087-a8acecae6b83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -13919,6 +14283,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6103065d-6c7c-4a9e-be40-b4d9685ae5db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "311-680FRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a132a1-2cf2-4064-a45f-f4689e9389b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98856e24-b46c-4325-b0bc-0d83706d2143")
 			(effects
 				(font
 					(size 1 1)
@@ -14126,45 +14516,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "499a9167-a851-4b1b-a023-821aef184db9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a4b9bf8-f33f-47cf-a229-68a61f6d5c4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42d4f120-5681-4293-9e0c-2ac641729f70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Vishay Siliconix"
 			(at 0 0 270)
 			(unlocked yes)
@@ -14191,12 +14542,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5491d76d-68ef-4ca0-a54a-e207d46c5456")
+			(uuid "d021e317-fefa-443f-9699-3bb1683337de")
 			(effects
 				(font
 					(size 1 1)
@@ -14204,12 +14555,25 @@
 				)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d021e317-fefa-443f-9699-3bb1683337de")
+			(uuid "e9002fe6-5f86-40c6-9f3c-e14b80f05f3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb570c9a-70f0-4982-8e58-6bdf4a66f366")
 			(effects
 				(font
 					(size 1 1)
@@ -14719,12 +15083,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "698e76de-3125-414f-8fba-b6d4709164f8")
+			(uuid "5f8b39eb-c7e7-4d71-9f84-af650b8cda7d")
 			(effects
 				(font
 					(size 1 1)
@@ -14732,12 +15096,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f8b39eb-c7e7-4d71-9f84-af650b8cda7d")
+			(uuid "beb33b3e-244d-4856-97f3-2bdfd3822ee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0057168-a248-4675-8e25-fd527ae0dbae")
 			(effects
 				(font
 					(size 1 1)
@@ -15033,19 +15410,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "2007-BL-BBX1V4V-2-B02-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e813137c-cc20-43fa-b738-6f1c78c1bf3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "American Bright Optoelectronics Corporation"
 			(at 0 0 0)
 			(unlocked yes)
@@ -15078,6 +15442,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ee61890-a043-44c9-803e-78ebe2a7823d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "2007-BL-BBX1V4V-2-B02-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84da99e2-989e-4df5-8b7a-e536953ab7e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23841620-26a8-45a5-be48-04767e7baf29")
 			(effects
 				(font
 					(size 1 1)
@@ -15305,19 +15695,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "445-8035-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a35986f4-13c6-4f16-b5fe-c391b2252fb0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 0 0 90)
 			(unlocked yes)
@@ -15350,6 +15727,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "581a4000-b9f3-445a-b6c1-b212b5556919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "445-8035-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20cabdc2-2503-402c-9bc8-dee49c877463")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aab13307-c32a-41f2-9a12-aae964f185f3")
 			(effects
 				(font
 					(size 1 1)
@@ -15583,12 +15986,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b2ba3f2-5685-4288-97fb-e5344c73473a")
+			(uuid "bcc799e7-d0ac-4af3-a9c6-90672e30e460")
 			(effects
 				(font
 					(size 1 1)
@@ -15596,12 +15999,25 @@
 				)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcc799e7-d0ac-4af3-a9c6-90672e30e460")
+			(uuid "7a5e87e1-c4bd-4297-b8a6-8ec546c18c10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1256a71-47f6-4be3-a34d-d146db25c4a7")
 			(effects
 				(font
 					(size 1 1)
@@ -16456,12 +16872,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95086ac0-d372-4077-b92c-9521d58614d4")
+			(uuid "33faa37f-6c3e-4449-950e-9de47f1a5f21")
 			(effects
 				(font
 					(size 1 1)
@@ -16469,12 +16885,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33faa37f-6c3e-4449-950e-9de47f1a5f21")
+			(uuid "56cdf06e-206a-4163-ac60-30f7ed65ad7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88706002-3bf9-4922-9075-0fb9b191c7f9")
 			(effects
 				(font
 					(size 1 1)
@@ -16705,12 +17134,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "296-44396-1-ND"
+		(property "price" ".69"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cef84e60-752f-4d32-ba99-2091b9d66502")
+			(uuid "2d5d7114-1d0e-4025-87b0-fa8c997f4a20")
 			(effects
 				(font
 					(size 1 1)
@@ -16718,12 +17147,25 @@
 				)
 			)
 		)
-		(property "price" ".69"
+		(property "digikey_part_number" "296-44396-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d5d7114-1d0e-4025-87b0-fa8c997f4a20")
+			(uuid "20ba954c-b9c4-4328-b937-59f5b36b4969")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60b5dcdd-7ac6-4c47-a6da-3b9cbab4dedd")
 			(effects
 				(font
 					(size 1 1)
@@ -17095,12 +17537,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "IFX007TAUMA1CT-ND"
+		(property "price" "2.6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ee6cefb-25b6-48ea-9a63-706c22e84979")
+			(uuid "96d8b1a9-ec70-4158-964b-656b85bbd849")
 			(effects
 				(font
 					(size 1 1)
@@ -17108,12 +17550,25 @@
 				)
 			)
 		)
-		(property "price" "2.6"
+		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96d8b1a9-ec70-4158-964b-656b85bbd849")
+			(uuid "cd10733d-c3ff-45bc-b799-1674ccd661db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2b2ec79-ec08-4b2e-8ed6-95563a44b758")
 			(effects
 				(font
 					(size 1 1)
@@ -17969,12 +18424,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81510ab0-0f38-4d14-8864-6766cd140d7f")
+			(uuid "600215f4-34b0-407e-8a47-917c55b86daa")
 			(effects
 				(font
 					(size 1 1)
@@ -17982,12 +18437,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "600215f4-34b0-407e-8a47-917c55b86daa")
+			(uuid "936471fc-831c-4d6a-8220-d2e02d9bfd7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78e686bd-39e2-4c89-baf0-92b092bd7c86")
 			(effects
 				(font
 					(size 1 1)
@@ -18222,12 +18690,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2fec6b0e-d03a-434b-afc0-83d18d3ad452")
+			(uuid "83c51627-eaf9-4f40-adb5-22a0c7dd43e2")
 			(effects
 				(font
 					(size 1 1)
@@ -18235,12 +18703,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83c51627-eaf9-4f40-adb5-22a0c7dd43e2")
+			(uuid "95278c77-37b9-47a9-bef4-3530da0cd872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e410bd3-ae8a-4d47-b9fd-f313d42b0d11")
 			(effects
 				(font
 					(size 1 1)
@@ -18564,12 +19045,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "4786-FS26CT-ND"
+		(property "price" ".1"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8333b022-8672-4a66-b310-471ae57a24c2")
+			(uuid "d9878586-d6c2-490f-837e-acc12239edc0")
 			(effects
 				(font
 					(size 1 1)
@@ -18577,12 +19058,25 @@
 				)
 			)
 		)
-		(property "price" ".1"
+		(property "digikey_part_number" "4786-FS26CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9878586-d6c2-490f-837e-acc12239edc0")
+			(uuid "7d84abd3-2fc0-4cba-9682-739a698a9948")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c48c429e-9ec6-4fc5-bbb7-f9ab8bcf90fa")
 			(effects
 				(font
 					(size 1 1)
@@ -18899,12 +19393,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9e30ca3-6296-49c4-bfb3-fc8004b04661")
+			(uuid "391aba63-702e-44bc-ad55-6ffc5f89ad7c")
 			(effects
 				(font
 					(size 1 1)
@@ -18912,12 +19406,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "391aba63-702e-44bc-ad55-6ffc5f89ad7c")
+			(uuid "ba8e5bfe-5752-4f2c-9988-5c05efa82e52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b092a057-7cbc-48f3-ae72-7033d2c4026d")
 			(effects
 				(font
 					(size 1 1)
@@ -19215,19 +19722,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "13-RC1206JR-13220RLCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "962c931a-3894-4132-881d-d0ece9cb55d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -19260,6 +19754,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4add6836-1633-45c2-9983-0cb7aecf1d81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "13-RC1206JR-13220RLCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4508709-fe32-4aa3-8a94-e7e5d7867e40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c506afc5-0729-46c8-8957-9ffc5ee91792")
 			(effects
 				(font
 					(size 1 1)
@@ -19467,19 +19987,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "ED2609-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9617ad9-552e-417d-ae5e-82aff8db36b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
 			(at 0 0 270)
 			(unlocked yes)
@@ -19512,6 +20019,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "321a602f-8165-4d29-942d-5d1c06ca76a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "ED2609-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b2724bd-7b4c-43c4-8181-9e0d935c6420")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7293fe21-e553-4069-aa72-3c7415384dfb")
 			(effects
 				(font
 					(size 1 1)
@@ -19778,19 +20311,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d7796d4-bc4c-4193-bfe4-7af4a6929c34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
@@ -19823,6 +20343,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be641544-e5ef-4f78-8fc4-e723422b3c75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a106b017-2eea-4714-af35-782d99ee2f1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39c4596f-946f-4c15-9150-5208bbc0b6f6")
 			(effects
 				(font
 					(size 1 1)
@@ -19959,12 +20505,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3fafe9f-0920-4d3f-98b0-b8b6903107fc")
+			(uuid "19e0c61d-77a3-4927-8bea-faa4360e9e4c")
 			(effects
 				(font
 					(size 1 1)
@@ -19972,12 +20518,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19e0c61d-77a3-4927-8bea-faa4360e9e4c")
+			(uuid "dc0ff9a5-670b-4d2d-a94c-77c0d157ba69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "243c0d0f-7ad9-4642-b452-b950c5b41059")
 			(effects
 				(font
 					(size 1 1)
@@ -20212,12 +20771,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d218c627-4cb1-48eb-b2b1-94b7ca53bf60")
+			(uuid "7132f3ad-969b-4e3b-b73d-80ab0cc9b6c3")
 			(effects
 				(font
 					(size 1 1)
@@ -20225,12 +20784,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7132f3ad-969b-4e3b-b73d-80ab0cc9b6c3")
+			(uuid "44148cd9-94ea-473d-af2d-9f6fc28a7b6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f462d6f-456b-403f-b08c-280b99ec6f4b")
 			(effects
 				(font
 					(size 1 1)
@@ -20435,45 +21007,6 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d37badef-8c25-41af-a028-a97361c12977")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41773f09-c93e-4b70-913a-6cad549d0844")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a732bee-1af1-4700-b491-0c59e17528d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Phoenix Contact"
 			(at 0 0 270)
 			(unlocked yes)
@@ -20500,12 +21033,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "277-17504-ND"
+		(property "price" ".87"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb2ff8cf-db9f-4ad3-a3bb-8034b2ce817c")
+			(uuid "dd770389-1065-44dc-b183-087623c9a2de")
 			(effects
 				(font
 					(size 1 1)
@@ -20513,12 +21046,25 @@
 				)
 			)
 		)
-		(property "price" ".87"
+		(property "digikey_part_number" "277-17504-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd770389-1065-44dc-b183-087623c9a2de")
+			(uuid "079aa037-54b4-4de0-a636-13fdf0e7daee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e87498dd-d0d4-4c62-b796-4357c3d66bd0")
 			(effects
 				(font
 					(size 1 1)
@@ -20789,12 +21335,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba7a41d6-8d03-458b-b69e-aced942ad947")
+			(uuid "9d40ecd1-9955-4126-8a6a-48c38a3aec84")
 			(effects
 				(font
 					(size 1 1)
@@ -20802,12 +21348,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d40ecd1-9955-4126-8a6a-48c38a3aec84")
+			(uuid "63c19835-b1b1-4b51-9f9c-8a69b742ed2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8105db1b-3c40-4b82-8ef9-867979a863e8")
 			(effects
 				(font
 					(size 1 1)
@@ -21144,12 +21703,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "ED2610-ND"
+		(property "digikey_part_number" "ED2610-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f309be6-356b-4d50-a382-66109705d227")
+			(uuid "ff5009c9-ea00-4c67-aacc-5654630912ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92765598-e688-4d81-95cf-8df2bdd4d246")
 			(effects
 				(font
 					(size 1 1)
@@ -21783,12 +22355,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d17b8f6-877f-411d-98f7-150036defb07")
+			(uuid "98716876-2135-458f-a282-7aeae44d98b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f633c21c-8292-44e9-87a6-a771aae3784b")
 			(effects
 				(font
 					(size 1 1)
@@ -22298,12 +22883,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "399-A750MV108M1EAAE014-ND"
+		(property "price" "1"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6dfa9b0-af82-469d-9112-2d26ab2a8464")
+			(uuid "170f9f6a-ca81-4512-9741-292a44713c1a")
 			(effects
 				(font
 					(size 1 1)
@@ -22311,12 +22896,25 @@
 				)
 			)
 		)
-		(property "price" "1"
+		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "170f9f6a-ca81-4512-9741-292a44713c1a")
+			(uuid "c05b31ac-a0af-4bd9-9954-b37ef06ca7fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6595148-3dd7-4c6c-92e4-d596a8969460")
 			(effects
 				(font
 					(size 1 1)
@@ -22501,12 +23099,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8df2d8d-d696-4cf1-a1f8-5c465f7e097e")
+			(uuid "0c93a47c-cf2f-4f29-9492-126e6d4789bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcac14e7-2bf6-402a-858e-5428f2187217")
 			(effects
 				(font
 					(size 1 1)
@@ -22640,12 +23251,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "SQD40031EL_GE3CT-ND"
+		(property "price" "1.4"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4e5c326-da3d-4c50-b457-27b5ba830163")
+			(uuid "b0babc4e-1db2-4666-b55f-9dd7e965bbff")
 			(effects
 				(font
 					(size 1 1)
@@ -22653,12 +23264,25 @@
 				)
 			)
 		)
-		(property "price" "1.4"
+		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0babc4e-1db2-4666-b55f-9dd7e965bbff")
+			(uuid "52f36fff-072e-47fc-997a-b8f3d6db79e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1766a760-2e7e-4ce7-9658-885fca68e8ab")
 			(effects
 				(font
 					(size 1 1)
@@ -23191,12 +23815,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da5d087f-c3c1-47b5-9ee6-725132459f28")
+			(uuid "341ba75b-e746-4c8a-b343-8ad875783527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9f6dce-f017-4e92-b7dc-3d9822dab3ca")
 			(effects
 				(font
 					(size 1 1)
@@ -23680,19 +24317,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c5edf14-c7db-4bc9-a4ca-d3d0dbf35e6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
@@ -23725,6 +24349,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8601c7cf-fc3f-425f-bc9d-a7509bdba737")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef72b710-4dfe-49d9-a430-d77cdc506951")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77cbf543-b710-4ca0-b45e-a32031516675")
 			(effects
 				(font
 					(size 1 1)
@@ -23873,12 +24523,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c78fe579-9ebe-455e-a7e3-4842d5235e84")
+			(uuid "37ff901f-5392-4b12-bc01-f9db26bcac0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "327c0126-16e0-4013-8807-bda6df6ef8c3")
 			(effects
 				(font
 					(size 1 1)
@@ -24315,7 +24978,7 @@
 		(at 56.400801 94.5134 -90)
 		(tags "VP0265840000G ")
 		(property "Reference" "J5"
-			(at 5.08 5.08 270)
+			(at -6.3804 2.149801 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e54b628f-22be-4007-9319-6f54afcfb3d9")
@@ -24388,12 +25051,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1818-VP0265840000G-ND"
+		(property "price" "2.85"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a08bec66-cb41-4ea9-a8d0-206dfbbf5349")
+			(uuid "40389a64-6dba-4e50-a5d0-43742a93d69b")
 			(effects
 				(font
 					(size 1 1)
@@ -24401,12 +25064,25 @@
 				)
 			)
 		)
-		(property "price" "2.85"
+		(property "digikey_part_number" "1818-VP0265840000G-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40389a64-6dba-4e50-a5d0-43742a93d69b")
+			(uuid "487bfef9-c1cd-4ad1-b05c-c04f9288f88d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e25ccbb6-f914-4c43-9355-7a87b916695d")
 			(effects
 				(font
 					(size 1 1)
@@ -24722,12 +25398,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7feedd5-5796-4e5c-a398-1c1211816bdd")
+			(uuid "b151cb57-c5ee-4acc-866b-70932eeedab3")
 			(effects
 				(font
 					(size 1 1)
@@ -24735,12 +25411,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b151cb57-c5ee-4acc-866b-70932eeedab3")
+			(uuid "b0719eb2-c75b-4203-9f37-5226ec08a24a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d17d39c8-4fb1-4329-8c5c-2a1c8d0c502f")
 			(effects
 				(font
 					(size 1 1)
@@ -25053,12 +25742,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b3eb086-fc62-4a3e-a762-96e9d11bb065")
+			(uuid "457a33d7-3917-4e7c-befc-3c1b7685a9d6")
 			(effects
 				(font
 					(size 1 1)
@@ -25066,12 +25755,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "457a33d7-3917-4e7c-befc-3c1b7685a9d6")
+			(uuid "a70e1d1d-2119-4949-8e22-87098e24e3a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ad73976-756e-459a-8a67-c7f1c0016bfb")
 			(effects
 				(font
 					(size 1 1)
@@ -25276,45 +25978,6 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7090b5b2-c8f7-41b4-b806-228e7e9892fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "23.6mm"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dcd7833d-4c72-4727-a38f-a448f2d3332b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ccf421f5-0bb3-43cd-afae-582ba07f337c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Phoenix Contact"
 			(at 0 0 270)
 			(unlocked yes)
@@ -25341,12 +26004,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "277-17504-ND"
+		(property "price" ".87"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e2825a7-e741-4127-af9b-79f55f2e9781")
+			(uuid "ddfdf4bb-37ba-4a80-8b33-7a5f36a2d4cd")
 			(effects
 				(font
 					(size 1 1)
@@ -25354,12 +26017,25 @@
 				)
 			)
 		)
-		(property "price" ".87"
+		(property "digikey_part_number" "277-17504-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddfdf4bb-37ba-4a80-8b33-7a5f36a2d4cd")
+			(uuid "b6f96387-694b-40d8-a598-dabdfb86c05d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95d946b3-61ad-400c-bb8e-a9e93e9232c5")
 			(effects
 				(font
 					(size 1 1)
@@ -25604,19 +26280,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "738-RNCP1206FTD100KCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef0aa6a4-a990-4bcb-9346-577ede273c09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 0 0 270)
 			(unlocked yes)
@@ -25649,6 +26312,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca74108f-1815-4c7d-9b73-c81c0b30176c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "738-RNCP1206FTD100KCT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5852f6a9-61bc-4847-9c91-d4966742eb3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c20f6f3f-866d-491d-a6c3-c8ff25f0c654")
 			(effects
 				(font
 					(size 1 1)
@@ -25883,12 +26572,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "31-SDT10A45P5-13DCT-ND"
+		(property "price" ".3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e25aa0d-490f-4549-b9ad-3b59a239fcc3")
+			(uuid "b77baab1-adde-4aa3-ab18-785b5e07d139")
 			(effects
 				(font
 					(size 1 1)
@@ -25896,12 +26585,25 @@
 				)
 			)
 		)
-		(property "price" ".3"
+		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b77baab1-adde-4aa3-ab18-785b5e07d139")
+			(uuid "3f0a5a36-8af4-4814-8256-1f5bdc24f080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac418745-b02d-402f-811d-8494e77c36e5")
 			(effects
 				(font
 					(size 1 1)
@@ -26199,19 +26901,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "445-14696-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acf4b00f-9fc0-4225-a7fc-d6093e877588")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "TDK Corporation"
 			(at 0 0 0)
 			(unlocked yes)
@@ -26244,6 +26933,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41a19249-1455-4c73-802f-44fbd898c6be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "445-14696-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d7a6dd4-ea45-4e4d-bf9c-e71b70531186")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd3219a4-7e04-4ed1-9fe6-a79b65392c2e")
 			(effects
 				(font
 					(size 1 1)
@@ -26478,12 +27193,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35f66971-f353-4c23-b6ab-8befb637d357")
+			(uuid "3cdc731c-c626-49cb-b70f-c3a6f1f9400c")
 			(effects
 				(font
 					(size 1 1)
@@ -26491,12 +27206,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cdc731c-c626-49cb-b70f-c3a6f1f9400c")
+			(uuid "b8e20feb-11d7-4bf0-8ecc-f8eb3dfabc09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbf986f7-afab-4934-a7d4-133e8c6bb2dc")
 			(effects
 				(font
 					(size 1 1)
@@ -26731,12 +27459,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f3c6424-0460-46c0-be0f-26f2292feb74")
+			(uuid "2b588a87-5488-4812-b3b0-664d79403a6c")
 			(effects
 				(font
 					(size 1 1)
@@ -26744,12 +27472,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b588a87-5488-4812-b3b0-664d79403a6c")
+			(uuid "249b0577-48cd-4303-8525-dd5165848f25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "970ad5c8-9df6-430b-9405-6641ea109686")
 			(effects
 				(font
 					(size 1 1)
@@ -26984,12 +27725,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4766a36-81ff-4581-baeb-7bdc1ee365c9")
+			(uuid "864f9047-5e22-4bb2-9968-2d6a6da64e04")
 			(effects
 				(font
 					(size 1 1)
@@ -26997,12 +27738,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "864f9047-5e22-4bb2-9968-2d6a6da64e04")
+			(uuid "ed8da8b4-6bd2-4032-a6b6-9383db9f52ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7974c687-ea04-48cc-b39e-bf73a18e60b0")
 			(effects
 				(font
 					(size 1 1)
@@ -27249,12 +28003,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "2092-STX-3000-ND"
+		(property "digikey_part_number" "2092-STX-3000-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eced834d-6cda-45ae-b57d-07297b91dd30")
+			(uuid "f68b61a0-f3b4-4928-a729-4a1e03cb4c33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80c6f990-0b6e-43b3-8623-f721532ef5e1")
 			(effects
 				(font
 					(size 1 1)
@@ -27779,12 +28546,25 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
+		(property "digikey_part_number" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "838d5f74-4c37-4191-89a7-6f0c14d21d12")
+			(uuid "24556fa0-e191-4a0e-af4a-9f92df58295c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f09f30c-e9c8-41da-a7f7-a7c5d1b46e52")
 			(effects
 				(font
 					(size 1 1)
@@ -27891,19 +28671,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d376b24a-a197-4206-a910-575172f2665e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(unlocked yes)
@@ -27936,6 +28703,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14503a62-8cce-497f-aefb-f90e3c4642a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5633058c-90d5-4143-bb05-7fe7ed98c0ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0c43224-86eb-4c03-8221-f4c512e78541")
 			(effects
 				(font
 					(size 1 1)
@@ -28189,12 +28982,12 @@
 				)
 			)
 		)
-		(property "digikey part number" "1276-1106-1-ND"
+		(property "price" "0.03"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dbdde3d-216c-439b-961f-ac248a879224")
+			(uuid "03126693-a235-4db7-befb-ce95f3e5f38d")
 			(effects
 				(font
 					(size 1 1)
@@ -28202,12 +28995,25 @@
 				)
 			)
 		)
-		(property "price" "0.03"
+		(property "digikey_part_number" "1276-1106-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03126693-a235-4db7-befb-ce95f3e5f38d")
+			(uuid "c3a5c827-89ae-4a4c-99f4-1daa425c2604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66ccb5e8-2428-4813-a0bc-1ea7be9d18cf")
 			(effects
 				(font
 					(size 1 1)
@@ -28416,19 +29222,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "RNCP1206FTD2K74CT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce0f5a52-b83d-48ec-bcde-84ba0de3997b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 0 0 180)
 			(unlocked yes)
@@ -28461,6 +29254,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39f21d2c-7b65-4d98-a454-20441b53a49e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31c16899-8b6b-4c36-bad4-681524d1b983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c545bb9-b288-4491-9e02-228470cb43ec")
 			(effects
 				(font
 					(size 1 1)
@@ -28669,19 +29488,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "RNCP1206FTD2K74CT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70e550ee-ad9e-49a1-8063-b0f42cd41df3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(unlocked yes)
@@ -28714,6 +29520,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0c61497-a242-45ed-af98-2aa9f611e0aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f17cd51-0a07-4e09-991a-47302e386006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd11f112-deb4-42c6-bb8e-ca8e6b193712")
 			(effects
 				(font
 					(size 1 1)
@@ -28922,19 +29754,6 @@
 				)
 			)
 		)
-		(property "digikey part number" "DNP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64c84835-4c99-496a-83c4-c847dfdbfc76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "DNP"
 			(at 0 0 0)
 			(unlocked yes)
@@ -28967,6 +29786,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "520959cf-5edb-430f-930d-21e239a7a0d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey_part_number" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "561e6ecd-fe8d-496c-ba8d-1aeaf4006fd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mount_type" "DNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af1184da-cf0e-40d9-a0a3-d38b7c93aa8e")
 			(effects
 				(font
 					(size 1 1)
@@ -29924,7 +30769,7 @@
 		(uuid "0fc58445-104c-4c26-97c7-61e991d323f4")
 	)
 	(via
-		(at 46.3165 61.722)
+		(at 47.076 61.722)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -30392,7 +31237,7 @@
 		(uuid "3e41a670-0c2a-40e8-8ddd-6dc1de74df4d")
 	)
 	(via
-		(at 46.3165 64.262)
+		(at 47.076 64.262)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -30500,15 +31345,6 @@
 		(uuid "4744ddb9-cda4-4695-81ea-d90dbbd9443b")
 	)
 	(via
-		(at 47.7135 136.398)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "47d1fb9c-afb1-45e9-b427-07a88b2d3035")
-	)
-	(via
 		(at 56.261 82.804)
 		(size 0.6)
 		(drill 0.3)
@@ -30589,7 +31425,7 @@
 		(uuid "50b1247a-351e-4f09-b7c2-834106ffa648")
 	)
 	(via
-		(at 46.3165 63.627)
+		(at 47.076 63.627)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -30658,15 +31494,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "55ce10ec-653b-49ee-8568-dfcc472a5aab")
-	)
-	(via
-		(at 46.4435 136.398)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "56d89d72-25fa-4109-a92c-8ccc2c1d3ac0")
 	)
 	(via
 		(at 52.451 80.899)
@@ -30840,7 +31667,7 @@
 		(uuid "64efc99f-afbc-4a1c-9cf3-65d28ce130a1")
 	)
 	(via
-		(at 48.2215 64.262)
+		(at 48.981 64.262)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31379,7 +32206,7 @@
 		(uuid "946d0ee0-3103-4640-bb03-fde59ee78b9a")
 	)
 	(via
-		(at 46.3165 61.087)
+		(at 47.076 61.087)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31449,15 +32276,6 @@
 		(free yes)
 		(net 2)
 		(uuid "9beb5fdc-1c58-4e77-bd76-4e95c13ea9f6")
-	)
-	(via
-		(at 48.3485 136.398)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "9d547ea4-75ca-455f-a043-5a62cf00b440")
 	)
 	(via
 		(at 98.679 65.024)
@@ -31666,7 +32484,7 @@
 		(uuid "b3bf0112-56b6-441f-b3ed-0a06271158b6")
 	)
 	(via
-		(at 46.3165 62.357)
+		(at 47.076 62.357)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31702,7 +32520,7 @@
 		(uuid "b7ec474b-5d7c-492c-82b1-c9afe1a7b3e7")
 	)
 	(via
-		(at 46.9515 64.262)
+		(at 47.711 64.262)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -32052,7 +32870,7 @@
 		(uuid "d9604b12-cdd6-4eb0-b1ae-00369c3c4564")
 	)
 	(via
-		(at 46.3165 62.992)
+		(at 47.076 62.992)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -32169,16 +32987,7 @@
 		(uuid "e3c92dc5-e31b-449f-ace1-60e037d7aff5")
 	)
 	(via
-		(at 47.0785 136.398)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "e5b1e307-d998-40b0-8609-ec695085e71a")
-	)
-	(via
-		(at 47.5865 64.262)
+		(at 48.346 64.262)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -38545,36 +39354,36 @@
 		(uuid "fa6e500e-0ab8-48b4-951b-67847c451ef8")
 	)
 	(segment
+		(start 118.407142 109.093)
+		(end 120.751 111.436858)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net 57)
+		(uuid "1889ee88-aae8-43b8-ab74-18358c9c0a77")
+	)
+	(segment
+		(start 120.751 111.436858)
+		(end 120.751 112.623)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net 57)
+		(uuid "4a535895-ad5a-4de1-93b5-f3711f0e6323")
+	)
+	(segment
+		(start 120.751 112.623)
+		(end 122.301 114.173)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net 57)
+		(uuid "8be779b9-ccdd-4803-8bac-a6b1e2426718")
+	)
+	(segment
 		(start 117.094 109.093)
 		(end 118.407142 109.093)
 		(width 0.2032)
 		(layer "F.Cu")
 		(net 57)
-		(uuid "518d77f8-15aa-4b58-aff4-6461dfff8492")
-	)
-	(segment
-		(start 120.65 112.522)
-		(end 122.301 114.173)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net 57)
-		(uuid "977aadf9-fc5b-450d-9dcd-7eb238206ede")
-	)
-	(segment
-		(start 118.407142 109.093)
-		(end 120.65 111.335858)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net 57)
-		(uuid "b199d6c6-714e-4378-af13-2d743115ff42")
-	)
-	(segment
-		(start 120.65 111.335858)
-		(end 120.65 112.522)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net 57)
-		(uuid "bd4d9eb0-ffd2-4aa3-b868-7eb7a63adcc7")
+		(uuid "987ae5a7-dd3f-4ae5-91fc-f77727c9bb09")
 	)
 	(segment
 		(start 120.142 105.156)
@@ -38680,8 +39489,8 @@
 				(xy 65.350799 123.752268) (xy 65.503932 123.7933) (xy 65.503935 123.7933) (xy 67.744 123.7933) (xy 67.811039 123.812985)
 				(xy 67.856794 123.865789) (xy 67.868 123.9173) (xy 67.868 146.5685) (xy 67.848315 146.635539) (xy 67.795511 146.681294)
 				(xy 67.744 146.6925) (xy 49.577 146.6925) (xy 49.509961 146.672815) (xy 49.464206 146.620011) (xy 49.453 146.5685)
-				(xy 49.453 137.122114) (xy 49.458024 137.087177) (xy 49.468521 137.051429) (xy 49.468522 137.051422)
-				(xy 49.468523 137.05142) (xy 49.468524 137.051416) (xy 49.489 136.909) (xy 49.489 132.712) (xy 49.477447 132.604544)
+				(xy 49.453 136.622114) (xy 49.458024 136.587177) (xy 49.468521 136.551429) (xy 49.468522 136.551422)
+				(xy 49.468523 136.55142) (xy 49.468524 136.551416) (xy 49.489 136.409) (xy 49.489 132.712) (xy 49.477447 132.604544)
 				(xy 49.466241 132.553033) (xy 49.459346 132.532316) (xy 49.453 132.493157) (xy 49.453 131.662176)
 				(xy 49.472685 131.595137) (xy 49.525489 131.549382) (xy 49.533647 131.546002) (xy 49.558331 131.536796)
 				(xy 49.673546 131.450546) (xy 49.759796 131.335331) (xy 49.810091 131.200483) (xy 49.8165 131.140873)
@@ -40011,16 +40820,16 @@
 		)
 		(polygon
 			(pts
-				(xy 49.4915 60.452) (xy 45.6815 60.452) (xy 45.6815 64.897) (xy 49.4915 64.897)
+				(xy 50.251 60.452) (xy 46.441 60.452) (xy 46.441 64.897) (xy 50.251 64.897)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 49.434539 60.471685) (xy 49.480294 60.524489) (xy 49.4915 60.576) (xy 49.4915 64.773) (xy 49.471815 64.840039)
-				(xy 49.419011 64.885794) (xy 49.3675 64.897) (xy 45.8055 64.897) (xy 45.738461 64.877315) (xy 45.692706 64.824511)
-				(xy 45.6815 64.773) (xy 45.6815 60.576) (xy 45.701185 60.508961) (xy 45.753989 60.463206) (xy 45.8055 60.452)
-				(xy 49.3675 60.452)
+				(xy 50.194039 60.471685) (xy 50.239794 60.524489) (xy 50.251 60.576) (xy 50.251 64.773) (xy 50.231315 64.840039)
+				(xy 50.178511 64.885794) (xy 50.127 64.897) (xy 46.565 64.897) (xy 46.497961 64.877315) (xy 46.452206 64.824511)
+				(xy 46.441 64.773) (xy 46.441 60.576) (xy 46.460685 60.508961) (xy 46.513489 60.463206) (xy 46.565 60.452)
+				(xy 50.127 60.452)
 			)
 		)
 	)
@@ -40042,15 +40851,15 @@
 		)
 		(polygon
 			(pts
-				(xy 48.9835 132.588) (xy 45.8085 132.588) (xy 45.8085 137.033) (xy 48.9835 137.033)
+				(xy 48.9835 132.588) (xy 45.8085 132.588) (xy 45.8085 136.533) (xy 48.9835 136.533)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 48.926539 132.607685) (xy 48.972294 132.660489) (xy 48.9835 132.712) (xy 48.9835 136.909) (xy 48.963815 136.976039)
-				(xy 48.911011 137.021794) (xy 48.8595 137.033) (xy 45.9325 137.033) (xy 45.865461 137.013315) (xy 45.819706 136.960511)
-				(xy 45.8085 136.909) (xy 45.8085 132.712) (xy 45.828185 132.644961) (xy 45.880989 132.599206) (xy 45.9325 132.588)
+				(xy 48.926539 132.607685) (xy 48.972294 132.660489) (xy 48.9835 132.712) (xy 48.9835 136.409) (xy 48.963815 136.476039)
+				(xy 48.911011 136.521794) (xy 48.8595 136.533) (xy 45.9325 136.533) (xy 45.865461 136.513315) (xy 45.819706 136.460511)
+				(xy 45.8085 136.409) (xy 45.8085 132.712) (xy 45.828185 132.644961) (xy 45.880989 132.599206) (xy 45.9325 132.588)
 				(xy 48.8595 132.588)
 			)
 		)
