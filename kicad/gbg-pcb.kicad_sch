@@ -5788,17 +5788,7 @@
 		)
 		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
 	)
-	(text "use webench to find alternative inductors \n	the current one isn't in stock, it's also large"
-		(exclude_from_sim no)
-		(at 116.332 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60a31ff0-1a97-4e2a-a9e8-08ba231990bc")
-	)
-	(text "SQD40031EL_GE3\n	RDSon=0.0032\n	50 degreesC per Watt\n	temp increases 100 degrees from 2W = I^2*RDSon -> 25 Amps"
+	(text "SQD40031EL_GE3\n	RDSon=0.0032\n	50 degreesC per Watt\n	temp increases 100 degrees from 2W = I^2*RDSon -> 25 Amps\n\nso I put two mosfets in parallel"
 		(exclude_from_sim no)
 		(at 285.75 232.664 0)
 		(effects
@@ -5840,7 +5830,7 @@
 	)
 	(text "ok to leave disconnected?"
 		(exclude_from_sim no)
-		(at 206.502 72.898 0)
+		(at 204.47 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9976,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7S1A226M160AC/2792273"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -9994,7 +9984,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-3047-1-ND"
+		(property "digikey part number" "445-8035-1-ND"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -10003,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -10012,7 +10002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+		(property "Manufacturer_Part_Number" "C3216X7S1A226M160AC"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -10021,7 +10011,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".15"
+		(property "price" ".45"
 			(at 125.73 218.44 0)
 			(effects
 				(font
@@ -10485,7 +10475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7S1A226M160AC/2792273"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10503,7 +10493,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-3047-1-ND"
+		(property "digikey part number" "445-8035-1-ND"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10512,7 +10502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10521,7 +10511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+		(property "Manufacturer_Part_Number" "C3216X7S1A226M160AC"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10530,7 +10520,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".15"
+		(property "price" ".45"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10580,7 +10570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_MSS1260T-XXX"
+		(property "Footprint" "kicad libraries:IND_SRP6540-150M"
 			(at 97.79 208.28 0)
 			(effects
 				(font
@@ -10589,7 +10579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SRP6540-150M/3986100"
 			(at 97.79 208.28 0)
 			(effects
 				(font
@@ -10607,7 +10597,34 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" ""
+		(property "digikey part number" "SRP6540-150MCT-ND"
+			(at 97.79 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 97.79 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRP6540-150M"
+			(at 97.79 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.1"
 			(at 97.79 208.28 0)
 			(effects
 				(font
@@ -13388,7 +13405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "15uF"
 			(at 39.37 218.4399 0)
 			(effects
 				(font
@@ -13406,7 +13423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1V156M160AC/3951932"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -13424,7 +13441,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-3047-1-ND"
+		(property "digikey part number" "445-14696-1-ND"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -13433,7 +13450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -13442,7 +13459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+		(property "Manufacturer_Part_Number" "C3216X5R1V156M160AC"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -13451,7 +13468,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".15"
+		(property "price" ".7"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -15184,7 +15201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7S1A226M160AC/2792273"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -15202,7 +15219,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-3047-1-ND"
+		(property "digikey part number" "445-8035-1-ND"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -15211,7 +15228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" "TDK Corporation"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -15220,7 +15237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+		(property "Manufacturer_Part_Number" "C3216X7S1A226M160AC"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -15229,7 +15246,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".15"
+		(property "price" ".45"
 			(at 146.05 218.44 0)
 			(effects
 				(font
@@ -16566,7 +16583,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "100nF"
 			(at 86.36 199.39 90)
 			(effects
 				(font
@@ -16583,7 +16600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104K5RACTU/411248?s=N4IgTCBcDaIMIEYwAYBsjkBYDSBWASgIJwAqAqiALoC%2BQA"
 			(at 86.36 204.47 0)
 			(effects
 				(font
@@ -16601,7 +16618,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey part number" "1276-3047-1-ND"
+		(property "digikey part number" "399-C1206C104K5RACTUCT-ND"
 			(at 86.36 204.47 0)
 			(effects
 				(font
@@ -16610,7 +16627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" "KEMET"
 			(at 86.36 204.47 0)
 			(effects
 				(font
@@ -16619,7 +16636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
 			(at 86.36 204.47 0)
 			(effects
 				(font
@@ -16628,7 +16645,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".15"
+		(property "price" ".05"
 			(at 86.36 204.47 0)
 			(effects
 				(font
