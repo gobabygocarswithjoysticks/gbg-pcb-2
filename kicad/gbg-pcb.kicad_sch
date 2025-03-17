@@ -1708,6 +1708,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -2301,147 +2469,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ME218_BaseLib:Diode"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Diode"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Diode_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Diode_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5889,12 +5916,6 @@
 		(uuid "11a63df2-265a-46eb-b081-d8bf24e23fec")
 	)
 	(junction
-		(at 299.72 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e4b499-d4c7-4976-9038-61f788d0c4af")
-	)
-	(junction
 		(at 194.31 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7100,6 +7121,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aff9970-46b0-42b3-a8f5-eeeb219f43a1")
+	)
+	(wire
+		(pts
 			(xy 161.29 217.17) (xy 161.29 218.44)
 		)
 		(stroke
@@ -7117,6 +7148,16 @@
 			(type default)
 		)
 		(uuid "6d697744-b60f-4f91-b289-2913047307d6")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d94647f-43f1-4f7b-9fcd-52a9fddb375a")
 	)
 	(wire
 		(pts
@@ -7220,7 +7261,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 119.38) (xy 217.17 121.92)
+			(xy 217.17 120.65) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7467,16 +7508,6 @@
 			(type default)
 		)
 		(uuid "9718ae4e-2da1-43a4-a439-e13037cbcd67")
-	)
-	(wire
-		(pts
-			(xy 213.36 111.76) (xy 217.17 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9793aec2-b712-4600-b167-2ab9b2922818")
 	)
 	(wire
 		(pts
@@ -7937,16 +7968,6 @@
 			(type default)
 		)
 		(uuid "cd410b0c-7509-42cb-b8df-5211ad121470")
-	)
-	(wire
-		(pts
-			(xy 299.72 222.25) (xy 299.72 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce39771a-677f-4790-8d2b-712b38abf912")
 	)
 	(wire
 		(pts
@@ -9881,7 +9902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 283.21 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10175,7 +10196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 283.21 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14198,7 +14219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 283.21 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14669,7 +14690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 283.21 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14784,7 +14805,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 284.48 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15212,7 +15233,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 115.57 0)
+		(at 217.17 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15220,7 +15241,7 @@
 		(dnp no)
 		(uuid "7ad0b055-1efb-4f1f-92ce-d7b392a0fa73")
 		(property "Reference" "C8"
-			(at 218.186 113.792 0)
+			(at 218.186 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,7 +15250,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 217.424 117.602 0)
+			(at 217.424 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15238,7 +15259,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 218.1352 119.38 0)
+			(at 218.1352 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +15268,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15256,7 +15277,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15265,7 +15286,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,7 +15295,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15283,7 +15304,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +15313,7 @@
 			)
 		)
 		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +15322,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 217.17 115.57 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,7 +15953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 283.21 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17656,7 +17677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 284.48 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18934,7 +18955,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ME218_BaseLib:Diode")
+		(lib_id "Device:D")
 		(at 283.21 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
