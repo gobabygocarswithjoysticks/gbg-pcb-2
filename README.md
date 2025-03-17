@@ -12,3 +12,4 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ![auto generated image, topview](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/top.jpg)
 ![auto generated image, p1](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/perspective1.jpg)
 ![auto generated image, p2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/perspective2.jpg)
+![auto_generated_image, back](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/back.jpg)
