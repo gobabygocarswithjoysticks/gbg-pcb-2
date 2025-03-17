@@ -11491,7 +11491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "screw terminal 65A"
 			(at 233.68 224.79 0)
 			(effects
 				(font
