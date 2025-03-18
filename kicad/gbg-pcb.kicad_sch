@@ -9,6 +9,169 @@
 		(comment 1 "by Joshua Phelps, ")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x09_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2569,6 +2732,329 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -2861,6 +3347,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:AP74700QW6-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AP74700QW6-7"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP74700Q.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Switch ICs - Power Distribution Load Switch SOT26 T&R 3K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AP74700QW6-7"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AP74700QW6-7_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:IFX007TAUMA1"
 			(pin_names
 				(offset 0.254)
@@ -3117,394 +3797,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "library:SQD40031EL_GE3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 16.51 -0.635 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SQD40031EL_GE3"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "SQD40031EL_GE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SQD40031EL_GE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DPAK_0031EL_GE3_VIS DPAK_0031EL_GE3_VIS-M DPAK_0031EL_GE3_VIS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SQD40031EL_GE3_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 4.445 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -5.08) (xy 4.445 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 6.985 -0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.175) (xy 5.08 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -4.445) (xy 6.985 -4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -3.175) (xy 6.985 -2.54) (xy 5.715 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 -2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 8.255 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -0.635) (xy 6.985 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -0.635) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -4.445) (xy 6.985 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 -4.445)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 8.255 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 0)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -5.08)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -1.905) (xy 8.255 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -5.08) (xy 8.255 -3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -1.905) (xy 7.62 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -3.175) (xy 7.62 -3.175) (xy 8.255 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -10.16 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5807,7 +6099,7 @@
 	)
 	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
-		(at 276.098 192.024 0)
+		(at 276.098 185.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5825,16 +6117,6 @@
 		)
 		(uuid "9d6d93f4-3596-4ccb-b786-374d7d2e54a1")
 	)
-	(text "SQD40031EL_GE3\n	RDSon=0.0032\n	50 degreesC per Watt\n	temp increases 100 degrees from 2W = I^2*RDSon -> 25 Amps\n\nso I put two mosfets in parallel"
-		(exclude_from_sim no)
-		(at 285.75 232.664 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0853533-49d1-40a9-82b3-ef1bc9256670")
-	)
 	(text "3 pins or just 2 pins?"
 		(exclude_from_sim no)
 		(at 138.684 66.294 0)
@@ -5845,19 +6127,29 @@
 		)
 		(uuid "a14c4867-cc76-496a-88b2-e08e5782cdf1")
 	)
-	(text "VGS max must be > +BATT"
+	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n"
 		(exclude_from_sim no)
-		(at 272.542 194.818 0)
+		(at 315.722 195.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "bdbfdd45-1b26-4827-a6dc-bc4071f126f9")
+		(uuid "a75592d1-d9ee-4538-bbc3-6f09e5c66c6a")
+	)
+	(text "add fuse?\nhttps://www.digikey.com/en/products/detail/optifuse/ACB2-PL-35A/11578424"
+		(exclude_from_sim no)
+		(at 224.79 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c752a2e5-283e-44ad-825b-b9184659f390")
 	)
 	(text "power switch\n"
 		(exclude_from_sim no)
-		(at 302.006 199.39 0)
+		(at 333.756 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5875,16 +6167,6 @@
 		)
 		(uuid "dac7f151-f119-4fb3-8263-bd8cb321fefc")
 	)
-	(text "reverse polarity protection"
-		(exclude_from_sim no)
-		(at 237.744 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ddf720ec-6763-4b0e-869a-afdd5a58c1b9")
-	)
 	(junction
 		(at 207.01 121.92)
 		(diameter 0)
@@ -5892,10 +6174,10 @@
 		(uuid "01e5571d-9732-47ed-8830-6a29f028b0e7")
 	)
 	(junction
-		(at 284.48 215.9)
+		(at 354.33 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "038ea606-8242-4808-b340-b27cacacf587")
+		(uuid "036568e5-5720-4347-b761-fa4a6b639b9b")
 	)
 	(junction
 		(at 302.26 147.32)
@@ -5910,22 +6192,16 @@
 		(uuid "0f9ec78b-b482-4398-8e1d-f99ef0ec220f")
 	)
 	(junction
-		(at 279.4 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11a63df2-265a-46eb-b081-d8bf24e23fec")
-	)
-	(junction
 		(at 194.31 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19e4e799-d38b-46d0-9511-21f639c02da7")
 	)
 	(junction
-		(at 266.7 204.47)
+		(at 311.15 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ecbc593-1d65-400f-a8d8-e71f37a071b4")
+		(uuid "19fd504c-67be-42d2-bc1a-191b2ac82c47")
 	)
 	(junction
 		(at 113.03 218.44)
@@ -5940,10 +6216,16 @@
 		(uuid "2413a9fc-5fa4-494c-bafb-74ce0bdd7ee0")
 	)
 	(junction
-		(at 146.05 208.28)
+		(at 309.88 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "468200fb-830e-4f68-9fca-2867092297f8")
+		(uuid "34bf18cc-4a2d-4b6b-91ae-683f533420e4")
+	)
+	(junction
+		(at 330.2 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d16c070-1d3a-4e7e-9651-fec4be87f90f")
 	)
 	(junction
 		(at 283.21 31.75)
@@ -5964,28 +6246,22 @@
 		(uuid "4880fb07-01ac-4f64-811b-76998c5867ab")
 	)
 	(junction
-		(at 135.89 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4be786da-8901-4e2a-bc99-0a0885e22498")
-	)
-	(junction
-		(at 251.46 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50c26248-7a36-437d-a622-e44b08713a5a")
-	)
-	(junction
 		(at 102.87 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55177b8a-0fd9-43aa-8c42-982008e2e65b")
 	)
 	(junction
-		(at 318.77 204.47)
+		(at 350.52 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5773f028-faae-404e-ab67-3852015e8a2a")
+	)
+	(junction
+		(at 354.33 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d52bae1-c4df-4378-ade3-484080cb7a92")
 	)
 	(junction
 		(at 302.26 139.7)
@@ -6006,12 +6282,6 @@
 		(uuid "6393fa6e-5303-4202-81e3-041537c2960d")
 	)
 	(junction
-		(at 261.62 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6427520e-648e-4b4d-9aee-eda474295094")
-	)
-	(junction
 		(at 284.48 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6024,10 +6294,22 @@
 		(uuid "66e43a72-7bf6-4351-9136-732863b7efc2")
 	)
 	(junction
+		(at 312.42 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a73e69-8729-4760-af8d-e8105f047041")
+	)
+	(junction
 		(at 213.36 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "749a7d89-c3a9-4295-adad-fd319015b6ef")
+	)
+	(junction
+		(at 265.43 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c11b0a0-efdb-46c1-9b2a-c0c2f4b0ad59")
 	)
 	(junction
 		(at 218.44 39.37)
@@ -6048,16 +6330,16 @@
 		(uuid "86cbe05c-3904-4778-87b2-9425227b1ea0")
 	)
 	(junction
+		(at 252.73 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89103807-9973-40e1-b0b6-f752b5459216")
+	)
+	(junction
 		(at 99.06 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a263c8e-4913-4791-8747-f4562d721de5")
-	)
-	(junction
-		(at 294.64 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ebf352f-651f-48cb-905a-fd1824829a14")
 	)
 	(junction
 		(at 113.03 208.28)
@@ -6084,16 +6366,16 @@
 		(uuid "9b05a2ff-f51f-4af3-b377-9e7ea4d49a2f")
 	)
 	(junction
+		(at 322.58 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b43b32b-198b-4283-ac5d-8b9b10d513dc")
+	)
+	(junction
 		(at 232.41 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2a93a99-4f33-419f-b0ac-d731551d09ee")
-	)
-	(junction
-		(at 270.51 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ebed2f-533b-4d54-8ac9-069c5f4b9c12")
 	)
 	(junction
 		(at 102.87 208.28)
@@ -6132,18 +6414,6 @@
 		(uuid "b505ecb4-5162-4ef3-8d24-863a233876d6")
 	)
 	(junction
-		(at 284.48 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd3d9afc-7284-42d2-9da7-bec3997fe33b")
-	)
-	(junction
-		(at 125.73 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d07757ea-35fc-4548-9506-ed1e7043e82d")
-	)
-	(junction
 		(at 99.06 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6156,7 +6426,7 @@
 		(uuid "d960586f-d33b-4c21-9200-5c664e6f69f1")
 	)
 	(junction
-		(at 309.88 204.47)
+		(at 341.63 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de02442f-17fe-46c1-b8a1-19a386055eec")
@@ -6190,6 +6460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e812c60a-713b-43e3-ad2e-febc44212052")
+	)
+	(junction
+		(at 317.5 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8d26759-cc23-4adb-b5eb-f723b2638d3c")
 	)
 	(junction
 		(at 99.06 99.06)
@@ -6301,13 +6577,23 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 215.9) (xy 288.29 215.9)
+			(xy 317.5 212.09) (xy 317.5 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04b6d756-dd51-427f-b148-fb50a9b86940")
+		(uuid "03ce49bf-48b1-4259-81a3-ab3e274280f6")
+	)
+	(wire
+		(pts
+			(xy 278.13 212.09) (xy 278.13 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0451db35-da19-481f-9830-a189fd438e36")
 	)
 	(wire
 		(pts
@@ -6321,7 +6607,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 204.47) (xy 322.58 215.9)
+			(xy 354.33 204.47) (xy 354.33 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6541,7 +6827,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 205.74) (xy 309.88 204.47)
+			(xy 341.63 205.74) (xy 341.63 204.47)
 		)
 		(stroke
 			(width 0)
@@ -6561,6 +6847,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 218.44) (xy 370.84 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331804f7-4ae3-4936-8c47-e4d1f111750e")
+	)
+	(wire
+		(pts
 			(xy 203.2 30.48) (xy 203.2 29.21)
 		)
 		(stroke
@@ -6568,16 +6864,6 @@
 			(type default)
 		)
 		(uuid "340e20ec-522d-41f3-80a8-e0b4b8ad6e05")
-	)
-	(wire
-		(pts
-			(xy 270.51 215.9) (xy 270.51 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34302b45-3cc8-47c4-bc7e-3ebb6323195e")
 	)
 	(wire
 		(pts
@@ -6611,6 +6897,26 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 212.09) (xy 309.88 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f1613d-8faf-4137-b248-e52cf41ec607")
+	)
+	(wire
+		(pts
+			(xy 370.84 204.47) (xy 354.33 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb7de25-25cd-4ab1-88a1-a2c096cfdbc9")
+	)
+	(wire
+		(pts
 			(xy 99.06 86.36) (xy 133.35 86.36)
 		)
 		(stroke
@@ -6618,16 +6924,6 @@
 			(type default)
 		)
 		(uuid "3d190892-3ddc-4947-9c02-2dc1cbc4dacd")
-	)
-	(wire
-		(pts
-			(xy 270.51 215.9) (xy 273.05 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d237a00-0868-489d-adc0-d9a91c53d118")
 	)
 	(wire
 		(pts
@@ -6811,23 +7107,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 204.47) (xy 318.77 204.47)
+			(xy 341.63 204.47) (xy 350.52 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ebbba30-c7c8-43d2-9eca-0e614a68a5b7")
-	)
-	(wire
-		(pts
-			(xy 125.73 222.25) (xy 135.89 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed48349-752e-463b-ac80-0603f327b0bd")
 	)
 	(wire
 		(pts
@@ -6931,6 +7217,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 226.06) (xy 311.15 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577b1259-0acb-47e9-b519-c92215c1d1b3")
+	)
+	(wire
+		(pts
 			(xy 233.68 215.9) (xy 233.68 217.17)
 		)
 		(stroke
@@ -6971,17 +7267,17 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 215.9) (xy 284.48 215.9)
+			(xy 308.61 226.06) (xy 309.88 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c4aa1e0-ea01-455a-8960-bc62de2be3f5")
+		(uuid "5bfd499e-92db-4c9b-84e9-324c711d3034")
 	)
 	(wire
 		(pts
-			(xy 322.58 218.44) (xy 322.58 226.06)
+			(xy 354.33 218.44) (xy 354.33 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7001,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 213.36) (xy 309.88 215.9)
+			(xy 341.63 213.36) (xy 341.63 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7048,6 +7344,16 @@
 			(type default)
 		)
 		(uuid "61daa1df-9ed3-40df-b7f5-44b49d519d0c")
+	)
+	(wire
+		(pts
+			(xy 330.2 204.47) (xy 341.63 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6253e017-929a-4953-b9ff-21fd6a38ca4c")
 	)
 	(wire
 		(pts
@@ -7121,6 +7427,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 231.14) (xy 330.2 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aeaa7aa-543a-4aec-bdf4-6663d5bdba8a")
+	)
+	(wire
+		(pts
 			(xy 213.36 111.76) (xy 217.17 111.76)
 		)
 		(stroke
@@ -7168,6 +7484,16 @@
 			(type default)
 		)
 		(uuid "6e909ad6-01b8-4d79-abc2-616764c86b55")
+	)
+	(wire
+		(pts
+			(xy 308.61 231.14) (xy 330.2 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb7728e-95ee-4a77-8ab7-d9a72afbcf95")
 	)
 	(wire
 		(pts
@@ -7231,23 +7557,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 214.63) (xy 261.62 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a9071b-bf09-4d05-9fc8-e5a2ceb1de72")
-	)
-	(wire
-		(pts
-			(xy 322.58 204.47) (xy 318.77 204.47)
+			(xy 354.33 204.47) (xy 350.52 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "767f8010-6780-4143-9144-427d739794ab")
+	)
+	(wire
+		(pts
+			(xy 252.73 204.47) (xy 265.43 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783bda49-fe18-43d4-86c5-1e32aaaab08b")
 	)
 	(wire
 		(pts
@@ -7381,7 +7707,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 226.06) (xy 309.88 223.52)
+			(xy 341.63 226.06) (xy 341.63 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7411,6 +7737,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 204.47) (xy 265.43 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c949999-d35d-4ede-848c-51bc23d29e6e")
+	)
+	(wire
+		(pts
 			(xy 99.06 40.64) (xy 109.22 40.64)
 		)
 		(stroke
@@ -7418,16 +7754,6 @@
 			(type default)
 		)
 		(uuid "8d1acbe3-1050-4ebe-b5ab-a71813c7fe79")
-	)
-	(wire
-		(pts
-			(xy 146.05 208.28) (xy 161.29 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8db1dbca-7e2e-4fac-a24e-1d03b1b37f71")
 	)
 	(wire
 		(pts
@@ -7461,6 +7787,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 224.79) (xy 354.33 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e7f2ab-e814-43cf-89ba-a9f9a6c01b39")
+	)
+	(wire
+		(pts
 			(xy 90.17 204.47) (xy 91.44 204.47)
 		)
 		(stroke
@@ -7481,16 +7817,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 204.47) (xy 309.88 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c5d34a-872d-42f6-824c-fac11aef1f3c")
-	)
-	(wire
-		(pts
 			(xy 113.03 218.44) (xy 102.87 218.44)
 		)
 		(stroke
@@ -7498,16 +7824,6 @@
 			(type default)
 		)
 		(uuid "945bcd51-eb14-40e3-ae90-ed83dfad5a0c")
-	)
-	(wire
-		(pts
-			(xy 125.73 208.28) (xy 125.73 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9718ae4e-2da1-43a4-a439-e13037cbcd67")
 	)
 	(wire
 		(pts
@@ -7531,7 +7847,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 204.47) (xy 251.46 204.47)
+			(xy 226.06 204.47) (xy 252.73 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7558,6 +7874,16 @@
 			(type default)
 		)
 		(uuid "9a98c563-fc90-4847-85be-6bd591edcf57")
+	)
+	(wire
+		(pts
+			(xy 309.88 212.09) (xy 309.88 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b05d9db-aab5-421a-b619-6174cb8496bb")
 	)
 	(wire
 		(pts
@@ -7661,16 +7987,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 215.9) (xy 298.45 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e00413-e747-45d9-80df-0438ee910ac4")
-	)
-	(wire
-		(pts
 			(xy 26.67 83.82) (xy 48.26 83.82)
 		)
 		(stroke
@@ -7711,6 +8027,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 215.9) (xy 370.84 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3bae29-d40c-423d-bbb9-f55f4989af96")
+	)
+	(wire
+		(pts
 			(xy 26.67 86.36) (xy 48.26 86.36)
 		)
 		(stroke
@@ -7738,6 +8064,16 @@
 			(type default)
 		)
 		(uuid "b1e0e8be-c948-47e0-b7c4-1e2dbec4ea02")
+	)
+	(wire
+		(pts
+			(xy 289.56 212.09) (xy 278.13 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b351108f-78e7-4d21-92e0-bf95907ea31e")
 	)
 	(wire
 		(pts
@@ -7781,13 +8117,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 208.28) (xy 125.73 208.28)
+			(xy 265.43 231.14) (xy 278.13 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be7afc77-5def-421a-b548-9968045c2a3e")
+		(uuid "bef35a4e-644f-4e7f-b42f-e0dbc9325c77")
+	)
+	(wire
+		(pts
+			(xy 265.43 204.47) (xy 311.15 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfecdc37-fbd8-4473-bce2-710844910a48")
 	)
 	(wire
 		(pts
@@ -7881,16 +8227,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 215.9) (xy 299.72 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97352da-e6fc-4bbd-ad35-df5d23a70a23")
-	)
-	(wire
-		(pts
 			(xy 381 88.9) (xy 381 91.44)
 		)
 		(stroke
@@ -7908,6 +8244,16 @@
 			(type default)
 		)
 		(uuid "ca508818-2f65-4afa-859b-3cdc2b057ca8")
+	)
+	(wire
+		(pts
+			(xy 265.43 218.44) (xy 265.43 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1b1b0e-6afe-4b2c-9931-cc8fef380ca4")
 	)
 	(wire
 		(pts
@@ -7961,7 +8307,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 208.28) (xy 135.89 208.28)
+			(xy 135.89 208.28) (xy 161.29 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7978,16 +8324,6 @@
 			(type default)
 		)
 		(uuid "d012f419-eb39-439a-9f16-9081a99b648e")
-	)
-	(wire
-		(pts
-			(xy 270.51 204.47) (xy 279.4 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05ae3a8-4b8f-4a94-a48c-9701d785ebcf")
 	)
 	(wire
 		(pts
@@ -8021,7 +8357,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 208.28) (xy 125.73 208.28)
+			(xy 311.15 204.47) (xy 312.42 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57bb788-96e0-4133-9431-33738c8192ab")
+	)
+	(wire
+		(pts
+			(xy 113.03 208.28) (xy 135.89 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8038,6 +8384,16 @@
 			(type default)
 		)
 		(uuid "d93fe27a-e4c6-4749-ac5b-6e9449c2ac29")
+	)
+	(wire
+		(pts
+			(xy 354.33 224.79) (xy 354.33 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b2e671-ece2-4304-93b9-5306897e7e89")
 	)
 	(wire
 		(pts
@@ -8061,7 +8417,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 203.2) (xy 318.77 204.47)
+			(xy 350.52 203.2) (xy 350.52 204.47)
 		)
 		(stroke
 			(width 0)
@@ -8088,6 +8444,16 @@
 			(type default)
 		)
 		(uuid "dd7ab34f-803d-48d9-bf2f-5b6e3bfe2b66")
+	)
+	(wire
+		(pts
+			(xy 317.5 228.6) (xy 308.61 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7df973-6ec2-476c-8308-e23ec66ab526")
 	)
 	(wire
 		(pts
@@ -8141,16 +8507,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 222.25) (xy 146.05 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3bcc43d-03a0-4245-bd19-4e813d6c6553")
-	)
-	(wire
-		(pts
 			(xy 194.31 50.8) (xy 194.31 69.85)
 		)
 		(stroke
@@ -8158,6 +8514,16 @@
 			(type default)
 		)
 		(uuid "e3c47eff-80ea-4702-adf9-91170c0c2398")
+	)
+	(wire
+		(pts
+			(xy 311.15 226.06) (xy 311.15 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5611aae-9c2f-4441-aa1f-db636619a272")
 	)
 	(wire
 		(pts
@@ -8218,16 +8584,6 @@
 			(type default)
 		)
 		(uuid "eb0ed46f-0dae-4ce0-bc5e-f68b2a633c37")
-	)
-	(wire
-		(pts
-			(xy 146.05 208.28) (xy 146.05 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1f921b-976d-4863-ad4c-23cbe48c5a48")
 	)
 	(wire
 		(pts
@@ -8331,13 +8687,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 213.36) (xy 284.48 215.9)
+			(xy 322.58 204.47) (xy 330.2 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6aac9ee-dc23-40cb-9f04-c33deef751b1")
+		(uuid "f63157bf-6ab5-4b47-96b1-bb3e26ca4ed5")
 	)
 	(wire
 		(pts
@@ -8418,16 +8774,6 @@
 			(type default)
 		)
 		(uuid "fe69c37c-4913-47f0-ad85-a1b944d2ef1d")
-	)
-	(wire
-		(pts
-			(xy 266.7 204.47) (xy 270.51 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff57205d-9271-449d-a125-805bc3e272c4")
 	)
 	(global_label "bt4"
 		(shape input)
@@ -8958,6 +9304,135 @@
 		)
 	)
 	(symbol
+		(lib_id "library:AP74700QW6-7")
+		(at 278.13 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033367e9-921d-4d08-aafc-e0e4c823284b")
+		(property "Reference" "IC1"
+			(at 293.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP74700QW6-7"
+			(at 293.37 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+			(at 304.8 320.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP74700Q.pdf"
+			(at 304.8 420.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Switch ICs - Power Distribution Load Switch SOT26 T&R 3K"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 304.8 920.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP74700QW6-7"
+			(at 304.8 1020.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "31-AP74700QW6-7CT-ND"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.23"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2aa7e32a-1fe2-4ac8-a979-5ab4c23f6b1f")
+		)
+		(pin "1"
+			(uuid "601032bb-9e5c-40af-b074-8dec48c7e962")
+		)
+		(pin "2"
+			(uuid "e181f720-fee3-4a29-982b-45b1e6995ad4")
+		)
+		(pin "6"
+			(uuid "a89fda91-e0a5-477e-93cc-d42b3eefb5ac")
+		)
+		(pin "4"
+			(uuid "7b846e59-6905-44b3-af90-3dcd028edbbd")
+		)
+		(pin "3"
+			(uuid "7fc9d730-7cf4-4a8b-af14-4d9946aeb730")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 207.01 116.84 0)
 		(unit 1)
@@ -8984,7 +9459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
 			(at 207.9752 120.65 0)
 			(effects
 				(font
@@ -9383,6 +9858,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 293.37 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1102d994-48b8-45f3-b188-e3c34696ee94")
+		(property "Reference" "C23"
+			(at 291.592 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 295.402 211.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 297.18 211.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-1106-1-ND"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "363eb5fe-0488-4a79-aad2-3ca7086f5c9e")
+		)
+		(pin "2"
+			(uuid "4740ffbc-cd3d-48e8-8950-227f60212d8a")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:STX-3000")
 		(at 381 132.08 0)
 		(unit 1)
@@ -9502,16 +10091,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 375.92 218.44 0)
+		(at 389.89 228.6 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18177c00-6148-4d14-901e-2da9bd0995cd")
 		(property "Reference" "H1"
-			(at 378.46 217.1699 0)
+			(at 392.43 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +10109,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 378.46 219.7099 0)
+			(at 392.43 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +10118,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +10127,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +10136,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +10145,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +10154,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +10163,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,15 +10172,16 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" ""
-			(at 375.92 218.44 0)
+			(at 389.89 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +10225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
 			(at 204.1652 38.1 0)
 			(effects
 				(font
@@ -9724,7 +10314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 309.88 226.06 0)
+		(at 341.63 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9732,7 +10322,7 @@
 		(dnp no)
 		(uuid "19523bcb-3a6a-4d2d-970b-fc7d804c1955")
 		(property "Reference" "#PWR042"
-			(at 309.88 232.41 0)
+			(at 341.63 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +10331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 310.642 229.87 0)
+			(at 342.392 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +10339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 226.06 0)
+			(at 341.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +10348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 226.06 0)
+			(at 341.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +10357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 226.06 0)
+			(at 341.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,7 +10528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 283.21 27.94 0)
 			(effects
 				(font
@@ -9965,7 +10555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 283.21 27.94 0)
 			(effects
 				(font
@@ -9974,7 +10564,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 283.21 27.94 0)
 			(effects
 				(font
@@ -9983,7 +10573,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 283.21 27.94 0)
 			(effects
 				(font
@@ -10011,120 +10601,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21b0f01c-9d5b-4e52-8c24-e7e512b6e051")
-		(property "Reference" "C18"
-			(at 128.524 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 128.524 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 126.6952 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7S1A226M160AC/2792273"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK Corporation"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C3216X7S1A226M160AC"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".45"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "445-8035-1-ND"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 125.73 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96edaf47-480f-4bad-b1fc-306ecc1cec3a")
-		)
-		(pin "2"
-			(uuid "be154bb5-d8af-4dda-826e-b604909112d3")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10232,7 +10708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -10259,7 +10735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -10268,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -10277,7 +10753,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -10444,124 +10920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:SQD40031EL_GE3")
-		(at 261.62 212.09 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2696dcb8-29b7-465c-b5fa-801883f898cd")
-		(property "Reference" "Q1"
-			(at 255.524 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SQD40031EL_GE3"
-			(at 259.08 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Siliconix"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1.4"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "886e8882-6408-4f08-b2b4-edf831130bee")
-		)
-		(pin "1"
-			(uuid "dd772f63-43f6-49d4-87f1-ccbd1a6dca9b")
-		)
-		(pin "3"
-			(uuid "55f3484a-c08a-4f9a-9d95-52b0c9bbb348")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 218.44 0)
 		(unit 1)
@@ -10579,7 +10937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "47uF"
 			(at 138.684 219.71 0)
 			(effects
 				(font
@@ -10597,7 +10955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7S1A226M160AC/2792273"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X6S1A476M160AC/2443488"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10606,7 +10964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "capacitor"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10624,7 +10982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C3216X7S1A226M160AC"
+		(property "Manufacturer_Part_Number" "C3216X6S1A476M160AC"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10633,7 +10991,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".45"
+		(property "price" ".87"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -10642,7 +11000,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "445-8035-1-ND"
+		(property "digikey_part_number" "445-6010-1-ND"
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -11235,7 +11593,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x09_Pin"
+		(property "Value" "9   2.54mm pitch header pins"
 			(at 16.256 68.326 0)
 			(effects
 				(font
@@ -11253,7 +11611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DNP"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC030SAAN-RC/2775224"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11262,7 +11620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9   2.54mm pitch header pins"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11271,7 +11629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "DNP"
+		(property "Manufacturer_Name" "Sullins Connector Solutions"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11280,7 +11638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DNP"
+		(property "Manufacturer_Part_Number" "PRPC030SAAN-RC"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11289,7 +11647,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0"
+		(property "price" ".76"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11298,7 +11656,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "DNP"
+		(property "digikey_part_number" "S1011EC-30-ND"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11307,7 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "DNP"
+		(property "mount_type" "tht"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -11484,7 +11842,7 @@
 			)
 		)
 		(property "Value" "VP0265840000G"
-			(at 246.888 223.52 0)
+			(at 238.252 228.854 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11588,17 +11946,131 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 375.92 224.79 0)
+		(lib_id "Device:C")
+		(at 35.56 217.17 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "374aba3e-8f42-4163-836a-104d9c2e6da5")
+		(property "Reference" "C20"
+			(at 38.354 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 38.354 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 36.5252 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X6S1A476M160AC/2443488"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK Corporation"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C3216X6S1A476M160AC"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".87"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "445-6010-1-ND"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 35.56 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b6b612c-ac5b-46fe-978c-289545daa06f")
+		)
+		(pin "2"
+			(uuid "617bbe31-06d4-4a7b-b6f2-46c213ec273f")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 389.89 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bfb0382-33a6-48b5-bc4a-b1c6645c6486")
 		(property "Reference" "H2"
-			(at 378.46 223.5199 0)
+			(at 392.43 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11607,7 +12079,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 378.46 226.0599 0)
+			(at 392.43 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11616,7 +12088,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +12097,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,7 +12106,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11643,7 +12115,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11652,7 +12124,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11661,7 +12133,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11670,15 +12142,16 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" ""
-			(at 375.92 224.79 0)
+			(at 389.89 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,71 +12917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48a2e547-6db0-4291-8ddd-8cd7090f0870")
-		(property "Reference" "#PWR040"
-			(at 261.62 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.382 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d44e557-cacb-46f5-9b4b-eb22d7ab8957")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 30.48 92.71 0)
 		(unit 1)
@@ -12568,6 +12976,128 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 317.5 207.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bd1b40a-f93f-4c79-8c97-74fc9758499a")
+		(property "Reference" "Q1"
+			(at 315.976 198.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSMN1R2-25YLDX"
+			(at 317.5 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 320.04 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
+			(at 304.8 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nmos"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1727-2496-1-ND"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".74"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1dc7ef5-67b3-42e7-aabe-57819a495829")
+		)
+		(pin "2"
+			(uuid "ae45d16a-1105-4a12-b136-96814e997e86")
+		)
+		(pin "4"
+			(uuid "80d8301e-5a52-4def-a608-e20c1106b08c")
+		)
+		(pin "5"
+			(uuid "e7352a4e-ea27-4772-ac67-3d349b292986")
+		)
+		(pin "3"
+			(uuid "f89ff1d1-17ab-4d9b-b79b-17fb32f79129")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13098,123 +13628,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:SQD40031EL_GE3")
-		(at 284.48 212.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53e6624f-d68b-44cb-83ce-81a7cf1c48a0")
-		(property "Reference" "Q2"
-			(at 283.718 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SQD40031EL_GE3"
-			(at 287.02 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Siliconix"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1.4"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 286.766 212.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d00f1b1-0de1-4dbe-9112-ebe087545ed1")
-		)
-		(pin "3"
-			(uuid "c7e053a8-d593-4dc1-884a-df69efe69a5a")
-		)
-		(pin "1"
-			(uuid "5b09fe01-167c-45a0-80c2-b7ca56234a8d")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 213.36 111.76 0)
 		(unit 1)
@@ -13529,8 +13942,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 293.37 215.9 0)
-		(mirror y)
+		(at 265.43 213.36 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13538,15 +13951,15 @@
 		(dnp no)
 		(uuid "58bc3570-2ccc-4409-af89-db31787ab5fe")
 		(property "Reference" "SW1"
-			(at 293.37 209.55 0)
+			(at 259.08 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 293.37 212.09 0)
+		(property "Value" "screw terminal"
+			(at 261.62 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13554,7 +13967,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN_OSTTC022162_OST"
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,7 +13976,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC022162/614558"
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13571,8 +13984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 293.37 215.9 0)
+		(property "Description" "switch"
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +13994,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,7 +14003,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "OSTTC022162"
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,7 +14012,7 @@
 			)
 		)
 		(property "price" ".43"
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,7 +14021,7 @@
 			)
 		)
 		(property "digikey_part_number" "ED2609-ND"
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +14030,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 293.37 215.9 0)
+			(at 265.43 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13635,121 +14048,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 35.56 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ba99f40-e053-4310-9ee4-6466e0822757")
-		(property "Reference" "C17"
-			(at 39.37 215.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15uF"
-			(at 39.37 218.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 36.5252 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1V156M160AC/3951932"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK Corporation"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C3216X5R1V156M160AC"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".7"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "445-14696-1-ND"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 35.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16c8d90d-0e37-4c3b-ad40-9bac1be3a576")
-		)
-		(pin "2"
-			(uuid "a59a91ad-d20b-4c3a-83a8-6284826793cb")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13874,7 +14172,7 @@
 		(at 262.89 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14100,125 +14398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:SQD40031EL_GE3")
-		(at 261.62 212.09 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "690c2cf4-67ec-4d7d-abbe-e004fb7ff3d5")
-		(property "Reference" "Q3"
-			(at 259.08 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SQD40031EL_GE3"
-			(at 259.08 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Siliconix"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1.4"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 261.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80bb37e6-1600-42f9-b6aa-8a2b36621b11")
-		)
-		(pin "1"
-			(uuid "f3c20c64-c1dd-49af-923b-aa5fbdf6d6e2")
-		)
-		(pin "3"
-			(uuid "13faacf8-ec43-4d3a-8ff5-2b0f8c5989e9")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 283.21 35.56 270)
 		(unit 1)
@@ -14255,7 +14434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 283.21 35.56 0)
 			(effects
 				(font
@@ -14282,7 +14461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 283.21 35.56 0)
 			(effects
 				(font
@@ -14291,7 +14470,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 283.21 35.56 0)
 			(effects
 				(font
@@ -14300,7 +14479,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 283.21 35.56 0)
 			(effects
 				(font
@@ -14561,7 +14740,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 318.77 203.2 0)
+		(at 350.52 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14569,7 +14748,7 @@
 		(dnp no)
 		(uuid "6f3c2ee8-0c24-4c96-b3e9-03886deb72cb")
 		(property "Reference" "#PWR039"
-			(at 318.77 207.01 0)
+			(at 350.52 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,7 +14757,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 320.04 199.644 0)
+			(at 351.79 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14586,7 +14765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 203.2 0)
+			(at 350.52 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +14774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 203.2 0)
+			(at 350.52 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14604,7 +14783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 318.77 203.2 0)
+			(at 350.52 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14726,7 +14905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 283.21 109.22 0)
 			(effects
 				(font
@@ -14753,7 +14932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 283.21 109.22 0)
 			(effects
 				(font
@@ -14762,7 +14941,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 283.21 109.22 0)
 			(effects
 				(font
@@ -14771,7 +14950,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 283.21 109.22 0)
 			(effects
 				(font
@@ -14841,7 +15020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 284.48 67.31 0)
 			(effects
 				(font
@@ -14868,7 +15047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 284.48 67.31 0)
 			(effects
 				(font
@@ -14877,7 +15056,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 284.48 67.31 0)
 			(effects
 				(font
@@ -14886,7 +15065,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 284.48 67.31 0)
 			(effects
 				(font
@@ -15044,6 +15223,128 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 317.5 207.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78afe7d4-75c0-475d-b3b3-5c37f0be2ab9")
+		(property "Reference" "Q2"
+			(at 319.278 198.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSMN1R2-25YLDX"
+			(at 317.5 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 320.04 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
+			(at 304.8 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nmos"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1727-2496-1-ND"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".74"
+			(at 317.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "697ed914-8c00-444e-ad7e-140707eb03ca")
+		)
+		(pin "2"
+			(uuid "b1cc903f-589d-41ab-832b-cdfcc82261e8")
+		)
+		(pin "4"
+			(uuid "fb53e221-995c-4338-8838-6778c3c136b9")
+		)
+		(pin "5"
+			(uuid "040a053b-3f28-44a5-8f71-0244ab6b1806")
+		)
+		(pin "3"
+			(uuid "7cc9a344-7fe0-4067-a67d-c64debddb445")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -15526,237 +15827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.05 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80b526b9-5352-4624-ab99-e0494e914d13")
-		(property "Reference" "C20"
-			(at 148.844 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 148.844 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 147.0152 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7S1A226M160AC/2792273"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK Corporation"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C3216X7S1A226M160AC"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".45"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "445-8035-1-ND"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 146.05 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "877fa37d-c7f4-4bec-978c-4c0f8e6792cd")
-		)
-		(pin "2"
-			(uuid "e92645f7-2fed-4f5c-8c1d-f0302b004102")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:SQD40031EL_GE3")
-		(at 284.48 212.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80e7631e-992f-4797-854c-a7ee0fd54501")
-		(property "Reference" "Q4"
-			(at 287.02 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SQD40031EL_GE3"
-			(at 287.02 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:DPAK_0031EL_GE3_VIS"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQD40031EL-GE3/9084090"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Siliconix"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SQD40031EL_GE3"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1.4"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SQD40031EL_GE3CT-ND"
-			(at 284.48 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 286.258 212.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18af00f2-85b2-457d-8da4-7933acf43796")
-		)
-		(pin "3"
-			(uuid "65165f69-e899-4194-b28a-c25561271b67")
-		)
-		(pin "1"
-			(uuid "9124932e-09e0-44e9-9a7a-28e5f6fbb5a2")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 381 91.44 0)
 		(unit 1)
@@ -15989,7 +16059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 283.21 116.84 0)
 			(effects
 				(font
@@ -16016,7 +16086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 283.21 116.84 0)
 			(effects
 				(font
@@ -16025,7 +16095,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 283.21 116.84 0)
 			(effects
 				(font
@@ -16034,7 +16104,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 283.21 116.84 0)
 			(effects
 				(font
@@ -16899,16 +16969,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 375.92 237.49 0)
+		(at 389.89 247.65 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b3e651-31fb-43ce-b943-115570722550")
 		(property "Reference" "H4"
-			(at 378.46 236.2199 0)
+			(at 392.43 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16917,7 +16987,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 378.46 238.7599 0)
+			(at 392.43 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16926,7 +16996,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +17005,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16944,7 +17014,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16953,7 +17023,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16962,7 +17032,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +17041,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,15 +17050,16 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" ""
-			(at 375.92 237.49 0)
+			(at 389.89 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17177,6 +17248,71 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 228.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98641ed4-c32c-4af3-8547-40bc18769f34")
+		(property "Reference" "#PWR067"
+			(at 271.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.066 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65653762-93b8-41d7-a824-f936233da880")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -17713,7 +17849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -17740,7 +17876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -17749,7 +17885,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -17758,7 +17894,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -18991,7 +19127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDT10A45P5-13D/9769518"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
 			(at 283.21 151.13 0)
 			(effects
 				(font
@@ -19018,7 +19154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SDT10A45P5-13D"
+		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
 			(at 283.21 151.13 0)
 			(effects
 				(font
@@ -19027,7 +19163,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".3"
+		(property "price" ".27"
 			(at 283.21 151.13 0)
 			(effects
 				(font
@@ -19036,7 +19172,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "31-SDT10A45P5-13DCT-ND"
+		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
 			(at 283.21 151.13 0)
 			(effects
 				(font
@@ -19071,7 +19207,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 309.88 219.71 0)
+		(at 341.63 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19079,7 +19215,7 @@
 		(dnp no)
 		(uuid "cc76a714-a081-4fe5-a5a2-3c37f6f86034")
 		(property "Reference" "R4"
-			(at 315.214 219.71 90)
+			(at 346.964 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,7 +19223,7 @@
 			)
 		)
 		(property "Value" "2.74k"
-			(at 312.674 219.71 90)
+			(at 344.424 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19095,7 +19231,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 308.102 219.71 90)
+			(at 339.852 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19104,7 +19240,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD2K74/2240349"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19113,7 +19249,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19122,7 +19258,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19131,7 +19267,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RNCP1206FTD2K74"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +19276,7 @@
 			)
 		)
 		(property "price" "0.019"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19149,7 +19285,7 @@
 			)
 		)
 		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19158,7 +19294,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 309.88 219.71 0)
+			(at 341.63 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,7 +19319,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 309.88 209.55 90)
+		(at 341.63 209.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19192,7 +19328,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf6a5c38-ec9c-48f2-b64b-5eeba20ed18a")
 		(property "Reference" "D1"
-			(at 313.69 209.8674 90)
+			(at 345.44 209.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,7 +19337,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 313.69 212.4074 90)
+			(at 345.44 212.4074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19210,7 +19346,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19219,7 +19355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19228,7 +19364,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,7 +19373,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19246,7 +19382,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19255,7 +19391,7 @@
 			)
 		)
 		(property "price" ".18"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19264,7 +19400,7 @@
 			)
 		)
 		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19273,7 +19409,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 309.88 209.55 0)
+			(at 341.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19291,6 +19427,71 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d20a2316-78a8-4d95-a773-10240516f2b5")
+		(property "Reference" "#PWR066"
+			(at 252.73 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.492 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66c3468-7fcd-4a8d-81bd-6646f52fdfb2")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -19363,7 +19564,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 327.66 215.9 0)
+		(at 359.41 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19371,15 +19572,15 @@
 		(dnp no)
 		(uuid "d33681c0-90b3-4fa9-b2a3-c3ea1b4f8612")
 		(property "Reference" "pwr1"
-			(at 327.914 211.836 0)
+			(at 359.664 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 327.66 212.09 0)
+		(property "Value" "screw terminal"
+			(at 359.41 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19388,7 +19589,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN_OSTTC022162_OST"
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19397,7 +19598,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC022162/614558"
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19405,8 +19606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 327.66 215.9 0)
+		(property "Description" "12V power"
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19415,7 +19616,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19424,7 +19625,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "OSTTC022162"
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19433,7 +19634,7 @@
 			)
 		)
 		(property "price" ".43"
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19442,7 +19643,7 @@
 			)
 		)
 		(property "digikey_part_number" "ED2609-ND"
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +19652,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 327.66 215.9 0)
+			(at 359.41 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19476,7 +19677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 322.58 226.06 0)
+		(at 354.33 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19484,7 +19685,7 @@
 		(dnp no)
 		(uuid "d50a08f4-1a8f-4c1b-91f6-f2f6b24ef11f")
 		(property "Reference" "#PWR043"
-			(at 322.58 232.41 0)
+			(at 354.33 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19493,7 +19694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.342 229.87 0)
+			(at 355.092 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19501,7 +19702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 226.06 0)
+			(at 354.33 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19510,7 +19711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 226.06 0)
+			(at 354.33 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19519,7 +19720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 226.06 0)
+			(at 354.33 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19609,7 +19810,7 @@
 		(at 231.14 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19721,7 +19922,7 @@
 		(at 261.62 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -20017,7 +20218,7 @@
 		(at 261.62 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -20109,6 +20310,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20124,41 +20326,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 276.86 215.9 90)
+		(lib_id "Device:C")
+		(at 252.73 208.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1706d45-4678-4b48-a7ea-9c0a5e10eaba")
-		(property "Reference" "R3"
-			(at 276.86 210.566 90)
+		(uuid "df90ef73-dd05-4659-a1a1-fe457cc58825")
+		(property "Reference" "C21"
+			(at 251.714 210.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2.74k"
-			(at 276.86 213.106 90)
+		(property "Value" "220nF"
+			(at 252.476 206.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 276.86 217.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD2K74/2240349"
-			(at 276.86 215.9 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 251.7648 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20166,8 +20361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 276.86 215.9 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+			(at 252.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20175,8 +20370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 276.86 215.9 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20184,8 +20379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RNCP1206FTD2K74"
-			(at 276.86 215.9 0)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 252.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20193,8 +20388,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.019"
-			(at 276.86 215.9 0)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 252.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20202,8 +20397,17 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
-			(at 276.86 215.9 0)
+		(property "price" "0.03"
+			(at 252.73 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-1106-1-ND"
+			(at 252.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20212,7 +20416,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 276.86 215.9 0)
+			(at 252.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20220,16 +20424,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "cb3343b2-5d40-4ba5-ab8b-aaee93f86a38")
-		)
 		(pin "1"
-			(uuid "94a74c7d-3d2b-47ef-8de1-4b909c8c323c")
+			(uuid "47dc1a4d-90a4-4593-a2bc-5fda5977194b")
+		)
+		(pin "2"
+			(uuid "71591398-2a69-4f81-acdb-83a3413008d1")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R3")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -20607,6 +20811,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 375.92 215.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e7513d00-32bb-47fc-854e-9a89aedac356")
+		(property "Reference" "J8"
+			(at 377.19 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2 2.54mm pitch header pins"
+			(at 377.19 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 375.92 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 2.54mm pitch header pins"
+			(at 375.92 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 375.92 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "071d6ff0-f834-4cdc-8f56-4a16f271ddba")
+		)
+		(pin "2"
+			(uuid "8bb86b53-7a40-48c9-b4e8-75b44fb573c5")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 316.23 34.29 90)
 		(unit 1)
@@ -20721,76 +21005,11 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 299.72 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8feee31-af68-4712-84a2-703d9e569991")
-		(property "Reference" "#PWR041"
-			(at 299.72 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 300.482 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 299.72 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a443cad5-bd2c-4466-9978-7b63db1c9100")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 260.35 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -21639,16 +21858,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 375.92 231.14 0)
+		(at 389.89 241.3 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f959bb47-768d-4bef-834c-b9d6214d6412")
 		(property "Reference" "H3"
-			(at 378.46 229.8699 0)
+			(at 392.43 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21657,7 +21876,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 378.46 232.4099 0)
+			(at 392.43 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21666,7 +21885,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21675,7 +21894,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21684,7 +21903,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21693,7 +21912,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21702,7 +21921,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21711,7 +21930,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21720,15 +21939,16 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "mount_type" ""
-			(at 375.92 231.14 0)
+			(at 389.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
