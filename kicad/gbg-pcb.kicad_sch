@@ -6097,6 +6097,16 @@
 		)
 		(uuid "2f9968f0-e30a-4bc5-9a0d-76da08de61d8")
 	)
+	(text "remove 12V indicator? (D1 and R4)"
+		(exclude_from_sim no)
+		(at 342.646 236.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "467a1e63-bd4b-46e9-867c-7e73f1b946a6")
+	)
 	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
 		(at 276.098 185.166 0)
@@ -6127,9 +6137,9 @@
 		)
 		(uuid "a14c4867-cc76-496a-88b2-e08e5782cdf1")
 	)
-	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n"
+	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n\nI put two mosfets in parallel. is that ok? can IC1 handle that?"
 		(exclude_from_sim no)
-		(at 315.722 195.834 0)
+		(at 315.468 193.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6156,6 +6166,16 @@
 			)
 		)
 		(uuid "ce922220-317e-4e29-ae15-b6527ebd52f5")
+	)
+	(text "check continuous current of the half bridges - I'm worried about thermal limits\n"
+		(exclude_from_sim no)
+		(at 235.712 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d39252f0-0195-4e15-9420-fe305d30675a")
 	)
 	(text "ok to leave disconnected?"
 		(exclude_from_sim no)
@@ -6694,6 +6714,16 @@
 			(type default)
 		)
 		(uuid "151967b2-fc12-4a00-878b-3da97265fed7")
+	)
+	(wire
+		(pts
+			(xy 27.94 88.9) (xy 26.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d60cf8-ec02-43b3-9ffb-a18fcf3f6cac")
 	)
 	(wire
 		(pts
@@ -7717,7 +7747,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 92.71) (xy 30.48 92.71)
+			(xy 27.94 90.17) (xy 29.21 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8117,6 +8147,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 90.17) (xy 27.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be549e9c-0deb-43f5-b1f3-a643c6a82c4b")
+	)
+	(wire
+		(pts
 			(xy 265.43 231.14) (xy 278.13 231.14)
 		)
 		(stroke
@@ -8314,16 +8354,6 @@
 			(type default)
 		)
 		(uuid "cd410b0c-7509-42cb-b8df-5211ad121470")
-	)
-	(wire
-		(pts
-			(xy 26.67 88.9) (xy 26.67 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d012f419-eb39-439a-9f16-9081a99b648e")
 	)
 	(wire
 		(pts
@@ -12918,7 +12948,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 30.48 92.71 0)
+		(at 29.21 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12926,7 +12956,7 @@
 		(dnp no)
 		(uuid "4a1f4457-91cb-4b42-8d5c-986c19c9d20d")
 		(property "Reference" "#PWR064"
-			(at 30.48 96.52 0)
+			(at 29.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,7 +12965,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 32.512 91.44 0)
+			(at 31.242 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +12973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 92.71 0)
+			(at 29.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,7 +12982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 92.71 0)
+			(at 29.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +12991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 30.48 92.71 0)
+			(at 29.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
