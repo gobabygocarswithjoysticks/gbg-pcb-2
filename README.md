@@ -5,6 +5,8 @@
 https://github.com/gobabygocarswithjoysticks/gbg-pcb
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg?branch=main)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
+open with kicad 9.0
+
 * 2 motor drivers
 * screw terminals for joystick or button input
 * Raspberry Pi Pico
