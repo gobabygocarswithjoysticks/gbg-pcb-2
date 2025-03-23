@@ -7,12 +7,13 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 open with KiCAD 9.0
 
 * 2 motor drivers
-* screw terminals for joystick or button input
+* screw terminals for joystick
+* audio jacks for button input
 * Raspberry Pi Pico
 
-## [schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
+## [schematic](/schematic.pdf)
 
-## [PCB Production files (gerbers)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production)
+## [PCB Production files (gerbers)](/PCB_production)
 
 ## images of CAD
 
