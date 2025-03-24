@@ -4601,7 +4601,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
-			(at 2.54 3.175 0)
+			(at 2.2352 1.1226 0)
 			(layer "F.SilkS")
 			(uuid "4e3ac787-a6c4-4940-931f-2568bba965d8")
 			(effects
@@ -6300,7 +6300,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, , diameter=10mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm  diameter 10mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at 9.840677 1.016 180)
+			(at 9.764477 2.413 180)
 			(layer "F.SilkS")
 			(uuid "73571dcf-63c1-4b6e-b7b4-ff238fa25732")
 			(effects
@@ -8417,11 +8417,11 @@
 	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "6613567b-5487-49f8-acb4-84c8b2542f73")
-		(at 95.758 78.297323 -90)
+		(at 95.758 78.322723 -90)
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, , diameter=10mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm  diameter 10mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 9.840677 1.524 180)
+			(at 9.637477 2.4638 180)
 			(layer "F.SilkS")
 			(uuid "46b516f6-147e-4072-ab18-f98af2883fca")
 			(effects
@@ -25444,7 +25444,7 @@
 		)
 	)
 	(gr_text "1000u"
-		(at 95.758 88.773 0)
+		(at 94.8182 88.5698 0)
 		(layer "F.SilkS")
 		(uuid "ce926e0c-5326-4c3d-8e20-3d9a7ef19505")
 		(effects
@@ -25456,7 +25456,7 @@
 		)
 	)
 	(gr_text "1000u"
-		(at 118.618 88.773 0)
+		(at 117.221 88.6968 0)
 		(layer "F.SilkS")
 		(uuid "d2bc60de-c139-4c1d-a951-9731a38de9c5")
 		(effects
@@ -25576,7 +25576,7 @@
 		)
 	)
 	(gr_text "github.com/gobabygocarswithjoysticks/gbg-pcb"
-		(at 143.002 82.931 -0)
+		(at 145.9484 82.931 -0)
 		(layer "B.SilkS")
 		(uuid "35a09f87-7682-476f-9d2a-fbae30fbe671")
 		(effects
