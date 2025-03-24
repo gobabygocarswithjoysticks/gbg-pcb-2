@@ -5942,7 +5942,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SR to ground gives fastest switching time\nit is the most efficient (and easiest to wire), but could make more electrical noise\nMaybe it would also increase voltage spikes from inductors in motors so maybe review this?"
+	(text "SR to ground gives fastest switching time\nit is the most efficient (and easiest to wire), but could make more electrical noise\n"
 		(exclude_from_sim no)
 		(at 280.924 82.296 0)
 		(effects
@@ -5952,27 +5952,7 @@
 		)
 		(uuid "2f9968f0-e30a-4bc5-9a0d-76da08de61d8")
 	)
-	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
-		(exclude_from_sim no)
-		(at 154.178 187.706 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
-	)
-	(text "3 pins or just 2 pins?"
-		(exclude_from_sim no)
-		(at 138.684 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a14c4867-cc76-496a-88b2-e08e5782cdf1")
-	)
-	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n\nI put two mosfets in parallel. is that ok? can IC1 handle that?"
+	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n\nI put two mosfets in parallel"
 		(exclude_from_sim no)
 		(at 193.548 195.834 0)
 		(effects
@@ -5991,46 +5971,6 @@
 			)
 		)
 		(uuid "b9c58914-b392-4e3b-8a6a-ece04f625c20")
-	)
-	(text "add fuse?\nhttps://www.digikey.com/en/products/detail/optifuse/ACB2-PL-35A/11578424"
-		(exclude_from_sim no)
-		(at 102.87 196.342 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c752a2e5-283e-44ad-825b-b9184659f390")
-	)
-	(text "power switch\n"
-		(exclude_from_sim no)
-		(at 211.836 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ce922220-317e-4e29-ae15-b6527ebd52f5")
-	)
-	(text "check continuous current of the half bridges - I'm worried about thermal limits\n"
-		(exclude_from_sim no)
-		(at 244.602 165.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d39252f0-0195-4e15-9420-fe305d30675a")
-	)
-	(text "ok to leave disconnected?"
-		(exclude_from_sim no)
-		(at 204.47 74.422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dac7f151-f119-4fb3-8263-bd8cb321fefc")
 	)
 	(text "right"
 		(exclude_from_sim no)
@@ -6402,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 154.94) (xy 269.24 154.94)
+			(xy 270.51 154.94) (xy 274.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9964,6 +9904,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 215.9 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ddf6c91-4edc-472b-88f0-c7f807001dfa")
+		(property "Reference" "C7"
+			(at 216.916 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 216.154 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 216.8652 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-1106-1-ND"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31861454-c310-4122-9c94-54b01066ca23")
+		)
+		(pin "2"
+			(uuid "a6678d20-0c2b-4e9d-b8db-6cb4eda4ed09")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 209.55 54.61 0)
 		(unit 1)
@@ -10790,121 +10844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bae7a93-f996-4af0-b573-d3ddf98d88d1")
-		(property "Reference" "C4"
-			(at 219.71 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 219.71 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 216.8652 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-3047-1-ND"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.1"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd9662dd-ab5a-433c-a8d0-36089d2fbbbf")
-		)
-		(pin "2"
-			(uuid "b91da24b-9e5f-4f5e-815b-97078cc31040")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 276.86 257.81 0)
 		(unit 1)
@@ -11632,7 +11571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d003b01-08f3-4404-a761-3ce8b6ed8509")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -11749,7 +11688,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14377,121 +14316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9aebb0e9-19b4-49c0-9b51-8fdad4f5d23d")
-		(property "Reference" "C6"
-			(at 220.98 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 220.98 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 218.1352 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-3047-1-ND"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.1"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d253d9c-9ceb-40c1-a627-8e20eb58358c")
-		)
-		(pin "2"
-			(uuid "c551c481-90a4-40ee-96d2-2671c7fcbaa5")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 142.24 81.28 0)
 		(unit 1)
@@ -14844,6 +14668,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a410b1e0-60ad-404d-8269-c2d4e0234c91")
+		(property "Reference" "C6"
+			(at 229.616 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 228.854 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 229.5652 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-1106-1-ND"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "353ffccf-d1d1-40ce-8e43-4732636842e6")
+		)
+		(pin "2"
+			(uuid "000f4c1e-bbfd-46a2-a524-05e42cb8348a")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 95.25 0)
 		(unit 1)
@@ -15033,121 +14971,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 224.79 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b619577d-e8fc-42f3-b184-b282123e69bb")
-		(property "Reference" "C7"
-			(at 228.6 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 228.6 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 225.7552 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-3047-1-ND"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.1"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ff30064-6cef-439a-9978-d5ec7a515ddd")
-		)
-		(pin "2"
-			(uuid "adef1ead-0b24-4f93-8ac3-cfb8005d03bc")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16230,121 +16053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 228.6 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d960c943-a38a-4216-b68a-1dc8b98a4fff")
-		(property "Reference" "C8"
-			(at 232.41 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 232.41 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 229.5652 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-3047-1-ND"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.1"
-			(at 228.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c14f8fa2-1c5e-4b9f-933e-f416e833f628")
-		)
-		(pin "2"
-			(uuid "fc20decc-da59-4e03-b3df-9bb3a3068834")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 261.62 69.85 270)
 		(unit 1)
@@ -16574,7 +16282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de810fbc-e16b-4393-84c3-dbc9ed2dcd5e")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 275.59 126.9999 90)
 			(effects
 				(font
@@ -16670,7 +16378,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -16856,6 +16564,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 224.79 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e213aeb6-9d05-4448-bd21-f6aa00b3a36c")
+		(property "Reference" "C8"
+			(at 225.806 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 225.044 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 225.7552 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-1106-1-ND"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00bca844-8d2b-4f98-b394-c84ecf3a286a")
+		)
+		(pin "2"
+			(uuid "b72c197c-0ff9-4add-a24d-09972d0ed8e0")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 254 218.44 0)
 		(mirror y)
@@ -17002,7 +16824,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 154.94 270)
+		(at 274.32 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17010,8 +16832,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e908bdb9-2370-4c96-8747-f01deee5982e")
-		(property "Reference" "TP3"
-			(at 274.32 153.6699 90)
+		(property "Reference" "TP4"
+			(at 279.4 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17020,7 +16842,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 274.32 156.2099 90)
+			(at 279.4 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17029,7 +16851,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 160.02 0)
+			(at 274.32 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17038,7 +16860,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 269.24 160.02 0)
+			(at 274.32 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17047,7 +16869,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 269.24 154.94 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17056,7 +16878,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 269.24 154.94 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17065,7 +16887,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 269.24 154.94 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17074,7 +16896,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 269.24 154.94 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17083,7 +16905,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 269.24 154.94 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17092,7 +16914,7 @@
 			)
 		)
 		(property "mount_type" "DNP"
-			(at 269.24 154.94 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,7 +16928,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -17305,7 +17127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eede49d7-913c-4377-97b5-0c796a85a129")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 242.57 54.61 0)
 			(effects
 				(font
@@ -17422,7 +17244,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17488,6 +17310,120 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7dc22c6-8a42-4194-b51f-e1b7c9b757de")
+		(property "Reference" "C4"
+			(at 218.186 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 217.424 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 218.1352 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.03"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-1106-1-ND"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe608b1f-4135-427f-9b3e-9cd5b51dcbbe")
+		)
+		(pin "2"
+			(uuid "4486929a-ff28-4c40-b4fd-f3d347d7e460")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C4")
 					(unit 1)
 				)
 			)
