@@ -2,7 +2,10 @@
 ## work in progress. this will be updated after the boards are tested.
 
 ## A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
+
 https://github.com/gobabygocarswithjoysticks/gbg-pcb
+
+[![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
 open with KiCAD 9.0
 
