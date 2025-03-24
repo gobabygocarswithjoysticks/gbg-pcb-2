@@ -1,7 +1,7 @@
 # GBG PCB
 ## work in progress. this will be updated after the boards are tested.
 
-## A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
+# A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
 
 https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
@@ -10,15 +10,17 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 open with KiCAD 9.0
 
 * 2 motor drivers
-* screw terminals for joystick
-* audio jacks for button input
-* Raspberry Pi Pico
+* screw terminals
+* Raspberry Pi Pico 1/1W/2/2W
 
-## [schematic](/schematic.pdf)
+# [schematic](/schematic.pdf)
 
-## [PCB Production files (gerbers)](/PCB_production)
+# [PCB Production files (gerbers)](/PCB_production)
+send gerbers.zip to a PCB fabrication company
+* 1oz copper
+* 0.8mm board thickness
 
-## images of CAD
+# images of CAD
 
 ![auto generated image, topview](/renders/top.jpg)
 ![auto generated image, p1](/renders/perspective1.jpg)
