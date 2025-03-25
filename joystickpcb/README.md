@@ -1,6 +1,6 @@
 solderless way to connect the joystick to the 4 wire cable
 
-## [gerber files](/joystickpcb/gerbers-joystickpcb-v1.0.zip)
+## [gerber files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/joystickpcb/gerbers-joystickpcb-v1.0.zip)
 
 ## Components
 | name                  | description  | manufacturer      | part number | digikey link                                                                       |
