@@ -20,6 +20,8 @@ send gerbers.zip to a PCB fabrication company
 * 1oz copper
 * 0.8mm board thickness
 
+# [solderless joystick to 4 wire cable connector](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+
 # images of CAD
 
 ![auto generated image, topview](/renders/top.jpg)
