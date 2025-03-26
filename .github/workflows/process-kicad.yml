@@ -27,6 +27,7 @@ jobs:
             kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM.csv --fields 'Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type,\${QUANTITY}' --group-by Manufacturer_Part_Number --exclude-dnp
             kicad-cli pcb export gerbers --layers F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts /workspace/kicad/gbg-pcb.kicad_pcb --output /workspace/PCB_production/gerbers
             kicad-cli pcb export drill /workspace/kicad/gbg-pcb.kicad_pcb --output /workspace/PCB_production/gerbers
+            kicad-cli pcb export pos --output '/workspace/PCB_production/position.csv' --smd-only /workspace/kicad/gbg-pcb.kicad_pcb
             zip -r /workspace/PCB_production/gerbers.zip /workspace/PCB_production/gerbers
             rm -rf /workspace/PCB_production/gerbers
           "
