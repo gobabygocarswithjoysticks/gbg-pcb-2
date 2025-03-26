@@ -28,7 +28,7 @@ jobs:
             kicad-cli pcb export gerbers --layers F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts /workspace/kicad/gbg-pcb.kicad_pcb --output /workspace/PCB_production/gerbers
             kicad-cli pcb export drill /workspace/kicad/gbg-pcb.kicad_pcb --output /workspace/PCB_production/gerbers
             kicad-cli pcb export pos --output '/workspace/PCB_production/position.csv' --smd-only /workspace/kicad/gbg-pcb.kicad_pcb
-            kicad-cli pcb export dxf --output '/workspace/PCB_production/' --layers F.Paste --mode-single --output-units mm --drill-shape-opt 0 --common-layers '' /workspace/kicad/gbg-pcb.kicad_pcb
+            kicad-cli pcb export dxf --output '/workspace/PCB_production/F_SolderPasteMask.dxf' --layers F.Paste --mode-single --output-units mm --drill-shape-opt 0 --common-layers '' /workspace/kicad/gbg-pcb.kicad_pcb
             zip -r /workspace/PCB_production/gerbers.zip /workspace/PCB_production/gerbers
             rm -rf /workspace/PCB_production/gerbers
           "
