@@ -9244,7 +9244,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "tht"
+		(property "mount_type" "Do Not Place"
 			(at 44.45 234.95 0)
 			(effects
 				(font
@@ -12421,7 +12421,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "tht"
+		(property "mount_type" "Do Not Place"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -16254,7 +16254,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "tht"
+		(property "mount_type" "Do Not Place"
 			(at 52.07 245.11 0)
 			(effects
 				(font
