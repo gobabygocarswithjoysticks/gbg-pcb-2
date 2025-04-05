@@ -1,26 +1,27 @@
-### Footprint positions - created on 2025-03-27T05:38:04+0000 ###
+### Footprint positions - created on 2025-04-05T22:36:03+0000 ###
 ### Printed by KiCad version 9.0.0
 ## Unit = inches, Angle = deg.
 ## Side : All
 # Ref     Val             Package                                           PosX       PosY       Rot  Side
-C1        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     3.7719    -2.4726    0.0000  top
-C2        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     3.7719    -2.6076    0.0000  top
-C4        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     2.7600    -3.0400  180.0000  top
-C6        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     3.3350    -3.0400  180.0000  top
+C4        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     2.7650    -3.0400  180.0000  top
+C6        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     3.3400    -3.0400  180.0000  top
 C7        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     5.1500    -3.0400  180.0000  top
-C8        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     5.7250    -3.0400  180.0000  top
-C9        22_uF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     4.4650    -3.6950  -90.0000  top
-C10       22_uF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     4.4650    -3.9195   90.0000  top
+C8        220nF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     5.7612    -3.0400  180.0000  top
+C9        22_uF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     4.4650    -3.7150  -90.0000  top
+C10       22_uF           C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     4.4650    -3.9250   90.0000  top
 D1        D_Schottky      D_SOD-123F                                      4.4700    -4.1000    0.0000  top
-IC1       AP74700QW6-7    SOT-23-6_Handsoldering                          3.7719    -2.7726    0.0000  top
-Q1        PSMN1R2-25YLDX  LFPAK56                                         4.5950    -2.6597  -90.0000  top
-Q2        PSMN1R2-25YLDX  LFPAK56                                         4.0397    -2.6536  -90.0000  top
-R1        100             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     4.9713    -4.0154   90.0000  top
-R2        2.2k            R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     5.3763    -3.7450   90.0000  top
-R3        680             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     5.3763    -4.0236   90.0000  top
-R4        220             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     4.9761    -3.7450   90.0000  top
+Q1        PSMN1R2-25YLDX  LFPAK56                                         3.9900    -2.4753   90.0000  top
+Q2        PSMN1R2-25YLDX  LFPAK56                                         4.5900    -2.4753   90.0000  top
+Q3        PSMN1R2-25YLDX  LFPAK56                                         4.5900    -2.8200  -90.0000  top
+Q4        PSMN1R2-25YLDX  LFPAK56                                         3.9900    -2.8312  -90.0000  top
+R1        100             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     4.9813    -4.0354   90.0000  top
+R2        2.2k            R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     5.3863    -3.7650   90.0000  top
+R3        680             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     5.3863    -4.0436   90.0000  top
+R4        220             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     4.9861    -3.7650   90.0000  top
+R5        2.2k            R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     3.6400    -2.6450   90.0000  top
+R7        680             R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     3.6400    -2.4050  -90.0000  top
 U1        IFX007TAUMA1    PG-TO263-7-1_INF                                2.7200    -2.5645    0.0000  top
 U2        IFX007TAUMA1    PG-TO263-7-1_INF                                3.2950    -2.5645    0.0000  top
 U3        IFX007TAUMA1    PG-TO263-7-1_INF                                5.1088    -2.5645    0.0000  top
-U4        IFX007TAUMA1    PG-TO263-7-1_INF                                5.6838    -2.5645    0.0000  top
+U4        IFX007TAUMA1    PG-TO263-7-1_INF                                5.7200    -2.5645    0.0000  top
 ## End
