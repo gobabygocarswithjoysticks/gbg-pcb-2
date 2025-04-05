@@ -16449,7 +16449,7 @@
 		(dnp no)
 		(uuid "f425a5fb-e32c-45c5-8d2e-8f1e943a9532")
 		(property "Reference" "Q2"
-			(at 150.622 242.316 90)
+			(at 150.876 242.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)

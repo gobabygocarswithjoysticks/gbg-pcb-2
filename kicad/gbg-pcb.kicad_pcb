@@ -11514,7 +11514,7 @@
 		(uuid "916d7ce2-eef7-497d-a62e-ad40e7ef6b14")
 		(at 84.836 103.378 90)
 		(property "Reference" "P1"
-			(at -12.19 -26.289 180)
+			(at -12.19 -25.908 180)
 			(layer "F.SilkS")
 			(uuid "5e252c51-28cd-409a-b0c4-f0f430c39d6e")
 			(effects
@@ -23720,7 +23720,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 1.27 1.651 90)
+			(at 1.016 1.651 90)
 			(layer "F.SilkS")
 			(uuid "eb572271-1584-4882-aee8-82005fbf74b1")
 			(effects
@@ -25773,6 +25773,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5"
+		(at 77.089 120.904 0)
+		(layer "F.SilkS")
+		(uuid "193abf83-8b88-4a2e-88b8-2b87068d0f34")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "680"
 		(at 91.059 60.706 90)
 		(layer "F.SilkS")
@@ -25785,14 +25798,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "12V G  3V 5  6  7  8  9 10 11 12 5V"
-		(at 67.945 120.777 0)
+	(gr_text "7"
+		(at 82.169 120.904 0)
 		(layer "F.SilkS")
-		(uuid "29dc9864-ea37-459d-99c6-7d54ea6e287b")
+		(uuid "2590d4dc-f017-40fd-8cf4-abaefa065d8f")
 		(effects
 			(font
-				(size 1.05 1.05)
-				(thickness 0.21)
+				(size 1.25 1.25)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -25818,6 +25831,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12"
+		(at 94.615 120.904 0)
+		(layer "F.SilkS")
+		(uuid "32d267cc-1726-460f-91db-2258df32a2b7")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -25921,6 +25947,45 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "3V"
+		(at 74.041 120.904 0)
+		(layer "F.SilkS")
+		(uuid "71621da4-821a-4186-a74d-0ea63fa8f582")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 97.282 120.904 0)
+		(layer "F.SilkS")
+		(uuid "76aa2970-37d4-4028-953f-e3cc4c34ed09")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "8"
+		(at 84.836 121.031 0)
+		(layer "F.SilkS")
+		(uuid "86c0d6c0-f94e-498c-9db9-a173e97d17e9")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 133.0634 100.711 0)
 		(layer "F.SilkS")
@@ -25993,6 +26058,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "6"
+		(at 79.629 120.904 0)
+		(layer "F.SilkS")
+		(uuid "a36893b8-e30c-41c8-9a07-e5923455d235")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "speed knob"
 		(at 142.621 118.618 0)
 		(layer "F.SilkS")
@@ -26042,6 +26120,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "11"
+		(at 91.948 120.904 0)
+		(layer "F.SilkS")
+		(uuid "c236c3eb-6fb7-4bfa-9c5c-d4964ada00a5")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "A28"
 		(at 148.082 116.459 0)
 		(layer "F.SilkS")
@@ -26056,7 +26147,7 @@
 		)
 	)
 	(gr_text "1000u"
-		(at 88.646 89.408 0)
+		(at 93.218 90.424 0)
 		(layer "F.SilkS")
 		(uuid "ce926e0c-5326-4c3d-8e20-3d9a7ef19505")
 		(effects
@@ -26068,7 +26159,7 @@
 		)
 	)
 	(gr_text "1000u"
-		(at 122.047 89.154 0)
+		(at 117.221 90.17 0)
 		(layer "F.SilkS")
 		(uuid "d2bc60de-c139-4c1d-a951-9731a38de9c5")
 		(effects
@@ -26099,6 +26190,19 @@
 			(font
 				(size 5 5)
 				(thickness 0.625)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BATT"
+		(at 66.929 121.031 0)
+		(layer "F.SilkS")
+		(uuid "e10d6085-5f2b-4e47-b062-2f566f61487d")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -26140,8 +26244,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "- 12v +"
-		(at 65.786 79.248 270)
+	(gr_text "- BATT +"
+		(at 65.913 78.613 270)
 		(layer "F.SilkS")
 		(uuid "ea5297bf-8694-4b79-a556-b789c20a19f9")
 		(effects
@@ -26164,6 +26268,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BATTERY"
+		(at 113.792 58.42 180)
+		(layer "F.SilkS")
+		(uuid "f35167bc-a7a5-4fc8-b11b-4e0ecf51380b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "VBat\n"
 		(at 139.573 93.091 0)
 		(layer "F.SilkS")
@@ -26172,6 +26288,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "9"
+		(at 87.249 120.904 0)
+		(layer "F.SilkS")
+		(uuid "f71f6b9d-d2bb-4944-8ace-69e3439d67fc")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -26196,6 +26325,32 @@
 			(font
 				(size 3 3)
 				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 71.882 120.904 0)
+		(layer "F.SilkS")
+		(uuid "fad1cbcf-a3f2-4e6e-a17a-221d3418e3eb")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "10\n"
+		(at 89.154 120.904 0)
+		(layer "F.SilkS")
+		(uuid "fba1f5cf-f203-4186-a0b8-733c84fd75a5")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
