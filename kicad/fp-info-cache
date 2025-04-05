@@ -1,4 +1,4 @@
-24773927558807995
+24775671440096650
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99536,6 +99536,13 @@ kicad libraries
 CONN_OSTTC022162_OST
 
 OSTTC022162 
+0
+2
+2
+kicad libraries
+CP_Radial_D10.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
 0
 2
 2

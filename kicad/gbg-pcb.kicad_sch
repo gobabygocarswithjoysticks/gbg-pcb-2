@@ -8054,7 +8054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
+		(property "Footprint" "kicad libraries:CP_Radial_D10.0mm_P5.00mm"
 			(at 216.8652 120.65 0)
 			(effects
 				(font
@@ -8631,7 +8631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
+		(property "Footprint" "kicad libraries:CP_Radial_D10.0mm_P5.00mm"
 			(at 204.1652 38.1 0)
 			(effects
 				(font
