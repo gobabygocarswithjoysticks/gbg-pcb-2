@@ -5488,16 +5488,6 @@
 		)
 		(uuid "03f8d992-5ef0-4ddd-bafa-66e40d4e8200")
 	)
-	(text "SR to ground gives fastest switching time\nit is the most efficient (and easiest to wire), but could make more electrical noise\n"
-		(exclude_from_sim no)
-		(at 280.924 82.296 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2f9968f0-e30a-4bc5-9a0d-76da08de61d8")
-	)
 	(text "NMOS"
 		(exclude_from_sim no)
 		(at 160.782 240.284 0)
@@ -5530,7 +5520,7 @@
 	)
 	(text "right"
 		(exclude_from_sim no)
-		(at 300.228 139.7 0)
+		(at 291.338 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,7 +5529,7 @@
 		(uuid "eedc900e-5d7b-44d6-9106-bace94c15216")
 	)
 	(junction
-		(at 215.9 121.92)
+		(at 207.01 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01e5571d-9732-47ed-8830-6a29f028b0e7")
@@ -5623,7 +5613,7 @@
 		(uuid "6393fa6e-5303-4202-81e3-041537c2960d")
 	)
 	(junction
-		(at 228.6 121.92)
+		(at 219.71 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "764f9d7f-d891-4fb9-8c38-b7a262f7d3af")
@@ -5671,7 +5661,7 @@
 		(uuid "a7424558-88c1-4b8b-9cc5-94be51f0ffd4")
 	)
 	(junction
-		(at 203.2 135.89)
+		(at 194.31 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9511b72-4fbc-43be-8274-abf7958d2748")
@@ -5701,13 +5691,13 @@
 		(uuid "c67eda76-455d-4f49-8cfe-4b1e44c72096")
 	)
 	(junction
-		(at 224.79 149.86)
+		(at 215.9 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c81dc13b-0378-4c09-985d-f4835bfbf46a")
 	)
 	(junction
-		(at 222.25 111.76)
+		(at 213.36 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d72e6596-05f3-47a5-a0fa-4145bda520f5")
@@ -5795,7 +5785,7 @@
 		(uuid "7afe59ef-be5a-4754-ba6e-9215fa739615")
 	)
 	(no_connect
-		(at 269.24 128.27)
+		(at 260.35 130.81)
 		(uuid "83e5a2b2-2486-4acb-a5ce-b578896bd943")
 	)
 	(no_connect
@@ -5811,15 +5801,15 @@
 		(uuid "b0671e53-f20c-4139-bfaf-b627ab55bcfd")
 	)
 	(no_connect
-		(at 228.6 130.81)
+		(at 219.71 133.35)
 		(uuid "b2784794-09e9-4719-ae29-61046680c56b")
 	)
 	(no_connect
-		(at 229.87 157.48)
+		(at 220.98 160.02)
 		(uuid "bd0a4288-38d5-4302-bdc0-4d9361d26a01")
 	)
 	(no_connect
-		(at 270.51 154.94)
+		(at 261.62 157.48)
 		(uuid "c71ba027-4d7c-42b1-9541-f7f8015a9d4a")
 	)
 	(no_connect
@@ -5848,7 +5838,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 130.81) (xy 269.24 130.81)
+			(xy 261.62 133.35) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +5898,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 113.03) (xy 215.9 111.76)
+			(xy 207.01 115.57) (xy 207.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5948,7 +5938,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 73.66) (xy 261.62 72.39)
+			(xy 262.89 73.66) (xy 262.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5958,7 +5948,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 228.6 111.76)
+			(xy 213.36 114.3) (xy 219.71 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5978,7 +5968,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 149.86) (xy 229.87 149.86)
+			(xy 215.9 152.4) (xy 220.98 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6108,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 152.4) (xy 227.33 152.4)
+			(xy 220.98 154.94) (xy 218.44 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6148,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 121.92) (xy 228.6 121.92)
+			(xy 207.01 124.46) (xy 219.71 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6188,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 128.27) (xy 203.2 135.89)
+			(xy 194.31 130.81) (xy 194.31 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6198,7 +6188,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 113.03) (xy 311.15 113.03)
+			(xy 269.24 115.57) (xy 302.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6208,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 134.62) (xy 311.15 147.32)
+			(xy 302.26 137.16) (xy 302.26 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6258,7 +6248,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 113.03) (xy 311.15 132.08)
+			(xy 302.26 115.57) (xy 302.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6278,7 +6268,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 147.32) (xy 224.79 149.86)
+			(xy 215.9 149.86) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6328,16 +6318,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 72.39) (xy 262.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5386ce35-310e-4d67-9f98-072a1d7ef81c")
-	)
-	(wire
-		(pts
 			(xy 161.29 226.06) (xy 161.29 236.22)
 		)
 		(stroke
@@ -6368,7 +6348,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 135.89) (xy 203.2 135.89)
+			(xy 189.23 138.43) (xy 194.31 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6548,7 +6528,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 128.27) (xy 203.2 128.27)
+			(xy 219.71 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6608,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 139.7) (xy 224.79 139.7)
+			(xy 209.55 142.24) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6678,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 132.08) (xy 270.51 130.81)
+			(xy 261.62 134.62) (xy 261.62 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6688,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 152.4) (xy 280.67 152.4)
+			(xy 261.62 154.94) (xy 271.78 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6778,7 +6758,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 157.48) (xy 270.51 158.75)
+			(xy 261.62 160.02) (xy 261.62 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6788,7 +6768,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 113.03) (xy 278.13 123.19)
+			(xy 269.24 115.57) (xy 269.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6818,7 +6798,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 119.38) (xy 228.6 121.92)
+			(xy 219.71 121.92) (xy 219.71 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6878,7 +6858,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 120.65) (xy 215.9 121.92)
+			(xy 207.01 123.19) (xy 207.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6888,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 149.86) (xy 224.79 149.86)
+			(xy 205.74 152.4) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6898,7 +6878,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 125.73) (xy 281.94 125.73)
+			(xy 260.35 128.27) (xy 273.05 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6908,7 +6888,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 147.32) (xy 278.13 149.86)
+			(xy 269.24 149.86) (xy 269.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6918,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 149.86) (xy 278.13 149.86)
+			(xy 261.62 152.4) (xy 269.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7048,7 +7028,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 147.32) (xy 311.15 147.32)
+			(xy 269.24 149.86) (xy 302.26 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7218,7 +7198,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 123.19) (xy 278.13 123.19)
+			(xy 260.35 125.73) (xy 269.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7228,7 +7208,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 121.92) (xy 228.6 123.19)
+			(xy 219.71 124.46) (xy 219.71 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7378,7 +7358,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 135.89) (xy 203.2 154.94)
+			(xy 194.31 138.43) (xy 194.31 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7388,7 +7368,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 111.76) (xy 222.25 111.76)
+			(xy 207.01 114.3) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7398,7 +7378,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 154.94) (xy 229.87 154.94)
+			(xy 194.31 157.48) (xy 220.98 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7590,7 +7570,7 @@
 	)
 	(global_label "right_en"
 		(shape input)
-		(at 198.12 135.89 180)
+		(at 189.23 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7600,7 +7580,7 @@
 		)
 		(uuid "2ca7ad3b-9b33-489b-ae2b-a177207370c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.5149 135.89 0)
+			(at 178.6249 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7658,7 @@
 	)
 	(global_label "right_2"
 		(shape input)
-		(at 227.33 152.4 180)
+		(at 218.44 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7688,7 +7668,7 @@
 		)
 		(uuid "6b21a408-ba21-403b-a70c-1889c33eae1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.753 152.4 0)
+			(at 208.863 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +7790,7 @@
 	)
 	(global_label "right_1"
 		(shape input)
-		(at 228.6 125.73 180)
+		(at 219.71 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7820,7 +7800,7 @@
 		)
 		(uuid "e22911ed-60c5-437f-829d-678d0ccd2229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.023 125.73 0)
+			(at 210.133 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 215.9 116.84 0)
+		(at 207.01 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7906,7 +7886,7 @@
 		(dnp no)
 		(uuid "057282ec-4b42-41b1-b89a-98ba8ea7bc44")
 		(property "Reference" "C5"
-			(at 216.916 114.3 0)
+			(at 208.026 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7895,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 216.662 118.872 0)
+			(at 207.772 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +7904,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CP_Radial_D10.0mm_P5.00mm"
-			(at 216.8652 120.65 0)
+			(at 207.9752 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +7913,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +7922,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7931,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7940,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7949,7 @@
 			)
 		)
 		(property "price" "1"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +7958,7 @@
 			)
 		)
 		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +7967,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 215.9 116.84 0)
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8107,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 73.66 0)
+		(at 262.89 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8135,7 +8115,7 @@
 		(dnp no)
 		(uuid "0df4c9cb-1c21-45cd-a653-a4801ffc416a")
 		(property "Reference" "#PWR027"
-			(at 261.62 80.01 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.382 77.47 0)
+			(at 263.652 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 73.66 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 73.66 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 73.66 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9157,7 @@
 	)
 	(symbol
 		(lib_id "library:IFX007TAUMA1")
-		(at 228.6 123.19 0)
+		(at 219.71 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9186,7 +9166,7 @@
 		(fields_autoplaced yes)
 		(uuid "25901808-4cac-4874-8651-06faa3d03fc7")
 		(property "Reference" "U3"
-			(at 248.92 113.03 0)
+			(at 240.03 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9194,7 +9174,7 @@
 			)
 		)
 		(property "Value" "IFX007TAUMA1"
-			(at 248.92 115.57 0)
+			(at 240.03 118.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9202,7 +9182,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9192,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9202,7 @@
 			)
 		)
 		(property "Description" "half bridge driver"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9211,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9220,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9229,7 @@
 			)
 		)
 		(property "price" "2.6"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9238,7 @@
 			)
 		)
 		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +9247,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 228.6 123.19 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10288,7 +10268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 121.92 0)
+		(at 207.01 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10296,7 +10276,7 @@
 		(dnp no)
 		(uuid "460749c8-0ce4-4e8e-8324-0e01083feb37")
 		(property "Reference" "#PWR021"
-			(at 215.9 128.27 0)
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 216.662 125.73 0)
+			(at 207.772 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +10293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 121.92 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 121.92 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 121.92 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +10768,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 281.94 125.73 0)
+		(at 273.05 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10796,7 +10776,7 @@
 		(dnp no)
 		(uuid "4f77f5fe-2786-4e3c-b050-e27adf0d6a50")
 		(property "Reference" "#PWR034"
-			(at 281.94 129.54 0)
+			(at 273.05 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,7 +10785,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 281.686 122.174 0)
+			(at 272.796 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +10793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 125.73 0)
+			(at 273.05 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10822,7 +10802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 125.73 0)
+			(at 273.05 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +10811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 281.94 125.73 0)
+			(at 273.05 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11029,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 222.25 111.76 0)
+		(at 213.36 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11057,7 +11037,7 @@
 		(dnp no)
 		(uuid "558ec2f6-2385-451f-80d4-ed57a407f834")
 		(property "Reference" "#PWR023"
-			(at 222.25 115.57 0)
+			(at 213.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11046,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 225.298 109.22 0)
+			(at 216.408 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,7 +11054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 111.76 0)
+			(at 213.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,7 +11063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 111.76 0)
+			(at 213.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +11072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 222.25 111.76 0)
+			(at 213.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,7 +11159,7 @@
 	)
 	(symbol
 		(lib_id "library:IFX007TAUMA1")
-		(at 229.87 149.86 0)
+		(at 220.98 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11188,7 +11168,7 @@
 		(fields_autoplaced yes)
 		(uuid "568716e4-d92f-4d69-85cb-6ea2258bf792")
 		(property "Reference" "U4"
-			(at 250.19 139.7 0)
+			(at 241.3 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11196,7 +11176,7 @@
 			)
 		)
 		(property "Value" "IFX007TAUMA1"
-			(at 250.19 142.24 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11204,7 +11184,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11204,7 @@
 			)
 		)
 		(property "Description" "half bridge driver"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +11213,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11242,7 +11222,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +11231,7 @@
 			)
 		)
 		(property "price" "2.6"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +11240,7 @@
 			)
 		)
 		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +11249,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 229.87 149.86 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12254,7 +12234,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 280.67 152.4 0)
+		(at 271.78 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12262,7 +12242,7 @@
 		(dnp no)
 		(uuid "7b79b33e-bddf-441d-a109-c93da8a4867c")
 		(property "Reference" "#PWR033"
-			(at 280.67 156.21 0)
+			(at 271.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12251,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 283.718 149.86 0)
+			(at 274.828 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 152.4 0)
+			(at 271.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,7 +12268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 152.4 0)
+			(at 271.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12297,7 +12277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 280.67 152.4 0)
+			(at 271.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13322,7 @@
 	)
 	(symbol
 		(lib_id "library:1017514")
-		(at 303.53 132.08 0)
+		(at 294.64 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13351,7 +13331,7 @@
 		(dnp no)
 		(uuid "a325e662-4f47-4658-b597-8d46a69f4bf2")
 		(property "Reference" "J9"
-			(at 303.022 128.27 0)
+			(at 294.132 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13359,7 +13339,7 @@
 			)
 		)
 		(property "Value" "1017514"
-			(at 303.022 125.73 0)
+			(at 294.132 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13347,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PHOENIX_1017514"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +13357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13366,7 @@
 			)
 		)
 		(property "Description" "screwless alternative is 1017521"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13375,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13384,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017514"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,7 +13393,7 @@
 			)
 		)
 		(property "price" "0.87"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,7 +13402,7 @@
 			)
 		)
 		(property "digikey_part_number" "277-17504-ND"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13411,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 303.53 132.08 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13574,7 +13554,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 115.57 0)
+		(at 219.71 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13582,7 +13562,7 @@
 		(dnp no)
 		(uuid "a410b1e0-60ad-404d-8269-c2d4e0234c91")
 		(property "Reference" "C6"
-			(at 229.616 113.792 0)
+			(at 220.726 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13591,7 +13571,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 228.854 117.602 0)
+			(at 219.964 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13600,7 +13580,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 229.5652 119.38 0)
+			(at 220.6752 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +13589,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +13598,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +13607,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13616,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,7 +13625,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +13634,7 @@
 			)
 		)
 		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,7 +13643,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 228.6 115.57 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14303,7 +14283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 158.75 0)
+		(at 261.62 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14311,7 +14291,7 @@
 		(dnp no)
 		(uuid "ba8e11f3-74d7-450d-9662-89a07d33030a")
 		(property "Reference" "#PWR032"
-			(at 270.51 165.1 0)
+			(at 261.62 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14320,7 +14300,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.272 162.56 0)
+			(at 262.382 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 158.75 0)
+			(at 261.62 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,7 +14317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 158.75 0)
+			(at 261.62 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14346,7 +14326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 158.75 0)
+			(at 261.62 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +15281,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 149.86 0)
+		(at 205.74 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15309,7 +15289,7 @@
 		(dnp no)
 		(uuid "e1e71d24-4326-44ed-ae65-60eb9efd23c6")
 		(property "Reference" "#PWR020"
-			(at 214.63 156.21 0)
+			(at 205.74 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15318,7 +15298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.392 153.67 0)
+			(at 206.502 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15326,7 +15306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 149.86 0)
+			(at 205.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15335,7 +15315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 149.86 0)
+			(at 205.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15344,7 +15324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 149.86 0)
+			(at 205.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15366,7 +15346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 224.79 143.51 0)
+		(at 215.9 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15374,7 +15354,7 @@
 		(dnp no)
 		(uuid "e213aeb6-9d05-4448-bd21-f6aa00b3a36c")
 		(property "Reference" "C8"
-			(at 225.806 141.732 0)
+			(at 216.916 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15383,7 +15363,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 225.044 145.542 0)
+			(at 216.154 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15392,7 +15372,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 225.7552 147.32 0)
+			(at 216.8652 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15401,7 +15381,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15410,7 +15390,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,7 +15399,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15428,7 +15408,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15437,7 +15417,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,7 +15426,7 @@
 			)
 		)
 		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +15435,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 224.79 143.51 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15480,7 +15460,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 218.44 139.7 0)
+		(at 209.55 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15488,7 +15468,7 @@
 		(dnp no)
 		(uuid "e83e6236-8b64-429d-af36-a2c1844eb0a6")
 		(property "Reference" "#PWR022"
-			(at 218.44 143.51 0)
+			(at 209.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15497,7 +15477,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 221.488 137.16 0)
+			(at 212.598 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 139.7 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 139.7 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15523,7 +15503,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 218.44 139.7 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16391,7 +16371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 132.08 0)
+		(at 261.62 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16399,7 +16379,7 @@
 		(dnp no)
 		(uuid "f98a4def-307f-419e-8011-29500cc867c1")
 		(property "Reference" "#PWR031"
-			(at 270.51 138.43 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16408,7 +16388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.272 135.89 0)
+			(at 262.382 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16416,7 +16396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 132.08 0)
+			(at 261.62 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16425,7 +16405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 132.08 0)
+			(at 261.62 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16434,7 +16414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 132.08 0)
+			(at 261.62 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

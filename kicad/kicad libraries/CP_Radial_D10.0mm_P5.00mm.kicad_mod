@@ -2056,18 +2056,18 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1 1.6)
 		)
 		(rotate
 			(xyz -0 -0 -0)
 		)
 	)
 	(model "${KIPRJMOD}/kicad libraries/A750MV108M1EAAE014.step"
+		(hide yes)
 		(offset
 			(xyz 2.5 0 16)
 		)
