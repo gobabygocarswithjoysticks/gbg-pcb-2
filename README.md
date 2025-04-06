@@ -19,6 +19,7 @@ open with KiCAD 9.0
 send gerbers.zip to a PCB fabrication company
 * 1oz copper
 * 0.8mm board thickness
+* 8mil/8mil
 
 The BOM.csv file can be imported to a Digikey list
 
