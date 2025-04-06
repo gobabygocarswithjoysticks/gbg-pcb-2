@@ -60,27 +60,31 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|150963500|46052697|4bcdbd49-78ec-4e13-8585-f84bf40d8077|8fa48e37-daf4-428b-b489-68edb759ad44",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|84186000|103790500|916d7ce2-eef7-497d-a62e-ad40e7ef6b14|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "missing_courtyard|106244000|58029000|d9ad2645-0c36-4076-87c4-bab56ea9fe5c|00000000-0000-0000-0000-000000000000",
+          "missing_courtyard|103251000|58420000|d9ad2645-0c36-4076-87c4-bab56ea9fe5c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "missing_courtyard|107061000|76073000|f76f943b-0c31-43ea-8e56-58189dc65d07|00000000-0000-0000-0000-000000000000",
+          "missing_courtyard|110871000|78486000|f76f943b-0c31-43ea-8e56-58189dc65d07|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|100177600|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|edae4f1b-8f17-459b-9814-bd54add4b4c3",
+          "silk_edge_clearance|100076000|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|edae4f1b-8f17-459b-9814-bd54add4b4c3",
           ""
         ],
         [
-          "silk_edge_clearance|120751600|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|be4ef017-a979-4588-bf5d-fee7380c9f9f",
+          "silk_edge_clearance|120650000|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|be4ef017-a979-4588-bf5d-fee7380c9f9f",
           ""
         ],
         [
-          "silk_edge_clearance|57531000|57683000|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|ba6c7d64-d249-4f5f-a476-adb9f072ee74",
+          "silk_edge_clearance|57531000|58293000|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|bde4f773-e6e7-428e-a20e-c7eb6605234e",
           ""
         ],
         [
@@ -165,7 +169,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2035,
+        "min_track_width": 0.2036,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -250,6 +254,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false

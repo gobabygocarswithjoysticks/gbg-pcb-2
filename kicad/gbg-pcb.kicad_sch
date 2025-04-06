@@ -1311,113 +1311,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -5898,6 +5791,14 @@
 		(uuid "54b2679a-9f6a-4ed7-800e-621756d27fc4")
 	)
 	(no_connect
+		(at 261.62 44.45)
+		(uuid "7afe59ef-be5a-4754-ba6e-9215fa739615")
+	)
+	(no_connect
+		(at 269.24 128.27)
+		(uuid "83e5a2b2-2486-4acb-a5ce-b578896bd943")
+	)
+	(no_connect
 		(at 99.06 43.18)
 		(uuid "84154182-fef5-46f1-baae-c1239ce7af04")
 	)
@@ -5906,12 +5807,20 @@
 		(uuid "97da288f-587a-451a-af42-b87fbf967351")
 	)
 	(no_connect
+		(at 262.89 69.85)
+		(uuid "b0671e53-f20c-4139-bfaf-b627ab55bcfd")
+	)
+	(no_connect
 		(at 228.6 130.81)
 		(uuid "b2784794-09e9-4719-ae29-61046680c56b")
 	)
 	(no_connect
 		(at 229.87 157.48)
 		(uuid "bd0a4288-38d5-4302-bdc0-4d9361d26a01")
+	)
+	(no_connect
+		(at 270.51 154.94)
+		(uuid "c71ba027-4d7c-42b1-9541-f7f8015a9d4a")
 	)
 	(no_connect
 		(at 220.98 46.99)
@@ -5966,16 +5875,6 @@
 			(type default)
 		)
 		(uuid "11ffa5f6-a8c7-4a63-a836-9b174721de68")
-	)
-	(wire
-		(pts
-			(xy 270.51 154.94) (xy 274.32 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c9d383-4cb9-43d7-86ba-4cae01a12863")
 	)
 	(wire
 		(pts
@@ -6506,16 +6405,6 @@
 			(type default)
 		)
 		(uuid "5a812b4f-b54f-4085-8cea-fbe334ddc813")
-	)
-	(wire
-		(pts
-			(xy 261.62 69.85) (xy 262.89 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae566f5-e305-4ed8-adaf-1e7535c6ef63")
 	)
 	(wire
 		(pts
@@ -7089,16 +6978,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 128.27) (xy 269.24 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15c388c-78eb-4c04-89c9-76927d2f7f27")
-	)
-	(wire
-		(pts
 			(xy 137.16 226.06) (xy 137.16 223.52)
 		)
 		(stroke
@@ -7526,16 +7405,6 @@
 			(type default)
 		)
 		(uuid "f3be1bcb-afab-46db-b8a7-3d85ca5aa8b7")
-	)
-	(wire
-		(pts
-			(xy 262.89 44.45) (xy 261.62 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4702583-1ca6-42ea-b30a-4ca8ddc6b99a")
 	)
 	(wire
 		(pts
@@ -8414,7 +8283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:SK 675 100 AL"
+		(property "Footprint" "kicad libraries:SK 582 100 AL"
 			(at 44.7548 234.95 0)
 			(effects
 				(font
@@ -8423,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/fischer-elektronik/SK-675-100-AL/25828853?s=N4IgTCBcDaIMoGkAEA2A7AViQRgAy6QEEAZEAXQF8g"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/fischer-elektronik/SK-582-100-AL/25827171"
 			(at 44.7548 234.95 0)
 			(effects
 				(font
@@ -8450,7 +8319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SK 675 100 AL"
+		(property "Manufacturer_Part_Number" "SK 582 100 AL"
 			(at 44.45 234.95 0)
 			(effects
 				(font
@@ -8459,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "5496-SK675100AL-ND"
+		(property "digikey_part_number" "5496-SK582100AL-ND"
 			(at 44.45 234.95 0)
 			(effects
 				(font
@@ -8468,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "Do Not Place"
+		(property "mount_type" "DNP for PCB assembly"
 			(at 44.45 234.95 0)
 			(effects
 				(font
@@ -8477,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1.32"
+		(property "price" "1"
 			(at 44.45 234.95 0)
 			(effects
 				(font
@@ -11590,7 +11459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-42-18-0-25-5PT/13919501"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-43-20-0-25-5PT/13919483"
 			(at 35.8648 245.11 0)
 			(effects
 				(font
@@ -11617,7 +11486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-42-18-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-43-20-0.25-5PT"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11626,7 +11495,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-42-18-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-43-20-0.25-5PT-ND"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11635,7 +11504,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.303"
+		(property "price" ".31"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11644,7 +11513,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "Do Not Place"
+		(property "mount_type" "white side on pcb"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11657,118 +11526,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "HS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63a4674c-57f9-40bd-8d60-90da08b6aa3f")
-		(property "Reference" "TP2"
-			(at 267.97 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 267.97 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 262.89 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b55f948d-9698-49da-a9ec-7874141c8e7b")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15323,118 +15080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 261.62 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d98b1b34-895f-44df-adf5-ad08dfa3c87c")
-		(property "Reference" "TP1"
-			(at 266.7 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 266.7 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eafa50af-c0f7-4a91-9082-b7aa4d86c641")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Heatsink")
 		(at 52.07 245.11 0)
 		(unit 1)
@@ -15470,7 +15115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-42-18-0-25-5PT/13919501"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-43-20-0-25-5PT/13919483"
 			(at 52.3748 245.11 0)
 			(effects
 				(font
@@ -15497,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-42-18-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-43-20-0.25-5PT"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15506,7 +15151,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-42-18-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-43-20-0.25-5PT-ND"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15515,7 +15160,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.303"
+		(property "price" ".31"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15524,7 +15169,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "Do Not Place"
+		(property "mount_type" "white side on pcb"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15649,118 +15294,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de810fbc-e16b-4393-84c3-dbc9ed2dcd5e")
-		(property "Reference" "TP3"
-			(at 275.59 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 275.59 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 270.51 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 270.51 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 270.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 270.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 270.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 270.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 270.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e080c6d3-dbfc-47ce-932b-effff8a9e21d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -16005,118 +15538,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 274.32 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e908bdb9-2370-4c96-8747-f01deee5982e")
-		(property "Reference" "TP4"
-			(at 279.4 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 279.4 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 274.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 274.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ed82db1-f6de-4745-8345-fa83658c3797")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
