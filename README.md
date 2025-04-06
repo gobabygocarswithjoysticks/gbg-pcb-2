@@ -20,6 +20,7 @@ send gerbers.zip to a PCB fabrication company
 * 1oz copper
 * 0.8mm board thickness
 * 8mil/8mil
+* 0.3mm holes
 
 The BOM.csv file can be imported to a Digikey list
 
