@@ -24,7 +24,8 @@ send gerbers.zip to a PCB fabrication company
 
 The BOM.csv file can be imported to a Digikey list
 
-# [solderless joystick to 4 wire cable connector](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+# [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+![cad render](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/joystickpcb/images/3d.jpg)
 
 # images of CAD
 
