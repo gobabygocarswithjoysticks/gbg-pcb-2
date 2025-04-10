@@ -9,6 +9,6 @@ These instructions should help you modify any 12 volt 2 motor car to have joysti
 
 ## images
 
-![pcb top view 3d render](/renders/top.jpg)
+![pcb top view 3d render](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/renders/top.jpg)
 
 ![image of joystick car](https://github.com/gobabygocarswithjoysticks/index/raw/main/photos/jeep.jpg)
