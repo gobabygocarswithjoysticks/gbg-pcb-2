@@ -27,6 +27,9 @@ The BOM.csv file can be imported to a Digikey list
 # [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ![cad render](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/joystickpcb/images/3d.jpg)
 
+# notes for people working on the KiCAD for this project
+Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to any of the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
+
 # images of CAD
 
 ![auto generated image, topview](/renders/top.jpg)
