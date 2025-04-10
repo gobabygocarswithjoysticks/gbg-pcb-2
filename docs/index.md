@@ -5,10 +5,10 @@ This circuit board replaces the separate ESCs and Arduino with screw terminals f
 These instructions should help you modify any 12 volt 2 motor car to have joystick control.
 
 ## source files
-https://github.com/gobabygocarswithjoysticks/gbg-pcb
+[https://github.com/gobabygocarswithjoysticks/gbg-pcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb)
 
 ## images
 
-![pcb top view 3d render](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/renders/top.jpg)
+![pcb top view 3d render](/renders/top.jpg)
 
-![image of joystick car](https://github.com/gobabygocarswithjoysticks/index/blob/main/photos/jeep.jpg)
+![image of joystick car](https://github.com/gobabygocarswithjoysticks/index/raw/main/photos/jeep.jpg)
