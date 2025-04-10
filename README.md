@@ -1,7 +1,7 @@
 # GBG PCB
 ## work in progress. this will be updated after the boards are tested.
-Update for v1.0: the motor drivers work, the circuit board supplied 15A from one motor port for 4 minutes without overheating, the reverse voltage protection MOSFETS need to be redesigned for v1.1
-Update for v1.1: waiting to receive boards
+* Update for v1.0: the motor drivers work, the circuit board supplied 15A from one motor port for 4 minutes without overheating, the reverse voltage protection MOSFETS need to be redesigned for v1.1
+* Update for v1.1: waiting to receive boards
 
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
