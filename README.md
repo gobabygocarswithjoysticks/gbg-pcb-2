@@ -10,6 +10,8 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
+questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
+
 open with KiCAD 9.0
 
 * 2 motor drivers
