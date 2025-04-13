@@ -34,10 +34,11 @@ Some cars are sold with one motor but have space in the frame to add a second mo
 ### Some models already can spin in place ("bumper cars")
 ### For most cars, you'll need to remove the front wheels and add swivelling caster wheels.
 
-## fits a frame and has a way to connect a joystick
+## Fits a frame and has a way to connect a joystick
 ### Go Baby Go cars usually get a PVC pipe frame with a backrest
 It's easier to fit a frame to a blockier car with more right angles
 ### The joystick can be connected to the frame, or it can be put on the end of an "adjustable photo arm"
 [Here](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) are some 3D printed parts that could be used to hold the joystick
 
 ---
+
