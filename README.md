@@ -18,6 +18,8 @@ open with KiCAD 9.0
 * screw terminals
 * Raspberry Pi Pico 1/1W/2/2W
 
+# [instructions for using this PCB to modify a car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
+
 # [schematic](/schematic.pdf)
 
 # [PCB Production files (gerbers)](/PCB_production)
