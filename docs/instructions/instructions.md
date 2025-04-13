@@ -1,3 +1,6 @@
+# circuit diagram
+![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
+
 # Choose a Car
 ## 12 volts
 
