@@ -1,8 +1,8 @@
-# instructions for using this PCB to build a go baby go car
+# instructions for using this circuit board (the "GBG-PCB") to build a go baby go car
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
-# parts needed
+# Parts needed
 * a car
 * materials for frame and backrest (usually pvc pipe)
 * joystick (recommended part: Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes) )
@@ -11,7 +11,13 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * an assembled GBG-PCB
 * a joystickpcb
 
-# circuit diagram
+# Tools needed
+* flathead screwdrivers (large and small)
+* wire cutters
+* wire strippers
+* micro USB cable (and USB hub if needed for your computer)
+
+# Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 
 ---
@@ -43,3 +49,56 @@ It's easier to fit a frame to a blockier car with more right angles
 
 ---
 
+# Disconnect the battery
+### If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that has to be connected to the battery of a new car.
+
+
+# Wire the PCB to the motors
+## Find the motors
+### The motors are usually under the seat of the car
+## Prepare the motor wires
+### Cut the wires to the motors
+### Strip the insulation off the ends of the wires
+## Connect the motors to the PCB
+### The motors can be reversed or swapped in software later
+
+# Wire the PCB to the battery
+
+If there is a plug that comes from the battery and goes to a circuit board that is already in the car, you can probably cut that plug off and use those wires to power the GBG-PCB. 
+
+If you see a fuse (usually a small black box with two wires coming out of it), please leave it in the circuit between the battery and the GBG-PCB.
+
+Connect the positive battery wire (usually red) to the positive BATTERY terminal on the GBG-PCB (labeled "+"). 
+
+Connect the negative battery wire (usually black) to the negative BATTERY terminal on the GBG-PCB (labeled "-"). 
+
+The GBG-PCB has reverse voltage protection, so it won't be damaged if you accidentally connect the battery backwards, it just won't turn on.
+
+# Program the Pico
+## Flash the firmware to the Pico
+### This step is only needed if your GBG-PCB wasn't programmed when it was assembled and tested.
+
+Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car.
+
+Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced settings and check the box to get car code from the main branch.
+
+## Connect
+### Connect the GBG-PCB to your computer with a micro USB cable
+### Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#configure)
+### Follow the instructions pointed to with the magenta arrow to connect to the car
+## Calibrate the joystick and adjust settings
+### Click the "calibrate the joystick the easy way" button and follow the instructions on the screen
+### You can also adjust the speed and acceleration settings for the car.
+
+# Reconnect the battery
+### If you disconnected a wire from the battery (or the car comes with a wire disconnected for shipping), reconnect it now.
+
+# Test the car
+## disconnect the car from the computer
+## turn on the car using the on/off switch
+### the three green lights on the PCB should turn on
+### you should hear a short beep from the motors
+## the car should drive when you move the joystick
+### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
+
+# Troubleshooting
