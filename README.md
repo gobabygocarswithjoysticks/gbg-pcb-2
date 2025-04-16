@@ -1,7 +1,7 @@
 # GBG PCB
 ## work in progress. this will be updated after the boards are tested.
 * Update for v1.0: the motor drivers work, the circuit board supplied 15A from one motor port for 4 minutes without overheating, the reverse voltage protection MOSFETS need to be redesigned for v1.1
-* Update for v1.1: waiting to receive boards
+* Update for v1.1: reverse voltage protection works, on/off switch works, still working on testing current
 
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
@@ -37,7 +37,8 @@ The BOM.csv file can be imported to a Digikey list
 Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to any of the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
 
 # photos
-![view of assembled PCB on a desk with the battery wires connected](/photos/image1.jpg)
+![view of assembled PCB from the top](/photos/image0.jpg)
+![view of assembled PCB](/photos/image1.jpg)
 
 # images of CAD
 
