@@ -6,10 +6,10 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * a car
 * materials for frame and backrest (usually pvc pipe)
 * joystick (recommended part: Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes) )
-* for wire cable - for joystick
+* four wire cable - for joystick
 * [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
-* an assembled GBG-PCB
-* a joystickpcb
+* an assembled GBG-PCB - make one using [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production), or email gobabygocarswithjoysticks@gmail.com I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
+* an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 
 # Tools needed
 * flathead screwdrivers (large and small)
@@ -52,7 +52,6 @@ It's easier to fit a frame to a blockier car with more right angles
 # Disconnect the battery
 ### If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that has to be connected to the battery of a new car.
 
-
 # Wire the PCB to the motors
 ## Find the motors
 ### The motors are usually under the seat of the car
@@ -60,7 +59,7 @@ It's easier to fit a frame to a blockier car with more right angles
 ### Cut the wires to the motors
 ### Strip the insulation off the ends of the wires
 ## Connect the motors to the PCB
-### The motors can be reversed or swapped in software later
+### The motors can be reversed or swapped left/right in software later.
 
 # Wire the PCB to the battery
 
@@ -73,6 +72,20 @@ Connect the positive battery wire (usually red) to the positive BATTERY terminal
 Connect the negative battery wire (usually black) to the negative BATTERY terminal on the GBG-PCB (labeled "-"). 
 
 The GBG-PCB has reverse voltage protection, so it won't be damaged if you accidentally connect the battery backwards, it just won't turn on.
+
+### The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge.
+
+# Wire the PCB to the on/off switch
+## Choose or add a switch to use as the main power on/off switch.
+### Low currents (about 4 mA) will flow through this circuit, so any wires and switches will work.
+## Connect the switch to the screw terminal labeled on/off.
+### Current can flow either way through a switch so either wire from the switch can go to either terminal.
+It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on.
+### An electrical connection between the two terminals of the on/off screw terminal block will turn the PCB on.
+
+# Wire the Joystick
+
+# (optional) Wire Buttons and/or Speed Knob
 
 # Program the Pico
 ## Flash the firmware to the Pico
