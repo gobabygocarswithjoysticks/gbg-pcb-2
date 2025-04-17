@@ -12,23 +12,25 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 
 # Tools needed
-* flathead screwdrivers (large and small)
-* wire cutters
-* wire strippers
-* micro USB cable (and USB hub if needed for your computer)
+* flathead screwdriver (3mm)
+* wire strippers/cutters
+* micro USB cable
 
 # Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
+
+## [PCB Schematic](/schematic.pdf)
+## [PCB List Of Components](/PCB_production/BOM.csv)
 
 ---
 
 # Choose a Car
 ## 12 volts
-### The PCB will only work with 12 volt cars. It won't run on 6 volts.
+It won't run on 6 volts, the motor driver ICs need over 8 volts.
 
-The motor driver chips specify 8-40 volts [P_4.2.1](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/781/IFX007T_Rev1.0_2018-02-21.pdf#G5.557706)
+It hasn't been tested above 12 Volts.
 
-The voltage regulator for the Pico is rated for 9-18 volts [D78B05T-1.0](https://diwellshop.cafe24.com/web/DATASHEET/01_subtitle/4_POWER/2_DC-DC/D78B05T-1.0/D78B-1.0.pdf)
+The PCB was only designed for 12 Volt ride on cars. Feel free to email if you are interested in trying it at other voltages. The motor drivers can easily handle 24 volts, but the 5V regulator and some of the resistors would need to be changed.
 
 ## Two motors
 ### The car will be steered by controlling the two back wheels separately, so the car needs to have a motor for each wheel.
@@ -65,13 +67,13 @@ It's easier to fit a frame to a blockier car with more right angles
 
 If there is a plug that comes from the battery and goes to a circuit board that is already in the car, you can probably cut that plug off and use those wires to power the GBG-PCB. 
 
-If you see a fuse (usually a small black box with two wires coming out of it), please leave it in the circuit between the battery and the GBG-PCB.
+If you see a fuse (usually a small black box with two wires coming out of it), please leave it in the circuit between the battery and the GBG-PCB. It's a really good idea to have a fuse between the battery and the PCB; if you need to get a fuse, a 20 Amp auto resetting fuse is a reasonable choice.
 
 Connect the positive battery wire (usually red) to the positive BATTERY terminal on the GBG-PCB (labeled "+"). 
 
 Connect the negative battery wire (usually black) to the negative BATTERY terminal on the GBG-PCB (labeled "-"). 
 
-The GBG-PCB has reverse voltage protection, so it won't be damaged if you accidentally connect the battery backwards, it just won't turn on.
+The GBG-PCB has reverse voltage protection, so it won't be damaged if you accidentally connect the battery backwards. It just won't turn on.
 
 ### The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge.
 
@@ -80,13 +82,13 @@ The GBG-PCB has reverse voltage protection, so it won't be damaged if you accide
 ### Low currents (about 4 mA) will flow through this circuit, so any wires and switches will work.
 ## Connect the switch to the screw terminal labeled on/off.
 ### Current can flow either way through a switch so either wire from the switch can go to either terminal.
-It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on.
+It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on. The MOSFETs interrupt the connection to the negative wire of the battery.
 ### An electrical connection between the two terminals of the on/off screw terminal block will turn the PCB on.
 
 # Wire the Joystick
-
+TODO 
 # (optional) Wire Buttons and/or Speed Knob
-
+TODO 
 # Program the Pico
 ## Flash the firmware to the Pico
 ### This step is only needed if your GBG-PCB wasn't programmed when it was assembled and tested.
@@ -113,5 +115,11 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 ### you should hear a short beep from the motors
 ## the car should drive when you move the joystick
 ### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
+### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
 # Troubleshooting
+## The car doesn't drive in the direction the joystick is pointing in
+### 0. Connect the programmer website and calibrate the joystick
+### 1. If moving the joystick forwards makes the car spin, use the website to reverse the motor that the car turned towards (show all the settings then press the reverse motor button next to the "motor fast" setting)
+### 2. If moving the joystick forwards makes the car drive backwards, use the website to reverse both motors
+### 3. If the car spins the opposite direction from the direction that the joystick is points, use the website to swap the motors, then go to step 1
