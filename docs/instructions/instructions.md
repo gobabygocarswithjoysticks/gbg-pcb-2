@@ -1,4 +1,4 @@
-# instructions for using this circuit board (the "GBG-PCB") to build a go baby go car
+# Instructions for using this circuit board (the "GBG-PCB") to build a go baby go car
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
@@ -8,7 +8,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * joystick (recommended part: Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes) )
 * four wire cable - for joystick
 * [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
-* an assembled GBG-PCB - make one using [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production), or email gobabygocarswithjoysticks@gmail.com I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
+* an assembled GBG-PCB - make one using [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production), or email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 
 # Tools needed
@@ -19,8 +19,8 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 # Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 
-## [PCB Schematic](/schematic.pdf)
-## [PCB List Of Components](/PCB_production/BOM.csv)
+## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
+## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
 ---
 
@@ -86,7 +86,8 @@ It doesn't matter for a switch (and I recommend just using a regular switch), bu
 ### An electrical connection between the two terminals of the on/off screw terminal block will turn the PCB on.
 
 # Wire the Joystick
-TODO 
+![joystick photo](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/joystick.jpg)
+The wires between the joystickpcb and the GBG-PCB would be a longer 4 wire cable when installed in a car.
 # (optional) Wire Buttons and/or Speed Knob
 TODO 
 # Program the Pico
@@ -118,8 +119,15 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 ### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
 # Troubleshooting
-## The car doesn't drive in the direction the joystick is pointing in
+# The car doesn't drive in the direction the joystick is pointing in
+#### follow these steps to reprogram the car if it drives in the wrong direction:
 ### 0. Connect the programmer website and calibrate the joystick
 ### 1. If moving the joystick forwards makes the car spin, use the website to reverse the motor that the car turned towards (show all the settings then press the reverse motor button next to the "motor fast" setting)
 ### 2. If moving the joystick forwards makes the car drive backwards, use the website to reverse both motors
-### 3. If the car spins the opposite direction from the direction that the joystick is points, use the website to swap the motors, then go to step 1
+### 3. If the car spins the opposite direction from the direction that the joystick is points, use the website to swap the motors, then repeat the 3 steps starting at step 1
+# The car doesn't drive
+## if the blue light blinks quickly
+#### that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
+## if none of the green lights on the PCB turn on,
+#### the battery might have been connected backwards (the PCB is not damaged)
+#### the on/off switch might not be making a connection

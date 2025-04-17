@@ -12,3 +12,5 @@ solderless way to connect the joystick to the 4 wire cable
 
 ![pcb](/joystickpcb/images/pcb.jpg)
 
+![joystick](/photos/joystick.jpg)
+The wires between the joystickpcb and the GBG-PCB would be a longer 4 wire cable when installed in a car.
