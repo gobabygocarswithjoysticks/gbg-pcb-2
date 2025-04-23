@@ -1,8 +1,4 @@
 # GBG PCB
-## work in progress.
-* Update for v1.0: the motor drivers work, the circuit board supplied 15A from one motor port for 4 minutes without overheating, the reverse voltage protection MOSFETS need to be redesigned for v1.1
-* Update for v1.1: reverse voltage protection works, on/off switch works, supplies 10 Amps continuous and 40 Amps burst from one motor port.
-* hasn't been tested in a go baby go car but it's ready
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
 
