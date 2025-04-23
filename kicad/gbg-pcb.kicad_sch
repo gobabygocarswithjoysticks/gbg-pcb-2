@@ -8317,7 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "DNP for PCB assembly"
+		(property "mount_type" "tht, use HS2 and HS3 to attach, buy in multiples of 10"
 			(at 44.45 234.95 0)
 			(effects
 				(font
@@ -9543,9 +9543,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "321de2fc-a420-47e0-a981-1d74df0c8955")
 		(property "Reference" "J1"
 			(at 21.082 89.154 0)
@@ -9555,7 +9555,7 @@
 				)
 			)
 		)
-		(property "Value" "9   2.54mm pitch header pins"
+		(property "Value" "12  2.54mm pitch header pins"
 			(at 16.256 65.786 0)
 			(effects
 				(font
@@ -9573,7 +9573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/PH1-12-UA/9830395"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -9591,7 +9591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Any Manufacturer"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -9600,7 +9600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PH1-12-UA"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -9609,7 +9609,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "0.16"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -9618,7 +9618,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "2057-PH1-12-UA-ND"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -11493,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "white side on pcb"
+		(property "mount_type" "tht"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11647,7 +11647,7 @@
 				)
 			)
 		)
-		(property "Value" "rpi pico"
+		(property "Value" "rpi pico 1"
 			(at 73.66 25.4 0)
 			(effects
 				(font
@@ -11665,7 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/raspberry-pi/SC0918/16608263"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13624793"
 			(at 73.66 76.2 0)
 			(effects
 				(font
@@ -11683,7 +11683,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "6.0"
+		(property "price" "4.00"
 			(at 73.66 76.2 0)
 			(effects
 				(font
@@ -11701,7 +11701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SC0918"
+		(property "Manufacturer_Part_Number" "SC0915"
 			(at 73.66 76.2 0)
 			(effects
 				(font
@@ -11710,7 +11710,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "2648-SC0918CT-ND"
+		(property "digikey_part_number" "2648-SC0915CT-ND"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -15149,7 +15149,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "white side on pcb"
+		(property "mount_type" "tht"
 			(at 52.07 245.11 0)
 			(effects
 				(font
