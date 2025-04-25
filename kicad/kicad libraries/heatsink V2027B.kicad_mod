@@ -1,0 +1,93 @@
+(footprint "heatsink V2027B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "heatsink")
+	(property "Reference" "HS**"
+		(at 5 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ce4f123f-c098-405f-b392-9e3fc90bcaf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Heatsink"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4dcc4b8c-384e-481d-8222-17f645622d55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/assmann-wsw-components/V2027B/8826896"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0a4265f-ca86-4d5c-aee5-e265871adcc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "27.9mm x 27.9mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fae0129-356d-40c4-83f4-f8d4b691642f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole allow_missing_courtyard)
+	(fp_rect
+		(start 0 -27.9)
+		(end 27.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f75ca0ac-42da-4f09-8251-6716be88b529")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "575368e7-9d61-4c45-af89-b27dec45cba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad libraries/v2027b.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,94 @@
+(footprint "tape_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "26x26mm thermal tape")
+	(property "Reference" "REF**"
+		(at 13.5 9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b53e3b2c-0614-4630-bf4d-ca17c94a5161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "tape_1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b02bda2-833a-49d7-af7d-483b01ac9c08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.cn/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4926474c-4731-4c79-a386-8748a63ebed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "26x26mm thermal tape TG-T1000-26-26-0.25-5PT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90a1e1e9-5e07-466e-8556-556b0c9b9a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole allow_missing_courtyard)
+	(fp_rect
+		(start 0 0)
+		(end 26 26)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "201628ab-5502-4b19-8c5c-0a4b318ce3c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21e4657b-a350-42bb-8314-fc0a0d814ee9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad libraries/1mmcube.step"
+		(opacity 0.3300)
+		(offset
+			(xyz 13 0 0)
+		)
+		(scale
+			(xyz 26 26 0.2)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

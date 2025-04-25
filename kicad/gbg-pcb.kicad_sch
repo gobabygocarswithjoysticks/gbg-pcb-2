@@ -8237,16 +8237,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 44.45 234.95 0)
+		(at 52.07 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1754667f-39d1-407e-b0c6-34018fcc1c66")
-		(property "Reference" "HS1"
-			(at 48.26 231.7749 0)
+		(property "Reference" "HS2"
+			(at 55.118 231.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8254,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 48.26 234.3149 0)
+			(at 50.546 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,8 +8262,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:SK 582 100 AL"
-			(at 44.7548 234.95 0)
+		(property "Footprint" "kicad libraries:heatsink V2027B"
+			(at 52.3748 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,8 +8271,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/fischer-elektronik/SK-582-100-AL/25827171"
-			(at 44.7548 234.95 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/assmann-wsw-components/V2027B/8826896"
+			(at 52.3748 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8281,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 44.45 234.95 0)
+			(at 52.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,8 +8289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Fischer Elektronik"
-			(at 44.45 234.95 0)
+		(property "Manufacturer_Name" "Assmann WSW Components"
+			(at 52.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,8 +8298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SK 582 100 AL"
-			(at 44.45 234.95 0)
+		(property "Manufacturer_Part_Number" "V2027B"
+			(at 52.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,8 +8307,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "5496-SK582100AL-ND"
-			(at 44.45 234.95 0)
+		(property "digikey_part_number" "AE11383-ND"
+			(at 52.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,8 +8316,8 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "tht, use HS2 and HS3 to attach, buy in multiples of 10"
-			(at 44.45 234.95 0)
+		(property "mount_type" "tht"
+			(at 52.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,8 +8325,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" "1"
-			(at 44.45 234.95 0)
+		(property "price" "0.77"
+			(at 52.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8337,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS1")
+					(reference "HS2")
 					(unit 1)
 				)
 			)
@@ -11412,7 +11411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6337a704-334e-4a4b-9a21-20b9d4709103")
-		(property "Reference" "HS2"
+		(property "Reference" "HS3"
 			(at 25.654 243.84 0)
 			(effects
 				(font
@@ -11430,7 +11429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:tape"
+		(property "Footprint" "kicad libraries:tape_1"
 			(at 35.8648 245.11 0)
 			(effects
 				(font
@@ -11439,7 +11438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-43-20-0-25-5PT/13919483"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-24-24-0-25-5PT/13919475"
 			(at 35.8648 245.11 0)
 			(effects
 				(font
@@ -11448,7 +11447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "thermally conductive tape"
+		(property "Description" "heatsink Tape - alternate: 1168-TG-T1000-26-26-0.25-5PT-ND"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11466,7 +11465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-43-20-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-24-24-0.25-5PT"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11475,7 +11474,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-43-20-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-24-24-0.25-5PT-ND"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11484,7 +11483,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".31"
+		(property "price" "0.31"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11505,7 +11504,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS2")
+					(reference "HS3")
 					(unit 1)
 				)
 			)
@@ -13195,6 +13194,114 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 35.56 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bca719d-0bc6-408d-91ef-df835308c9d0")
+		(property "Reference" "HS1"
+			(at 28.194 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 28.448 235.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad libraries:heatsink V2027B"
+			(at 35.8648 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/assmann-wsw-components/V2027B/8826896"
+			(at 35.8648 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 35.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Assmann WSW Components"
+			(at 35.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "V2027B"
+			(at 35.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "AE11383-ND"
+			(at 35.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 35.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "0.77"
+			(at 35.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -15068,7 +15175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dca0baea-4a4f-479b-9c74-9a65cb85737f")
-		(property "Reference" "HS3"
+		(property "Reference" "HS4"
 			(at 42.164 243.84 0)
 			(effects
 				(font
@@ -15086,7 +15193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:tape"
+		(property "Footprint" "kicad libraries:tape_1"
 			(at 52.3748 245.11 0)
 			(effects
 				(font
@@ -15095,7 +15202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-43-20-0-25-5PT/13919483"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
 			(at 52.3748 245.11 0)
 			(effects
 				(font
@@ -15104,7 +15211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "thermally conductive tape"
+		(property "Description" "heatsink Tape"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15122,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-43-20-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15131,7 +15238,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-43-20-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15140,7 +15247,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".31"
+		(property "price" "0.33"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15161,7 +15268,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS3")
+					(reference "HS4")
 					(unit 1)
 				)
 			)
