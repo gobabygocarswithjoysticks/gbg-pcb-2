@@ -8,8 +8,11 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * joystick (recommended part: Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes) )
 * four wire cable - for joystick
 * [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
-* an assembled GBG-PCB - make one using [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production), or email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+* an assembled GBG-PCB
+1. make one using [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production),
+2. email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
+3. use [this PCBWay link]() to order fully assembled boards
 
 # Tools needed
 * flathead screwdriver (3mm)

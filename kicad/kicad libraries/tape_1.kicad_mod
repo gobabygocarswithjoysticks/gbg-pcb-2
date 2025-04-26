@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "26x26mm thermal tape")
+	(descr " thermal tape")
 	(property "Reference" "REF**"
 		(at 13.5 9 0)
 		(unlocked yes)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.digikey.cn/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "26x26mm thermal tape TG-T1000-26-26-0.25-5PT"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -57,7 +57,7 @@
 	(attr through_hole allow_missing_courtyard)
 	(fp_rect
 		(start 0 0)
-		(end 26 26)
+		(end 24 24)
 		(stroke
 			(width 0.1)
 			(type dot)
@@ -82,10 +82,10 @@
 	(model "${KIPRJMOD}/kicad libraries/1mmcube.step"
 		(opacity 0.3300)
 		(offset
-			(xyz 13 0 0)
+			(xyz 12 0 0)
 		)
 		(scale
-			(xyz 26 26 0.2)
+			(xyz 24 24 0.2)
 		)
 		(rotate
 			(xyz -0 -0 -0)

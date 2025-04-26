@@ -11,6 +11,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## Want one?
 1. Feel free to use or modify this design and make your own boards. 
 2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
+3. Use [this PCBWay link]() to order fully assembled boards
 
 # [instructions for using this PCB to modify a car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
 These instructions aren't for any specific model of car.
