@@ -10,9 +10,9 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 * an assembled GBG-PCB
-1. make one using [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production),
-2. email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
-3. use [this PCBWay link]() to order fully assembled boards
+1. Feel free to use [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production) and make your own boards or modify this design.
+2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
+3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. [PCBWay](https://www.pcbway.com/) generously sponsored this project with free circuit boards and assembly as I was prototyping. I appreciate the high quality boards and great service.
 
 # Tools needed
 * flathead screwdriver (3mm)
