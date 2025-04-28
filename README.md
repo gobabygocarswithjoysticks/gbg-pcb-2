@@ -9,7 +9,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
 ## Want one?
-1. Feel free to use [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production) and make your own boards or modify this design.
+1. Feel free to use [these files](/PCB_production) and make your own boards or modify this design.
 2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
 3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. [PCBWay](https://www.pcbway.com/) generously sponsored this project with free circuit boards and assembly as I was prototyping. I appreciate the high quality boards and great service.
 
@@ -19,19 +19,6 @@ These instructions aren't for any specific model of car.
 # [schematic of PCB](/schematic.pdf)
 
 # [PCB Production files](/PCB_production)
-send [gerbers.zip](/PCB_production/gerbers.zip) to a PCB fabrication company
-
-here are the parameters for the PCBs that have been tested:
-* 1oz copper
-* 0.8mm board thickness
-* 8mil/8mil
-* 0.3mm holes
-
-[F_SolderPasteMask.dxf](/PCB_production/F_SolderPasteMask.dxf) can be used to get a solder stencil
-
-The [BOM.csv](/PCB_production/BOM.csv) file can be imported to a Digikey list
-
-The [position.csv](/PCB_production/position.csv) file has not yet been used to buy fully assembled PCBs, but it should be accurate.
 
 # [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
