@@ -68,14 +68,6 @@
           ""
         ],
         [
-          "missing_courtyard|103251000|58420000|d9ad2645-0c36-4076-87c4-bab56ea9fe5c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "missing_courtyard|110871000|78486000|f76f943b-0c31-43ea-8e56-58189dc65d07|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_edge_clearance|100076000|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|edae4f1b-8f17-459b-9814-bd54add4b4c3",
           ""
         ],
@@ -84,7 +76,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|57531000|58293000|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|bde4f773-e6e7-428e-a20e-c7eb6605234e",
+          "silk_edge_clearance|57531000|79584550|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|09343c16-7b56-4c69-a1e8-d4e5b6f1855b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|57531000|91192350|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|e98d6310-928a-480c-b146-750b7c844468",
           ""
         ],
         [

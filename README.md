@@ -1,8 +1,4 @@
 # GBG PCB
-## work in progress.
-* Update for v1.0: the motor drivers work, the circuit board supplied 15A from one motor port for 4 minutes without overheating, the reverse voltage protection MOSFETS need to be redesigned for v1.1
-* Update for v1.1: reverse voltage protection works, on/off switch works, supplies 10 Amps continuous and 40 Amps burst from one motor port.
-* hasn't been tested in a go baby go car but it's ready
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
 
@@ -13,8 +9,9 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
 ## Want one?
-1. Feel free to use or modify this design and make your own boards. 
+1. Feel free to use [these files](/PCB_production) and make your own boards or modify this design.
 2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
+3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. (As of May 2025 this link has not been tested yet).
 
 ## Acknowlegments
 ### Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. I appreciate the high quality boards and great service.
@@ -25,19 +22,6 @@ These instructions aren't for any specific model of car.
 # [schematic of PCB](/schematic.pdf)
 
 # [PCB Production files](/PCB_production)
-send [gerbers.zip](/PCB_production/gerbers.zip) to a PCB fabrication company
-
-here are the parameters for the PCBs that have been tested:
-* 1oz copper
-* 0.8mm board thickness
-* 8mil/8mil
-* 0.3mm holes
-
-[F_SolderPasteMask.dxf](/PCB_production/F_SolderPasteMask.dxf) can be used to get a solder stencil
-
-The [BOM.csv](/PCB_production/BOM.csv) file can be imported to a Digikey list
-
-The [position.csv](/PCB_production/position.csv) file has not yet been used to buy fully assembled PCBs, but it should be accurate.
 
 # [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
