@@ -11,7 +11,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## Want one?
 1. Feel free to use [these files](/PCB_production) and make your own boards or modify this design.
 2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
-3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. [PCBWay](https://www.pcbway.com/) generously sponsored this project with free circuit boards and assembly as I was prototyping. I appreciate the high quality boards and great service.
+3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. (As of May 2025 this link has not been tested yet).
 
 # [instructions for using this PCB to modify a car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
 These instructions aren't for any specific model of car.
