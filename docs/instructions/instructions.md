@@ -92,10 +92,18 @@ It doesn't matter for a switch (and I recommend just using a regular switch), bu
 ![joystick photo](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/joystick.jpg)
 The wires between the joystickpcb and the GBG-PCB would be a longer 4 wire cable when installed in a car.
 # (optional) Wire Buttons and/or Speed Knob
-TODO 
+## Buttons
+Plug up to 4 buttons into the headphone-style jacks on the GBG-PCB.
+
+When you connect the GBG-PCB to your computer to change the settings, click the "show all" button and check the box next to "enable button_ctrl". Then, you can set what direction each button should make the car move in.
+## Speed Knob
+You can add a knob to the car for easily adjusting the maximum speed of the car without needing to reprogram it.
+
+Connect a potentiometer to the screw terminal labeled "speed knob". When you connect the GBG-PCB to your computer to change the settings, click the "show all" button and check the box next to "use speed knob".
+
 # Program the Pico
 ## Flash the firmware to the Pico
-### This step is only needed if your GBG-PCB wasn't programmed when it was assembled and tested.
+If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to calibrating the joystick and adjusting settings.
 
 Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car.
 
