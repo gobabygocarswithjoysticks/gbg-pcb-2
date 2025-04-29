@@ -129,6 +129,13 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 ### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
 ### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
+# Note on remote control over wifi
+This feature is available GBG-PCBs with a Pico 1W or 2W.
+
+Check the "use wifi" setting on the programmer website, then follow the instructions and QR codes on the website.
+
+The Pico will create a wifi network and will serve a webpage that allow you to control the car.
+
 # Troubleshooting
 # The car doesn't drive in the direction the joystick is pointing in
 #### follow these steps to reprogram the car if it drives in the wrong direction:
