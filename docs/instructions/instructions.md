@@ -10,10 +10,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 * an assembled GBG-PCB
-1. Feel free to use [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production) and make your own boards or modify this design.
-2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping.
-3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. (As of May 2025 this link has not been tested).
-
+{% how-to-get-boards.md %}
 # Tools needed
 * flathead screwdriver (3mm)
 * wire strippers/cutters
@@ -147,5 +144,5 @@ The Pico will create a wifi network and will serve a webpage that allow you to c
 ## if the blue light blinks quickly
 #### that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 ## if none of the green lights on the PCB turn on,
-#### the battery might have been connected backwards (the PCB is not damaged)
+#### the battery might have been connected backwards. A backwards connection does not damage the board; the board just doesn't turn on.
 #### the on/off switch might not be making a connection
