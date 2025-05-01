@@ -10,7 +10,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 * an assembled GBG-PCB
-{% how-to-get-boards.md %}
+{% include how-to-get-boards.md %}
 # Tools needed
 * flathead screwdriver (3mm)
 * wire strippers/cutters
