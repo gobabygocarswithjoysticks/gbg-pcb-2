@@ -9,7 +9,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
 ## Want one?
-### [see this page!]()
+### [see this page!](https://gobabygocarswithjoysticks.github.io/gbg-pcb/how-to-get-boards)
 ## Acknowlegments
 ### Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. I appreciate the high quality boards and great service.
 

@@ -1,3 +1,3 @@
 1. Feel free to use [these files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production) and make your own boards or modify this design.
-2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping. Boards currently in-stock: {% include boards-in-stock.md %}
+2. Email gobabygocarswithjoysticks@gmail.com. I might have assembled boards to sell or donate to you. The components cost approximately $50 but it depends on quantity and shipping. **Boards currently in-stock: {% include boards-in-stock.md %}**
 3. Use [this PCBWay link](https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html) to order fully assembled boards. Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. (As of May 2025 this link has not been used). 
