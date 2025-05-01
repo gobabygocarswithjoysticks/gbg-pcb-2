@@ -7,7 +7,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * materials for frame and backrest (usually pvc pipe)
 * joystick (recommended part: Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes) )
 * four wire cable - for joystick
-* [3D printed joystick holder parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad)
+* [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (handles, joystick holder)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 * an assembled GBG-PCB
 {% include how-to-get-boards.md %}
