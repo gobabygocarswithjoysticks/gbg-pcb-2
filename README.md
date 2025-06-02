@@ -64,7 +64,7 @@ The board was able to supply 40 amps to one motor for about 3 seconds before the
 If a motor starts turning on and off about once per second when under a lot of load, that is the over temperature protection of the motor drivers (150 degrees C). Try to avoid this by moving the car to a smoother surface to reduce the load on the motors. It's not good for the drivers to overload them repeatedly.
 
 
-![ir picture](/photos/ir1.jpg)
+![ir picture](/photos/IR1.jpg)
 
 ## What voltage does the PCB run on?
 ### 12 Volts
