@@ -11438,7 +11438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-24-24-0-25-5PT/13919475"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
 			(at 35.8648 245.11 0)
 			(effects
 				(font
@@ -11447,7 +11447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "heatsink Tape - alternate: 1168-TG-T1000-26-26-0.25-5PT-ND"
+		(property "Description" "heatsink tape"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11465,7 +11465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-24-24-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11474,7 +11474,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-24-24-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -11483,7 +11483,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.31"
+		(property "price" ".33"
 			(at 35.56 245.11 0)
 			(effects
 				(font
@@ -15211,7 +15211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "heatsink Tape - alternate: 1168-TG-T1000-26-26-0.25-5PT-ND"
+		(property "Description" "heatsink tape"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15229,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-24-24-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15238,7 +15238,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-24-24-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -15247,7 +15247,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.31"
+		(property "price" ".33"
 			(at 52.07 245.11 0)
 			(effects
 				(font

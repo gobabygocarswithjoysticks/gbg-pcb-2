@@ -57,7 +57,7 @@
 	(attr through_hole allow_missing_courtyard)
 	(fp_rect
 		(start 0 0)
-		(end 24 24)
+		(end 26 26)
 		(stroke
 			(width 0.1)
 			(type dot)
