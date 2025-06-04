@@ -24598,7 +24598,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "heatsink Tape - alternate: 1168-TG-T1000-26-26-0.25-5PT-ND"
+		(property "Description" "heatsink tape"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24626,7 +24626,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-24-24-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24640,7 +24640,7 @@
 				(justify mirror)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-24-24-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24654,7 +24654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "price" "0.31"
+		(property "price" ".33"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24756,7 +24756,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-24-24-0-25-5PT/13919475"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24770,7 +24770,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "heatsink Tape - alternate: 1168-TG-T1000-26-26-0.25-5PT-ND"
+		(property "Description" "heatsink tape"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24798,7 +24798,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TG-T1000-24-24-0.25-5PT"
+		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24812,7 +24812,7 @@
 				(justify mirror)
 			)
 		)
-		(property "digikey_part_number" "1168-TG-T1000-24-24-0.25-5PT-ND"
+		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24826,7 +24826,7 @@
 				(justify mirror)
 			)
 		)
-		(property "price" "0.31"
+		(property "price" ".33"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
