@@ -14622,7 +14622,7 @@
 			)
 		)
 		(property "Value" "12  2.54mm pitch header pins"
-			(at 0 30.27 270)
+			(at 0 30.27 90)
 			(layer "F.Fab")
 			(uuid "8d99f9a3-da5a-4e0e-b6f5-2afc51a76e61")
 			(effects
@@ -15022,7 +15022,7 @@
 			(uuid "606d3d29-0583-4241-96eb-5360cc705f26")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/kicad libraries/PinHeader_1x12_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25099,6 +25099,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "2535d7d5-bd3f-42ea-855a-8695081fd3fb")
+	)
+	(gr_circle
+		(center 114.935 90.0684)
+		(end 114.9604 89.9668)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3b2b2deb-339a-474d-93d5-b7747c718176")
 	)
 	(gr_line
 		(start 112.9 103.886)
