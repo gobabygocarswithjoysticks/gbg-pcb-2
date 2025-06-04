@@ -2995,7 +2995,7 @@
 			(uuid "370e7934-e963-4adb-a1a3-f24a4bcb427f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3278,7 +3278,7 @@
 			(uuid "48a2bc63-bad3-4486-9468-3d3eb4615f49")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Blue.step"
+		(model "${KIPRJMOD}/kicad libraries/LED_D5.0mm_Blue.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3583,7 +3583,7 @@
 			(uuid "aa4044ab-b855-4e40-a91d-ebc8412b9305")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Green.step"
+		(model "${KIPRJMOD}/kicad libraries/LED_D3.0mm_Green.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3849,7 +3849,7 @@
 			(uuid "57b4f439-f108-46c1-a7d4-e3ba679c477f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4581,7 +4581,7 @@
 			(uuid "c1238912-6f1f-41cd-9abe-d2c985a09fa5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/LFPAK56.step"
+		(model "${KIPRJMOD}/kicad libraries/LFPAK56.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5158,7 +5158,7 @@
 			(uuid "212aec79-65c1-4780-bada-d9822aa07bb7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5673,7 +5673,7 @@
 			(uuid "994b8725-2a91-445d-a83d-c3512590c39d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+		(model "${KIPRJMOD}/kicad libraries/D_SOD-123F.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6238,7 +6238,7 @@
 			(uuid "8f351af4-53e3-4bc5-942b-e800ce430581")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/LFPAK56.step"
+		(model "${KIPRJMOD}/kicad libraries/LFPAK56.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8379,7 +8379,7 @@
 			(uuid "9bc13b4e-0742-419c-abee-6675e7e35228")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step"
+		(model "${KIPRJMOD}/kicad libraries/CP_Radial_D10.0mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10532,7 +10532,7 @@
 			(uuid "78a29715-7d3c-4925-b26a-8d4535b7374c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step"
+		(model "${KIPRJMOD}/kicad libraries/CP_Radial_D10.0mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10810,7 +10810,7 @@
 			(uuid "f7860b09-2b74-49f8-af80-c98a5bd3df38")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14326,7 +14326,7 @@
 			(uuid "a9439a9a-4219-45ab-934b-539e00c8653e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14592,7 +14592,7 @@
 			(uuid "a1db4999-8ca8-4173-bb61-1ec767541d5c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15022,7 +15022,7 @@
 			(uuid "606d3d29-0583-4241-96eb-5360cc705f26")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15600,7 +15600,7 @@
 			(uuid "167f7bb1-f3ff-47e2-a5b4-6ed1dff6d14c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16612,7 +16612,7 @@
 			(uuid "f8b751fc-05d0-4b29-b398-82d2475380d9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16878,7 +16878,7 @@
 			(uuid "6de64e53-f4be-471b-9d5f-9cb82097f956")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/kicad libraries/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18045,7 +18045,7 @@
 			(uuid "2dc469d7-160b-41d5-b7a7-9348f5b64245")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Green.step"
+		(model "${KIPRJMOD}/kicad libraries/LED_D3.0mm_Green.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18610,7 +18610,7 @@
 			(uuid "ccb594cd-1c28-451d-a6aa-39a53591c427")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/LFPAK56.step"
+		(model "${KIPRJMOD}/kicad libraries/LFPAK56.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21564,7 +21564,7 @@
 			(uuid "b10bb56b-2b77-4b80-b697-10ba86b2873a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/LFPAK56.step"
+		(model "${KIPRJMOD}/kicad libraries/LFPAK56.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22308,7 +22308,7 @@
 			(uuid "179acffd-a6de-44ba-8079-345c696b7a13")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23632,7 +23632,7 @@
 			(uuid "0fda2d87-c3c2-4f43-b21b-d15346f15f47")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/kicad libraries/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23898,7 +23898,7 @@
 			(uuid "bb183bba-1615-49b3-b2ac-95a761c944cd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/kicad libraries/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24203,7 +24203,7 @@
 			(uuid "9c51e731-4955-48cb-be9e-4187ce5752ba")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Green.step"
+		(model "${KIPRJMOD}/kicad libraries/LED_D3.0mm_Green.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
