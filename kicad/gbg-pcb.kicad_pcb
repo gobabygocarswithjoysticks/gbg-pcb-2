@@ -14611,7 +14611,7 @@
 		(descr "Through hole straight pin header, 1x12, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x12 2.54mm single row")
 		(property "Reference" "J1"
-			(at -0.762 30.48 0)
+			(at -0.635 30.48 0)
 			(layer "F.SilkS")
 			(uuid "dd904c74-11c8-404c-921c-382413117741")
 			(effects
@@ -25660,7 +25660,7 @@
 		)
 	)
 	(gr_text "1000u"
-		(at 93.218 90.424 0)
+		(at 93.1926 90.551 0)
 		(layer "F.SilkS")
 		(uuid "ce926e0c-5326-4c3d-8e20-3d9a7ef19505")
 		(effects
@@ -25672,7 +25672,7 @@
 		)
 	)
 	(gr_text "1000u"
-		(at 117.221 90.17 0)
+		(at 116.7384 90.3732 0)
 		(layer "F.SilkS")
 		(uuid "d2bc60de-c139-4c1d-a951-9731a38de9c5")
 		(effects
