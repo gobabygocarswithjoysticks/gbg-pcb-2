@@ -1,5 +1,8 @@
 
 # Parts needed
+aosom jeep
+
+
 * an Aosom jeep (Aosom SKU: 370-038)
 * materials for frame and backrest (usually pvc pipe) //TODO: ADD DETAILS
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
@@ -21,11 +24,43 @@
 ## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
 ---
+# Unpack the Jeep (Parts to Keep)
+201: Back wheels
+202: Back axle
+203: Front bar (attached to steering mechanism) 
+204: Grey reinforcement pieces 
+205: Seat 
+206: Little plastic wrenches 
+207: Bags of nuts, bolts, and screws 
+208: Back motors 
+209: Motor covers 
+210: Charger 
+211: Driving lights 
+212: Toolbox 
+213: Auxiliary cord for music 
+214: Manual
+
+![Jeep parts photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep parts.jpg)
+
+Parts of the Jeep not shown in the image can be discarded.
 
 # Frame and Wheel Modifications
 ## Back wheels
+Remove all nuts and washers from the back axle (202).
+
+Slide the back axle into place as shown below.
+
+![back axle photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back axle photo.jpg)
+
+Install back motors (208), back wheels (201), spacers (207), nuts (207) (tighten the nuts on the two ends of the axle, 202, simultaneously), and hubcaps (207) as shown in the manual (214, image below). Use the provided plastic wrenches. Make sure to check the labels on the motors that say L or R and put the L motor on the side of the car that will be on the left side when the car is upright from the perspective of the driver, and put the R motor on the right side of the car. If the motors are on the wrong sides the car will drive backwards.
+
+![back axle diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back wheels.jpg)
+
+
 ## Front Caster Wheels
 ## PVC Frame
+![pvc frame diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/pvc frame.png)
+
 ## Seatbelt
 
 # Electrical Modifications
