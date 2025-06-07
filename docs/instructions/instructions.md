@@ -2,6 +2,9 @@
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
+# Instructions for specific models of cars
+* [Aosom Jeep](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
+
 # Parts needed
 * a car
 * materials for frame and backrest (usually pvc pipe)
