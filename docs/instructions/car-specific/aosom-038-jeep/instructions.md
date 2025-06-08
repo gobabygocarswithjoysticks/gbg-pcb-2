@@ -4,8 +4,22 @@ wire cutter
 wire stripper
 clamps
 screw driver with phillips head
+flathead screwdriver
+small flathead screwdriver (3mm)
+small phillips screwdriver (2.0)
+dremel with cutting wheel
 pvc glue
-
+T6 Torx screwdriver
+duct tape that matches the color of the car
+wire protector
+two large zipties
+permanent marker
+hot glue
+drill
+screwdriver bit for the drill (matching the wood screws)
+1/16" drill bit (for drilling holes in the 3D printed parts)
+5/64" drill bit (for drilling pilot holes for the wood screws for the frame)
+4 2 inch (5cm) long wood screws (for attaching the frame to the car)
 
 # Parts needed
 * an Aosom jeep (Aosom SKU: 370-038)
@@ -106,7 +120,9 @@ Cut the 10 foot length of 3/4 inch PVC pipe to the following lengths, as also sh
 
 Join the two parts of each 3D printed saddle tee (106, 107) together, using five m2.2x14mm screws (14).
 
-// TODO: 
+TODO: 7.03 TO 7.14
+
+
 
 ## Seatbelt
 
@@ -150,18 +166,53 @@ Cut the thin red wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off t
 Cut the two wires for the left motor off the left motor plug. Strip 3/8" (10 mm) of insulation off the ends of the two wires.
 
 ## Wire the Joystick
+### Route the joystick cable
+Take the 4 wire cable and put it through the hole at the front right of the battery compartment (following the wires that had gone to the 6 wire plug). The 4 wire cable should go inside the plastic guard around the gear shift lever. If you can't push the cable through so it comes out in front of the plastic guard, you could unscrew the plastic guard, run the cable, then put the plastic guard back in place.
 
+Unscrew the dashboard.
 
+Identify the plug that powers the music and horn. Label it "UNPLUG TO DEACTIVATE MUSIC".
+
+Route the 4 wire cable up to the dashboard, following the red, white, and black wires that go to the dashboard. The 4 wire cable should then go out of the dashboard through the hole for the steering wheel and reach about 13 inches (33 cm) outside the dashboard.
+
+Cut a 12 inch (30 cm) length of wire protector tubing and slide it over the length of the 4 wire cable that is outside the dashboard. This will protect the wires from being pulled by the kid.
+
+Add a zip tie around the 4 wire cable and the wire protector tubing on the inside of the dashboard, to keep the cable from being pulled out of the dashboard.
+
+![dashboard photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/dashboard photo.jpg)
+
+Screw the dashboard back in place.
+
+Plug the joystick into the joystick pcb.
+
+Connect the 4 wire cable to the screw terminal on the joystick pcb. Strip 1/4" (6 mm) of insulation off the ends of the wires and connect them to the screw terminal on the joystick pcb.
+
+Hot glue the joystick pcb inside the 3d printed joystick holder so that it can't move around and jam the joystick.
+
+Add a ziptie to the end of the wire protector, right before the joystick pcb, to keep the wires from being pulled out.
+
+![joystick pcb photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/joystick pcb photo.jpg)
+
+![joystick holder photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/joystick holder photo.jpg)
+
+Before closing up the joystick holder, drop a 4-40 nut into the slot for the top hole. This nut will be used to secure the joystick holder to the pvc frame later.
+
+Screw the top of the joystick holder to the bottom of the joystick holder, using 4 m2.2x14mm screws. If the joystick is incorrectly rotated, the 3d printed parts won't fit together.
+
+At the other end of the 4 wire cable, in the space under the seat, strip 1/4" (6 mm) of insulation off the ends of the wires. Connect the wires to the screw terminal on the GBG-PCB labeled "joystick". Make sure that between the GBG-PCB and the joystick pcb, the wires are connected in the same order. "X", "3V", "Y", "GND" on the two boards should be connected together.
 
 ## (optional) Wire Buttons and/or Speed Knob
 ### Buttons
 Plug up to 4 buttons into the headphone-style jacks on the GBG-PCB.
 
 When you connect the GBG-PCB to your computer to change the settings, click the "show all" button and check the box next to "enable button_ctrl". Then, you can set what direction each button should make the car move in.
+
 ### Speed Knob
 You can add a knob to the car for easily adjusting the maximum speed of the car without needing to reprogram it.
 
-Connect a potentiometer to the screw terminal labeled "speed knob". When you connect the GBG-PCB to your computer to change the settings, click the "show all" button and check the box next to "use speed knob".
+Connect a potentiometer to the screw terminal labeled "speed knob". 
+
+When you connect the GBG-PCB to your computer to change the settings, click the "show all" button and check the box next to "use speed knob".
 
 ## Reconnect the battery
 
@@ -183,7 +234,7 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 
 # Test the car
 ## disconnect the car from the computer
-## turn on the car using the on/off switch
+## turn on the car using the on/off button on the dashboard
 ### the three green lights on the PCB should turn on
 ### you should hear a short beep from the motors
 ## the car should drive when you move the joystick
@@ -194,6 +245,8 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 # Finishing Touches
 ## re-attach the seat
 
+label the on/off button
+
 # Notes on remote control 
 ## Over wifi
 This feature is available on GBG-PCBs with a Pico 1W or 2W.
@@ -201,6 +254,8 @@ This feature is available on GBG-PCBs with a Pico 1W or 2W.
 Check the "use wifi" setting on the programmer website, then follow the instructions and QR codes on the programmer website.
 
 The Pico will create a wifi network and will serve a webpage that allows you to control the car.
+
+The range is very short (about 10 feet).
 
 # Troubleshooting
 # The car doesn't drive in the direction the joystick is pointing in
