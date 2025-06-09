@@ -37,7 +37,7 @@ screwdriver bit for the drill (matching the wood screws)
 * micro USB cable
 
 # Circuit diagram
-![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
+![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/circuit diagram.drawio.png)
 
 ## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
@@ -106,9 +106,10 @@ Place the casters (1) into the holes in the bar (where the tubes were), with was
 
 Use screws (207) found in the Jeep parts to screw the front bar to the Jeep.
 
+![front caster wheels](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front caster wheels.jpg)
 
 ## PVC Frame
-Cut the 10 foot length of 3/4 inch PVC pipe to the following lengths, as also shown in the diagram below:
+### Cut the 10 foot length of 3/4 inch PVC pipe to the following lengths, as also shown in the diagram below:
 * 2x 26.5" pieces
 * 1x 14.5" piece
 * 2x 13" pieces
@@ -122,24 +123,26 @@ Join the two parts of each 3D printed saddle tee (106, 107) together, using five
 
 TODO: 7.03 TO 7.14
 
-
-
 ## Seatbelt
+TODO: (carseat harnesses are out of stock everywhere)
 
 # Electrical Modifications
 
 ## Remove the Seat
 
 ## Disconnect the battery
-### If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that has to be connected to the battery of a new car.
+If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that has to be connected to the battery of a new car.
 
 ## Get ready to add the PCB
 
 Remove the control box that came with the car. Unscrew the screw securing it and unplug all wires that are connected to it. The control box is not needed and can be discarded. Keep the Y branching cable that connects the two motors to the control box, as it will be used to connect the motors to the GBG-PCB.
 
-Find the left motor plug, the battery plug, the right motor plug, the 6 wire plug and the steering motor plug.
+Find the left motor plug, the battery plug, the right motor plug, the 6 wire plug, the steering motor plug, and the Y branching cable that was connected to the control box. The plugs are shown in the image below.
 
-Gently pull on the steering motor plug and discard the brown and blue steering motor wires. The other end was unplugged when you removed the steering motor. The steering motor wires are not needed. You can cut any heatshrink tubing that is around the steering motor plug or even the steering motor wires themselves, if needed, to remove the steering motor wires.
+![plugs.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/plugs.png)
+
+
+Gently pull on the steering motor plug and discard the brown and blue steering motor wires. The other end was unplugged when you removed the steering motor. The steering motor wires are not needed. You can cut any heatshrink tubing that is around the steering motor plug or even the steering motor wires themselves, if needed, to remove the steering motor wires. Don't cut any of the thin wires that might be bundled with the two thicker steering motor wires.
 
 ![all the plugs.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/all the plugs.jpg)
 
@@ -164,6 +167,7 @@ Cut the thin red wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off t
 ## Wire the PCB to the motors
 
 Cut the two wires for the left motor off the left motor plug. Strip 3/8" (10 mm) of insulation off the ends of the two wires.
+TODO:
 
 ## Wire the Joystick
 ### Route the joystick cable
@@ -181,7 +185,9 @@ Add a zip tie around the 4 wire cable and the wire protector tubing on the insid
 
 ![dashboard photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/dashboard photo.jpg)
 
-Screw the dashboard back in place.
+Screw the dashboard back in place, leaving the "unplug to deactivate music" plug out of the dashboard.
+
+![dashboard photo 2](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/dashboard photo 2.jpg)
 
 Plug the joystick into the joystick pcb.
 
@@ -246,6 +252,10 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 ## re-attach the seat
 
 label the on/off button
+
+screw the grey reinforcement pieces (204) to the bottom of the car using screws that came with the car.
+
+//TODO: ADD PICTURE FROM MANUAL
 
 # Notes on remote control 
 ## Over wifi
