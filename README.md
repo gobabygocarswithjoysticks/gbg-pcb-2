@@ -17,6 +17,8 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
 ### [instructions specifically for the Aosom Jeep](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
 
+---
+
 # [schematic of PCB](/schematic.pdf)
 
 # [PCB Production files](/PCB_production)

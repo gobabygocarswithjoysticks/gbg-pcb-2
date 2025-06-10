@@ -1,43 +1,44 @@
-aosom jeep
-box cutter for opening box
-wire cutter
-wire stripper
-clamps
-screw driver with phillips head
-flathead screwdriver
-small flathead screwdriver (3mm)
-small phillips screwdriver (2.0)
-dremel with cutting wheel
-pvc glue
-T6 Torx screwdriver
-duct tape that matches the color of the car
-wire protector
-two large zipties
-permanent marker
-hot glue
-drill
-screwdriver bit for the drill (matching the wood screws)
-1/16" drill bit (for drilling holes in the 3D printed parts)
-5/64" drill bit (for drilling pilot holes for the wood screws for the frame)
-4 2 inch (5cm) long wood screws (for attaching the frame to the car)
-
 # Parts needed
 * an Aosom jeep (Aosom SKU: 370-038)
+* 10 feet of 3/4 inch PVC pipe
+* 8x 3/4 inch PVC pipe 90 degree elbows
+* harness or seatbelt or velcro or foam kickboard (any supplies needed to make a backrest and provide enough support for the child to sit in the car)
 * materials for frame and backrest (usually pvc pipe) //TODO: ADD DETAILS
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
 * four wire cable - for joystick
 * //TODO
+* wire protector
+* two large zipties
+* 4 2 inch (5cm) long wood screws (for attaching the frame to the car)
 * [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (handles, joystick holder)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 * an assembled GBG-PCB
 {% include how-to-get-boards.md %}
-# Tools needed //TODO
-* flathead screwdriver (3mm)
-* wire strippers/cutters
+# Tools needed
+* small flathead screwdriver (3mm)
+* flathead screwdriver (larger)
+* small phillips head screwdriver (2.0)
+* phillips head screwdriver bit for a drill or electric screwdriver
+* screwdriver bit for a drill or electric screwdriver that fits the wood screws
+* wire strippers
+* wire cutters
 * micro USB cable
+* box cutter
+* clamps
+* rotary tool (Dremel) with cutting wheel
+* hammer
+* pvc glue
+* T6 Torx screwdriver
+* duct tape that matches the color of the car
+* permanent marker (or label maker)
+* hot glue
+* drill
+* 1/16" drill bit (for drilling holes in the 3D printed parts)
+* 5/64" drill bit (for drilling pilot holes for the wood screws for the frame)
+* adjustable wrench
 
 # Circuit diagram
-![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/circuit diagram.drawio.png)
+![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/circuit_diagram.drawio.png)
 
 ## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
@@ -76,7 +77,7 @@ screwdriver bit for the drill (matching the wood screws)
 
 ### 214: Manual
 
-![Jeep parts photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep parts.jpg)
+![Jeep parts photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep%20parts.jpg)
 
 Parts of the Jeep not shown in the image can be discarded.
 
@@ -86,17 +87,17 @@ Remove all nuts and washers from the back axle (202).
 
 Slide the back axle into place as shown below.
 
-![back axle photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back axle photo.jpg)
+![back axle photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back%20axle%20photo.jpg)
 
 Install back motors (208), back wheels (201), spacers (207), nuts (207) (tighten the nuts on the two ends of the axle, 202, simultaneously), and hubcaps (207) as shown in the manual (214, image below). Use the provided plastic wrenches. Make sure to check the labels on the motors that say L or R and put the L motor on the side of the car that will be on the left side when the car is upright from the perspective of the driver, and put the R motor on the right side of the car. If the motors are on the wrong sides the car will drive backwards.
 
-![back axle diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back wheels.jpg)
+![back axle diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back%20wheels.jpg)
 
 
 ## Front Caster Wheels
 The front steering motor will not be used. The motor is on the underside of the car. Unplug the wires to the motor. Unscrew the motor, remove and discard.
 
-![front steering motor](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front steering motor.jpg)
+![front steering motor](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front%20steering%20motor.jpg)
 
 Unscrew the locknuts from the metal steering mechanism to remove the front bar (203) and use a clamp to securely hold the front bar for cutting the welds on it, in the next step.
 
@@ -106,7 +107,7 @@ Place the casters (1) into the holes in the bar (where the tubes were), with was
 
 Use screws (207) found in the Jeep parts to screw the front bar to the Jeep.
 
-![front caster wheels](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front caster wheels.jpg)
+![front caster wheels](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front_caster_wheels.png)
 
 ## PVC Frame
 ### Cut the 10 foot length of 3/4 inch PVC pipe to the following lengths, as also shown in the diagram below:
@@ -117,7 +118,7 @@ Use screws (207) found in the Jeep parts to screw the front bar to the Jeep.
 * 1x 5" piece
 * 2x 3" pieces
 
-![pvc frame diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/pvc frame.png)
+![pvc frame diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/pvc%20frame.png)
 
 Join the two parts of each 3D printed saddle tee (106, 107) together, using five m2.2x14mm screws (14).
 
@@ -139,12 +140,10 @@ Remove the control box that came with the car. Unscrew the screw securing it and
 
 Find the left motor plug, the battery plug, the right motor plug, the 6 wire plug, the steering motor plug, and the Y branching cable that was connected to the control box. The plugs are shown in the image below.
 
-![plugs.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/plugs.png)
+![plugs.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/plugs.drawio.png)
 
 
-Gently pull on the steering motor plug and discard the brown and blue steering motor wires. The other end was unplugged when you removed the steering motor. The steering motor wires are not needed. You can cut any heatshrink tubing that is around the steering motor plug or even the steering motor wires themselves, if needed, to remove the steering motor wires. Don't cut any of the thin wires that might be bundled with the two thicker steering motor wires.
-
-![all the plugs.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/all the plugs.jpg)
+Gently pull on the steering motor plug and discard the brown and blue steering motor wires. The other end was unplugged when you removed the steering motor. The steering motor wires are not needed. You can cut any heatshrink tubing that is around the steering motor plug or even the steering motor wires themselves, if needed, to remove the steering motor wires. Don't cut any of the thin wires that might be bundled with the motor cables.
 
 ## Connect the PCB to the battery wires
 
@@ -166,8 +165,11 @@ Cut the thin red wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off t
 
 ## Wire the PCB to the motors
 
-Cut the two wires for the left motor off the left motor plug. Strip 3/8" (10 mm) of insulation off the ends of the two wires.
-TODO:
+Plug the Y connecting cable that was connected to the control box into the two motor plugs. Then, cut the plug where the 4 wires meet the plug.
+
+![motorplugs.drawio.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/motorplugs.drawio.png)
+
+Strip 3/8" (10 mm) of insulation off the ends of the wires. Connect the wires to the GBG-PCB.
 
 ## Wire the Joystick
 ### Route the joystick cable
