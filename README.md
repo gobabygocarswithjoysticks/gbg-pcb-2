@@ -10,13 +10,12 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 ## Want one?
 ### [see this page!](https://gobabygocarswithjoysticks.github.io/gbg-pcb/how-to-get-boards)
-## Acknowlegments
-### Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. I appreciate the high quality boards and great service.
 
 # instructions for using this PCB to modify a car
 ## [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
+![schematic](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 ### [instructions specifically for the Aosom Jeep](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
-
+TODO: PHOTO of the Aosom Jeep with the PCB installed and seat open
 ---
 
 # [schematic of PCB](/schematic.pdf)
@@ -25,14 +24,14 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 # [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
-
+---
 # notes for people working on the KiCAD for this project
 Use KiCAD 9.0
 
 Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to any of the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
 
 # photos
-![view of assembled PCB from the top](/photos/image0.jpg)
+![view of assembled PCB from the top](/photos/image0.jpg) //TODO: NEW PHOTOS
 ![view of assembled PCB](/photos/image1.jpg)
 
 # images of CAD
@@ -43,6 +42,15 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 ![auto_generated_image, back](/renders/back.jpg)
 
 # results from testing the PCB
+# Testing the PCB in an Aosom Jeep
+I put 20 pounds in the car, then drove it on grass and up hills. The car handled better on grass when it had weight in it. On grass, the car wasn't always able to spin in place without the wheels just slipping, but with a little forward movement it could make sharp turns.
+
+I drove the car on a flat street with no extra weight, but the car drove for a mile (1.6 km) and still had charge left.
+
+The motors and wires in the car got hotter than the PCB, so I think that the PCB can handle enough current for this model of car.
+
+![ir picture](/docs/instructions/car-specific/aosom-038-jeep/photos/ir1.JPG)
+
 # v1.1:
 
 ## How much current does the PCB draw when it's off?
@@ -64,8 +72,8 @@ For 2 minutes I used the joystick to keep the reading from the current sensor at
 #### Burst Current Tests
 The board was able to supply 40 amps to one motor for about 3 seconds before the over temperature protection of the motor drivers activated.
 
+#### Over Temperature Protection
 If a motor starts turning on and off about once per second when under a lot of load, that is the over temperature protection of the motor drivers (150 degrees C). Try to avoid this by moving the car to a smoother surface to reduce the load on the motors. It's not good for the drivers to overload them repeatedly.
-
 
 ![ir picture](/photos/IR1.jpg)
 
@@ -85,3 +93,7 @@ Some of the resistors would overheat at 24 volts.
 
 # v1.0: 
 The reverse voltage protection MOSFETS need to be redesigned. The motor drivers work and the circuit board supplied 15A (at 100% duty cycle) from one motor port for 4 minutes without overheating. The motor driver was running at 100% so there was no heat generated from switching.
+
+---
+### Acknowledgments
+Thank you to [PCBWay](https://www.pcbway.com/) for supporting this project. I appreciate the high quality boards and great service.

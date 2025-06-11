@@ -85,7 +85,7 @@ The GBG-PCB has reverse voltage protection, so it won't be damaged if you accide
 ### Low currents (about 4 mA) will flow through this circuit, so any wires and switches will work.
 ## Connect the switch to the screw terminal labeled on/off.
 ### Current can flow either way through a switch so either wire from the switch can go to either terminal.
-It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on. The MOSFETs interrupt the connection to the negative wire of the battery.
+It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on. The MOSFETs interrupt the connection to the negative wire of the battery. //TODO: explain why the jeep needs the dashboard connected to the negative battery terminal instead of the negative 12v terminal.
 ### An electrical connection between the two terminals of the on/off screw terminal block will turn the PCB on.
 
 # Wire the Joystick

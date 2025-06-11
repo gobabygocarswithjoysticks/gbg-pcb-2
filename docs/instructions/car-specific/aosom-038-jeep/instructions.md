@@ -1,19 +1,30 @@
+![jeep_photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep_photo.jpg)
 # Parts needed
-* an Aosom jeep (Aosom SKU: 370-038)
-* 10 feet of 3/4 inch PVC pipe
-* 8x 3/4 inch PVC pipe 90 degree elbows
-* harness or seatbelt or velcro or foam kickboard (any supplies needed to make a backrest and provide enough support for the child to sit in the car)
-* materials for frame and backrest (usually pvc pipe) //TODO: ADD DETAILS
+* an Aosom jeep (Aosom SKU: 370-038, I also see an identical looking car on costzon.com)
+* [2x 5” caster w/ 1/2”-13 x 1-1/2” threaded stem and “No Brake” option](https://www.sescasters.com/product/cr26l05sx0x-rpfggnx/)
+* 4x washer with 1/2" inner diameter
+* 2x 1/2"-13 lock nuts
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
-* four wire cable - for joystick
-* //TODO
-* wire protector
-* two large zipties
-* 4 2 inch (5cm) long wood screws (for attaching the frame to the car)
+* 4.5’ length of four-wire ribbon cable
+* 2x 4-40 nut
+* 2x 4-40 1.25 inch machine screw with phillips head
+* 12” of 1/4 split loom plastic wire protector tube
+* [18x m2.2x14mm screws](https://www.mcmaster.com/95893A174/)
+* 10 foot length of 3/4 inch schedule 40 PVC tubing
+* 2x 1/4-20 locknut
+* 2x 1/4-20 3/4 inch machine screw with rounded head
+* 8x 3/4 inch PVC pipe 90 degree elbows
+* 4x 2 inch long #6 wood screws (for attaching the frame to the car)
+* 4x plywood chunks (about 1 inch by 1.5 inches by 2 inches)
+* 3/4” x 1 3/4” piece of 1/16” rubber gasket sheet
+* 2x large zip ties
+* harness or seatbelt or velcro or foam kickboard (any supplies needed to make a backrest and provide enough support for the child to sit in the car. the harnesses we used to use are out of stock)
+
 * [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (handles, joystick holder)
-* an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+* an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
 {% include how-to-get-boards.md %}
+
 # Tools needed
 * small flathead screwdriver (3mm)
 * flathead screwdriver (larger)
@@ -77,9 +88,11 @@
 
 ### 214: Manual
 
+### not pictured: Y branching motor cable that comes connected to the control box
+
 ![Jeep parts photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep%20parts.jpg)
 
-Parts of the Jeep not shown in the image can be discarded.
+Left over parts of the Jeep can be discarded.
 
 # Frame and Wheel Modifications
 ## Back wheels
@@ -122,6 +135,36 @@ Use screws (207) found in the Jeep parts to screw the front bar to the Jeep.
 
 Join the two parts of each 3D printed saddle tee (106, 107) together, using five m2.2x14mm screws (14).
 
+![3D printed saddle tee](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/3d_printed_saddle_tee.jpg)
+
+Place a ¼-20 locknut into the pocket at the end of each connector tee, then screw a ¼-20 ¾” machine screw with rounded head through the hole at the side of the tee and into the nut, just enough to hold the nut in place. (the nuts and bolts can also be added later, after the frame is assembled)
+
+Attach the saddle tees to the ends of the 14.5" piece of PVC (push them onto the ends, rotated at the same angle – the flat sides of the tees should be oriented in the same direction). Drill 1/16" pilot holes into the PVC pipe, and secure with 2 m2.2x14mm screws.
+
+Slide the saddle tees onto the two 26.5" pieces (you may need to loosen the machine screw on the end of the tee a bit to allow them to slide easily). When attached to the rest of the frame, the flat side of the saddle tees should be on the underside of the tee, and the machine screws can be tightened to lock the tees in place.
+
+Slide the saddle tees onto the two 26.5" pieces (you may need to loosen the machine screw on the end of the tee a bit to allow them to slide easily). When attached to the rest of the frame, the flat side of the saddle tees should be on the underside of the tee, and the machine screws can be tightened to lock the tees in place.
+
+Assemble the frame as shown using cut PVC pipe and 8 PVC elbows, trying to rotate the printed text on the PVC to the underside of the pipe so that it remains hidden from view. DO NOT GLUE THE PART OF THE JOINTS CIRCLED IN GREEN (MAKE SURE THE TOP PART – THE BACKREST – IS REMOVABLE BY LIFTING UP). Other joints should be glued with PVC glue after verifying that the elbow angles are appropriate.
+
+![pvc frame diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/pvc%20frame.png)
+
+Use four #6 wood screws to secure the frame to the Jeep, using two 1-½” screws to attach the front posts to the side of the hood and two 2” screws to attach the frame to the upper edge of the rear of the Jeep. Make pilot holes first using a 5/64" drill bit, then use screws. For a more secure connection, screw into plywood chunks placed inside of the Jeep (one chunk for each screw). Tip for the back screws: if you remove the taillights (their screws can be accessed by reaching up from under the Jeep) you can hold the wood blocks through the holes, and then you can replace the lights. TO AVOID INJURY, TAKE APPROPRIATE CARE TO KEEP FINGERS CLEAR FROM THE SCREWS WHILE SCREWING INTO THE WOODEN BLOCKS.
+
+Cover 4 screw heads with duct tape
+
+Cut a 19mm x 45mm piece of 1/16” rubber gasket.
+
+Put the piece of rubber into the recessed rectangle of the joystick holder clamp. (You may have to trim the piece of rubber to size)
+
+Remove the 4-40 machine screws that are temporarily holding the 4-40 nuts in the joystick holder, taking care not to let the nuts fall out of their slots. Then slide the bolts through the two holes in the 3d printed clamp piece.
+
+![clamp_piece.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/clamp_piece.png)
+
+Bolt the joystick holder base to the clamp around the PVC crosspiece. It should take almost no force with the screwdriver – if you feel resistance, check the alignment of the nuts and try again. Tighten both bolts similar distances.
+
+
+
 TODO: 7.03 TO 7.14
 
 ## Seatbelt
@@ -162,6 +205,8 @@ Put both the black battery wire and the thin black wire from the 6 wire plug int
 Cut the thin white wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off the end of the white wire. Connect the white wire to the left side of the ON/OFF screw terminal on the GBG-PCB. It's important that the white wire is connected to the side of the on/off switch that is closer to the left motor screw terminal. The white wire should go to the side of the on/off screw terminal that is closer to the word "off" than the word "on" where it says "on/off" on the PCB.
 
 Cut the thin red wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off the end of the red wire. Connect the red wire to the small batt screw terminal on the GBG-PCB (labeled "+").
+
+//TODO: PHOTO
 
 ## Wire the PCB to the motors
 
