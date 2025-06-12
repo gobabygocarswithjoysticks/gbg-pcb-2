@@ -48,6 +48,8 @@
 * 5/64" drill bit (for drilling pilot holes for the wood screws for the frame)
 * 3/32" drill bit (for drilling out the holes in the joystick handles)
 * adjustable wrench
+* channel lock pliers
+* 3D printer access
 
 # Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/circuit_diagram.drawio.png)
@@ -97,29 +99,32 @@ Left over parts of the Jeep can be discarded.
 
 # Frame and Wheel Modifications
 ## Back wheels
-Remove all nuts and washers from the back axle (202).
+Remove all nuts and washers from the back axle.
 
 Slide the back axle into place as shown below.
 
 ![back axle photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back%20axle%20photo.jpg)
 
-Install back motors (208), back wheels (201), spacers (207), nuts (207) (tighten the nuts on the two ends of the axle, 202, simultaneously), and hubcaps (207) as shown in the manual (214, image below). Use the provided plastic wrenches. Make sure to check the labels on the motors that say L or R and put the L motor on the side of the car that will be on the left side when the car is upright from the perspective of the driver, and put the R motor on the right side of the car. If the motors are on the wrong sides the car will drive backwards.
+Put the two back motors on the back axle. Make sure to check the labels on the motors that say L or R and put the L motor on the side of the car that will be on the left side when the car is upright from the perspective of the driver, and put the R motor on the right side of the car. If the motors are on the wrong sides the car will drive backwards.
+
+Install back motors, back wheels, washers, nuts (tighten the nuts on the two ends of the axle, simultaneously), and hubcaps as shown in the manual (image below). Use the provided plastic wrenches. 
 
 ![back axle diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/back%20wheels.jpg)
 
+Check to make sure that the back wheels spin freely. If they don't, loosen the nuts a little bit.
 
 ## Front Caster Wheels
 The front steering motor will not be used. The motor is on the underside of the car. Unplug the wires to the motor. Unscrew the motor, remove and discard.
 
 ![front steering motor](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front%20steering%20motor.jpg)
 
-Unscrew the locknuts from the metal steering mechanism to remove the front bar (203) and use a clamp to securely hold the front bar for cutting the welds on it, in the next step.
+Unscrew the locknuts from the metal steering mechanism to remove the front bar and use a clamp to securely hold the front bar for cutting the welds on it, in the next step.
 
-Remove the round tubes on the front bar by using the dremel and a cutting wheel to cut through the welds that hold the tubes in place. (Try to maintain the structural integrity of the square bar while cutting; the round tubes will be disposed of, so damaging them while cutting is acceptable.) After the welds are cut, use a hammer to tap the tubes out if necessary (making sure to hammer from the side of the tube OPPOSITE the weld).
+Remove the round tubes on the front bar by using the rotary tool and a cutting wheel to cut through the welds that hold the tubes in place. (Try to maintain the structural integrity of the square bar while cutting; the round tubes will be disposed of, so damaging them while cutting is acceptable.) After the welds are cut, use a hammer to tap the tubes out (make sure to hammer from the side of the tube OPPOSITE the weld).
 
-Place the casters (1) into the holes in the bar (where the tubes were), with washers (2) on both sides of the hole. Bolt the casters to the bar using ½-13 lock nuts (3), using a large channel lock pliers to keep the caster from spinning while turning the nut with a ¾” wrench. Make sure that the casters are not installed upside-down; mounting tabs on the bar should be on the wheel side.
+Place the casters into the holes in the bar (where the tubes were), with washers on both sides of the hole. Bolt the casters to the bar using ½-13 lock nuts, using a large channel lock pliers to keep the caster from spinning while turning the nut with a ¾” wrench. Make sure that the casters are not installed upside-down; mounting tabs on the bar should be on the wheel side.
 
-Use screws (207) found in the Jeep parts to screw the front bar to the Jeep.
+Use screws found in the Jeep parts to screw the front bar to the Jeep.
 
 ![front caster wheels](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front_caster_wheels.png)
 
@@ -134,7 +139,7 @@ Use screws (207) found in the Jeep parts to screw the front bar to the Jeep.
 
 ![pvc frame diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/pvc%20frame.png)
 
-Join the two parts of each 3D printed saddle tee (106, 107) together, using five m2.2x14mm screws (14).
+Join the two parts of each 3D printed saddle tee together, using five m2.2x14mm screws.
 
 ![3D printed saddle tee](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/3d_printed_saddle_tee.png)
 
@@ -258,7 +263,7 @@ Bolt the joystick holder base to the clamp around the PVC crosspiece. It should 
 
 Twist the two silver metal pieces off of the joystick threaded shaft and discard.
 
-Screw one of the 3D printed joystick handles (105) onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit.
+Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit.
 
 Add some hot glue where the joystick wires enter the dasbhoard and where the joystick wires enter the joystick holder as additional strain relief.
 
@@ -312,7 +317,7 @@ re-attach the seat
 
 label the "on/off" button (the red power button on the dashboard)
 
-screw the grey reinforcement pieces (204) to the bottom of the car using screws that came with the car.
+screw the grey reinforcement pieces to the bottom of the car using screws that came with the car.
 
 ![grey_reinforcement.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/grey_reinforcement.jpg)
 
