@@ -60,7 +60,7 @@ I put approximately 70 pounds in the car and drove it into a wall so the wheels 
 
 That is practically zero current. The PCB won't make the battery discharge any faster than the battery would just sitting in storage with nothing connected.
 
-I measured the current by adding a 3MOhm resistor in series with the PCB and a 12V power supply. I measured the voltage across the resistor as 5.5mOhm and then calculated the current that was flowing through the resistor and PCB.
+I measured the current by adding a 3MOhm resistor in series with the PCB and a 12V power supply. I measured the voltage across the resistor as 5.5mV and then calculated the current that was flowing through the resistor and PCB.
 
 I=V/R=0.0055/3000000=1.83E-9 Amps 
 
