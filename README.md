@@ -45,9 +45,11 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 # Testing the PCB in an Aosom Jeep
 I put 20 pounds in the car, then drove it on grass and up hills. The car handled better on grass when it had weight in it. On grass, the car wasn't always able to spin in place without the wheels just slipping, but with a little forward movement it could make sharp turns.
 
-I drove the car on a flat street with no extra weight, but the car drove for a mile (1.6 km) and still had charge left.
+I drove the car on a flat street with no extra weight, and the car drove for a mile (1.6 km) and still had charge left.
 
 The motors and wires in the car got hotter than the PCB, so I think that the PCB can handle enough current for this model of car.
+
+I put approximately 70 pounds in the car and drove it into a wall so the wheels slid but heavily loaded the motors. The thermal breaker in the car tripped after a couple minutes before the PCB had gotten hot at all, but the motors and wiring of the car was hot.
 
 ![ir picture](/docs/instructions/car-specific/aosom-038-jeep/photos/ir1.JPG)
 
