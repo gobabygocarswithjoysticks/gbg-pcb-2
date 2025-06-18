@@ -335,7 +335,7 @@ Screw the grey reinforcement pieces to the bottom of the car using screws that c
 
 # Check your work
 Check your work with this inspection checklist:
-https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing
+[https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing](https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing)
 
 # Troubleshooting
 
