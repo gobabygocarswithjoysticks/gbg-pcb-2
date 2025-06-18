@@ -1,4 +1,7 @@
 ![jeep_photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep_photo.jpg)
+
+questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
+
 # Parts needed
 * an Aosom jeep (Aosom SKU: 370-038, I also see an identical looking car on costzon.com)
 * [2x 5” caster w/ 1/2”-13 x 1-1/2” threaded stem and “No Brake” option](https://www.sescasters.com/product/cr26l05sx0x-rpfggnx/)
@@ -20,7 +23,7 @@
 * 2x large zip ties
 * harness or seatbelt or velcro or foam kickboard (any supplies needed to make a backrest and provide enough support for the child to sit in the car. the harnesses we used to use are out of stock)
 
-* [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (handles, joystick holder)
+* [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (3 handles, 3 joystick holder components)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
 {% include how-to-get-boards.md %}
@@ -47,9 +50,11 @@
 * 1/16" drill bit (for drilling holes in the 3D printed parts)
 * 5/64" drill bit (for drilling pilot holes for the wood screws for the frame)
 * 3/32" drill bit (for drilling out the holes in the joystick handles)
-* adjustable wrench
+* adjustable wrench (at least 3/4 inches wide)
 * channel lock pliers
 * 3D printer access
+* Computer with internet access and a usb port
+* Micro-USB cable
 
 # Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/circuit_diagram.drawio.png)
@@ -120,9 +125,11 @@ The front steering motor will not be used. The motor is on the underside of the 
 
 Unscrew the locknuts from the metal steering mechanism to remove the front bar and use a clamp to securely hold the front bar for cutting the welds on it, in the next step.
 
+![front bar photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/front_bar.png)
+
 Remove the round tubes on the front bar by using the rotary tool and a cutting wheel to cut through the welds that hold the tubes in place. (Try to maintain the structural integrity of the square bar while cutting; the round tubes will be disposed of, so damaging them while cutting is acceptable.) After the welds are cut, use a hammer to tap the tubes out (make sure to hammer from the side of the tube OPPOSITE the weld).
 
-Place the casters into the holes in the bar (where the tubes were), with washers on both sides of the hole. Bolt the casters to the bar using ½-13 lock nuts, using a large channel lock pliers to keep the caster from spinning while turning the nut with a ¾” wrench. Make sure that the casters are not installed upside-down; mounting tabs on the bar should be on the wheel side.
+Place the casters into the holes in the bar (where the tubes were), with washers on both sides of the hole. Bolt the casters to the bar using ½-13 lock nuts, using large channel lock pliers to keep the caster from spinning while turning the nut with a ¾” wrench. Make sure that the casters are not installed upside-down; mounting tabs on the bar should be on the wheel side.
 
 Use screws found in the Jeep parts to screw the front bar to the Jeep.
 
@@ -149,27 +156,25 @@ Attach the saddle tees to the ends of the 14.5" piece of PVC (push them onto the
 
 Slide the saddle tees onto the two 26.5" pieces (you may need to loosen the machine screw on the end of the tee a bit to allow them to slide easily). When attached to the rest of the frame, the flat side of the saddle tees should be on the underside of the tee, and the machine screws can be tightened to lock the tees in place.
 
-Slide the saddle tees onto the two 26.5" pieces (you may need to loosen the machine screw on the end of the tee a bit to allow them to slide easily). When attached to the rest of the frame, the flat side of the saddle tees should be on the underside of the tee, and the machine screws can be tightened to lock the tees in place.
-
-Assemble the frame as shown using cut PVC pipe and 8 PVC elbows, trying to rotate the printed text on the PVC to the underside of the pipe so that it remains hidden from view. DO NOT GLUE THE PART OF THE JOINTS CIRCLED IN GREEN (MAKE SURE THE TOP PART – THE BACKREST – IS REMOVABLE BY LIFTING UP). Other joints should be glued with PVC glue after verifying that the elbow angles are appropriate.
+Assemble the frame as shown using the cut PVC pipe and 8 PVC elbows, trying to rotate the printed text on the PVC to the underside of the pipe so that it remains hidden from view. DO NOT GLUE THE PART OF THE JOINTS CIRCLED IN GREEN (MAKE SURE THE TOP PART – THE BACKREST – IS REMOVABLE BY LIFTING UP). Other joints should be glued with PVC glue after verifying that the elbow angles are appropriate.
 
 ![pvc frame diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/pvc%20frame.png)
 
-Use four #6 wood screws to secure the frame to the Jeep, using two 1-½” screws to attach the front posts to the side of the hood and two 2” screws to attach the frame to the upper edge of the rear of the Jeep. Make pilot holes first using a 5/64" drill bit, then use screws. For a more secure connection, screw into plywood chunks placed inside of the Jeep (one chunk for each screw). Tip for the back screws: if you remove the taillights (their screws can be accessed by reaching up from under the Jeep) you can hold the wood blocks through the holes, and then you can replace the lights. TO AVOID INJURY, TAKE APPROPRIATE CARE TO KEEP FINGERS CLEAR FROM THE SCREWS WHILE SCREWING INTO THE WOODEN BLOCKS.
+Use four wood screws to secure the frame to the Jeep, using two screws to attach the front posts to the side of the hood and two screws to attach the frame to the upper edge of the rear of the Jeep. Make pilot holes first using a 5/64" drill bit, then use screws. Screw into plywood chunks placed inside of the Jeep (one chunk for each screw). Tip for the back screws: if you remove the taillights (their screws can be accessed by reaching up from under the Jeep) you can hold the wood blocks through the holes, and then you can replace the lights. TO AVOID INJURY, TAKE APPROPRIATE CARE TO KEEP FINGERS CLEAR FROM THE SCREWS WHILE SCREWING INTO THE WOODEN BLOCKS.
 
-Cover 4 screw heads with duct tape
+Cover the 4 screw heads with duct tape
 
 ## Seatbelt
 Improvise, based on requests from a physical therapist.
 
-(the carseat harnesses we were using are out of stock everywhere)
+(the car seat harnesses we were using are out of stock everywhere)
 
 # Electrical Modifications
 
 ## Remove the Seat
 
 ## Disconnect the battery
-If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that has to be connected to the battery of a new car.
+If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that comes disconnected from the battery of a new car.
 
 ## Get ready to add the PCB
 
@@ -180,13 +185,13 @@ Find the left motor plug, the battery plug, the right motor plug, the 6 wire plu
 ![plugs.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/plugs.drawio.png)
 
 
-Gently pull on the steering motor plug and discard the brown and blue steering motor wires. The other end was unplugged when you removed the steering motor. The steering motor wires are not needed. You can cut any heatshrink tubing that is around the steering motor plug or even the steering motor wires themselves, if needed, to remove the steering motor wires. Don't cut any of the thin wires that might be bundled with the motor cables.
+Gently pull on the steering motor plug and discard the brown and blue steering motor wires. The other end was unplugged when you removed the steering motor. The steering motor wires are not needed. You can cut any heatshrink tubing that is around the steering motor plug or even the steering motor wires themselves, if needed, to remove the steering motor wires. Don't cut any of the thin wires that might be bundled with the 2 steering motor wires.
 
 ## Connect the PCB to the battery wires
 
-The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge.
+_The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge._
 
-Cut the red battery wire where it connects to the battery plug. Strip 3/8" (10 mm) of insulation off the end of the red wire. Connect the red battery wire to the positive large BATTERY screw terminal on the GBG-PCB (labeled "+"). Tighten the screw terminal securely to hold the wire in place.
+Cut the red battery wire where it connects to the battery plug. Strip 3/8" (10 mm) of insulation off the end of the red wire. Connect the red battery wire to the positive large BATTERY screw terminal on the GBG-PCB (labeled "+"). Tighten the screw terminal tightly to hold the wire in place.
 
 Cut the black battery wire where it connects to the battery plug. Strip 3/8" (10 mm) of insulation off the end of the black wire. 
 
@@ -198,17 +203,21 @@ Put both the black battery wire and the thin black wire from the 6 wire plug int
 
 Cut the thin white wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off the end of the white wire. Connect the white wire to the left side of the ON/OFF screw terminal on the GBG-PCB. It's important that the white wire is connected to the side of the on/off switch that is closer to the left motor screw terminal. The white wire should go to the side of the on/off screw terminal that is closer to the word "off" than the word "on" where it says "on/off" on the PCB.
 
-Cut the thin red wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off the end of the red wire. Connect the red wire to the small batt screw terminal on the GBG-PCB (labeled "+").
+Cut the thin red wire off the 6 wire plug. Strip 1/4" (6 mm) of insulation off the end of the red wire. Connect the red wire to the small BATT screw terminal on the GBG-PCB (labeled "+").
 
 ![power wires](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/power_wires.jpg)
 
 ## Wire the PCB to the motors
 
-Plug the Y connecting cable that was connected to the control box into the two motor plugs. Then, cut the plug where the 4 wires meet the plug.
+Plug the Y branching cable that was connected to the control box into the two motor plugs. Then, cut the plug where the 4 wires meet the plug.
 
 ![motorplugs.drawio.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/motorplugs.drawio.png)
 
-Strip 3/8" (10 mm) of insulation off the ends of the wires. Connect the wires to the GBG-PCB.
+Strip 3/8" (10 mm) of insulation off the ends of the wires. 
+
+Connect the motor wires to the left and right motor screw terminals on the GBG-PCB. The red wires should go to the sides of the terminals marked with a small "+" and the black wires should go to the sides of the terminals marked with a small "-".
+
+![motors wired](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/motors_wired.jpg)
 
 ## Wire the Joystick
 ### Route the joystick cable
@@ -236,7 +245,7 @@ Plug the joystick into the joystick pcb.
 
 Connect the 4 wire cable to the screw terminal on the joystick pcb. Strip 1/4" (6 mm) of insulation off the ends of the wires and connect them to the screw terminal on the joystick pcb.
 
-Hot glue the joystick pcb inside the 3d printed joystick holder so that it can't move around and jam the joystick.
+Hot glue the joystick pcb inside the 3d printed joystick holder so that it can't move around and jam the joystick. Match the position in the photo below.
 
 Add a ziptie to the end of the wire protector, to keep the wires from being pulled out.
 
@@ -248,8 +257,8 @@ Screw the top of the joystick holder to the bottom of the joystick holder, using
 
 At the other end of the 4 wire cable, in the space under the seat, strip 1/4" (6 mm) of insulation off the ends of the wires. Connect the wires to the screw terminal on the GBG-PCB labeled "joystick". Make sure that between the GBG-PCB and the joystick pcb, the wires are connected in the same order. "X", "3V", "Y", "GND" on the two boards should be connected together.
 
-#### Attach Joystick Holder
-Cut a 19mm x 45mm piece of 1/16” rubber gasket.
+### Attach Joystick Holder
+Cut a 0.75 inch (19mm) by 1.75 inch (45mm) rectangular piece of 1/16” thick rubber gasket sheet.
 
 Put the piece of rubber into the recessed rectangle of the joystick holder clamp. (You may have to trim the piece of rubber to size)
 
@@ -263,7 +272,8 @@ Bolt the joystick holder base to the clamp around the PVC crosspiece. It should 
 
 Twist the two silver metal pieces off of the joystick threaded shaft and discard.
 
-Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit.
+Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit. 
+_Alternatively, you could modify the handle models and use a threaded heat set insert to connect the joystick handle to the joystick shaft._
 
 Add some hot glue where the joystick wires enter the dasbhoard and where the joystick wires enter the joystick holder as additional strain relief.
 
@@ -287,9 +297,7 @@ The cars are sold with a red wire disconnected from the battery to keep the car 
 ## Flash the firmware to the Pico
 If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to calibrating the joystick and adjusting settings.
 
-Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car.
-
-Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced settings and check the box to get car code from the main branch.
+Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Select the __PCB_gbg_program__ not the standard __gbg_program__.
 
 ## Connect
 ### Connect the GBG-PCB to your computer with a micro USB cable
@@ -310,19 +318,29 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 
 
 # Finishing Touches
-Secure the GBG-PCB inside the battery compartment using hot glue.
+Clean out bits of wires and insulation that might have fallen into the car or electronics compartment. Ideally, use a vacuum cleaner.
+
+Secure the GBG-PCB inside the battery compartment using hot glue (make sure the USB port can still be used).
 ![secure_pcb.JPG](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/secure_pcb.jpg)
 
-re-attach the seat
+Re-attach the seat and screw it into place using screws that came with the car.
 
-label the "on/off" button (the red power button on the dashboard)
+Label the "on/off" button (the red power button on the dashboard)
 
-screw the grey reinforcement pieces to the bottom of the car using screws that came with the car.
+Screw the grey reinforcement pieces to the bottom of the car using screws that came with the car.
 
 ![grey_reinforcement.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/grey_reinforcement.jpg)
 
+### Congratulations! You're done!
+
+# Check your work
+Check your work with this inspection checklist:
+https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing
 
 # Troubleshooting
+
+## If you would like help troubleshooting your car or if you have any questions, please email gobabygocarswithjoysticks@gmail.com
+
 # The car doesn't drive in the direction the joystick is pointing in
 #### follow these steps to reprogram the car if it drives in the wrong direction:
 ### 0. Connect the programmer website and calibrate the joystick
@@ -337,4 +355,4 @@ screw the grey reinforcement pieces to the bottom of the car using screws that c
 #### If the blue light continues to blink quickly after letting go of the joystick for 5 seconds, then you should recalibrate the joystick using the programmer website. Connect the GBG-PCB to your computer, go to the programmer website, connect the website to the GBG-PCB, then click the "calibrate the joystick the easy way" button and follow the instructions on the screen.
 ## if none of the green lights on the PCB turn on,
 #### the battery might have been connected backwards. A backwards connection does not damage the board; the board just doesn't turn on.
-#### the on/off switch might not be making a connection
+#### the on/off switch might not be wired correctly

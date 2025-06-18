@@ -130,6 +130,7 @@ Select the PCB_gbg_program. If you don't see the PCB program, click on Advanced 
 ### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
 # Notes on remote control 
+## See this page for several methods of remote control: [remote control](https://github.com/gobabygocarswithjoysticks/car-code/blob/main/rcdocs/remote_control.md)
 ## Over wifi
 This feature is available on GBG-PCBs with a Pico 1W or 2W.
 
@@ -137,7 +138,10 @@ Check the "use wifi" setting on the programmer website, then follow the instruct
 
 The Pico will create a wifi network and will serve a webpage that allows you to control the car.
 
+The wifi range is unreliable (sometimes measured as 10 feet sometimes as 100 feet).
+
 # Troubleshooting
+## If you would like help troubleshooting your car or if you have any questions, please email gobabygocarswithjoysticks@gmail.com
 # The car doesn't drive in the direction the joystick is pointing in
 #### follow these steps to reprogram the car if it drives in the wrong direction:
 ### 0. Connect the programmer website and calibrate the joystick
