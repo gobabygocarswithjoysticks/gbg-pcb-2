@@ -26,6 +26,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (3 handles, 3 joystick holder components)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
+
 {% include how-to-get-boards.md %}
 
 # Tools needed
