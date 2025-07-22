@@ -319,10 +319,11 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 
 
 # Finishing Touches
-Clean out bits of wires and insulation that might have fallen into the car or electronics compartment. Ideally, use a vacuum cleaner.
 
 Secure the GBG-PCB inside the battery compartment using hot glue (make sure the USB port can still be used).
 ![secure_pcb.JPG](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/secure_pcb.jpg)
+
+Clean out bits of wires and insulation that might have fallen into the car or electronics compartment. Ideally, use a vacuum cleaner.
 
 Re-attach the seat and screw it into place using screws that came with the car.
 
@@ -332,11 +333,12 @@ Screw the grey reinforcement pieces to the bottom of the car using screws that c
 
 ![grey_reinforcement.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/grey_reinforcement.jpg)
 
+Print a [user guide](https://docs.google.com/document/d/1gazkX-ZfFOiyW0IYRKWDf3U71-eo1b7SZ_yoa84WfKo/edit?usp=sharing) for the car.
+
 ### Congratulations! You're done!
 
 # Check your work
-Check your work with this inspection checklist:
-[https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing](https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing)
+Check your work with this [inspection checklist](https://docs.google.com/document/d/16H79A8kvLGwDgCY7LqITseffnMbmoiTtzU1TYeZi0BQ/edit?usp=sharing)
 
 # Troubleshooting
 
