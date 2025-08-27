@@ -1,6 +1,6 @@
 Use a GBG-PCB to make a Zupapa bumper car controlled by a joystick without needing to solder anything.
 
-![bumper_photo.jpg]()
+![bumper_car_photo.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/zupapa-bumper-car/photos/photo0.jpg)
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
@@ -16,32 +16,62 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 {% include how-to-get-boards.md %}
 
 # Tools needed
+* wire strippers
+* wire cutters
+* small (3mm) flathead screwdriver
+* large (6mm) flathead screwdriver
+* small (2.0) Phillips screwdriver
+* 
 
-![circuit diagram]()
+## ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/circuit_diagram.drawio.png)
 
-# [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
+
+## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
-# unpack the car (parts to keep)
+# Unpack the Car
+![unpacked_car.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/unpacked_car.jpg)
 
-Left over parts of the Jeep can be discarded.
+# Connect Wheels
+
+The following steps are assembly steps 1 and 2 in the Zupapa bumper car user manual "Install Car Wheels" and "Install Caster Wheels"
+
+## Assemble the axis (Zupapa calls the axel the "axis" so I'll use their term)
+
+Make sure both nuts are fully screwed on until the axis sticks out through them by a millimeter on both ends.
+
+## Place the Axis assembly into the car
+
+Turn the car upside down
+
+## Attach the 2 motor covers with 2 small-head screws each
+
+## Attach the 2 axis covers with 4 small-head screws each
+
+## Attach the 2 universal (AKA swivel or caster) wheels with 4 large-head screws each
+
 
 # Electrical Modifications
-
+Turn the car back upright
 ## Remove the Seat and the Battery Cover
 
-## Disconnect the battery
-It should be shipped with the red wire to the battery already disconnected
+Unscrew the 2 screws holding the seat in place and lift it off. Then, unscrew the screw on the white wire holder and the 4 screws holding the battery cover in place and remove the cover.
 
-## Remove unneeded components
+## Disconnect the battery
+It should be shipped with the red wire to the battery already disconnected. If a wire is connected to the red terminal of the battery, disconnect it to keep the car off and safe while you work on it.
+
+Put tape over the red terminal of the battery to prevent accidental short circuits.
 
 ## Connect the GBG-PCB
 ### Identify all the wires
+Find the white wire going to the 9 wire plug on the control box. Cut the white wire close to the plug.
+
+Strip a quarter inch (6 mm) of insulation off the end of the white wire, put it into the 
 
 ### Connect the PCB to the battery wires
 _The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge._
 
-Cut the red battery wire where it connects to the battery plug. Strip 3/8" (10 mm) of insulation off the end of the red wire. Connect the red battery wire to the positive large BATTERY screw terminal on the GBG-PCB (labeled "+"). Tighten the screw terminal tightly to hold the wire in place.
+Cut the red battery wire close to the fuse. Strip 3/8" (10 mm) of insulation off the end of the red wire. Connect the red battery wire to the positive large BATTERY screw terminal on the GBG-PCB (labeled "+"). Tighten the screw terminal tightly to hold the wire in place.
 
 Cut the black battery wire where it connects to the battery plug. Strip 3/8" (10 mm) of insulation off the end of the black wire. 
 
@@ -100,9 +130,9 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 
 
 # frame
-
+// TODO
 # seatbelt and backrest
-
+// TODO
 
 
 
