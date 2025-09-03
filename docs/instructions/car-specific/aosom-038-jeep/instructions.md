@@ -55,7 +55,6 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * channel lock pliers
 * 3D printer access
 * Computer with internet access and a usb port
-* Micro-USB cable
 
 # Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/circuit_diagram.drawio.png)
