@@ -160,6 +160,7 @@ Place the GBG-PCB into the space behind the control box and the battery
 
 # Wire the joystick
 [video instructions](https://www.youtube.com/watch?v=ldmA2Xm-xtc)
+
 Get a 3 foot (1 meter) length of 4 wire cable.
 
 Strip 1/4" (6mm) of insulation from the 4 wires on one end of the cable.
