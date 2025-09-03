@@ -1,8 +1,10 @@
 Use a GBG-PCB to make a Zupapa bumper car controlled by a joystick without needing to solder anything.
 
-![bumper_car_photo.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/zupapa-bumper-car/photos/photo0.jpg)
+![bumper_car_photo.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/zupapa-bumper-car/photos/image0.jpg)
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
+
+## [Playlist of Videos for these instructions](https://www.youtube.com/playlist?list=PLt7UPvzv7L7Fb3U2_fuYpHY5yMrvgbvhL)
 
 # Parts needed
 * a 12 volt Zupapa bumper car [https://www.amazon.com/dp/B0CLLW3FBG?th=1](https://www.amazon.com/dp/B0CLLW3FBG?th=1)
@@ -29,6 +31,8 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 ## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
+## Instructions:
+
 # Unpack the Car
 ![unpacked_car.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/unpacked_car.jpg)
 
@@ -36,22 +40,39 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 
 The following steps are assembly steps 1 and 2 in the Zupapa bumper car user manual "Install Car Wheels" and "Install Caster Wheels"
 
-## Assemble the axis (Zupapa calls the axel the "axis" so I'll use their term)
+## Assemble the axis (Zupapa calls the axel the "axis")
+[video instructions](https://www.youtube.com/watch?v=1W5rl3IwcJM)
+
+### On both ends of the axis add a motor, wheel, washer and nut.
+
+Use the included wrenches to tighten the nuts. They are unusual-looking wrenches. Alternatively, if you have normal wrenches you could use them.
+
+![wrench.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/wrench.png)
 
 Make sure both nuts are fully screwed on until the axis sticks out through them by a millimeter on both ends.
 
-## Place the Axis assembly into the car
+![axel_assembly](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/axel_assembly.jpg)
+ 
 
-Turn the car upside down
+## Attach the wheels
+[video instructions](https://www.youtube.com/watch?v=ZMBXotuPM0Q)
 
-## Attach the 2 motor covers with 2 small-head screws each
+### Turn the car upside down
 
-## Attach the 2 axis covers with 4 small-head screws each
+### Place the axis and wheel assembly into the bottom of the car.
 
-## Attach the 2 universal (AKA swivel or caster) wheels with 4 large-head screws each
+### Plug the two motors into the plugs
+
+### Attach the 2 plastic motor covers with 2 small-head screws each
+
+#### Attach the 2 metal axis covers with 4 small-head screws each
+
+#### Attach the 2 universal (AKA swivel or caster) wheels with 4 large-head screws each
 
 
 # Electrical Modifications
+[video instructions](https://www.youtube.com/watch?v=aNX1qpSBgc4)
+
 Turn the car back upright
 ## Remove the Seat and the Battery Cover
 
@@ -63,31 +84,116 @@ It should be shipped with the red wire to the battery already disconnected. If a
 Put tape over the red terminal of the battery to prevent accidental short circuits.
 
 ## Connect the GBG-PCB
-### Identify all the wires
+### Connect the on/off switch wire
 Find the white wire going to the 9 wire plug on the control box. Cut the white wire close to the plug.
 
-Strip a quarter inch (6 mm) of insulation off the end of the white wire, put it into the 
+Strip a quarter inch (6 mm) of insulation off the end of the white wire. 
+
+Connect the white wire to the on/off terminal closer to the left motor port.
+![white_wire.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/white_wire.png)
 
 ### Connect the PCB to the battery wires
 _The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge._
 
-Cut the red battery wire close to the fuse. Strip 3/8" (10 mm) of insulation off the end of the red wire. Connect the red battery wire to the positive large BATTERY screw terminal on the GBG-PCB (labeled "+"). Tighten the screw terminal tightly to hold the wire in place.
+_Unlike other instructions, in this car the Weelye control box that comes with the car is left in the circuit. The GBG-PCB is wired in parallel with the control box from the battery. The control box doesn't control the motors but it does handle charging and power the control panel that does music, lights, charging, and the on/off switch._
 
-Cut the black battery wire where it connects to the battery plug. Strip 3/8" (10 mm) of insulation off the end of the black wire. 
+#### positive battery wire
+Cut the red battery wire close (within an inch) to the fuse box. 
+
+Strip 3/8" (10 mm) of insulation off both ends of the now cut red wire. 
+
+Twist the ends of the red wire back together. 
+
+Connect the wires to the positive large BATTERY screw terminal on the GBG-PCB (labeled "+"). 
+
+Tighten the screw terminal tightly to hold the wires in place.
+
+![red_wires.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/red_wires.png)
+
+#### negative battery wire
+Cut the black wire so that both ends reach the GBG-PCB. To do that, cut the wire 5 inches (12.7 cm) from the battery. 
+
+Strip 3/8" (10 mm) of insulation off the ends of the now cut black wires. 
+
+Twist the ends of the black wire back together. 
+
+You can unplug the battery plug from the car's control box to make it easier to work.
+
+Connect the wires to the negative large BATTERY screw terminal on the GBG-PCB (labeled "-").
+
+Tighten the screw terminal tightly to hold the wires in place.
 
 Cut the thin black wire off the 6 wire plug. Strip 3/8" (10 mm) of insulation off the end of the black wire.
 
 Put both the black battery wire and the thin black wire from the 6 wire plug into the negative large BATTERY screw terminal on the GBG-PCB (labeled "-"). Tighten the screw terminal securely to hold both wires in place.
 
-### Wire the PCB to the on/off switch
+![black_wires.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/black_wires.png)
 
 ### Wire the PCB to the motors
+#### left motor
+Unplug the left motor from the control box and cut the plug off the ends of the wires. Discard the plug.
 
-### Add the wires for the joystick
+Strip 3/8" (10 mm) of insulation off the ends of the two left motor wires. 
 
-## Connect the joystick
+Connect the red wire from the left motor to the left motor terminal labeled "+" (the terminal closer to the edge of the board). 
 
+Connect the black wire from the left motor to the left motor terminal labeled "-" (the terminal farther from the edge of the board).
 
+![left_motor.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/left_motor.png)
+
+#### right motor
+Unplug the right motor from the control box and cut the plug off the ends of the wires. Discard the plug.
+
+Strip 3/8" (10 mm) of insulation off the ends of the two right motor wires.
+
+Connect the red wire from the right motor to the right motor terminal labeled "-" (the terminal farther from the edge of the board). This is reversed from the left motor
+
+Connect the black wire from the right motor to the right motor terminal labeled "+" (the terminal closer to the edge of the board).
+
+![right_motor.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/right_motor.png)
+
+If you disconnected the battery plug from the control box, plug it back in.
+
+Place the GBG-PCB into the space behind the control box and the battery
+
+![motors_wired.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/motors_wired.png)
+
+# Wire the joystick
+[video instructions](https://www.youtube.com/watch?v=ldmA2Xm-xtc)
+Get a 3 foot (1 meter) length of 4 wire cable.
+
+Strip 1/4" (6mm) of insulation from the 4 wires on one end of the cable.
+
+Connect the 4 wires to the screw terminal on the GBG-PCB labeled "joystick." The standard coloring is X=blue, 3V=red, Y=green, gnd=black.
+
+Pry the "control panel" with the charging port, music controls and red on/off switch out of the car.
+
+Reaching through the hole where the control panel was, thread the four wire cable from the GBG-PCB up through the hole in the left armrest of the car.
+
+![threaded_wires.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/threaded_wires.png)
+
+### Unless a kid, their family, and their doctors all agree that lights and music are ok, removing these distractions are recommended.
+The lights can be turned off with a button on the control panel, but they turn on each time the car is turned on. The volume of the music can be changed and the music can be paused (and the car can even be a bluetooth speaker for custom music), but if the speaker is connected the car will play engine noises and then music when it is first turned on.
+
+Unplug the two 4 wire cables from the top of the control panel to turn off the lights. The two plugs that need to be unplugged are circled in the photo.
+
+![lights_plug.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/lights_wires.png)
+
+Reach into the hole where the control panel was and find the plug connecting two yellow wires together. Unplug the yellow wires to turn off the audio.
+
+![music_plug.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/music_wires.png)
+
+Push the control panel back into the car.
+
+Strip 1/4" (6mm) of insulation from the 4 wires on the end of the 4 wire cable that is now sticking out of the left armrest
+
+Connect the wires to the screw terminal on the joystick circuit board. Make sure that between the GBG-PCB and the joystick board, the wires are connected in the same order. "X", "3V", "Y", "GND" on the two boards should be connected together. The standard coloring is X=blue, 3V=red, Y=green, gnd=black.
+
+![joystick-wired.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/joystick-wired.png)
+
+Connect the red battery wire to the battery (it plugs into the tab on the battery then locks into place).
+
+![final-wiring-under-seat.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/final-wiring-under-seat.png)
 
 ## (optional) Wire Buttons and/or Speed Knob
 ### Buttons
@@ -107,12 +213,13 @@ The cars are sold with a red wire disconnected from the battery to keep the car 
 
 # Software and Settings
 ## Flash the firmware to the Pico
-If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to calibrating the joystick and adjusting settings.
+If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to Connecting to the car
 
 Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Select the __PCB_gbg_program__ not the standard __gbg_program__.
 
-## Connect
+## Connecting to the car
 ### Connect the GBG-PCB to your computer with a micro USB cable
+[video of connecting the usb cable](https://www.youtube.com/watch?v=VGhAat-I-ZU)
 ### Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#configure)
 ### Follow the instructions pointed to with the magenta arrow to connect to the car
 ## Calibrate the joystick and adjust settings
@@ -129,11 +236,12 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 ### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
 
-# frame
+# joystick holder
 // TODO
 # seatbelt and backrest
 // TODO
 
+# joystick handles
 
 
 ### Congratulations! You're done!
