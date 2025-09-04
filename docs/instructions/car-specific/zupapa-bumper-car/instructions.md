@@ -241,6 +241,8 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 
 # joystick holder
 // TODO
+## joystick ball
+// TODO
 # seatbelt and backrest
 // TODO
 
