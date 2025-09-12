@@ -31,7 +31,7 @@ Use KiCAD 9.0
 Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to any of the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
 
 # photos
-![view of assembled PCB from the top](/photos/image0.jpg) //TODO: NEW PHOTOS
+![view of assembled PCB from the top](/photos/image0.jpg)
 ![view of assembled PCB](/photos/image1.jpg)
 
 # images of CAD
