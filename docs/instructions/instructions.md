@@ -1,4 +1,4 @@
-# Instructions for using this circuit board (the "GBG-PCB") to build a go baby go car
+# Instructions for using the GBG-PCB to make a go baby go car
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
@@ -15,26 +15,28 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [3D printed parts](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) (handles, joystick holder)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 * an assembled GBG-PCB
-
 {% include how-to-get-boards.md %}
 # Tools needed
-* flathead screwdriver (3mm)
-* wire strippers/cutters
+* small flathead screwdriver (3mm)
+* large flathead screwdriver (6mm)
+* small Phillips screwdriver (2.0)
+* wire strippers
+* wire cutters
 * micro USB cable
 
 # Circuit diagram
 ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 
-## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
-## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
+## [Schematic of GBG-PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
+## [List Of Components to build a GBG-PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
 ---
 
 # Choose a Car
 ## 12 volts
-It won't run on 6 volts, the motor driver ICs need over 8 volts.
+The GBG-PCB won't run on 6 volts because the motor driver ICs need at least 8 volts.
 
-It hasn't been tested above 12 Volts.
+The GBG-PCB hasn't been tested above 12 Volts.
 
 The PCB was only designed for 12 Volt ride on cars. Feel free to email if you are interested in trying it at other voltages. The motor drivers can easily handle 24 volts, but the 5V regulator and some of the resistors would need to be changed.
 
@@ -53,18 +55,18 @@ Some cars are sold with one motor but have space in the frame to add a second mo
 ### Go Baby Go cars usually get a PVC pipe frame with a backrest
 It's easier to fit a frame to a blockier car with more right angles
 ### The joystick can be connected to the frame, or it can be put on the end of an "adjustable photo arm"
-[Here](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) are some 3D printed parts that could be used to hold the joystick
+[Here](https://github.com/gobabygocarswithjoysticks/index?tab=readme-ov-file#cad) are some 3D printed parts that could be used to hold the joystick.
 
 ---
 
 # Disconnect the battery
-### If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that has to be connected to the battery of a new car.
+### If possible, disconnect one wire from the battery to keep the circuit off while you are working on it. Some cars have a spade terminal that comes disconnected from the battery of a new car.
 
 # Wire the PCB to the motors
 ## Find the motors
 ### The motors are usually under the seat of the car
 ## Prepare the motor wires
-### Cut the wires to the motors
+### Cut the plugs off the ends of the motor wires
 ### Strip the insulation off the ends of the wires
 ## Connect the motors to the PCB
 ### The motors can be reversed or swapped left/right in software later.
@@ -73,7 +75,7 @@ It's easier to fit a frame to a blockier car with more right angles
 
 If there is a plug that comes from the battery and goes to a circuit board that is already in the car, you can probably cut that plug off and use those wires to power the GBG-PCB. 
 
-If you see a fuse (usually a small black box with two wires coming out of it), please leave it in the circuit between the battery and the GBG-PCB. It's a really good idea to have a fuse between the battery and the PCB; if you need to get a fuse, a 20 Amp auto resetting fuse is a reasonable choice.
+If you see a fuse (usually a small black box with two wires coming out of it), please leave it in the circuit between the battery and the GBG-PCB. It's a really good idea to have a fuse between the battery and the PCB; if you need to get a fuse, a 10 Amp auto resetting fuse is a reasonable choice.
 
 Connect the positive battery wire (usually red) to the positive BATTERY terminal on the GBG-PCB (labeled "+"). 
 
@@ -88,12 +90,14 @@ The GBG-PCB has reverse voltage protection, so it won't be damaged if you accide
 ### Low currents (about 4 mA) will flow through this circuit, so any wires and switches will work.
 ## Connect the switch to the screw terminal labeled on/off.
 ### Current can flow either way through a switch so either wire from the switch can go to either terminal.
-It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on. The MOSFETs interrupt the connection to the negative wire of the battery. //TODO: explain why the jeep needs the dashboard ground connected to the negative battery terminal instead of a ground terminal.
 ### An electrical connection between the two terminals of the on/off screw terminal block will turn the PCB on.
+It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on. The MOSFETs interrupt the connection to the negative wire of the battery. The instructions specifically for the jeep describe how to use the button on the dashboard to turn the car on, and in that case the dashboard needs to be grounded directly to the battery or the signal from the button on the dashboard floats high and the car can't be turned off. The instructions specifically for the zupapa bumper car describe how to add the GBG-PCB in parallel to the existing control box and that strategy is helpful for cars with more complex wiring for the battery charger.
 
 # Wire the Joystick
 ![joystick photo](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/joystick.jpg)
-The wires between the joystickpcb and the GBG-PCB would be a longer 4 wire cable when installed in a car.
+Use a 4 wire cable to connect the GBG-PCB to the joystickpcb.
+
+This picture shows the circuit but for illustration purposes the wires are very short. The wires should be long enough to reach from the PCB to wherever the joystick will be placed on the car and the wires should be long enough to be routed through the frame of the car.
 # (optional) Wire Buttons and/or Speed Knob
 ## Buttons
 Plug up to 4 buttons into the headphone-style jacks on the GBG-PCB.
@@ -139,9 +143,11 @@ This feature is available on GBG-PCBs with a Pico 1W or 2W.
 
 Check the "use wifi" setting on the programmer website, then follow the instructions and QR codes on the programmer website.
 
-The Pico will create a wifi network and will serve a webpage that allows you to control the car.
+The Pico will create a wifi network and will serve a webpage that allows you to control the car and change settings of the car.
 
 The wifi range is unreliable (sometimes measured as 10 feet sometimes as 100 feet).
+
+For more information, see the remote control page linked above.
 
 # Troubleshooting
 ## If you would like help troubleshooting your car or if you have any questions, please email gobabygocarswithjoysticks@gmail.com
@@ -157,3 +163,6 @@ The wifi range is unreliable (sometimes measured as 10 feet sometimes as 100 fee
 ## if none of the green lights on the PCB turn on,
 #### the battery might have been connected backwards. A backwards connection does not damage the board; the board just doesn't turn on.
 #### the on/off switch might not be making a connection
+#### the battery might be low
+#### the battery might not be connected
+#### the fuse might have tripped but it should reset itself after a few seconds
