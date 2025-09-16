@@ -85,6 +85,8 @@ The GBG-PCB has reverse voltage protection, so it won't be damaged if you accide
 
 ### The PCB can be left connected to the battery. It does not need a switch between itself and the battery. The PCB has MOSFETs that stop electricity from flowing when the on/off switch is off. When the PCB is off it draws practically zero current (2 nanoAmps) so it will not make the battery discharge.
 
+If your car has a switch that can handle the full current of the car, you can use that switch as the main power on/off switch and put it between the battery and the GBG-PCB. If you do this, connect the two terminals labeled "on/off" on the GBG-PCB together with a short wire.
+
 # Wire the PCB to the on/off switch
 ## Choose or add a switch to use as the main power on/off switch.
 ### Low currents (about 4 mA) will flow through this circuit, so any wires and switches will work.
