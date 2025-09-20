@@ -358,6 +358,8 @@ Replace the figure-8 shaped clips (which were removed in Step 9.01) onto the loo
 
 Route one of the head rest harness straps over the top PVC bar of the back rest and loop it one time around the bar as shown in the photo. Route the harness strap from the seat cushion through the plastic clip on the upper strap, then place the loose end in the figure-8 clip to secure it. Repeat this routing with the straps on the other side of the harness. Tighten both sets of straps evenly.
 
+![harness](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness.webp)
+
 Secure the Jeep seat with screws found in the Jeep box.
 
 ## last steps
