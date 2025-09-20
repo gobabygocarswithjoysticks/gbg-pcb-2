@@ -328,9 +328,9 @@ These instructions are for installing a "carseat" harness system. The harnesses 
 
 9.01 Separate the straps that connect the harness system’s head rest cushion to the seat cushion. Remove the figure-8 shaped plastic clip used to hold the loose end of the strap as well (these clips will be reinstalled later, so keep them in a safe place).
 
-![harness cut](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_cut.webp)
-
 Cut the two elastic bands that hold the round plastic clips to the underside of the harness system’s seat, and dispose of the elastic and the round clips.
+
+![harness cut](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_cut.webp)
 
 Secure (using their adhesive backing) four strips of 1 ½” x 5” velcro (the softer, loop pieces) to the back of the harness system, as outlined in red in the photo. All strips should be centered left/right on the harness, with two of them positioned on either side of the seam between the seat and the back cushions, one so that its outermost edge is 3” from the bottom edge of the harness, and one so that its outermost edge is 3” from the seam between the seatback and the headrest.
 
