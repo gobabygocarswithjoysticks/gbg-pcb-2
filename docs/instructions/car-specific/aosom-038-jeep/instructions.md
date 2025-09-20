@@ -164,47 +164,6 @@ Use four wood screws to secure the frame to the Jeep, using two screws to attach
 
 Cover the 4 screw heads with duct tape
 
-## Seatbelt
-Improvise, based on requests from a physical therapist.
-
-### Installing the Harness System
-
-These instructions are for installing a "carseat" harness system. The harnesses we used in the past have become hard to find.
-
-9.01 Separate the straps that connect the harness system’s head rest cushion to the seat cushion. Remove the figure-8 shaped plastic clip used to hold the loose end of the strap as well (these clips will be reinstalled later, so keep them in a safe place).
-
-![harness cut](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_cut.webp)
-
-Cut the two elastic bands that hold the round plastic clips to the underside of the harness system’s seat, and dispose of the elastic and the round clips.
-
-Secure (using their adhesive backing) four strips of 1 ½” x 5” velcro (the softer, loop pieces) to the back of the harness system, as outlined in red in the photo. All strips should be centered left/right on the harness, with two of them positioned on either side of the seam between the seat and the back cushions, one so that its outermost edge is 3” from the bottom edge of the harness, and one so that its outermost edge is 3” from the seam between the seatback and the headrest.
-
-![harness velcro](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_velcro.webp)
-
-Secure (using their adhesive backing) four strips of 1 ½” x 5” velcro (the harder, hook pieces) to the Jeep seat, as outlined in red in the photo. All strips should be centered left/right on the seat, with two of them positioned just above and below the bend between the seat and the back cushions, one toward the front edge of the seat (with its front corners just touching the front seam of the seat), and one at the lower edge of the head rest (with its lower corners just touching the seam between the headrest and the seat).
-
-![jeep seat velcro](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep_seat_velcro.webp)
-
-9.05 Remove the screw that secures one of the seatbelt clips to the jeep’s chassis. Before removing the clip, it is helpful to use a silver Sharpie to mark a “D” ( for Driver’s side) or “P” (for Passenger side) on the clip to ensure that you do not change the orientation and location of the clip when you reinstall it in a later step.
-
-![seatbelt clip](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/seatbelt_clip.webp)
-
-9.06. Without installing the seat yet, place the harness system approximately where it will be placed in the Jeep (as if the seat were installed). Feed the harness strap from the side of the harness seat (taking care not to allow any twists) through the seat belt clip, entering from the top (over the screw) and then routing it out from under the clip and out of the car, as in the photo.
-
-![harness through clip](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_through_clip.webp)
-
-9.07. Retighten the screw that secures the clip that secures the seatbelt strap, leaving it just loose enough that you are still able to slide the harness strap through the clip.
-
-Repeat Steps 9.05–9.07 with the harness strap and seatbelt clip on the opposite side of the car (again making sure to avoid twists in the harness strap when it is threaded through the clip).
-
-Slide the Jeep’s plastic seat into place, taking care to avoid having the velcro straps on the seat and harness from making contact until the seat is approximately in place. Position the harness system squarely over the seat, centered and with the seam between the seat and seat back positioned appropriately. Press the harness into the seat so that the velcro strips become secure.
-
-Replace the figure-8 shaped clips (which were removed in Step 9.01) onto the loose ends of the harness straps that were just threaded through the seat belt clips.
-
-Route one of the head rest harness straps over the top PVC bar of the back rest and loop it one time around the bar as shown in the photo. Route the harness strap from the seat cushion through the plastic clip on the upper strap, then place the loose end in the figure-8 clip to secure it. Repeat this routing with the straps on the other side of the harness. Tighten both sets of straps evenly.
-
-Secure the Jeep seat with screws found in the Jeep box.
-
 # Electrical Modifications
 
 ## Remove the Seat
@@ -354,13 +313,54 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 
 
 # Finishing Touches
-
+## clean up the car
 Secure the GBG-PCB inside the battery compartment using hot glue (make sure the USB port can still be used).
 ![secure_pcb.JPG](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/secure_pcb.jpg)
 
 Clean out bits of wires and insulation that might have fallen into the car or electronics compartment. Ideally, use a vacuum cleaner.
 
-Re-attach the seat and screw it into place using screws that came with the car.
+## Seatbelt
+Improvise, based on requests from a physical therapist.
+
+### Installing the Harness System
+
+These instructions are for installing a "carseat" harness system. The harnesses we used in the past have become hard to find.
+
+9.01 Separate the straps that connect the harness system’s head rest cushion to the seat cushion. Remove the figure-8 shaped plastic clip used to hold the loose end of the strap as well (these clips will be reinstalled later, so keep them in a safe place).
+
+![harness cut](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_cut.webp)
+
+Cut the two elastic bands that hold the round plastic clips to the underside of the harness system’s seat, and dispose of the elastic and the round clips.
+
+Secure (using their adhesive backing) four strips of 1 ½” x 5” velcro (the softer, loop pieces) to the back of the harness system, as outlined in red in the photo. All strips should be centered left/right on the harness, with two of them positioned on either side of the seam between the seat and the back cushions, one so that its outermost edge is 3” from the bottom edge of the harness, and one so that its outermost edge is 3” from the seam between the seatback and the headrest.
+
+![harness velcro](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_velcro.webp)
+
+Secure (using their adhesive backing) four strips of 1 ½” x 5” velcro (the harder, hook pieces) to the Jeep seat, as outlined in red in the photo. All strips should be centered left/right on the seat, with two of them positioned just above and below the bend between the seat and the back cushions, one toward the front edge of the seat (with its front corners just touching the front seam of the seat), and one at the lower edge of the head rest (with its lower corners just touching the seam between the headrest and the seat).
+
+![jeep seat velcro](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep_seat_velcro.webp)
+
+9.05 Remove the screw that secures one of the seatbelt clips to the jeep’s chassis. Before removing the clip, it is helpful to use a silver Sharpie to mark a “D” ( for Driver’s side) or “P” (for Passenger side) on the clip to ensure that you do not change the orientation and location of the clip when you reinstall it in a later step.
+
+![seatbelt clip](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/seatbelt_clip.webp)
+
+9.06. Without installing the seat yet, place the harness system approximately where it will be placed in the Jeep (as if the seat were installed). Feed the harness strap from the side of the harness seat (taking care not to allow any twists) through the seat belt clip, entering from the top (over the screw) and then routing it out from under the clip and out of the car, as in the photo.
+
+![harness through clip](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/harness_through_clip.webp)
+
+9.07. Retighten the screw that secures the clip that secures the seatbelt strap, leaving it just loose enough that you are still able to slide the harness strap through the clip.
+
+Repeat Steps 9.05–9.07 with the harness strap and seatbelt clip on the opposite side of the car (again making sure to avoid twists in the harness strap when it is threaded through the clip).
+
+Slide the Jeep’s plastic seat into place, taking care to avoid having the velcro straps on the seat and harness from making contact until the seat is approximately in place. Position the harness system squarely over the seat, centered and with the seam between the seat and seat back positioned appropriately. Press the harness into the seat so that the velcro strips become secure.
+
+Replace the figure-8 shaped clips (which were removed in Step 9.01) onto the loose ends of the harness straps that were just threaded through the seat belt clips.
+
+Route one of the head rest harness straps over the top PVC bar of the back rest and loop it one time around the bar as shown in the photo. Route the harness strap from the seat cushion through the plastic clip on the upper strap, then place the loose end in the figure-8 clip to secure it. Repeat this routing with the straps on the other side of the harness. Tighten both sets of straps evenly.
+
+Secure the Jeep seat with screws found in the Jeep box.
+
+## last steps
 
 Label the "on/off" button (the red power button on the dashboard)
 
