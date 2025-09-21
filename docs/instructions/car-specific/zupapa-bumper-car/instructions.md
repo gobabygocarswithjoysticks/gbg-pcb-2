@@ -247,12 +247,21 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 // TODO
 
 # joystick handles
+Twist the two silver metal pieces off of the joystick threaded shaft and discard.
 
+Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit. 
+_Alternatively, you can use the [handle models](https://github.com/gobabygocarswithjoysticks/index/tree/jeep-v1/joystick-balls) modified to use threaded [heat set inserts](https://www.mcmaster.com/94180A333) to connect the joystick handle to the joystick shaft._
+
+# last steps
+
+Print a [user guide](https://docs.google.com/document/d/10I0WAZf26_EgpSQExoYwdUHBtOAWdVRijO5ywS0Kt0E/edit?usp=sharing) for the car.
+
+Label the "on/off" button (the red switch on the control panel)
 
 ### Congratulations! You're done!
 
 # Check your work
-Check your work with this [inspection checklist]() #TODO
+Check your work with this [inspection checklist]()
 
 # Troubleshooting
 
