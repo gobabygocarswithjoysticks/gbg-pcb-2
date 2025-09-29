@@ -241,16 +241,16 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 
 # joystick holder
 // TODO
-## joystick ball
-// TODO
-# seatbelt and backrest
-// TODO
 
-# joystick handles
+## joystick handles
 Twist the two silver metal pieces off of the joystick threaded shaft and discard.
 
 Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit. 
 _Alternatively, you can use the [handle models](https://github.com/gobabygocarswithjoysticks/index/tree/jeep-v1/joystick-balls) modified to use threaded [heat set inserts](https://www.mcmaster.com/94180A333) to connect the joystick handle to the joystick shaft._
+
+# seatbelt and backrest
+// TODO
+
 
 # last steps
 
