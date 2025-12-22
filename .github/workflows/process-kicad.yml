@@ -2,6 +2,12 @@ name: Process KiCad
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'kicad/**'
+      - '.github/workflows/process-kicad.yml'
 
 concurrency:
   group: Compile
