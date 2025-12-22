@@ -6831,7 +6831,7 @@
 	)
 	(text "reverse polarity protection"
 		(exclude_from_sim no)
-		(at 163.83 250.952 0)
+		(at 160.02 266.192 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6871,7 +6871,7 @@
 	)
 	(text "NMOS"
 		(exclude_from_sim no)
-		(at 176.022 246.634 0)
+		(at 172.212 261.874 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6891,7 +6891,7 @@
 	)
 	(text "on/off switch"
 		(exclude_from_sim no)
-		(at 188.468 250.698 0)
+		(at 184.658 265.938 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6920,13 +6920,13 @@
 		(uuid "dc448e62-b9bc-4ad1-ac04-140202836e4b")
 	)
 	(junction
-		(at 173.99 209.55)
+		(at 170.18 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03efcd0a-c4b6-4d36-9284-a43879a63ba5")
 	)
 	(junction
-		(at 386.08 31.75)
+		(at 185.42 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "041c38ce-f480-4aa0-b136-4567ac4689de")
@@ -6992,19 +6992,19 @@
 		(uuid "298b84f9-6bd1-4914-a9d2-0ef6a6974662")
 	)
 	(junction
-		(at 190.5 232.41)
+		(at 186.69 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bf4ae53-4291-464d-b83a-9e49bb75b77c")
 	)
 	(junction
-		(at 173.99 242.57)
+		(at 170.18 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350b3ae9-cb25-466b-aa18-05ecb6c9f830")
 	)
 	(junction
-		(at 386.08 34.29)
+		(at 185.42 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "430141ab-bfd4-43d0-9b8f-212bbbe0e5f9")
@@ -7022,7 +7022,7 @@
 		(uuid "4c1b49d1-11c3-4721-a113-543a0400aff9")
 	)
 	(junction
-		(at 386.08 99.06)
+		(at 185.42 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "534ff7bd-e050-4afa-b863-99d299eee3d4")
@@ -7052,7 +7052,7 @@
 		(uuid "6e41eea1-68b8-4226-b793-42eded9d38ba")
 	)
 	(junction
-		(at 386.08 55.88)
+		(at 185.42 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72ce7768-4199-4597-b8cf-5b010ed92de5")
@@ -7076,7 +7076,7 @@
 		(uuid "83d0c90f-f431-4aa5-b19b-3fdbf5bcbb67")
 	)
 	(junction
-		(at 386.08 74.93)
+		(at 185.42 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8955b9ee-e79e-430a-a20f-c6e33de7b0a9")
@@ -7088,7 +7088,7 @@
 		(uuid "8a263c8e-4913-4791-8747-f4562d721de5")
 	)
 	(junction
-		(at 200.66 209.55)
+		(at 196.85 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c562bda-26ea-45c4-b6c2-62d485e37b55")
@@ -7112,7 +7112,7 @@
 		(uuid "9338fde1-a416-4ecc-9af0-2d300d1d75ee")
 	)
 	(junction
-		(at 386.08 53.34)
+		(at 185.42 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93a3bc89-bfd7-4176-b255-163b7e080b60")
@@ -7160,7 +7160,7 @@
 		(uuid "a9e40386-a3f5-431a-877b-1681b27e015f")
 	)
 	(junction
-		(at 386.08 77.47)
+		(at 185.42 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa83c87e-6374-4bf3-9005-704752441bc6")
@@ -7196,25 +7196,19 @@
 		(uuid "b9ce38e5-6fe7-4062-8547-e3cdb73a098d")
 	)
 	(junction
-		(at 156.21 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc4991c7-3f1c-4a93-86c6-41f92f012c69")
-	)
-	(junction
 		(at 261.62 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc52785d-3c39-417e-b5f9-838ae80b48d5")
 	)
 	(junction
-		(at 386.08 101.6)
+		(at 185.42 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1e03566-2e20-4c9a-aa15-8978cee0d522")
 	)
 	(junction
-		(at 173.99 222.25)
+		(at 170.18 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7ced7f3-3909-498c-b05e-c2f1cb3fe6eb")
@@ -7250,12 +7244,6 @@
 		(uuid "d8ed9a04-ec71-4263-895f-b6d4cc1b4c3e")
 	)
 	(junction
-		(at 156.21 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d917ec4b-d7ea-44f6-94fd-a82e05ea0e5e")
-	)
-	(junction
 		(at 99.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7274,7 +7262,7 @@
 		(uuid "e935a090-c5e3-40f2-8ef5-237f1a4514a6")
 	)
 	(junction
-		(at 179.07 242.57)
+		(at 175.26 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9fb4c0e-6b8e-4caf-8b89-7d181aa81063")
@@ -7304,7 +7292,7 @@
 		(uuid "fc507e89-fa70-43ed-8438-ee1c0478881a")
 	)
 	(junction
-		(at 200.66 242.57)
+		(at 196.85 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc8e2058-1aac-47d3-ac5a-2718af274c0c")
@@ -7330,6 +7318,10 @@
 		(uuid "3ded510d-3ce7-4d1c-b0fc-72f496e0a753")
 	)
 	(no_connect
+		(at 152.4 240.03)
+		(uuid "5d70e211-ea09-4cd9-a24a-d42a20fde3a3")
+	)
+	(no_connect
 		(at 229.87 125.73)
 		(uuid "79c66d21-e66b-414e-acff-515de201b17d")
 	)
@@ -7346,12 +7338,16 @@
 		(uuid "ac8271f6-d5fd-42ed-a280-42655da4be75")
 	)
 	(no_connect
+		(at 152.4 245.11)
+		(uuid "cae0a49f-32bc-4999-b4f6-d524b3e2dfd9")
+	)
+	(no_connect
 		(at 229.87 38.1)
 		(uuid "ff82096f-cbc2-4b01-9d02-a987c268c097")
 	)
 	(wire
 		(pts
-			(xy 365.76 29.21) (xy 386.08 29.21)
+			(xy 165.1 120.65) (xy 185.42 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7361,7 +7357,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 232.41) (xy 180.34 232.41)
+			(xy 175.26 247.65) (xy 176.53 247.65)
 		)
 		(stroke
 			(width 0)
@@ -7391,7 +7387,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 222.25) (xy 173.99 222.25)
+			(xy 158.75 237.49) (xy 170.18 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7441,7 +7437,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 209.55) (xy 200.66 209.55)
+			(xy 170.18 224.79) (xy 196.85 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7661,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 233.68) (xy 173.99 242.57)
+			(xy 170.18 248.92) (xy 170.18 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7671,7 +7667,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 226.06) (xy 200.66 242.57)
+			(xy 196.85 241.3) (xy 196.85 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7701,7 +7697,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 210.82) (xy 173.99 209.55)
+			(xy 170.18 226.06) (xy 170.18 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7731,7 +7727,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 232.41) (xy 190.5 234.95)
+			(xy 186.69 247.65) (xy 186.69 250.19)
 		)
 		(stroke
 			(width 0)
@@ -7741,7 +7737,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 232.41) (xy 190.5 232.41)
+			(xy 184.15 247.65) (xy 186.69 247.65)
 		)
 		(stroke
 			(width 0)
@@ -7831,7 +7827,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 246.38) (xy 200.66 242.57)
+			(xy 196.85 261.62) (xy 196.85 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7881,7 +7877,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 31.75) (xy 386.08 34.29)
+			(xy 185.42 123.19) (xy 185.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7891,7 +7887,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 209.55) (xy 173.99 209.55)
+			(xy 153.67 224.79) (xy 170.18 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7911,7 +7907,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 232.41) (xy 156.21 242.57)
+			(xy 152.4 247.65) (xy 152.4 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7981,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 242.57) (xy 185.42 242.57)
+			(xy 175.26 257.81) (xy 181.61 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8021,7 +8017,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 232.41) (xy 179.07 242.57)
+			(xy 175.26 247.65) (xy 175.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8121,7 +8117,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 29.21) (xy 365.76 31.75)
+			(xy 165.1 120.65) (xy 165.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8171,7 +8167,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 50.8) (xy 386.08 50.8)
+			(xy 165.1 142.24) (xy 185.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8201,7 +8197,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 96.52) (xy 365.76 99.06)
+			(xy 165.1 187.96) (xy 165.1 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8271,7 +8267,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 209.55) (xy 200.66 223.52)
+			(xy 196.85 224.79) (xy 196.85 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8331,23 +8327,13 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 74.93) (xy 386.08 77.47)
+			(xy 185.42 166.37) (xy 185.42 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e00e05e-1b03-4294-9990-3063479248ee")
-	)
-	(wire
-		(pts
-			(xy 156.21 224.79) (xy 156.21 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4ebfa3-5a66-4c8f-9195-ad907e62f7ff")
 	)
 	(wire
 		(pts
@@ -8391,7 +8377,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 72.39) (xy 386.08 72.39)
+			(xy 165.1 163.83) (xy 185.42 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8521,7 +8507,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 242.57) (xy 200.66 242.57)
+			(xy 191.77 257.81) (xy 196.85 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8531,7 +8517,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 209.55) (xy 156.21 224.79)
+			(xy 153.67 224.79) (xy 153.67 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8598,6 +8584,16 @@
 			(type default)
 		)
 		(uuid "91d1f914-aea8-4be5-8c88-7fe815e6924c")
+	)
+	(wire
+		(pts
+			(xy 153.67 242.57) (xy 152.4 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934bb76b-84a2-4fec-a3dd-4ee94aa758d1")
 	)
 	(wire
 		(pts
@@ -8761,16 +8757,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 229.87) (xy 156.21 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9622db-17cc-41b9-b689-37df0724c1a6")
-	)
-	(wire
-		(pts
 			(xy 332.74 215.9) (xy 332.74 226.06)
 		)
 		(stroke
@@ -8831,7 +8817,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 72.39) (xy 386.08 74.93)
+			(xy 185.42 163.83) (xy 185.42 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8851,7 +8837,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 242.57) (xy 179.07 242.57)
+			(xy 170.18 257.81) (xy 175.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8871,7 +8857,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 29.21) (xy 386.08 31.75)
+			(xy 185.42 120.65) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8881,7 +8867,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 242.57) (xy 167.64 242.57)
+			(xy 170.18 257.81) (xy 163.83 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8941,7 +8927,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 53.34) (xy 386.08 55.88)
+			(xy 185.42 144.78) (xy 185.42 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8951,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 50.8) (xy 365.76 53.34)
+			(xy 165.1 142.24) (xy 165.1 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8961,7 +8947,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 96.52) (xy 386.08 96.52)
+			(xy 165.1 187.96) (xy 185.42 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8971,7 +8957,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 222.25) (xy 173.99 222.25)
+			(xy 176.53 237.49) (xy 170.18 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8981,7 +8967,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 99.06) (xy 386.08 101.6)
+			(xy 185.42 190.5) (xy 185.42 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9051,7 +9037,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 72.39) (xy 365.76 74.93)
+			(xy 165.1 163.83) (xy 165.1 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9061,7 +9047,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 242.57) (xy 157.48 242.57)
+			(xy 152.4 257.81) (xy 153.67 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9151,7 +9137,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 222.25) (xy 173.99 226.06)
+			(xy 170.18 237.49) (xy 170.18 241.3)
 		)
 		(stroke
 			(width 0)
@@ -9161,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 222.25) (xy 190.5 232.41)
+			(xy 186.69 237.49) (xy 186.69 247.65)
 		)
 		(stroke
 			(width 0)
@@ -9271,7 +9257,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 222.25) (xy 162.56 234.95)
+			(xy 158.75 237.49) (xy 158.75 250.19)
 		)
 		(stroke
 			(width 0)
@@ -9281,7 +9267,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 218.44) (xy 173.99 222.25)
+			(xy 170.18 233.68) (xy 170.18 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9341,7 +9327,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 208.28) (xy 200.66 209.55)
+			(xy 196.85 223.52) (xy 196.85 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9351,7 +9337,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 50.8) (xy 386.08 53.34)
+			(xy 185.42 142.24) (xy 185.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9411,7 +9397,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 96.52) (xy 386.08 99.06)
+			(xy 185.42 187.96) (xy 185.42 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9451,7 +9437,7 @@
 	)
 	(global_label "bt1"
 		(shape input)
-		(at 365.76 34.29 180)
+		(at 165.1 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9461,7 +9447,7 @@
 		)
 		(uuid "042ddb56-a6ec-421b-a3ae-4d18ff8f3ce0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.6906 34.29 0)
+			(at 159.0306 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +9591,7 @@
 	)
 	(global_label "bt2"
 		(shape input)
-		(at 365.76 55.88 180)
+		(at 165.1 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9615,7 +9601,7 @@
 		)
 		(uuid "4753ef8e-967f-4889-9123-be7b29f74a39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.6906 55.88 0)
+			(at 159.0306 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9613,7 @@
 	)
 	(global_label "bt4"
 		(shape input)
-		(at 365.76 101.6 180)
+		(at 165.1 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9637,7 +9623,7 @@
 		)
 		(uuid "496eada0-097f-4a37-b8ea-e566dc85faa7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.6906 101.6 0)
+			(at 159.0306 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +9635,7 @@
 	)
 	(global_label "bt3"
 		(shape input)
-		(at 365.76 77.47 180)
+		(at 165.1 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9659,7 +9645,7 @@
 		)
 		(uuid "4dc7f5a2-603e-4bbd-a296-f3d30a2219b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.6906 77.47 0)
+			(at 159.0306 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10357,7 @@
 	)
 	(symbol
 		(lib_id "library:ASJ-200-B-HT")
-		(at 365.76 99.06 0)
+		(at 165.1 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10380,7 +10366,7 @@
 		(fields_autoplaced yes)
 		(uuid "1287e483-1e21-4179-a555-292c2a26dd87")
 		(property "Reference" "B4"
-			(at 375.92 91.44 0)
+			(at 175.26 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +10374,7 @@
 			)
 		)
 		(property "Value" "ASJ-200-B-HT"
-			(at 375.92 93.98 0)
+			(at 175.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10382,7 @@
 			)
 		)
 		(property "Footprint" "ASJ200BHT"
-			(at 382.27 193.98 0)
+			(at 181.61 285.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10406,7 +10392,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/ASJ-200-B-HT/9831600"
-			(at 382.27 293.98 0)
+			(at 181.61 385.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10402,7 @@
 			)
 		)
 		(property "Description" "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder"
-			(at 365.76 99.06 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10411,7 @@
 			)
 		)
 		(property "Height" "5.2"
-			(at 382.27 493.98 0)
+			(at 181.61 585.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10421,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 382.27 593.98 0)
+			(at 181.61 685.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10431,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ASJ-200-B-HT"
-			(at 382.27 693.98 0)
+			(at 181.61 785.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10441,7 @@
 			)
 		)
 		(property "Mouser Part Number" "737-ASJ-200-B-HT"
-			(at 382.27 793.98 0)
+			(at 181.61 885.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +10451,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/ASJ-200-B-HT?qs=HoCaDK9Nz5dN6XO8d3HxTw%3D%3D"
-			(at 382.27 893.98 0)
+			(at 181.61 985.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10475,7 +10461,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 382.27 993.98 0)
+			(at 181.61 1085.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +10471,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 382.27 1093.98 0)
+			(at 181.61 1185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10481,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-ASJ-200-B-HT-ND"
-			(at 365.76 99.06 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10490,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 365.76 99.06 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +10499,7 @@
 			)
 		)
 		(property "price" "0.53"
-			(at 365.76 99.06 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,7 +11236,7 @@
 	)
 	(symbol
 		(lib_id "library:VP0265840000G")
-		(at 156.21 232.41 180)
+		(at 152.4 247.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11258,15 +11244,15 @@
 		(dnp no)
 		(uuid "2eb27c10-9954-42a3-a8db-ce30ba8d9be8")
 		(property "Reference" "J5"
-			(at 147.32 217.17 0)
+			(at 143.51 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "VP0265840000G"
-			(at 144.78 219.71 0)
+		(property "Value" "screw terminal"
+			(at 140.97 234.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11274,7 +11260,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN04_VP026584_20P32X18P3_AMP"
-			(at 156.21 232.41 0)
+			(at 152.4 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11283,8 +11269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "VP0265840000G"
-			(at 156.21 232.41 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-anytek/VP0265840000G/10378270"
+			(at 152.4 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,8 +11279,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 156.21 232.41 0)
+		(property "Description" "big 2 terminal"
+			(at 152.4 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Anytek"
+			(at 152.4 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VP0265840000G"
+			(at 152.4 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1818-VP0265840000G-ND"
+			(at 152.4 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 152.4 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "2.04"
+			(at 152.4 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11808,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 101.6 0)
+		(at 185.42 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11786,7 +11817,7 @@
 		(fields_autoplaced yes)
 		(uuid "35451c4a-d804-440c-81eb-a75c7cf94695")
 		(property "Reference" "#PWR042"
-			(at 386.08 107.95 0)
+			(at 185.42 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +11826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 106.68 0)
+			(at 185.42 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 101.6 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +11843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 101.6 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +11852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 101.6 0)
+			(at 185.42 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +12162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 246.38 0)
+		(at 196.85 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12139,7 +12170,7 @@
 		(dnp no)
 		(uuid "3fad4063-a404-444b-a055-bbcebb3c00bb")
 		(property "Reference" "#PWR017"
-			(at 200.66 252.73 0)
+			(at 196.85 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.422 250.19 0)
+			(at 197.612 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,7 +12187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 246.38 0)
+			(at 196.85 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 246.38 0)
+			(at 196.85 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 246.38 0)
+			(at 196.85 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +12718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 34.29 0)
+		(at 185.42 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12696,7 +12727,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dab8f8c-366e-4678-a13e-b532d1ba045b")
 		(property "Reference" "#PWR039"
-			(at 386.08 40.64 0)
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +12736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 39.37 0)
+			(at 185.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +12744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 34.29 0)
+			(at 185.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 34.29 0)
+			(at 185.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 34.29 0)
+			(at 185.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +12897,7 @@
 	)
 	(symbol
 		(lib_id "library:ASJ-200-B-HT")
-		(at 365.76 31.75 0)
+		(at 165.1 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12875,7 +12906,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fad4d60-26d5-44c4-b45f-e60b220e074e")
 		(property "Reference" "B1"
-			(at 375.92 24.13 0)
+			(at 175.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +12914,7 @@
 			)
 		)
 		(property "Value" "ASJ-200-B-HT"
-			(at 375.92 26.67 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12922,7 @@
 			)
 		)
 		(property "Footprint" "ASJ200BHT"
-			(at 382.27 126.67 0)
+			(at 181.61 218.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +12932,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/ASJ-200-B-HT/9831600"
-			(at 382.27 226.67 0)
+			(at 181.61 318.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12911,7 +12942,7 @@
 			)
 		)
 		(property "Description" "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder"
-			(at 365.76 31.75 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12920,7 +12951,7 @@
 			)
 		)
 		(property "Height" "5.2"
-			(at 382.27 426.67 0)
+			(at 181.61 518.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +12961,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 382.27 526.67 0)
+			(at 181.61 618.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +12971,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ASJ-200-B-HT"
-			(at 382.27 626.67 0)
+			(at 181.61 718.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12950,7 +12981,7 @@
 			)
 		)
 		(property "Mouser Part Number" "737-ASJ-200-B-HT"
-			(at 382.27 726.67 0)
+			(at 181.61 818.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,7 +12991,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/ASJ-200-B-HT?qs=HoCaDK9Nz5dN6XO8d3HxTw%3D%3D"
-			(at 382.27 826.67 0)
+			(at 181.61 918.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,7 +13001,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 382.27 926.67 0)
+			(at 181.61 1018.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12980,7 +13011,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 382.27 1026.67 0)
+			(at 181.61 1118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +13021,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-ASJ-200-B-HT-ND"
-			(at 365.76 31.75 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +13030,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 365.76 31.75 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,7 +13039,7 @@
 			)
 		)
 		(property "price" "0.53"
-			(at 365.76 31.75 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13478,7 +13509,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 185.42 222.25 0)
+		(at 181.61 237.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13487,7 +13518,7 @@
 		(dnp no)
 		(uuid "58bc3570-2ccc-4409-af89-db31787ab5fe")
 		(property "Reference" "SW1"
-			(at 185.42 217.17 0)
+			(at 181.61 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,15 +13526,15 @@
 			)
 		)
 		(property "Value" "screw terminal"
-			(at 183.896 218.948 0)
+			(at 180.086 234.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 222.25 0)
+		(property "Footprint" "kicad libraries:EBBA-02-C-SS-BU"
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,7 +13543,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/EBBA-02-C-SS-BU/9831915"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13521,7 +13552,7 @@
 			)
 		)
 		(property "Description" "switch"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13530,7 +13561,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13539,7 +13570,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EBBA-02-C-SS-BU"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,7 +13579,7 @@
 			)
 		)
 		(property "price" ".25"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13557,7 +13588,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-EBBA-02-C-SS-BU-ND"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13597,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 185.42 222.25 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13764,7 +13795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 55.88 0)
+		(at 185.42 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13773,7 +13804,7 @@
 		(fields_autoplaced yes)
 		(uuid "65785931-10d3-44bb-af92-f23cd78d23a9")
 		(property "Reference" "#PWR040"
-			(at 386.08 62.23 0)
+			(at 185.42 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,7 +13813,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 60.96 0)
+			(at 185.42 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13790,7 +13821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 55.88 0)
+			(at 185.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13799,7 +13830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 55.88 0)
+			(at 185.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,7 +13839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 55.88 0)
+			(at 185.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +14087,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 200.66 208.28 0)
+		(at 196.85 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14064,7 +14095,7 @@
 		(dnp no)
 		(uuid "6f3c2ee8-0c24-4c96-b3e9-03886deb72cb")
 		(property "Reference" "#PWR016"
-			(at 200.66 212.09 0)
+			(at 196.85 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,7 +14104,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 201.93 204.724 0)
+			(at 198.12 219.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14081,7 +14112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 208.28 0)
+			(at 196.85 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14090,7 +14121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 208.28 0)
+			(at 196.85 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 200.66 208.28 0)
+			(at 196.85 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14855,7 +14886,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 214.63 180)
+		(at 170.18 229.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14863,7 +14894,7 @@
 		(dnp no)
 		(uuid "8946018a-df61-4104-98a1-049c0bca4b1f")
 		(property "Reference" "R3"
-			(at 171.196 214.122 0)
+			(at 167.386 229.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14871,7 +14902,7 @@
 			)
 		)
 		(property "Value" "8.2k"
-			(at 170.434 216.408 0)
+			(at 166.624 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,7 +14910,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 175.768 214.63 90)
+			(at 171.958 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +14919,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08058K20JNEA/1175220"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +14928,7 @@
 			)
 		)
 		(property "Description" "mode selector (independent)"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +14937,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,7 +14946,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW08058K20JNEA"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,7 +14955,7 @@
 			)
 		)
 		(property "price" ".04"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14933,7 +14964,7 @@
 			)
 		)
 		(property "digikey_part_number" "541-8.2KACT-ND"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14942,7 +14973,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 173.99 214.63 0)
+			(at 170.18 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kicad libraries:TC0403620000G"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -16313,7 +16344,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 173.99 229.87 270)
+		(at 170.18 245.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16321,7 +16352,7 @@
 		(dnp no)
 		(uuid "b8307958-54b5-4022-b8e2-a9813fad7725")
 		(property "Reference" "D3"
-			(at 169.418 229.87 90)
+			(at 165.608 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16330,7 +16361,7 @@
 			)
 		)
 		(property "Value" "18V zener"
-			(at 169.672 227.33 90)
+			(at 165.862 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16339,7 +16370,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 173.99 229.87 0)
+			(at 170.18 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16348,7 +16379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MMSZ5248B-E3-18/4829684"
-			(at 173.99 229.87 0)
+			(at 170.18 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16357,7 +16388,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 173.99 229.87 0)
+			(at 170.18 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16366,7 +16397,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay General Semiconductor - Diodes Division"
-			(at 173.99 229.87 90)
+			(at 170.18 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16375,7 +16406,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMSZ5248B-E3-18"
-			(at 173.99 229.87 90)
+			(at 170.18 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16384,7 +16415,7 @@
 			)
 		)
 		(property "digikey_part_number" "MMSZ5248B-E3-18GICT-ND"
-			(at 173.99 229.87 90)
+			(at 170.18 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16393,7 +16424,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 173.99 229.87 90)
+			(at 170.18 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16402,7 +16433,7 @@
 			)
 		)
 		(property "price" ".031"
-			(at 173.99 229.87 90)
+			(at 170.18 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +16458,7 @@
 	)
 	(symbol
 		(lib_id "library:ASJ-200-B-HT")
-		(at 365.76 74.93 0)
+		(at 165.1 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16436,7 +16467,7 @@
 		(fields_autoplaced yes)
 		(uuid "b865aa37-744a-4bb3-804e-b57b0dfbe7ff")
 		(property "Reference" "B3"
-			(at 375.92 67.31 0)
+			(at 175.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16444,7 +16475,7 @@
 			)
 		)
 		(property "Value" "ASJ-200-B-HT"
-			(at 375.92 69.85 0)
+			(at 175.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16452,7 +16483,7 @@
 			)
 		)
 		(property "Footprint" "ASJ200BHT"
-			(at 382.27 169.85 0)
+			(at 181.61 261.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16462,7 +16493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/ASJ-200-B-HT/9831600"
-			(at 382.27 269.85 0)
+			(at 181.61 361.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16503,7 @@
 			)
 		)
 		(property "Description" "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder"
-			(at 365.76 74.93 0)
+			(at 165.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16481,7 +16512,7 @@
 			)
 		)
 		(property "Height" "5.2"
-			(at 382.27 469.85 0)
+			(at 181.61 561.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16491,7 +16522,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 382.27 569.85 0)
+			(at 181.61 661.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16501,7 +16532,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ASJ-200-B-HT"
-			(at 382.27 669.85 0)
+			(at 181.61 761.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16511,7 +16542,7 @@
 			)
 		)
 		(property "Mouser Part Number" "737-ASJ-200-B-HT"
-			(at 382.27 769.85 0)
+			(at 181.61 861.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16521,7 +16552,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/ASJ-200-B-HT?qs=HoCaDK9Nz5dN6XO8d3HxTw%3D%3D"
-			(at 382.27 869.85 0)
+			(at 181.61 961.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,7 +16562,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 382.27 969.85 0)
+			(at 181.61 1061.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16541,7 +16572,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 382.27 1069.85 0)
+			(at 181.61 1161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16551,7 +16582,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-ASJ-200-B-HT-ND"
-			(at 365.76 74.93 0)
+			(at 165.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16560,7 +16591,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 365.76 74.93 0)
+			(at 165.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16569,7 +16600,7 @@
 			)
 		)
 		(property "price" "0.53"
-			(at 365.76 74.93 0)
+			(at 165.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16600,7 +16631,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 77.47 0)
+		(at 185.42 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16609,7 +16640,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e29da7-c36e-44b0-b0ec-64fe14ba1ef7")
 		(property "Reference" "#PWR041"
-			(at 386.08 83.82 0)
+			(at 185.42 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16618,7 +16649,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 82.55 0)
+			(at 185.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,7 +16657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 77.47 0)
+			(at 185.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16635,7 +16666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 77.47 0)
+			(at 185.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16644,7 +16675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 77.47 0)
+			(at 185.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16666,7 +16697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 232.41 90)
+		(at 180.34 247.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16675,7 +16706,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3c5aa92-dd1c-4b1b-8b2e-bc901d6f6198")
 		(property "Reference" "R4"
-			(at 184.15 226.06 90)
+			(at 180.34 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16714,7 @@
 			)
 		)
 		(property "Value" "590k"
-			(at 184.15 228.6 90)
+			(at 180.34 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16691,7 +16722,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 184.15 234.188 90)
+			(at 180.34 249.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16700,7 +16731,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805590KFKEA/1175990"
-			(at 184.15 232.41 0)
+			(at 180.34 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16709,7 +16740,7 @@
 			)
 		)
 		(property "Description" "enable pull up"
-			(at 184.15 232.41 0)
+			(at 180.34 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16718,7 +16749,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 184.15 232.41 90)
+			(at 180.34 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +16758,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0805590KFKEA"
-			(at 184.15 232.41 90)
+			(at 180.34 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,7 +16767,7 @@
 			)
 		)
 		(property "digikey_part_number" "541-590KCCT-ND"
-			(at 184.15 232.41 90)
+			(at 180.34 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16745,7 +16776,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 184.15 232.41 90)
+			(at 180.34 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16754,7 +16785,7 @@
 			)
 		)
 		(property "price" ".04"
-			(at 184.15 232.41 90)
+			(at 180.34 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16974,7 +17005,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 205.74 226.06 0)
+		(at 201.93 241.3 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16983,7 +17014,7 @@
 		(dnp no)
 		(uuid "d33681c0-90b3-4fa9-b2a3-c3ea1b4f8612")
 		(property "Reference" "J6"
-			(at 205.994 230.124 0)
+			(at 202.184 245.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16991,7 +17022,7 @@
 			)
 		)
 		(property "Value" "screw terminal"
-			(at 205.74 229.87 0)
+			(at 201.93 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16999,8 +17030,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 226.06 0)
+		(property "Footprint" "kicad libraries:EBBA-02-C-SS-BU"
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17009,7 +17040,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/EBBA-02-C-SS-BU/9831915"
-			(at 205.74 226.06 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17017,8 +17048,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 226.06 0)
+		(property "Description" "aux power"
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17027,7 +17058,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 205.74 226.06 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17036,7 +17067,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EBBA-02-C-SS-BU"
-			(at 205.74 226.06 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17045,7 +17076,7 @@
 			)
 		)
 		(property "price" ".25"
-			(at 205.74 226.06 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17054,7 +17085,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-EBBA-02-C-SS-BU-ND"
-			(at 205.74 226.06 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,7 +17094,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 205.74 226.06 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17626,7 +17657,7 @@
 	)
 	(symbol
 		(lib_id "library:ASJ-200-B-HT")
-		(at 365.76 53.34 0)
+		(at 165.1 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17635,7 +17666,7 @@
 		(fields_autoplaced yes)
 		(uuid "e51caf9e-91ee-4fd2-8dfd-9a6791749416")
 		(property "Reference" "B2"
-			(at 375.92 45.72 0)
+			(at 175.26 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17643,7 +17674,7 @@
 			)
 		)
 		(property "Value" "ASJ-200-B-HT"
-			(at 375.92 48.26 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17682,7 @@
 			)
 		)
 		(property "Footprint" "ASJ200BHT"
-			(at 382.27 148.26 0)
+			(at 181.61 239.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17661,7 +17692,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/ASJ-200-B-HT/9831600"
-			(at 382.27 248.26 0)
+			(at 181.61 339.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +17702,7 @@
 			)
 		)
 		(property "Description" "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder"
-			(at 365.76 53.34 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17680,7 +17711,7 @@
 			)
 		)
 		(property "Height" "5.2"
-			(at 382.27 448.26 0)
+			(at 181.61 539.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17690,7 +17721,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 382.27 548.26 0)
+			(at 181.61 639.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +17731,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ASJ-200-B-HT"
-			(at 382.27 648.26 0)
+			(at 181.61 739.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17710,7 +17741,7 @@
 			)
 		)
 		(property "Mouser Part Number" "737-ASJ-200-B-HT"
-			(at 382.27 748.26 0)
+			(at 181.61 839.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17720,7 +17751,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/ASJ-200-B-HT?qs=HoCaDK9Nz5dN6XO8d3HxTw%3D%3D"
-			(at 382.27 848.26 0)
+			(at 181.61 939.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17730,7 +17761,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 382.27 948.26 0)
+			(at 181.61 1039.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17740,7 +17771,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 382.27 1048.26 0)
+			(at 181.61 1139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17750,7 +17781,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-ASJ-200-B-HT-ND"
-			(at 365.76 53.34 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17759,7 +17790,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 365.76 53.34 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17768,7 +17799,7 @@
 			)
 		)
 		(property "price" "0.53"
-			(at 365.76 53.34 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18240,7 +18271,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 162.56 240.03 90)
+		(at 158.75 255.27 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18249,7 +18280,7 @@
 		(dnp no)
 		(uuid "f425a5fb-e32c-45c5-8d2e-8f1e943a9532")
 		(property "Reference" "Q1"
-			(at 163.576 248.666 90)
+			(at 159.766 263.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18257,7 +18288,7 @@
 			)
 		)
 		(property "Value" "PSMN1R2-25YLDX"
-			(at 161.036 246.38 90)
+			(at 157.226 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +18296,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 160.02 245.11 0)
+			(at 156.21 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,7 +18305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
-			(at 175.26 240.03 0)
+			(at 171.45 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18283,7 +18314,7 @@
 			)
 		)
 		(property "Description" "nmos"
-			(at 162.56 240.03 0)
+			(at 158.75 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18292,7 +18323,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 162.56 240.03 0)
+			(at 158.75 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18301,7 +18332,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
-			(at 162.56 240.03 0)
+			(at 158.75 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,7 +18341,7 @@
 			)
 		)
 		(property "digikey_part_number" "1727-2496-1-ND"
-			(at 162.56 240.03 0)
+			(at 158.75 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18319,7 +18350,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 162.56 240.03 0)
+			(at 158.75 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,7 +18359,7 @@
 			)
 		)
 		(property "price" "1.36"
-			(at 162.56 240.03 0)
+			(at 158.75 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18427,7 +18458,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 190.5 240.03 270)
+		(at 186.69 255.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18435,7 +18466,7 @@
 		(dnp no)
 		(uuid "f86f2144-4e08-43d4-98ff-4661cc21c535")
 		(property "Reference" "Q2"
-			(at 191.008 248.666 90)
+			(at 187.198 263.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18443,7 +18474,7 @@
 			)
 		)
 		(property "Value" "PSMN1R2-25YLDX"
-			(at 190.754 246.38 90)
+			(at 186.944 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18451,7 +18482,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 193.04 245.11 0)
+			(at 189.23 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18460,7 +18491,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
-			(at 177.8 240.03 0)
+			(at 173.99 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18469,7 +18500,7 @@
 			)
 		)
 		(property "Description" "nmos"
-			(at 190.5 240.03 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18478,7 +18509,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 190.5 240.03 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18487,7 +18518,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
-			(at 190.5 240.03 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18496,7 +18527,7 @@
 			)
 		)
 		(property "digikey_part_number" "1727-2496-1-ND"
-			(at 190.5 240.03 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18505,7 +18536,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 190.5 240.03 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18514,7 +18545,7 @@
 			)
 		)
 		(property "price" "1.36"
-			(at 190.5 240.03 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

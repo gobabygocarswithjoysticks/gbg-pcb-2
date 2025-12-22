@@ -1,4 +1,4 @@
-26435538419981230
+26439071293736438
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105098,6 +105098,13 @@ PowerDI diode vishay
 3
 2
 kicad libraries
+EBBA-02-C-SS-BU
+<a href = https://app.adam-tech.com/products/download/data_sheet/204164/ebba-xx-c-ss-bu-data-sheet.pdf>Datasheet</a><br>2-position screw terminal block
+
+0
+2
+2
+kicad libraries
 HTSSOP28_PWP_TEX
 
 DRV8245HQPWPRQ1 
@@ -105202,6 +105209,13 @@ STX-3000
 0
 3
 3
+kicad libraries
+TC0403620000G
+TC0403620000G-4
+Connector
+0
+4
+4
 kicad libraries
 TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
