@@ -19,7 +19,7 @@ jobs:
           git config --global user.email 'gbg-with-joysticks@users.noreply.github.com'
           git pull
 
-          docker pull kicad/kicad:9.0
+          docker pull kicad/kicad:9.0-full
       - name: process kicad
         run: |
           docker run --rm --user root --mount type=bind,source=${{ github.workspace }},target=/workspace kicad/kicad:9.0 /bin/bash -c "
