@@ -58,36 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|150963500|46052697|4bcdbd49-78ec-4e13-8585-f84bf40d8077|8fa48e37-daf4-428b-b489-68edb759ad44",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|84186000|103790500|916d7ce2-eef7-497d-a62e-ad40e7ef6b14|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|100076000|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|edae4f1b-8f17-459b-9814-bd54add4b4c3",
-          ""
-        ],
-        [
-          "silk_edge_clearance|120650000|43053000|fddc9b07-bb8c-4a67-aa56-7c2fd047f275|be4ef017-a979-4588-bf5d-fee7380c9f9f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|57531000|79584550|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|09343c16-7b56-4c69-a1e8-d4e5b6f1855b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|57531000|91192350|aff7fd50-4ad7-46e5-8b1f-ccd5ddea816e|e98d6310-928a-480c-b146-750b7c844468",
-          ""
-        ],
-        [
-          "starved_thermal|103886000|112217200|86ec711a-2347-4f55-9694-25fd9c96b75b|5f0591a3-a218-41a0-9964-c45159186fcf|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -137,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -269,6 +241,7 @@
     "layer_presets": [
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           1,
@@ -549,6 +522,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -599,7 +573,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Joshua/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -632,7 +606,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -702,6 +676,78 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
         }
       ],
       "filter_string": "",
