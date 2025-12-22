@@ -1,0 +1,30 @@
+### Footprint positions - created on 2025-12-22T08:52:24+0000 ###
+### Printed by KiCad version 9.0.6
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val              Package                                           PosX       PosY       Rot  Side
+C1        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     6.4650    -1.6950  -90.0000  top
+C2        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     8.6650    -2.1950   90.0000  top
+C3        1uF              C_1206_3216Metric                               7.6445    -3.3450   90.0000  top
+C6        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     7.8445    -3.1450    0.0000  top
+C7        56pF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     8.0195    -3.3450    0.0000  top
+C8        47uF             C_1210_3225Metric_Pad1.33x2.70mm_HandSolder     7.5445    -3.1200    0.0000  top
+D1        D_Schottky       D_SOD-123F                                      7.2802    -3.3001   90.0000  top
+D3        18V_zener        D_SOD-123F                                      6.6650    -2.4950    0.0000  top
+L1        27_uH            IND_VLCF4020T-270MR48                           7.4695    -3.3200  180.0000  top
+P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                     6.1150    -3.5450   90.0000  top
+Q1        PSMN1R2-25YLDX   LFPAK56                                         6.9449    -2.2081    0.0000  top
+Q2        PSMN1R2-25YLDX   LFPAK56                                         6.9449    -2.4714    0.0000  top
+R1        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.2900    -3.5450    0.0000  top
+R2        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.5044    -3.5950    0.0000  top
+R3        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     6.4650    -2.4789    0.0000  top
+R4        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     6.4650    -2.5950    0.0000  top
+R5        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.8195    -3.4450    0.0000  top
+R6        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.2650    -2.4950  180.0000  top
+R7        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.9150    -1.6700   90.0000  top
+R8        100k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0195    -3.2450    0.0000  top
+R9        13.7k            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0195    -3.1450  180.0000  top
+U1        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                6.1650    -1.7450   90.0000  top
+U2        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                7.7650    -1.6950   90.0000  top
+U3        TPS54202HDDCR    SOT95P280X110-6N_tps54202HDDCR                  7.8195    -3.2950    0.0000  top
+## End
