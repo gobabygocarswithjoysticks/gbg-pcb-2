@@ -1,22 +1,22 @@
-### Footprint positions - created on 2025-12-23T06:28:50+0000 ###
+### Footprint positions - created on 2025-12-23T07:01:22+0000 ###
 ### Printed by KiCad version 9.0.6
 ## Unit = inches, Angle = deg.
 ## Side : All
 # Ref     Val              Package                                           PosX       PosY       Rot  Side
 C1        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     5.9150    -1.4450  -90.0000  top
 C2        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     7.8650    -1.5200   90.0000  top
-C3        1uF              C_1206_3216Metric                               7.9149    -2.7160   90.0000  top
+C3        1uF              C_1206_3216Metric                               7.9150    -2.7200   90.0000  top
 C6        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     8.0899    -2.5410    0.0000  top
 C7        56pF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     8.2150    -2.8450  -90.0000  top
-C8        47uF             C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     7.8354    -2.5160    0.0000  top
-D1        D_Schottky       D_SOD-123F                                      7.5854    -2.5410    0.0000  top
+C8        47uF             C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     7.8650    -2.5200    0.0000  top
+D1        D_Schottky       D_SOD-123F                                      7.6400    -2.5200    0.0000  top
 D3        18V_zener        D_SOD-123F                                      7.2256    -1.9200  180.0000  top
 L1        27_uH            IND_VLCF4020T-270MR48                           7.7149    -2.7160  180.0000  top
 P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                     6.0906    -2.9155   90.0000  top
 Q1        PSMN1R2-25YLDX   LFPAK56                                         7.2784    -1.7450    0.0000  top
 Q2        PSMN1R2-25YLDX   LFPAK56                                         6.9536    -1.7452  180.0000  top
-R1        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3399    -2.9910    0.0000  top
-R2        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.5399    -2.6660  -90.0000  top
+R1        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.2150    -2.5950   90.0000  top
+R2        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.3650    -2.5700    0.0000  top
 R3        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.4006    -1.9200  180.0000  top
 R4        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     7.1006    -1.5700  180.0000  top
 R5        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     8.0649    -2.8410    0.0000  top
