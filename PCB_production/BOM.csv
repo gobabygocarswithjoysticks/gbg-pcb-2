@@ -17,6 +17,8 @@
 "J5","TB005-762-02BE","kicad libraries:CUI_TB005-762-02BE","Same Sky (Formerly CUI Devices)","TB005-762-02BE","102-6189-ND","tht","1"
 "J6,SW1","screw terminal","kicad libraries:EBBA-02-C-SS-BU","Adam Tech","EBBA-02-C-SS-BU","2057-EBBA-02-C-SS-BU-ND","tht","2"
 "J7,J8","1017491","kicad libraries:CONN_1017491","Phoenix Contact","1017491","277-17493-ND","tht","2"
+"J9,J10","63900-1","kicad libraries:63900-1","TE Connectivity AMP Connectors","63900-1","A114159-ND","tht","2"
+"J11","7 pin connector","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical","","","","tht","1"
 "L1","27 uH","kicad libraries:IND_VLCF4020T-270MR48","TDK Corporation","VLCF4020T-270MR48","445-3189-1-ND","smd","1"
 "P1","rpi pico 1","Module:RaspberryPi_Pico_Common_SMD","Raspberry Pi","SC0915","2648-SC0915CT-ND","tht","1"
 "Q1,Q2","PSMN1R2-25YLDX","Package_TO_SOT_SMD:LFPAK56","Nexperia USA Inc.","PSMN1R2-25YLDX","1727-2496-1-ND","smd","2"
