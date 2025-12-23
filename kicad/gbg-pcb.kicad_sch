@@ -8,6 +8,374 @@
 		(company "https://github.com/gobabygocarswithjoysticks gobabygocarswithjoysticks@gmail.com")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x07_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_Pin_1_1"
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x12_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3703,6 +4071,108 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:63900-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "63900-1"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad libraries:63900-1"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/63900-1/2188197"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "tab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "63900-1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:A759KC276M1JAAE054"
 			(pin_names
 				(offset 0.254)
@@ -6255,16 +6725,6 @@
 		)
 		(uuid "0677915a-ac89-4ab3-a181-e10189d24223")
 	)
-	(text "A114159-ND"
-		(exclude_from_sim no)
-		(at 367.284 38.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "25b9e027-e520-4a01-bb49-51821fe05b01")
-	)
 	(text "LVL6, in independent mode that means faults are retried\n"
 		(exclude_from_sim no)
 		(at 201.168 38.1 0)
@@ -6285,19 +6745,20 @@
 		)
 		(uuid "4603fd5d-c6e2-4962-96ec-08ba83af0625")
 	)
-	(text "TODO: \nweelye compatible tabs?"
+	(text "TODO: \nweelye compatible tabs?\nweelye compatible 9 pin connector\n"
 		(exclude_from_sim no)
-		(at 387.604 37.592 0)
+		(at 371.094 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "58e6d723-3254-48bb-a47f-fc7859c1594e")
 	)
 	(text "A114159-ND"
 		(exclude_from_sim no)
-		(at 367.538 40.386 0)
+		(at 364.236 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6382,6 +6843,12 @@
 		(uuid "0ccd8316-2d5a-41ee-938c-e1a37b5810a9")
 	)
 	(junction
+		(at 152.4 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f23a6f6-e2f1-4d6a-9d0a-11fcc0b24b7a")
+	)
+	(junction
 		(at 365.76 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6434,6 +6901,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350b3ae9-cb25-466b-aa18-05ecb6c9f830")
+	)
+	(junction
+		(at 152.4 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3615db0d-46ee-4073-b87a-48e4000b04a4")
 	)
 	(junction
 		(at 185.42 125.73)
@@ -6622,6 +7095,12 @@
 		(uuid "bc52785d-3c39-417e-b5f9-838ae80b48d5")
 	)
 	(junction
+		(at 152.4 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c019fd10-2299-4c0a-951f-40fe046f52f1")
+	)
+	(junction
 		(at 185.42 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6662,6 +7141,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ed9a04-ec71-4263-895f-b6d4cc1b4c3e")
+	)
+	(junction
+		(at 152.4 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd54176-b298-44d3-9cf2-2e8a0cec119b")
 	)
 	(junction
 		(at 99.06 96.52)
@@ -7323,7 +7808,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 247.65) (xy 152.4 257.81)
+			(xy 152.4 245.11) (xy 152.4 254)
 		)
 		(stroke
 			(width 0)
@@ -7520,6 +8005,16 @@
 			(type default)
 		)
 		(uuid "5ba95d70-17d2-4566-82d7-07b87250ece9")
+	)
+	(wire
+		(pts
+			(xy 152.4 256.54) (xy 152.4 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb58835-ac36-4dfb-8400-6ab7bba2dbc7")
 	)
 	(wire
 		(pts
@@ -7963,7 +8458,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 247.65) (xy 151.13 247.65)
+			(xy 152.4 245.11) (xy 151.13 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8110,6 +8605,16 @@
 			(type default)
 		)
 		(uuid "9dfd68c5-1c7f-4599-8ec4-bb931d16f41e")
+	)
+	(wire
+		(pts
+			(xy 152.4 254) (xy 152.4 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9effb12d-833a-4960-b183-d2e73793be65")
 	)
 	(wire
 		(pts
@@ -8293,7 +8798,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 245.11) (xy 151.13 245.11)
+			(xy 152.4 242.57) (xy 151.13 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8310,6 +8815,16 @@
 			(type default)
 		)
 		(uuid "b98f381b-97c6-4970-a8e7-646a89ae7448")
+	)
+	(wire
+		(pts
+			(xy 152.4 228.6) (xy 152.4 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba3dc31-47e6-4a0e-9b93-a5eaa9953f0f")
 	)
 	(wire
 		(pts
@@ -8443,7 +8958,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 224.79) (xy 152.4 245.11)
+			(xy 152.4 224.79) (xy 152.4 228.6)
 		)
 		(stroke
 			(width 0)
@@ -8740,6 +9255,16 @@
 			(type default)
 		)
 		(uuid "e9bfa85f-e1a0-4278-81d2-3f79c1f5cdcd")
+	)
+	(wire
+		(pts
+			(xy 152.4 231.14) (xy 152.4 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea846b41-978a-4e99-889a-a01048241186")
 	)
 	(wire
 		(pts
@@ -12452,7 +12977,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 146.05 247.65 180)
+		(at 146.05 245.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12460,7 +12985,7 @@
 		(dnp no)
 		(uuid "50190901-e32f-432a-a2f2-53922edac3f4")
 		(property "Reference" "J5"
-			(at 139.7 238.76 0)
+			(at 139.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12993,7 @@
 			)
 		)
 		(property "Value" "TB005-762-02BE"
-			(at 139.7 241.3 0)
+			(at 139.7 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +13001,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CUI_TB005-762-02BE"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +13010,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB005-762-02BE/10064113"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +13019,7 @@
 			)
 		)
 		(property "Description" "battery plug"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +13028,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Same Sky (Formerly CUI Devices)"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,7 +13037,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TB005-762-02BE"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,7 +13046,7 @@
 			)
 		)
 		(property "digikey_part_number" "102-6189-ND"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,7 +13055,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,7 +13064,7 @@
 			)
 		)
 		(property "price" ".58"
-			(at 146.05 247.65 0)
+			(at 146.05 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,6 +14040,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 350.52 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be04ab1-a954-460d-85e1-418b1bc432d8")
+		(property "Reference" "J11"
+			(at 351.155 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7 pin connector"
+			(at 351.155 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 350.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 350.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 350.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f09169b-2997-4594-837a-9f598ec8af73")
+		)
+		(pin "1"
+			(uuid "16c9f993-fe34-491d-934a-7eb533d8d19b")
+		)
+		(pin "3"
+			(uuid "a60d9a6f-4ab6-49dc-b9b6-bdf9600e1591")
+		)
+		(pin "4"
+			(uuid "644efcf6-af48-4de5-95f5-e2c9a76c1151")
+		)
+		(pin "5"
+			(uuid "f35ad7c3-0c32-4353-a003-99d5b8640f77")
+		)
+		(pin "6"
+			(uuid "3daab0d9-67ab-42e1-a5fe-c84d7d273612")
+		)
+		(pin "7"
+			(uuid "81c6c4a7-2f13-432e-8392-d04db24f17fe")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 196.85 223.52 0)
 		(unit 1)
@@ -14420,6 +15037,121 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:63900-1")
+		(at 152.4 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ff4749-053d-47d7-b922-4aa484cdbec9")
+		(property "Reference" "J9"
+			(at 142.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "63900-1"
+			(at 142.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:63900-1"
+			(at 135.89 136.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/63900-1/2188197"
+			(at 135.89 36.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "tab"
+			(at 152.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity AMP Connectors"
+			(at 152.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "63900-1"
+			(at 152.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "A114159-ND"
+			(at 152.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 152.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".26"
+			(at 152.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34051e4e-3446-4c2a-82bb-873ec2ffb6dc")
+		)
+		(pin "2"
+			(uuid "3784d83c-3edf-4c0a-ace8-3e4678e97104")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -16119,6 +16851,121 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:63900-1")
+		(at 152.4 256.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee18bb9-cc0c-42da-9210-8ac2c1320f5b")
+		(property "Reference" "J10"
+			(at 142.24 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "63900-1"
+			(at 142.24 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:63900-1"
+			(at 135.89 161.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/63900-1/2188197"
+			(at 135.89 61.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "tab"
+			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity AMP Connectors"
+			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "63900-1"
+			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "A114159-ND"
+			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".26"
+			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34051e4e-3446-4c2a-82bb-873ec2ffb6dc")
+		)
+		(pin "2"
+			(uuid "3784d83c-3edf-4c0a-ace8-3e4678e97104")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J10")
 					(unit 1)
 				)
 			)
