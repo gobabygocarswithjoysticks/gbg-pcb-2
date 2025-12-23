@@ -5045,610 +5045,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:VP0265840000G"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "VP0265840000G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "kicad libraries:CONN04_VP026584_20P32X18P3_AMP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "VP0265840000G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "VP0265840000G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN04_VP026584_20P32X18P3_AMP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VP0265840000G_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "VP0265840000G_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "library:rpi pico"
 			(pin_names
 				(offset 1.016)
@@ -6859,6 +6255,16 @@
 		)
 		(uuid "0677915a-ac89-4ab3-a181-e10189d24223")
 	)
+	(text "A114159-ND"
+		(exclude_from_sim no)
+		(at 268.986 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25b9e027-e520-4a01-bb49-51821fe05b01")
+	)
 	(text "LVL6, in independent mode that means faults are retried\n"
 		(exclude_from_sim no)
 		(at 201.168 38.1 0)
@@ -6878,6 +6284,16 @@
 			)
 		)
 		(uuid "4603fd5d-c6e2-4962-96ec-08ba83af0625")
+	)
+	(text "A114159-ND"
+		(exclude_from_sim no)
+		(at 269.24 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "612b9e33-8743-44f8-aba2-efa2f957953b")
 	)
 	(text "1.8-5.5v"
 		(exclude_from_sim no)
@@ -7318,10 +6734,6 @@
 		(uuid "3ded510d-3ce7-4d1c-b0fc-72f496e0a753")
 	)
 	(no_connect
-		(at 152.4 240.03)
-		(uuid "5d70e211-ea09-4cd9-a24a-d42a20fde3a3")
-	)
-	(no_connect
 		(at 229.87 125.73)
 		(uuid "79c66d21-e66b-414e-acff-515de201b17d")
 	)
@@ -7336,10 +6748,6 @@
 	(no_connect
 		(at 229.87 35.56)
 		(uuid "ac8271f6-d5fd-42ed-a280-42655da4be75")
-	)
-	(no_connect
-		(at 152.4 245.11)
-		(uuid "cae0a49f-32bc-4999-b4f6-d524b3e2dfd9")
 	)
 	(no_connect
 		(at 229.87 38.1)
@@ -7887,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 224.79) (xy 170.18 224.79)
+			(xy 152.4 224.79) (xy 170.18 224.79)
 		)
 		(stroke
 			(width 0)
@@ -8517,16 +7925,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 224.79) (xy 153.67 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cfdfde7-7e8a-4019-9fc8-57b7ede6cbee")
-	)
-	(wire
-		(pts
 			(xy 99.06 40.64) (xy 109.22 40.64)
 		)
 		(stroke
@@ -8544,6 +7942,16 @@
 			(type default)
 		)
 		(uuid "8dbd4880-67e9-4a69-9984-2423f2eab79c")
+	)
+	(wire
+		(pts
+			(xy 152.4 247.65) (xy 151.13 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee15fbc-17e2-4061-9649-8f894a9bfe9a")
 	)
 	(wire
 		(pts
@@ -8584,16 +7992,6 @@
 			(type default)
 		)
 		(uuid "91d1f914-aea8-4be5-8c88-7fe815e6924c")
-	)
-	(wire
-		(pts
-			(xy 153.67 242.57) (xy 152.4 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934bb76b-84a2-4fec-a3dd-4ee94aa758d1")
 	)
 	(wire
 		(pts
@@ -8877,6 +8275,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 245.11) (xy 151.13 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b986d9df-64a2-49b3-8a48-02f11c1801f2")
+	)
+	(wire
+		(pts
 			(xy 99.06 101.6) (xy 99.06 104.14)
 		)
 		(stroke
@@ -9014,6 +8422,16 @@
 			(type default)
 		)
 		(uuid "c95ee376-effb-496b-afea-610496a37dc9")
+	)
+	(wire
+		(pts
+			(xy 152.4 224.79) (xy 152.4 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d2d57c-9756-486f-bb03-4c3f4fdc68bb")
 	)
 	(wire
 		(pts
@@ -10129,7 +9547,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 55.88 90)
+		(at 109.22 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10137,7 +9555,7 @@
 		(dnp no)
 		(uuid "084fba5d-7a10-4222-b34e-1f2cf0bc024b")
 		(property "Reference" "R2"
-			(at 118.11 50.546 90)
+			(at 109.22 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +9563,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 118.11 53.086 90)
+			(at 109.22 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +9571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 118.11 57.658 90)
+			(at 109.22 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +9580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805220RJNEA/1175182"
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +9589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +9598,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +9607,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0805220RJNEA"
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +9616,7 @@
 			)
 		)
 		(property "price" ".04"
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +9625,7 @@
 			)
 		)
 		(property "digikey_part_number" "541-220ACT-ND"
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +9634,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 118.11 55.88 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +9974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 376.8852 219.71 0)
 			(effects
 				(font
@@ -10565,7 +9983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM32ER71A476KE15L/2039039"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR71E106KA12L/2345330"
 			(at 375.92 215.9 0)
 			(effects
 				(font
@@ -10592,7 +10010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM32ER71A476KE15L"
+		(property "Manufacturer_Part_Number" "GRM31CR71E106KA12L"
 			(at 375.92 215.9 0)
 			(effects
 				(font
@@ -10601,7 +10019,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "490-5312-1-ND"
+		(property "digikey_part_number" "490-6518-1-ND"
 			(at 375.92 215.9 0)
 			(effects
 				(font
@@ -10619,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".61"
+		(property "price" ".19"
 			(at 375.92 215.9 0)
 			(effects
 				(font
@@ -10991,7 +10409,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 55.88 180)
+		(at 118.11 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10999,7 +10417,7 @@
 		(dnp no)
 		(uuid "1a876dd7-dbf6-4b8d-8012-2d155650772d")
 		(property "Reference" "D13"
-			(at 107.696 52.07 0)
+			(at 116.586 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +10426,7 @@
 			)
 		)
 		(property "Value" "blue"
-			(at 107.188 58.674 0)
+			(at 116.078 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +10435,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +10444,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/american-bright-optoelectronics-corporation/BL-BBX1V4V-2-B02/22486905"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +10453,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,7 +10462,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "American Bright Optoelectronics Corporation"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +10471,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BL-BBX1V4V-2-B02"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +10480,7 @@
 			)
 		)
 		(property "price" ".13"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11071,7 +10489,7 @@
 			)
 		)
 		(property "digikey_part_number" "2007-BL-BBX1V4V-2-B02-ND"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +10498,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 109.22 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,126 +10647,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:VP0265840000G")
-		(at 152.4 247.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2eb27c10-9954-42a3-a8db-ce30ba8d9be8")
-		(property "Reference" "J5"
-			(at 143.51 232.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "screw terminal"
-			(at 140.97 234.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:CONN04_VP026584_20P32X18P3_AMP"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-anytek/VP0265840000G/10378270"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "big 2 terminal"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Anytek"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VP0265840000G"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1818-VP0265840000G-ND"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "2.04"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8ae31d20-ff52-4200-8fa2-527e2b7a19ff")
-		)
-		(pin "1"
-			(uuid "8d63308e-18e6-4d8c-b317-7ee50da5b945")
-		)
-		(pin "2"
-			(uuid "d4c9dcfc-4e81-4c51-b22a-b6b190c0b920")
-		)
-		(pin "4"
-			(uuid "16aa511c-dd47-4eba-9187-9d67ea93a594")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11696,7 +10994,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 172.72 0)
+		(at 92.71 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11704,7 +11002,7 @@
 		(dnp no)
 		(uuid "3426afaa-4586-4f97-85e5-7bef55f761f6")
 		(property "Reference" "R1"
-			(at 98.044 172.72 90)
+			(at 98.044 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,7 +11010,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 95.504 172.72 90)
+			(at 95.504 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11018,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.932 172.72 90)
+			(at 90.932 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11027,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805220RJNEA/1175182"
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11036,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11045,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11054,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0805220RJNEA"
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11063,7 @@
 			)
 		)
 		(property "price" ".04"
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +11072,7 @@
 			)
 		)
 		(property "digikey_part_number" "541-220ACT-ND"
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +11081,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 92.71 172.72 0)
+			(at 92.71 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +11771,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 92.71 163.83 90)
+		(at 92.71 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12482,7 +11780,7 @@
 		(fields_autoplaced yes)
 		(uuid "4791acf3-c977-4116-bcf8-cc32c386a151")
 		(property "Reference" "3V1"
-			(at 96.52 164.1474 90)
+			(at 96.52 173.0374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,7 +11789,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 96.52 166.6874 90)
+			(at 96.52 175.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12500,7 +11798,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,7 +11807,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/american-bright-optoelectronics-corporation/BL-B2141K/22486926"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,7 +11816,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +11825,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "American Bright Optoelectronics Corporation"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +11834,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BL-B2141K"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +11843,7 @@
 			)
 		)
 		(property "price" "0.01"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12554,7 +11852,7 @@
 			)
 		)
 		(property "digikey_part_number" "2007-BL-B2141K-ND"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +11861,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 92.71 163.83 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,6 +12426,118 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 146.05 247.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50190901-e32f-432a-a2f2-53922edac3f4")
+		(property "Reference" "J5"
+			(at 139.7 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TB005-762-02BE"
+			(at 139.7 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:CUI_TB005-762-02BE"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB005-762-02BE/10064113"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "battery plug"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky (Formerly CUI Devices)"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TB005-762-02BE"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "102-6189-ND"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".58"
+			(at 146.05 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0af0b29-f28c-47ae-be8b-e580b0cc4d6f")
+		)
+		(pin "2"
+			(uuid "7a435530-ec2b-4e02-8cdd-3e1ce44286fc")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J5")
 					(unit 1)
 				)
 			)
