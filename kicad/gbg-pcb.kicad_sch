@@ -6257,7 +6257,7 @@
 	)
 	(text "A114159-ND"
 		(exclude_from_sim no)
-		(at 268.986 100.33 0)
+		(at 367.284 38.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6285,9 +6285,19 @@
 		)
 		(uuid "4603fd5d-c6e2-4962-96ec-08ba83af0625")
 	)
+	(text "TODO: \nweelye compatible tabs?"
+		(exclude_from_sim no)
+		(at 387.604 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58e6d723-3254-48bb-a47f-fc7859c1594e")
+	)
 	(text "A114159-ND"
 		(exclude_from_sim no)
-		(at 269.24 102.362 0)
+		(at 367.538 40.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11781,6 +11791,7 @@
 		(uuid "4791acf3-c977-4116-bcf8-cc32c386a151")
 		(property "Reference" "3V1"
 			(at 96.52 173.0374 90)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
