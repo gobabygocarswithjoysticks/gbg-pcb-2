@@ -192,18 +192,19 @@
 		(layer "F.Fab")
 		(uuid "edada93b-c686-4fd3-9f02-39103db3e482")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 2.4 2.4)
+		(size 2.8 2.8)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
 		(solder_mask_margin 0.102)
 		(uuid "4174270d-6dc0-401d-890b-dadc6c84efca")
 	)
 	(pad "2" thru_hole circle
 		(at 7.62 0)
-		(size 2.4 2.4)
+		(size 3 3)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
