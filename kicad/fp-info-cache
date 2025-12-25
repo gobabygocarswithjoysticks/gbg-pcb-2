@@ -1,4 +1,4 @@
-26442604283962042
+26444371024221740
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105251,6 +105251,13 @@ test point wire loop
 0
 2
 1
+kicad libraries
+heatsink 375424B00034G
+
+
+0
+0
+0
 kicad libraries
 heatsink V2027B
 heatsink

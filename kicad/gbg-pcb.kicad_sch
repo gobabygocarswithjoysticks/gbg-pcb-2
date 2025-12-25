@@ -2772,11 +2772,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink"
+		(symbol "Heatsink_1"
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "HS"
@@ -2840,7 +2840,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_0_1"
+			(symbol "Heatsink_1_0_1"
 				(polyline
 					(pts
 						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
@@ -6789,7 +6789,7 @@
 	)
 	(text "+"
 		(exclude_from_sim no)
-		(at 265.43 82.804 0)
+		(at 250.698 84.836 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6967,12 +6967,6 @@
 		(uuid "26e4a99f-371d-4efd-8a5c-4efb4c3fe11d")
 	)
 	(junction
-		(at 254 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "298b84f9-6bd1-4914-a9d2-0ef6a6974662")
-	)
-	(junction
 		(at 186.69 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6995,6 +6989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "430141ab-bfd4-43d0-9b8f-212bbbe0e5f9")
+	)
+	(junction
+		(at 261.62 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e9d5da-9956-455f-ac97-dc67daaac80b")
 	)
 	(junction
 		(at 229.87 68.58)
@@ -7055,12 +7055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5b2ede-720e-4104-a3e3-4b5eff2a12d5")
-	)
-	(junction
-		(at 290.83 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83d0c90f-f431-4aa5-b19b-3fdbf5bcbb67")
 	)
 	(junction
 		(at 185.42 166.37)
@@ -7129,6 +7123,12 @@
 		(uuid "9e2ce68b-16f4-4b33-9375-49de6e577450")
 	)
 	(junction
+		(at 254 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a281856f-0ac2-457c-88be-45672800f1e7")
+	)
+	(junction
 		(at 229.87 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7171,12 +7171,6 @@
 		(uuid "b9ce38e5-6fe7-4062-8547-e3cdb73a098d")
 	)
 	(junction
-		(at 261.62 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc52785d-3c39-417e-b5f9-838ae80b48d5")
-	)
-	(junction
 		(at 152.4 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7195,6 +7189,12 @@
 		(uuid "c7ced7f3-3909-498c-b05e-c2f1cb3fe6eb")
 	)
 	(junction
+		(at 193.04 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ae7ba1-9771-4834-8a01-e0005aa06ff8")
+	)
+	(junction
 		(at 332.74 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7205,12 +7205,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ced35bce-76ff-4c01-99f8-734548f08da0")
-	)
-	(junction
-		(at 290.83 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d306e919-11fd-4bd7-a5f2-87762e9b76ae")
 	)
 	(junction
 		(at 229.87 138.43)
@@ -7380,7 +7374,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 140.97) (xy 290.83 140.97)
+			(xy 280.67 140.97) (xy 283.21 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7414,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 224.79) (xy 196.85 224.79)
+			(xy 170.18 224.79) (xy 193.04 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7700,16 +7694,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 62.23) (xy 290.83 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370b6d98-8196-4200-b8c2-8d0e73ce6a83")
-	)
-	(wire
-		(pts
 			(xy 186.69 247.65) (xy 186.69 250.19)
 		)
 		(stroke
@@ -7820,7 +7804,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 53.34) (xy 293.37 53.34)
+			(xy 280.67 53.34) (xy 293.37 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7990,13 +7974,13 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 53.34) (xy 290.83 53.34)
+			(xy 193.04 224.79) (xy 196.85 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5155e24f-870c-4edd-86ae-fa810f03b2bc")
+		(uuid "51693fad-7c92-431d-85c2-df1b39ae4d8b")
 	)
 	(wire
 		(pts
@@ -8197,6 +8181,16 @@
 			(type default)
 		)
 		(uuid "69c0a175-aca4-4f6f-8119-06eeba206dd4")
+	)
+	(wire
+		(pts
+			(xy 193.04 234.95) (xy 193.04 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4b3102-cc33-402c-8c4e-de43e8a9354f")
 	)
 	(wire
 		(pts
@@ -8417,16 +8411,6 @@
 			(type default)
 		)
 		(uuid "8559a34a-af9f-4585-9f98-ce84a986300b")
-	)
-	(wire
-		(pts
-			(xy 290.83 140.97) (xy 299.72 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8613db41-bd6e-4bd6-81b3-d2db63a97a04")
 	)
 	(wire
 		(pts
@@ -8730,16 +8714,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 149.86) (xy 290.83 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a6588d-7bf4-4040-8e9f-c26e750d1a82")
-	)
-	(wire
-		(pts
 			(xy 26.67 83.82) (xy 48.26 83.82)
 		)
 		(stroke
@@ -8867,6 +8841,16 @@
 			(type default)
 		)
 		(uuid "b73989b4-1420-42a0-9d9d-d61c1ac06a9b")
+	)
+	(wire
+		(pts
+			(xy 193.04 226.06) (xy 193.04 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73f6e0b-63ed-4d1d-a247-975359a1443d")
 	)
 	(wire
 		(pts
@@ -9500,28 +9484,6 @@
 			)
 		)
 	)
-	(global_label "left_1"
-		(shape input)
-		(at 229.87 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b71073d-cc99-44ae-b68f-546f806ef1d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.5025 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "left_en"
 		(shape input)
 		(at 116.84 76.2 0)
@@ -9766,6 +9728,28 @@
 	)
 	(global_label "left_1"
 		(shape input)
+		(at 229.87 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b36ed7d1-7c6b-4a3c-b24d-947a0b294a49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.5025 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "left_1"
+		(shape input)
 		(at 116.84 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9782,6 +9766,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "left_2"
+		(shape input)
+		(at 229.87 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbec96b3-6da2-4512-9997-06b8906d2771")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.5025 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9870,28 +9876,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "left_2"
-		(shape input)
-		(at 229.87 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3aed53c-7b90-4b23-9576-67d09a25fd0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.5025 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9985,7 +9969,8 @@
 	)
 	(symbol
 		(lib_id "library:1017491")
-		(at 261.62 81.28 270)
+		(at 254 81.28 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9993,7 +9978,7 @@
 		(dnp no)
 		(uuid "033090a4-7ac1-474f-9b0a-63b06e1071c5")
 		(property "Reference" "J7"
-			(at 265.43 88.8999 90)
+			(at 250.19 88.8999 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10002,7 +9987,7 @@
 			)
 		)
 		(property "Value" "1017491"
-			(at 265.43 91.4399 90)
+			(at 250.19 91.4399 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10011,7 +9996,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN_1017491"
-			(at 261.62 81.28 0)
+			(at 254 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,7 +10006,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017491/9346583"
-			(at 261.62 81.28 0)
+			(at 254 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +10016,7 @@
 			)
 		)
 		(property "Description" "24A screw terminal"
-			(at 261.62 81.28 0)
+			(at 254 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,7 +10025,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 261.62 81.28 90)
+			(at 254 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +10034,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017491"
-			(at 261.62 81.28 90)
+			(at 254 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10043,7 @@
 			)
 		)
 		(property "digikey_part_number" "277-17493-ND"
-			(at 261.62 81.28 90)
+			(at 254 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10052,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 261.62 81.28 90)
+			(at 254 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +10061,7 @@
 			)
 		)
 		(property "price" ".77"
-			(at 261.62 81.28 90)
+			(at 254 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,122 +10262,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:A759KC276M1JAAE054")
-		(at 290.83 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0999bb43-2ab9-4338-b298-62ac552c352f")
-		(property "Reference" "C4"
-			(at 293.116 56.134 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33uf"
-			(at 293.116 58.674 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:CAP_KK-8x8_KEM"
-			(at 290.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A759KK336M1JAAE036/18124413"
-			(at 290.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP ALUM POLY 33UF 20% 63V TH"
-			(at 290.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 290.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "A759KK336M1JAAE036"
-			(at 290.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "399-A759KK336M1JAAE036-ND"
-			(at 290.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 290.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".34"
-			(at 290.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4a31dc3-863e-4aac-ae97-4817c8707e38")
-		)
-		(pin "1"
-			(uuid "5365096c-1366-405d-a1fd-244b672ed07f")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10681,114 +10550,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 52.07 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1754667f-39d1-407e-b0c6-34018fcc1c66")
-		(property "Reference" "HS3"
-			(at 55.118 233.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 50.546 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:heatsink V2027B"
-			(at 52.3748 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/assmann-wsw-components/V2027B/8826896"
-			(at 52.3748 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Assmann WSW Components"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "V2027B"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "AE11383-ND"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".86"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS3")
 					(unit 1)
 				)
 			)
@@ -11796,71 +11557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 290.83 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35f80000-8642-4356-9065-e94f05c682a8")
-		(property "Reference" "#PWR031"
-			(at 290.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 291.592 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81fac342-53a3-4a28-bc67-e6a1df4ade80")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 275.59 217.17 0)
 		(unit 1)
@@ -12265,7 +11961,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 290.83 149.86 0)
+		(at 193.04 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12273,7 +11969,7 @@
 		(dnp no)
 		(uuid "43c75059-8ea7-40c0-babc-b9620f63bd20")
 		(property "Reference" "#PWR032"
-			(at 290.83 156.21 0)
+			(at 193.04 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +11978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 291.592 153.67 0)
+			(at 193.04 239.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +11986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 149.86 0)
+			(at 193.04 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +11995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 149.86 0)
+			(at 193.04 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 149.86 0)
+			(at 193.04 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13771,114 +13467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 35.56 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6337a704-334e-4a4b-9a21-20b9d4709103")
-		(property "Reference" "HS2"
-			(at 25.654 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "heatsink Tape"
-			(at 25.654 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:tape_1"
-			(at 35.8648 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
-			(at 35.8648 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "heatsink tape"
-			(at 35.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "t-Global Technology"
-			(at 35.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
-			(at 35.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
-			(at 35.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".29"
-			(at 35.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 35.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 224.79 133.35 0)
 		(unit 1)
@@ -15018,7 +14606,7 @@
 	)
 	(symbol
 		(lib_id "library:A759KC276M1JAAE054")
-		(at 290.83 140.97 270)
+		(at 193.04 226.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15026,7 +14614,7 @@
 		(dnp no)
 		(uuid "82ba3409-7f06-44e9-9aec-15d523c55860")
 		(property "Reference" "C5"
-			(at 293.116 143.764 90)
+			(at 187.706 228.854 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15035,7 +14623,7 @@
 			)
 		)
 		(property "Value" "33uf"
-			(at 293.116 146.304 90)
+			(at 185.42 231.394 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15044,7 +14632,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CAP_KK-8x8_KEM"
-			(at 290.83 140.97 0)
+			(at 193.04 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15054,7 +14642,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A759KK336M1JAAE036/18124413"
-			(at 290.83 140.97 0)
+			(at 193.04 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15064,7 +14652,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM POLY 33UF 20% 63V TH"
-			(at 290.83 140.97 0)
+			(at 193.04 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15073,7 +14661,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 290.83 140.97 90)
+			(at 193.04 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15082,7 +14670,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "A759KK336M1JAAE036"
-			(at 290.83 140.97 90)
+			(at 193.04 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15091,7 +14679,7 @@
 			)
 		)
 		(property "digikey_part_number" "399-A759KK336M1JAAE036-ND"
-			(at 290.83 140.97 90)
+			(at 193.04 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15100,7 +14688,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 290.83 140.97 90)
+			(at 193.04 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15109,7 +14697,7 @@
 			)
 		)
 		(property "price" ".34"
-			(at 290.83 140.97 90)
+			(at 193.04 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15695,6 +15283,116 @@
 		)
 	)
 	(symbol
+		(lib_name "Heatsink_1")
+		(lib_id "Mechanical:Heatsink")
+		(at 73.66 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "970c7a4c-aa26-4170-b069-bad6261c6c6a")
+		(property "Reference" "HSL1"
+			(at 77.47 233.0449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 77.47 235.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad libraries:heatsink 375424B00034G"
+			(at 73.9648 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/boyd-laconia-llc/375424B00034G/5054154"
+			(at 73.9648 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with tape included"
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Boyd Laconia, LLC"
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "375424B00034G"
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "375424B00034G-ND"
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.185"
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "HSL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 180.34 0)
 		(unit 1)
@@ -16047,114 +15745,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 35.56 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bca719d-0bc6-408d-91ef-df835308c9d0")
-		(property "Reference" "HS1"
-			(at 28.194 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 28.448 235.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:heatsink V2027B"
-			(at 35.8648 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/assmann-wsw-components/V2027B/8826896"
-			(at 35.8648 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 35.56 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Assmann WSW Components"
-			(at 35.56 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "V2027B"
-			(at 35.56 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "AE11383-ND"
-			(at 35.56 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 35.56 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".86"
-			(at 35.56 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -16570,6 +16160,116 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Heatsink_1")
+		(lib_id "Mechanical:Heatsink")
+		(at 73.66 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1adb2cc-aa16-4ee3-acf5-fbce3943b96d")
+		(property "Reference" "HSR1"
+			(at 77.47 239.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 77.47 241.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad libraries:heatsink 375424B00034G"
+			(at 73.9648 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/boyd-laconia-llc/375424B00034G/5054154"
+			(at 73.9648 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with tape included"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Boyd Laconia, LLC"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "375424B00034G"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "375424B00034G-ND"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1.185"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "HSR1")
 					(unit 1)
 				)
 			)
@@ -17773,114 +17473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 52.07 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dca0baea-4a4f-479b-9c74-9a65cb85737f")
-		(property "Reference" "HS4"
-			(at 42.164 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "heatsink Tape"
-			(at 42.164 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:tape_1"
-			(at 52.3748 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/t-global-technology/TG-T1000-26-26-0-25-5PT/13919488"
-			(at 52.3748 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "heatsink tape"
-			(at 52.07 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "t-Global Technology"
-			(at 52.07 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TG-T1000-26-26-0.25-5PT"
-			(at 52.07 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1168-TG-T1000-26-26-0.25-5PT-ND"
-			(at 52.07 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".29"
-			(at 52.07 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 52.07 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "HS4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:1017491")
 		(at 254 168.91 90)
 		(mirror x)
@@ -18423,7 +18015,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 299.72 140.97 0)
+		(at 283.21 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18431,7 +18023,7 @@
 		(dnp no)
 		(uuid "ea9a92ed-569c-4ac8-9214-aca158315413")
 		(property "Reference" "#PWR034"
-			(at 299.72 144.78 0)
+			(at 283.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18440,7 +18032,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 302.768 138.43 0)
+			(at 286.258 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18448,7 +18040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 140.97 0)
+			(at 283.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18457,7 +18049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 140.97 0)
+			(at 283.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18466,7 +18058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 299.72 140.97 0)
+			(at 283.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
