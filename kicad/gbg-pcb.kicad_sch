@@ -10293,7 +10293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASJ200BHT"
+		(property "Footprint" "kicad libraries:ASJ200BHT"
 			(at 181.61 285.42 0)
 			(effects
 				(font
@@ -12655,7 +12655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASJ200BHT"
+		(property "Footprint" "kicad libraries:ASJ200BHT"
 			(at 181.61 218.11 0)
 			(effects
 				(font
@@ -16545,7 +16545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASJ200BHT"
+		(property "Footprint" "kicad libraries:ASJ200BHT"
 			(at 181.61 261.29 0)
 			(effects
 				(font
@@ -17751,7 +17751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASJ200BHT"
+		(property "Footprint" "kicad libraries:ASJ200BHT"
 			(at 181.61 239.7 0)
 			(effects
 				(font
