@@ -1,28 +1,28 @@
-### Footprint positions - created on 2025-12-25T01:18:51+0000 ###
+### Footprint positions - created on 2025-12-25T05:31:41+0000 ###
 ### Printed by KiCad version 9.0.6
 ## Unit = inches, Angle = deg.
 ## Side : All
 # Ref     Val              Package                                           PosX       PosY       Rot  Side
-C1        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.1900    -1.9450    0.0000  top
-C2        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     5.0400    -1.9310   90.0000  top
+C1        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.4642    -2.1943   90.0000  top
+C2        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.6649    -2.1948   90.0000  top
 C3        1uF              C_1206_3216Metric                               5.1194    -3.2793   90.0000  top
 C6        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     5.2943    -3.1002    0.0000  top
 C7        56pF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     5.4098    -3.2799  -90.0000  top
 C8        47uF             C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     5.0694    -3.0793    0.0000  top
 D1        D_Schottky       D_SOD-123F                                      4.8444    -3.0793    0.0000  top
 D2        D_Schottky       D_SOD-123F                                      2.8700    -2.7100    0.0000  top
-D3        18V_zener        D_SOD-123F                                      4.1886    -2.6292  180.0000  top
+D3        18V_zener        D_SOD-123F                                      4.0241    -2.6331  180.0000  top
 L1        27_uH            IND_VLCF4020T-270MR48                           4.9195    -3.2442  180.0000  top
 P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                     3.2913    -3.4179   90.0000  top
-Q1        PSMN1R2-25YLDX   LFPAK56                                         4.4249    -2.4492    0.0000  top
-Q2        PSMN1R2-25YLDX   LFPAK56                                         4.1001    -2.4494  180.0000  top
+Q1        PSMN1R2-25YLDX   LFPAK56                                         4.2605    -2.4531    0.0000  top
+Q2        PSMN1R2-25YLDX   LFPAK56                                         3.9357    -2.4533  180.0000  top
 R1        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.2500    -3.5450  180.0000  top
 R2        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.4557    -3.4774   90.0000  top
-R3        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.3786    -2.6242    0.0000  top
-R4        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.2436    -2.2742  180.0000  top
+R3        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.2141    -2.6281    0.0000  top
+R4        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.0791    -2.2781  180.0000  top
 R5        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.2550    -3.4100    0.0000  top
-R6        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.9350    -1.9600    0.0000  top
-R7        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     3.3600    -2.4656   90.0000  top
+R6        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.7793    -1.9900    0.0000  top
+R7        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     3.4500    -2.4050   90.0000  top
 R8        100k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.4150    -3.0950  -90.0000  top
 R9        13.7k            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.4150    -3.4747  -90.0000  top
 U1        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                3.2150    -2.1950  -90.0000  top

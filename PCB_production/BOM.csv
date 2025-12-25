@@ -1,6 +1,6 @@
 "Reference","Value","Footprint","Manufacturer_Name","Manufacturer_Part_Number","digikey_part_number","mount_type","QUANTITY"
 "3V1","green","LED_THT:LED_D3.0mm","American Bright Optoelectronics Corporation","BL-B2141K","2007-BL-B2141K-ND","tht","1"
-"B1-B4","ASJ-200-B-HT","ASJ200BHT","Adam Tech","ASJ-200-B-HT","2057-ASJ-200-B-HT-ND","tht","4"
+"B1-B4","ASJ-200-B-HT","kicad libraries:ASJ200BHT","Adam Tech","ASJ-200-B-HT","2057-ASJ-200-B-HT-ND","tht","4"
 "C1,C2,C6","0.1uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","TDK Corporation","CGA3E2X7R1H104K080AA","445-5666-1-ND","smd","3"
 "C3","1uF","Capacitor_SMD:C_1206_3216Metric","Taiyo Yuden","MCASU31LSB5105KTNA01","587-MCASU31LSB5105KTNA01CT-ND","smd","1"
 "C5","33uf","kicad libraries:CAP_KK-8x8_KEM","KEMET","A759KK336M1JAAE036","399-A759KK336M1JAAE036-ND","tht","1"
