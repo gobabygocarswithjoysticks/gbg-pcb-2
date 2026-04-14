@@ -1,31 +1,34 @@
-### Footprint positions - created on 2025-12-28T07:27:29+0000 ###
-### Printed by KiCad version 9.0.6
+### Footprint positions - created on 2026-04-14T04:36:54 ###
+### Printed by KiCad version 10.0.0
 ## Unit = inches, Angle = deg.
 ## Side : All
-# Ref     Val              Package                                           PosX       PosY       Rot  Side
-C1        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.4642    -2.1943   90.0000  top
-C2        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.6649    -2.1948   90.0000  top
-C3        1uF              C_1206_3216Metric                               5.1194    -3.2793   90.0000  top
-C6        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     5.2943    -3.1002    0.0000  top
-C7        56pF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     5.4098    -3.2799  -90.0000  top
-C8        47uF             C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     5.0694    -3.0793    0.0000  top
-D1        D_Schottky       D_SOD-123F                                      4.8444    -3.0793    0.0000  top
-D2        D_Schottky       D_SOD-123F                                      2.8700    -2.7100    0.0000  top
-D3        18V_zener        D_SOD-123F                                      4.0241    -2.6331  180.0000  top
-L1        27_uH            IND_VLCF4020T-270MR48                           4.9195    -3.2442  180.0000  top
-P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                     3.2913    -3.4179   90.0000  top
-Q1        PSMN1R2-25YLDX   LFPAK56                                         4.2605    -2.4531    0.0000  top
-Q2        PSMN1R2-25YLDX   LFPAK56                                         3.9357    -2.4533  180.0000  top
-R1        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.2500    -3.5450  180.0000  top
-R2        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.4557    -3.4774   90.0000  top
-R3        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.2141    -2.6281    0.0000  top
-R4        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.0791    -2.2781  180.0000  top
-R5        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.2550    -3.4100    0.0000  top
-R6        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.7793    -1.9900    0.0000  top
-R7        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     3.4500    -2.4050   90.0000  top
-R8        100k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.4150    -3.0950  -90.0000  top
-R9        13.7k            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.4150    -3.4747  -90.0000  top
-U1        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                3.2150    -2.1950  -90.0000  top
-U2        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                4.9150    -2.1950   90.0000  top
-U3        TPS54202HDDCR    SOT95P280X110-6N_tps54202HDDCR                  5.2693    -3.2502    0.0000  top
+# Ref     Val              Package                                              PosX       PosY       Rot  Side
+C1        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder        3.4642    -2.1943   90.0000  top
+C2        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder        4.6700    -2.1948   90.0000  top
+C3        1uF              C_1206_3216Metric                                  5.0637    -3.2943   90.0000  top
+C6        0.1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder        5.2386    -3.1153    0.0000  top
+C7        56pF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder        5.3450    -3.2950  -90.0000  top
+C8        47uF             C_1206_3216Metric_Pad1.33x1.80mm_HandSolder        5.0137    -3.0943    0.0000  top
+D1        D_Schottky       D_SOD-123F                                         4.7887    -3.0943    0.0000  top
+D2        D_Schottky       D_SOD-123F                                         2.6850    -2.5750    0.0000  top
+D3        18V_zener        D_SOD-123F                                         4.0241    -2.6331  180.0000  top
+J2        Conn_01x04       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     5.2857    -2.6395  -90.0000  top
+L1        27_uH            IND_VLCF4020T-270MR48                              4.8639    -3.2592  180.0000  top
+P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                        3.2913    -3.4179   90.0000  top
+Q1        PSMN1R2-25YLDX   LFPAK56                                            4.2605    -2.4531    0.0000  top
+Q2        PSMN1R2-25YLDX   LFPAK56                                            3.9357    -2.4533  180.0000  top
+R1        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.2500    -3.5450  180.0000  top
+R2        220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.4557    -3.4774   90.0000  top
+R3        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.2050    -2.6250    0.0000  top
+R4        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.0791    -2.2781  180.0000  top
+R5        590k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.2550    -3.4100    0.0000  top
+R6        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.7793    -1.9900    0.0000  top
+R7        8.2k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        3.4500    -2.4000   90.0000  top
+R8        100k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.3594    -3.1100  -90.0000  top
+R9        13.7k            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.4150    -3.4747  -90.0000  top
+R10       220k             YC248-JR-072K2L                                    2.8250    -3.9811   90.0000  top
+U1        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                   3.2150    -2.1950  -90.0000  top
+U2        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                   4.9150    -2.1950   90.0000  top
+U3        TPS54202HDDCR    SOT95P280X110-6N_tps54202HDDCR                     5.2136    -3.2653    0.0000  top
+U4        TLA2024IRUGR     IC_TLA2024IRUGR                                    5.0550    -2.8050    0.0000  top
 ## End
