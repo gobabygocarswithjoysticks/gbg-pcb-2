@@ -220,4 +220,15 @@
 		(uuid "a0627c0d-b8a5-47fe-b94c-2ace3c80923e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad libraries/TB0011-350-03GR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
