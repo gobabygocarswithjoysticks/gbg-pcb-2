@@ -36,7 +36,7 @@ jobs:
             kicad-cli pcb export pos --output '/workspace/PCB_production/position.csv' --smd-only /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb export dxf --output '/workspace/PCB_production/F_SolderPasteMask.dxf' --layers F.Paste --mode-single --output-units mm --drill-shape-opt 0 --common-layers '' /workspace/kicad/gbg-pcb.kicad_pcb
           "
-          zip -r ${{ github.workspace }}/PCB_production/gerbers.zip ${{ github.workspace }}/PCB_production/gerbers
+          cd ${{ github.workspace }}/PCB_production && zip -r gerbers.zip gerbers/
           sudo rm -rf ${{ github.workspace }}/PCB_production/gerbers
             
           git add .
