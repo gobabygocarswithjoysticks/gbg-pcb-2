@@ -37,7 +37,7 @@ jobs:
             kicad-cli pcb export dxf --output '/workspace/PCB_production/F_SolderPasteMask.dxf' --layers F.Paste --mode-single --output-units mm --drill-shape-opt 0 --common-layers '' /workspace/kicad/gbg-pcb.kicad_pcb
           "
           zip -r ${{ github.workspace }}/PCB_production/gerbers.zip ${{ github.workspace }}/PCB_production/gerbers
-          rm -rf ${{ github.workspace }}/PCB_production/gerbers
+          sudo rm -rf ${{ github.workspace }}/PCB_production/gerbers
             
           git add .
           git commit . -m "BOT process kicad" --allow-empty
