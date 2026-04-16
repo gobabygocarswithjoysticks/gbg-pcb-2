@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: pull kicad docker
         run: |
           git config --global user.name 'gbg-with-joysticks'
@@ -35,9 +35,9 @@ jobs:
             kicad-cli pcb export drill /workspace/kicad/gbg-pcb.kicad_pcb --output /workspace/PCB_production/gerbers
             kicad-cli pcb export pos --output '/workspace/PCB_production/position.csv' --smd-only /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb export dxf --output '/workspace/PCB_production/F_SolderPasteMask.dxf' --layers F.Paste --mode-single --output-units mm --drill-shape-opt 0 --common-layers '' /workspace/kicad/gbg-pcb.kicad_pcb
-            zip -r /workspace/PCB_production/gerbers.zip /workspace/PCB_production/gerbers
-            rm -rf /workspace/PCB_production/gerbers
           "
+          zip -r ${{ github.workspace }}/PCB_production/gerbers.zip /workspace/PCB_production/gerbers
+          rm -rf ${{ github.workspace }}/PCB_production/gerbers
             
           git add .
           git commit . -m "BOT process kicad" --allow-empty
