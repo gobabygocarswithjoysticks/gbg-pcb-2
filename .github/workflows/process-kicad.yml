@@ -38,9 +38,11 @@ jobs:
           "
           cd ${{ github.workspace }}/PCB_production
           ls
-          zip -r gerbers.zip gerbers/
           cd gerbers
           ls
+          sudo rm gbg-pcb-job.grbjob
+          cd ..
+          zip -r gerbers.zip ./gerbers
           sudo rm -rf ${{ github.workspace }}/PCB_production/gerbers
             
           git add .
