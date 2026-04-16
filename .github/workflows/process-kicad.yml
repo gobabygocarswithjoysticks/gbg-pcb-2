@@ -37,10 +37,8 @@ jobs:
             kicad-cli pcb export dxf --output '/workspace/PCB_production/F_SolderPasteMask.dxf' --layers F.Paste --mode-single --output-units mm --drill-shape-opt 0 --common-layers '' /workspace/kicad/gbg-pcb.kicad_pcb
           "
           cd ${{ github.workspace }}/PCB_production
-          ls
           cd gerbers
-          ls
-          sudo rm gbg-pcb-job.grbjob
+          sudo rm gbg-pcb-job.gbrjob
           cd ..
           zip -r gerbers.zip ./gerbers
           sudo rm -rf ${{ github.workspace }}/PCB_production/gerbers
