@@ -5,3 +5,4 @@
 Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries)
 
 For the previous version of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
+
