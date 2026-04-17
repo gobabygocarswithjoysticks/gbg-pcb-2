@@ -1,14 +1,14 @@
 (footprint "ASJ200BHT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "ASJ-200-B-HT-2")
 	(tags "Connector")
-	(property "Reference" "J**"
-		(at 4 3 180)
+	(property "Reference" "B3"
+		(at 10.8108 0.949 90)
 		(layer "F.SilkS")
-		(uuid "5891f731-6329-4d9e-82e3-414d0cb2e9de")
+		(uuid "8376a669-be37-48d0-b8b6-54201f69b2a2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "ASJ200BHT"
+	(property "Value" "ASJ-200-B-HT"
 		(at 2.723 -2.5 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "246e1db7-59c8-493a-9e3d-70cb1955ee26")
+		(uuid "3fd744ba-45cb-4359-84ff-2e25b7d7944e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,11 +28,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/ASJ-200-B-HT/9831600"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b88007c3-e7d0-4480-a45f-94e203c9899b")
+		(uuid "d0c544f9-6dca-448c-a1f9-cb173ed084ad")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,11 +40,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d598cc4c-0dd4-4818-b83b-570f86849cd2")
+		(uuid "71317b0a-bf7e-41ea-a4ee-b9ef4f753a11")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,140 @@
 			)
 		)
 	)
+	(property "Height" "5.2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49518067-a8b4-4d1a-9c3f-db2e497af0cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Adam Tech"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccb4c3fd-ecad-41ce-a532-a347ab3fedbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ASJ-200-B-HT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "956b7473-393c-4491-8c82-d9a684dcfb9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "737-ASJ-200-B-HT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a69bcca8-9626-4d2a-b518-1d9945f38a83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/ASJ-200-B-HT?qs=HoCaDK9Nz5dN6XO8d3HxTw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f302dc9-7a0d-4d46-b8e8-5ad1bb8ed17c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff0ea695-2de2-4449-9161-cea6d036c5fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5895013e-8e91-478d-aee5-7d35f0868edc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "digikey_part_number" "2057-ASJ-200-B-HT-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0857c3b8-c958-496e-8032-0435316e7918")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mount_type" "tht"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d00101d9-216f-4a19-94a0-633ed9cdb78e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "price" "0.53"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1739d949-a430-404a-aa36-fe7d10b8a947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "gbg-pcb.kicad_sch")
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5 0)
 		(end -5 5)
@@ -61,7 +194,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "86d78644-9ffb-49b2-a799-f85c60f36726")
+		(uuid "272343e8-f403-4d4f-bfa0-e3429a68d4e9")
 	)
 	(fp_line
 		(start -5 5)
@@ -71,7 +204,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "da8b96fa-a253-4280-b58a-a525fed91927")
+		(uuid "37845cfb-6e76-4722-befd-7ab3e98629f7")
 	)
 	(fp_line
 		(start -2 0)
@@ -81,7 +214,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "224c7cc8-9ab2-4b6a-9708-c738977d05a0")
+		(uuid "d727334e-836a-4705-8045-11473d8a2008")
 	)
 	(fp_line
 		(start -2 6)
@@ -91,7 +224,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0e18e68b-c44d-4827-baf0-16140a5446aa")
+		(uuid "47999129-a6e8-43f3-964d-39153873f77a")
 	)
 	(fp_line
 		(start 1.45 6)
@@ -101,7 +234,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9e00f8d6-75f7-4d4a-a940-7c861931fab3")
+		(uuid "7ad43d6a-1165-404f-a619-461209608aa7")
 	)
 	(fp_line
 		(start 1.6 -1)
@@ -111,7 +244,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "80014068-c5f2-4f42-9cec-84ba891f69fb")
+		(uuid "3cdf8f89-6096-4829-802e-f4ca8f09b354")
 	)
 	(fp_line
 		(start 4.7 6)
@@ -121,7 +254,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0b96ed7c-1a2d-4a62-9441-8664f011f363")
+		(uuid "37d777e8-b33f-42eb-a01a-09b9b67a407a")
 	)
 	(fp_line
 		(start 9.2 -0.975)
@@ -131,7 +264,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "68e41474-6d3e-4413-8563-fa1b1b7953f4")
+		(uuid "5ad6c95c-16fd-41df-b102-78f4fbaae869")
 	)
 	(fp_line
 		(start 10 -0.975)
@@ -141,7 +274,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7501e43d-8cb3-4c77-b997-d8e465557198")
+		(uuid "352c90fc-2969-4767-8006-0477126d0616")
 	)
 	(fp_line
 		(start 0 -2.2)
@@ -151,7 +284,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "2a8c4b4c-ae27-497f-9ec9-43464d381bf0")
+		(uuid "2b72d191-aac4-4df5-a3a4-df02a99db771")
 	)
 	(fp_line
 		(start 0 -2.1)
@@ -161,7 +294,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "cc5603ed-2245-4609-8f92-f46ae2fa6e2b")
+		(uuid "f18bae49-5dba-4f8e-af19-1fe916fd9dda")
 	)
 	(fp_arc
 		(start 0 -2.2)
@@ -172,7 +305,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "92293bf8-6f73-42b3-afcd-be097d54fb66")
+		(uuid "01241020-f37c-4a2c-98ac-855d9e540239")
 	)
 	(fp_arc
 		(start 0 -2.1)
@@ -183,7 +316,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "0dd4bbd8-1278-4303-b72c-edb1848c3659")
+		(uuid "60d2e951-3e42-4b5b-bc93-d2cd7f0ce7ba")
 	)
 	(fp_line
 		(start -6 -1)
@@ -193,7 +326,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fcb42afe-9ffb-42d0-b655-ed5ca6feb06c")
+		(uuid "4e920a41-a92d-4dcc-a758-4f977b529bc1")
 	)
 	(fp_line
 		(start -6 6)
@@ -203,7 +336,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "054b2f8a-efd7-4505-85d5-217543a05d3a")
+		(uuid "c804903b-4e59-465e-b68c-6f792139f0ee")
 	)
 	(fp_line
 		(start 10 -1)
@@ -213,7 +346,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8752edea-d4a3-4526-8dcd-f644e344a48a")
+		(uuid "19990d88-e4a3-442d-83d2-c0d483726681")
 	)
 	(fp_line
 		(start 10 6)
@@ -223,7 +356,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "64fa6b39-c175-4c72-948c-0481c5cb87b9")
+		(uuid "dea1f35d-961c-4616-b008-93d55d1f066c")
 	)
 	(fp_line
 		(start -4.4 0.1)
@@ -233,7 +366,7 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "d7c2d2f4-6cca-4d1b-9a05-d44900a17a74")
+		(uuid "2711e0c6-77a4-4a8b-b92f-5c55202c26ae")
 	)
 	(fp_line
 		(start -4.4 5.1)
@@ -243,7 +376,7 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "df1389a2-7207-4ec1-a5e5-29cd3cbace3d")
+		(uuid "61a9d687-cb6e-4374-b66b-9cfbc076216c")
 	)
 	(fp_line
 		(start -1.9 -0.55)
@@ -253,7 +386,7 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "19404425-b45c-4fe5-854d-2f6fc6e62c2e")
+		(uuid "09f7ed94-a240-4881-a11f-c5430b22df03")
 	)
 	(fp_line
 		(start -1.9 5.1)
@@ -263,7 +396,7 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "f476847e-d069-49f7-b86e-ba91531107a0")
+		(uuid "521a4855-3ed6-4d95-9b7d-58daa7670cc0")
 	)
 	(fp_line
 		(start -1.9 5.75)
@@ -273,7 +406,7 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "cde4a546-4e10-49db-ae41-cb07adf87203")
+		(uuid "70631aab-ce0f-4bb4-a70c-caf1ecc36e98")
 	)
 	(fp_line
 		(start 9.6 -0.55)
@@ -283,7 +416,7 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "885125de-de58-4c6c-b2b3-a930cd5275ce")
+		(uuid "f073e574-124f-44ca-b228-6aa895aa4f21")
 	)
 	(fp_line
 		(start 9.6 5.75)
@@ -293,12 +426,12 @@
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "aaef7c88-bf51-4a1d-97d9-376ed9ad58a4")
+		(uuid "63e57169-a46b-458f-84ad-967f6063cdb2")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.723 2.5 180)
+		(at 2.723 2.5 0)
 		(layer "B.Fab")
-		(uuid "86097863-d143-4fdc-92cc-a2c5752ba20c")
+		(uuid "cb30b1fc-3508-4643-8a5e-6bab5d69a714")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -312,22 +445,22 @@
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
-		(uuid "6d3552da-3fa5-49a5-bcd3-448ead5141af")
+		(uuid "d1102a78-7991-48e5-afaf-89dc2c66b2f4")
 	)
 	(pad "" np_thru_hole circle
 		(at 6.6 2.6)
 		(size 1.6 1.6)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
-		(uuid "2f54f99c-a394-490f-a490-4e2584aa2378")
+		(uuid "00ad743e-6fb7-450e-a705-263bbdd1e885")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole oval
 		(at 0 0)
 		(size 3.225 2)
 		(drill oval 2.15 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e9f2c840-4603-4d2b-a566-0d5006d15185")
+		(uuid "15b6d4c2-f92e-48ec-8c31-10d2e2f37196")
 	)
 	(pad "2" thru_hole oval
 		(at 6.8 0)
@@ -335,7 +468,7 @@
 		(drill oval 2.15 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "08a36900-79a6-4895-b613-7a284ed8fa44")
+		(uuid "fcca9dc0-b3eb-4d12-a50d-84a6924d578e")
 	)
 	(pad "3" thru_hole oval
 		(at 2.9 5)
@@ -343,7 +476,7 @@
 		(drill oval 2.15 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9453bef4-d2e3-403f-800a-7a7865ba9e1f")
+		(uuid "7c12dfc7-bfc8-4b10-a38d-1fe03fa1e773")
 	)
 	(pad "4" thru_hole circle
 		(at 8.7 4.8)
@@ -351,7 +484,7 @@
 		(drill 1.53)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6694d526-f745-4070-9849-cfb8285c0758")
+		(uuid "5d6fce32-5f30-4e11-8a87-87b41a85b20c")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad libraries/ASJ-200-B-HT.stp"
