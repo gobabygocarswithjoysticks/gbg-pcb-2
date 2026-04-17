@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-04-16T07:34:03 ###
+### Footprint positions - created on 2026-04-17T03:13:34 ###
 ### Printed by KiCad version 10.0.0
 ## Unit = inches, Angle = deg.
 ## Side : All
@@ -14,7 +14,7 @@ D1        D_Schottky       D_SOD-123F                                         4.
 D2        D_Schottky       D_SOD-123F                                         2.6850    -2.5750    0.0000  top
 D3        18V_zener        D_SOD-123F                                         4.0241    -2.6331  180.0000  top
 J2        Conn_01x04       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     5.2891    -2.6659   90.0000  top
-L1        27_uH            IND_VLCF4020T-270MR48                              4.8639    -3.2592  180.0000  top
+L1        27_uH            IND_VLCF4020T-270MR48                              4.8685    -3.2500  180.0000  top
 P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                        3.2913    -3.4179   90.0000  top
 Q1        PSMN1R2-25YLDX   LFPAK56                                            4.2605    -2.4531    0.0000  top
 Q2        PSMN1R2-25YLDX   LFPAK56                                            3.9357    -2.4533  180.0000  top
@@ -29,9 +29,10 @@ R8        100k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.
 R9        13.7k            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.3710    -3.4630  -90.0000  top
 R10       220k             YC248-JR-072K2L                                    2.8250    -3.9811   90.0000  top
 R11       604              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.9670    -2.7950   90.0000  top
-R12       220              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.0990    -2.5390    0.0000  top
+R12       604              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        5.1044    -2.5350    0.0000  top
 R13       100k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.8750    -2.7950   90.0000  top
 R14       13.7k            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder        4.9830    -2.6310   90.0000  top
+R20       EXB34V182JV      C_ARRAY_EXB34V_PAN                                 5.2490    -2.8897  180.0000  top
 U1        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                   3.2150    -2.1950  -90.0000  top
 U2        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                   4.9150    -2.1950   90.0000  top
 U3        TPS54202HDDCR    SOT95P280X110-6N_tps54202HDDCR                     5.2136    -3.2653    0.0000  top
