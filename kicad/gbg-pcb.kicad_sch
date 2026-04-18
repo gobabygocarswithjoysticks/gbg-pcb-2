@@ -8,6 +8,187 @@
 		(company "https://github.com/gobabygocarswithjoysticks gobabygocarswithjoysticks@gmail.com")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x10_Pin"
 			(pin_names
 				(offset 1.016)
@@ -9744,6 +9925,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 80.01 229.87)
+		(end 101.6 270.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4faacf7f-f089-40e2-9084-ee166d4be98d")
+	)
+	(rectangle
+		(start 311.15 173.99)
+		(end 359.41 184.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7be9f514-0137-401d-b5fb-9a06f054eb9c")
+	)
+	(rectangle
+		(start 246.38 71.12)
+		(end 292.1 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "99238691-3276-49d8-a4b6-daac59294ff8")
+	)
 	(text "https://www.digikey.com/en/products/detail/texas-instruments/TLA2024IRUGR/8106225"
 		(exclude_from_sim no)
 		(at 472.44 65.786 0)
@@ -9793,6 +10010,26 @@
 			)
 		)
 		(uuid "2e67490f-b04f-4266-9637-5ea6ff01efc7")
+	)
+	(text "replace J8 to make\nthe PCB weelye compatible"
+		(exclude_from_sim no)
+		(at 343.916 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33b9173d-5d06-4ce1-8ce1-4efcf5d93fbf")
+	)
+	(text "optionally replace J7 to be weelye compatible"
+		(exclude_from_sim no)
+		(at 269.494 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40759bac-e7ed-400e-a738-c83bcbf4e64d")
 	)
 	(text "NMOS"
 		(exclude_from_sim no)
@@ -9905,6 +10142,16 @@
 		)
 		(uuid "dc448e62-b9bc-4ad1-ac04-140202836e4b")
 	)
+	(text "optionally\nreplace\nJ5 to be\nweelye\ncompatible"
+		(exclude_from_sim no)
+		(at 90.17 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8efe862-258f-4899-ac10-25ff9ce2d281")
+	)
 	(text_box "3mm diameter bolt holes\n3.35in x 2.2in\n85.09mm x 55.88mm"
 		(exclude_from_sim no)
 		(at 265.43 242.57 0)
@@ -9967,8 +10214,8 @@
 	)
 	(text_box "battery power circuit"
 		(exclude_from_sim no)
-		(at 97.79 223.52 0)
-		(size 76.2 54.61)
+		(at 76.2 223.52 0)
+		(size 97.79 54.61)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -10025,7 +10272,7 @@
 		)
 		(uuid "939c0fca-e102-4081-bd08-555821f6f32a")
 	)
-	(text_box "voltage regulator circuit"
+	(text_box "voltage regulator circuit        https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=F7F7D983B50C08E2"
 		(exclude_from_sim no)
 		(at 265.43 199.39 0)
 		(size 123.19 38.1)
@@ -10048,7 +10295,7 @@
 	(text_box "right motor"
 		(exclude_from_sim no)
 		(at 233.68 100.33 0)
-		(size 165.1 80.01)
+		(size 165.1 85.09)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -10150,6 +10397,12 @@
 		(uuid "05c2da6c-8708-41e0-a546-21e0ab756a6a")
 	)
 	(junction
+		(at 326.39 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a2232d7-2e25-4e07-b5dd-34100208d655")
+	)
+	(junction
 		(at 294.64 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10172,6 +10425,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "157cbf6f-3b18-4c0a-b656-ea12d3b0b048")
+	)
+	(junction
+		(at 326.39 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "165be2b0-602e-45c7-a1fb-30feebb4698e")
 	)
 	(junction
 		(at 345.44 67.31)
@@ -10240,12 +10499,6 @@
 		(uuid "430141ab-bfd4-43d0-9b8f-212bbbe0e5f9")
 	)
 	(junction
-		(at 326.39 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44e9d5da-9956-455f-ac97-dc67daaac80b")
-	)
-	(junction
 		(at 86.36 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10256,6 +10509,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47386176-7075-43f2-baa7-15db5497229b")
+	)
+	(junction
+		(at 345.44 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a50f4d-e46a-43f0-91e0-1e275a57264c")
 	)
 	(junction
 		(at 345.44 52.07)
@@ -10276,6 +10535,18 @@
 		(uuid "534ff7bd-e050-4afa-b863-99d299eee3d4")
 	)
 	(junction
+		(at 100.33 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5468c26a-fbfd-4327-8772-f682bb11f0a0")
+	)
+	(junction
+		(at 318.77 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55cc3cc9-990f-4477-9e76-58a56511a140")
+	)
+	(junction
 		(at 294.64 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10286,6 +10557,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62acda35-a71e-4d88-8f77-120396963b05")
+	)
+	(junction
+		(at 119.38 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6315a8ab-e2b8-4048-8d21-9ffc7314f5d1")
 	)
 	(junction
 		(at 326.39 160.02)
@@ -10336,10 +10613,22 @@
 		(uuid "7d5b2ede-720e-4104-a3e3-4b5eff2a12d5")
 	)
 	(junction
+		(at 318.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d6e7454-108a-4ea1-869c-44aeb3e4640d")
+	)
+	(junction
 		(at 66.04 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e1338d9-06b0-4067-b866-6c33f7c2584d")
+	)
+	(junction
+		(at 266.7 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80c6a990-3798-41db-bb29-e284ebb37c80")
 	)
 	(junction
 		(at 138.43 203.2)
@@ -10408,16 +10697,16 @@
 		(uuid "9a8a8045-03c0-4ed7-bf10-fe76316813e5")
 	)
 	(junction
+		(at 100.33 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b50c2b9-ed0d-42d2-919b-110c5148bcad")
+	)
+	(junction
 		(at 375.92 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e2ce68b-16f4-4b33-9375-49de6e577450")
-	)
-	(junction
-		(at 318.77 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a281856f-0ac2-457c-88be-45672800f1e7")
 	)
 	(junction
 		(at 294.64 138.43)
@@ -10436,12 +10725,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa83c87e-6374-4bf3-9005-704752441bc6")
-	)
-	(junction
-		(at 345.44 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac33bc15-d89d-4996-9fae-4df90894bb93")
 	)
 	(junction
 		(at 318.77 160.02)
@@ -10508,6 +10791,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6f60908-0d2b-4687-900a-a5a01ccf86e0")
+	)
+	(junction
+		(at 271.78 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a53939-6e98-4f00-beae-f5afa5fd577e")
+	)
+	(junction
+		(at 119.38 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ca1f1f-7bbe-43b1-acdc-ce2111576b5f")
 	)
 	(junction
 		(at 163.83 109.22)
@@ -10727,6 +11022,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 58.42) (xy 318.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08004b72-81a9-4239-8918-62d23d6c16c9")
+	)
+	(wire
+		(pts
 			(xy 78.74 48.26) (xy 78.74 45.72)
 		)
 		(stroke
@@ -10847,6 +11152,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 160.02) (xy 331.47 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1080db93-b04a-41a7-bb17-b9d6037c1dcf")
+	)
+	(wire
+		(pts
 			(xy 88.9 53.34) (xy 88.9 48.26)
 		)
 		(stroke
@@ -10884,6 +11199,16 @@
 			(type default)
 		)
 		(uuid "12b55d2a-ede2-419d-a92f-bc5cd83dbba3")
+	)
+	(wire
+		(pts
+			(xy 100.33 237.49) (xy 119.38 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ee139a-cb15-4c6a-bbd8-035d2a068a3f")
 	)
 	(wire
 		(pts
@@ -10954,6 +11279,16 @@
 			(type default)
 		)
 		(uuid "17d60cf8-ec02-43b3-9ffb-a18fcf3f6cac")
+	)
+	(wire
+		(pts
+			(xy 331.47 175.26) (xy 323.85 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b18142-1a34-40f6-8c76-c8c5776a2778")
 	)
 	(wire
 		(pts
@@ -11087,13 +11422,23 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 80.01) (xy 326.39 80.01)
+			(xy 323.85 82.55) (xy 326.39 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29b6c627-3eae-4b73-b684-90bd50280ee9")
+	)
+	(wire
+		(pts
+			(xy 267.97 78.74) (xy 267.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a31c3b1-21a4-46d9-9cdf-deab8809bc7d")
 	)
 	(wire
 		(pts
@@ -11337,6 +11682,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 237.49) (xy 119.38 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c793c1-bae0-4171-9252-76613af12784")
+	)
+	(wire
+		(pts
 			(xy 346.71 120.65) (xy 363.22 120.65)
 		)
 		(stroke
@@ -11374,6 +11729,16 @@
 			(type default)
 		)
 		(uuid "41a73829-8302-447a-82bd-73e9cff89ed2")
+	)
+	(wire
+		(pts
+			(xy 326.39 58.42) (xy 326.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f25231-69e6-453a-8de7-b4735b15c793")
 	)
 	(wire
 		(pts
@@ -11444,6 +11809,16 @@
 			(type default)
 		)
 		(uuid "4873f2df-a430-4df3-9b82-3ad6b251ff49")
+	)
+	(wire
+		(pts
+			(xy 100.33 261.62) (xy 119.38 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a4ada7-9b65-4c75-b9de-f545417e8627")
 	)
 	(wire
 		(pts
@@ -11527,6 +11902,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 252.73) (xy 119.38 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502245f4-6fce-49cc-9a7c-c8c5b380e0bb")
+	)
+	(wire
+		(pts
 			(xy 143.51 265.43) (xy 149.86 265.43)
 		)
 		(stroke
@@ -11544,16 +11929,6 @@
 			(type default)
 		)
 		(uuid "513e47a7-af45-4e44-b471-d57c27e8b43e")
-	)
-	(wire
-		(pts
-			(xy 326.39 80.01) (xy 326.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51497cde-123d-4ade-aa50-51c667cd0d9b")
 	)
 	(wire
 		(pts
@@ -11634,6 +12009,16 @@
 			(type default)
 		)
 		(uuid "56fd79c6-9441-49d0-b891-62d65ebf8741")
+	)
+	(wire
+		(pts
+			(xy 314.96 160.02) (xy 318.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2072c2-3c8f-49a8-b930-510a8b08c92a")
 	)
 	(wire
 		(pts
@@ -11747,7 +12132,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 80.01) (xy 321.31 80.01)
+			(xy 318.77 82.55) (xy 321.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -11774,6 +12159,16 @@
 			(type default)
 		)
 		(uuid "61daa1df-9ed3-40df-b7f5-44b49d519d0c")
+	)
+	(wire
+		(pts
+			(xy 266.7 78.74) (xy 266.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b79c33-52ff-4d7d-a9e3-ed228863b748")
 	)
 	(wire
 		(pts
@@ -11904,6 +12299,16 @@
 			(type default)
 		)
 		(uuid "71537790-1b53-405d-a78a-1b7c64ebdc06")
+	)
+	(wire
+		(pts
+			(xy 100.33 261.62) (xy 100.33 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7234c28b-b7e3-49c4-9a86-8bd5a0da720d")
 	)
 	(wire
 		(pts
@@ -12054,6 +12459,16 @@
 			(type default)
 		)
 		(uuid "8002b4e7-209e-448e-97db-289cf774761b")
+	)
+	(wire
+		(pts
+			(xy 326.39 78.74) (xy 326.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8027543b-1241-4f2e-a80d-26a1979db722")
 	)
 	(wire
 		(pts
@@ -12347,16 +12762,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 58.42) (xy 318.77 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e1a0d0-d2c7-4d3b-9737-c73ad49a8017")
-	)
-	(wire
-		(pts
 			(xy 163.83 93.98) (xy 163.83 96.52)
 		)
 		(stroke
@@ -12477,6 +12882,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 78.74) (xy 267.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a797fb1f-5602-45ab-a1d9-ccee5d09d39d")
+	)
+	(wire
+		(pts
+			(xy 271.78 78.74) (xy 326.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d339d1-1d28-4b7a-a683-c2be0b55eb8c")
+	)
+	(wire
+		(pts
 			(xy 29.21 81.28) (xy 113.03 81.28)
 		)
 		(stroke
@@ -12547,6 +12972,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 78.74) (xy 271.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08d41d5-8271-45e3-8cd2-b88bed463a11")
+	)
+	(wire
+		(pts
 			(xy 29.21 68.58) (xy 67.31 68.58)
 		)
 		(stroke
@@ -12584,6 +13019,26 @@
 			(type default)
 		)
 		(uuid "b2c7e114-c3f2-4422-9f90-511dfb9db6aa")
+	)
+	(wire
+		(pts
+			(xy 321.31 175.26) (xy 314.96 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42ba1b8-92f8-4e10-9cae-d3f64e1c615b")
+	)
+	(wire
+		(pts
+			(xy 267.97 81.28) (xy 318.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b494e9e7-e488-4bd3-abc1-a7a0fce0fc38")
 	)
 	(wire
 		(pts
@@ -12737,13 +13192,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 69.85) (xy 345.44 72.39)
+			(xy 314.96 175.26) (xy 314.96 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfdab030-ec18-4ef5-9634-14e0ffa8bf10")
+		(uuid "bea88de2-0557-4061-83a4-7973840b3092")
 	)
 	(wire
 		(pts
@@ -12997,6 +13452,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 160.02) (xy 331.47 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b6d5dc-b115-431d-8a60-2663d7fbf063")
+	)
+	(wire
+		(pts
 			(xy 294.64 46.99) (xy 294.64 49.53)
 		)
 		(stroke
@@ -13167,6 +13632,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 73.66) (xy 271.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df88895f-3dde-48b5-84ee-5988a875bb2d")
+	)
+	(wire
+		(pts
 			(xy 29.21 71.12) (xy 68.58 71.12)
 		)
 		(stroke
@@ -13184,6 +13659,16 @@
 			(type default)
 		)
 		(uuid "e0fc2add-ac85-4347-9b29-a88fedd543ad")
+	)
+	(wire
+		(pts
+			(xy 100.33 234.95) (xy 100.33 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e113dba8-0744-4996-9c77-47322f6c0248")
 	)
 	(wire
 		(pts
@@ -13264,6 +13749,16 @@
 			(type default)
 		)
 		(uuid "e5532a04-7d0b-4939-bae3-fb63da08fc99")
+	)
+	(wire
+		(pts
+			(xy 318.77 81.28) (xy 318.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6be8710-6867-4c55-b803-f505b050d37a")
 	)
 	(wire
 		(pts
@@ -14466,7 +14961,7 @@
 	)
 	(symbol
 		(lib_id "library:1017491")
-		(at 318.77 80.01 90)
+		(at 318.77 82.55 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14477,17 +14972,6 @@
 		(dnp no)
 		(uuid "033090a4-7ac1-474f-9b0a-63b06e1071c5")
 		(property "Reference" "J7"
-			(at 314.96 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1017491"
 			(at 314.96 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14498,8 +14982,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1017491"
+			(at 314.96 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "kicad libraries:CONN_1017491"
-			(at 318.77 80.01 0)
+			(at 318.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14511,7 +15006,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017491/9346583"
-			(at 318.77 80.01 0)
+			(at 318.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14523,7 +15018,7 @@
 			)
 		)
 		(property "Description" "24A screw terminal"
-			(at 318.77 80.01 0)
+			(at 318.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14534,7 +15029,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 318.77 80.01 90)
+			(at 318.77 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,7 +15040,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017491"
-			(at 318.77 80.01 90)
+			(at 318.77 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14556,7 +15051,7 @@
 			)
 		)
 		(property "digikey_part_number" "277-17493-ND"
-			(at 318.77 80.01 90)
+			(at 318.77 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14567,7 +15062,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 318.77 80.01 90)
+			(at 318.77 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14578,7 +15073,7 @@
 			)
 		)
 		(property "price" ".77"
-			(at 318.77 80.01 90)
+			(at 318.77 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,7 +15551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -15268,7 +15763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad libraries:YC248-JR-072K2L"
+		(property "Footprint" "kicad libraries:YC248-JR"
 			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15280,7 +15775,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-07100KL/1005249"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-07220KL/1005253"
 			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15863,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "YC248-JR-07100KL"
+		(property "Manufacturer_Part_Number" "YC248-JR-07220KL"
 			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15379,7 +15874,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "13-YC248-JR-07100KLCT-ND"
+		(property "digikey_part_number" "13-YC248-JR-07220KLCT-ND"
 			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15697,7 +16192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 376.8852 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15708,7 +16203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR71E106KA12L/2345330"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM32ER71A476KE15L/2039039"
 			(at 375.92 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -15741,7 +16236,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM31CR71E106KA12L"
+		(property "Manufacturer_Part_Number" "GRM32ER71A476KE15L"
 			(at 375.92 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -15752,7 +16247,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "490-6518-1-ND"
+		(property "digikey_part_number" "490-5312-1-ND"
 			(at 375.92 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -15774,7 +16269,51 @@
 				)
 			)
 		)
-		(property "price" ".19"
+		(property "price" ".57"
+			(at 375.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 375.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 375.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 375.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
 			(at 375.92 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -16385,7 +16924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "EXB34V182JV"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/EXB-34V182JV/256412"
 			(at 66.04 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16397,7 +16936,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "pullup resistors"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic Industry"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EXB-34V182JV"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "Y8182CT-ND"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 66.04 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".09"
 			(at 66.04 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17154,7 +17748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.228 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -17332,7 +17926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 41.402 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -17788,7 +18382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 279.4 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17799,7 +18393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 276.5552 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -17810,7 +18404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/MCASU31LSB5105KTNA01/16659308"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/MSASU32MSB5106KPNA01/16664699"
 			(at 275.59 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17843,7 +18437,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MCASU31LSB5105KTNA01"
+		(property "Manufacturer_Part_Number" "MSASU32MSB5106KPNA01"
 			(at 275.59 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17854,7 +18448,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "587-MCASU31LSB5105KTNA01CT-ND"
+		(property "digikey_part_number" "587-MSASU32MSB5106KPNA01CT-ND"
 			(at 275.59 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17876,7 +18470,51 @@
 				)
 			)
 		)
-		(property "price" ".158"
+		(property "price" ".34"
+			(at 275.59 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 275.59 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 275.59 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 275.59 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
 			(at 275.59 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -18158,6 +18796,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 276.86 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "41898988-acf8-42e0-acb5-9735540c089e")
+		(property "Reference" "J101"
+			(at 284.988 73.914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0197054001"
+			(at 285.242 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:0197054001"
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0197054001/2405514"
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0197054001"
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "WM2982-ND"
+			(at 276.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e213d7a6-d1c3-4b06-8474-81573b0d167c")
+		)
+		(pin "1"
+			(uuid "4ca91fc9-60c4-4df5-8dd5-b2aca872b659")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 365.76 228.6 0)
 		(unit 1)
@@ -18191,7 +18985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 363.982 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -18279,6 +19073,50 @@
 				)
 			)
 		)
+		(property "Mfr" ""
+			(at 365.76 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 365.76 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 365.76 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 365.76 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9910a7db-77fd-4daf-aea4-048d6eb4ce99")
 		)
@@ -18328,7 +19166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18600,7 +19438,7 @@
 		(uuid "4791acf3-c977-4116-bcf8-cc32c386a151")
 		(property "Reference" "3V1"
 			(at 46.99 39.6874 90)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -18698,6 +19536,50 @@
 			)
 		)
 		(property "mount_type" "tht"
+			(at 43.18 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 43.18 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 43.18 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 43.18 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
 			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19301,7 +20183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 289.56 212.598 90)
 			(hide yes)
 			(show_name no)
@@ -19380,6 +20262,50 @@
 		)
 		(property "price" ".04"
 			(at 289.56 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 289.56 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 289.56 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 289.56 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 289.56 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19708,7 +20634,7 @@
 			)
 		)
 		(property "Value" "TB005-762-02BE"
-			(at 107.95 246.38 0)
+			(at 110.49 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20147,7 +21073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 368.3 40.132 90)
 			(hide yes)
 			(show_name no)
@@ -21352,7 +22278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 367.03 118.872 90)
 			(hide yes)
 			(show_name no)
@@ -21878,7 +22804,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 345.44 72.39 0)
+		(at 345.44 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21888,7 +22814,7 @@
 		(dnp no)
 		(uuid "78014cb5-c881-4c7f-b0ef-c4ac50084178")
 		(property "Reference" "#PWR025"
-			(at 345.44 78.74 0)
+			(at 345.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21899,7 +22825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 346.202 76.2 0)
+			(at 346.202 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21909,7 +22835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 72.39 0)
+			(at 345.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21920,7 +22846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 72.39 0)
+			(at 345.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21931,7 +22857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 72.39 0)
+			(at 345.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22072,7 +22998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "alternate 5V voltage regulator"
 			(at 240.03 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22591,7 +23517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 140.208 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -22939,7 +23865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 332.74 211.7852 0)
 			(hide yes)
 			(show_name no)
@@ -23027,6 +23953,50 @@
 				)
 			)
 		)
+		(property "Mfr" ""
+			(at 336.55 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 336.55 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 336.55 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 336.55 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64b32f2c-9061-4f8d-b829-9798822b90e8")
 		)
@@ -23076,7 +24046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.718 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -23333,7 +24303,7 @@
 				)
 			)
 		)
-		(property "Value" "27 uH"
+		(property "Value" "12uH"
 			(at 347.98 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23343,7 +24313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad libraries:IND_VLCF4020T-270MR48"
+		(property "Footprint" "kicad libraries:IND_SRR6038-120Y"
 			(at 347.98 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -23354,7 +24324,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/VLCF4020T-270MR48/1132615"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SRR6038-120Y/1970390"
 			(at 347.98 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -23376,7 +24346,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Bourns"
 			(at 347.98 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -23387,7 +24357,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "VLCF4020T-270MR48"
+		(property "Manufacturer_Part_Number" "SRR6038-120Y"
 			(at 347.98 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -23398,7 +24368,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-3189-1-ND"
+		(property "digikey_part_number" "SRR6038-120YCT-ND"
 			(at 347.98 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -23420,8 +24390,52 @@
 				)
 			)
 		)
-		(property "price" ".41"
+		(property "price" ".63"
 			(at 347.98 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 347.98 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 347.98 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 347.98 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 347.98 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23557,7 +24571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.5652 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -23635,6 +24649,50 @@
 			)
 		)
 		(property "price" ".03"
+			(at 355.6 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 355.6 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 355.6 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 355.6 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
 			(at 355.6 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -23836,7 +24894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 284.1752 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -23934,6 +24992,162 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 95.25 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a514d8c4-920b-4c6d-b8ba-b0ead636abcc")
+		(property "Reference" "J103"
+			(at 87.122 260.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0197054001"
+			(at 87.122 263.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:0197054001"
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0197054001/2405514"
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0197054001"
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "WM2982-ND"
+			(at 95.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21a93808-e7da-45a3-ad4a-807d7bb73960")
+		)
+		(pin "1"
+			(uuid "fc4a1b7f-e5d8-47db-a4be-9ee46f42a82b")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -24189,7 +25403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 363.982 218.44 90)
 			(hide yes)
 			(show_name no)
@@ -24267,6 +25481,50 @@
 			)
 		)
 		(property "price" ".04"
+			(at 365.76 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 365.76 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 365.76 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 365.76 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
 			(at 365.76 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -25249,6 +26507,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 261.62 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b93e24e8-8013-457a-b543-11d5fbccf2ef")
+		(property "Reference" "J100"
+			(at 253.492 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0197054001"
+			(at 253.492 80.518 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:0197054001"
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0197054001/2405514"
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0197054001"
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "WM2982-ND"
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5718983-80ff-4418-8ea8-775a686add5b")
+		)
+		(pin "1"
+			(uuid "7876ffcf-d4e3-42a1-b081-f13951271c41")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 205.74 0)
 		(unit 1)
@@ -25536,7 +26950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.59 257.048 90)
 			(hide yes)
 			(show_name no)
@@ -25752,7 +27166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.718 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -26361,6 +27775,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 321.31 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d665f88d-1b11-4cc8-9a99-70923524603a")
+		(property "Reference" "J104"
+			(at 325.12 179.7049 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 325.12 180.9749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kicad libraries:0197054001"
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 321.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e0efb8ca-4c36-48e0-9af4-c8a2870dd78b")
+		)
+		(pin "1"
+			(uuid "b9ee01b8-4245-4e27-b22a-ea8d25960f40")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 29.21 55.88 0)
 		(unit 1)
@@ -26468,7 +28008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.608 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -26687,6 +28227,163 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 95.25 237.49 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "db0b7abc-b753-4c9c-a47a-6f7bc0d85a2a")
+		(property "Reference" "J102"
+			(at 87.122 235.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0197054001"
+			(at 86.868 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:0197054001"
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0197054001/2405514"
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0197054001"
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "WM2982-ND"
+			(at 95.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c0e4769a-0e7b-4a89-b526-57ecbf371e31")
+		)
+		(pin "1"
+			(uuid "74ce5322-430d-4425-9dd9-e7260aa4a8c0")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -27385,7 +29082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 284.1752 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -28427,7 +30124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
 			(at 140.97 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -28802,7 +30499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
 			(at 142.24 262.89 0)
 			(hide yes)
 			(show_name no)
