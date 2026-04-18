@@ -54,7 +54,6 @@ jobs:
             kicad-cli pcb render --output '/workspace/renders/back.jpg' --quality high --rotate '180,0,180' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb render --output '/workspace/renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '315,0,45' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb render --output '/workspace/renders/perspective2.jpg' --quality high --perspective --zoom 0.65 --rotate '315,0,315' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
-            kicad-cli pcb render --output '/workspace/renders/unpop.png' --quality high --preset no-components --rotate '0,0,0' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb export stl --output /workspace/renders/gbg-pcb.stl /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb export step --output /workspace/renders/gbg-pcb.step /workspace/kicad/gbg-pcb.kicad_pcb
           "
