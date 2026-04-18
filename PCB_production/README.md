@@ -14,7 +14,7 @@ please email gobabygocarswithjoysticks@gmail.com if components are out of stock 
 ## parameters for PCBs:
 * 1oz copper
 * 1.0mm board thickness
-* 5mil/5mil
+* 4mil/4mil
 * 0.25mm holes
 
 ## other configurations
