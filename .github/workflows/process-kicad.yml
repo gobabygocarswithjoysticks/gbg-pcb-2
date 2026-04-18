@@ -50,6 +50,7 @@ jobs:
       - name: process kicad
         run: |
           docker run --rm --user root --mount type=bind,source=${{ github.workspace }},target=/workspace kicad/kicad:10.0-full /bin/bash -c "
+            kicad-cli pcb export pdf /workspace/kicad/gbg-pcb.kicad_pcb --output /workspace/renders/gbg-pcb-layers.pdf --mode-single --layers 'B.Cu,B.Silkscreen,F.Cu,F.Silkscreen,Edge.Cuts'
             kicad-cli pcb render --output '/workspace/renders/top.jpg' --quality high --rotate '0,0,0' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb render --output '/workspace/renders/back.jpg' --quality high --rotate '180,0,180' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
             kicad-cli pcb render --output '/workspace/renders/perspective1.jpg' --quality high --perspective --zoom 0.65 --rotate '315,0,45' --width 1000 --height 1000 /workspace/kicad/gbg-pcb.kicad_pcb
