@@ -8,16 +8,20 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 V2.0
 
+This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
+
 Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries)
 
 Controls two motors: one for each wheel so that the car can turn in place.
+
+[New in version 2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/edit/main/docs/instructions/instructions.md#new-in-v2-weelye-control-box-compatible): A V2 GBG-PCB can be configured with battery, motor, and signal plugs that match the plugs on the common weelye control boxes. This means some cars can be converted to joystick control without cutting any wires.
 
 For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
 ## questions? email our support line at gbg-pcb@googlegroups.com or post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting)
 
 # Want one?
-* Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO). Thank you to PNWAT for supporting this project and being a supplier of these boards.
+* Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO/gbg-pcb). Thank you to PNWAT for supporting this project and being a supplier of these boards.
 * Use this PCBWay link to order fully assembled boards: [TODO]()
 * Email gobabygocarswithjoysticks@gmail.com. We may have a small number of assembled boards to sell or donate to you.
 * Or feel free to use these [files](/PCB_production) and get boards yourself.
@@ -28,7 +32,7 @@ For the previous versions of the GBG-PCB see https://github.com/gobabygocarswith
 ## Index of Instructions for modifying specific models of cars using GBG-PCBs
 * [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions) (car is out of production)
 * [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (instructions are complete through electronics but don't include a backrest or joystick holder)
-* [coming soon](todo) (by PNW Assistive Tech)
+* [coming soon](todo)
 
 # [schematic of PCB](/schematic.pdf)
 
