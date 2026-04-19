@@ -21,7 +21,8 @@ For the previous version of the GBG-PCB see https://github.com/gobabygocarswithj
 * Or feel free to use these [files](/PCB_production) and get boards yourself.
 
 # Instructions
-* [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
+## [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
+### [instructions for assembling your own GBG-PCBs](TODO) (coming soon)
 * [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions) (car is out of production)
 * [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (instructions are complete through electronics but don't include a backrest or joystick holder)
 * [coming soon](todo) (by PNW Assistive Tech)
