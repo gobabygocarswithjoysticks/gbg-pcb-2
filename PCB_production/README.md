@@ -11,6 +11,9 @@ please email gobabygocarswithjoysticks@gmail.com if components are out of stock 
 
 [BOM-with-DNP.csv](/PCB_production/BOM-with-DNP.csv) includes alternative parts that you could choose some of, for other configurations of the board.
 
+## [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+### This keeps you from needing to solder the joystick wires to a 4 wire cable.
+
 ## parameters for PCBs:
 * 1oz copper
 * 1.0mm board thickness
@@ -32,4 +35,7 @@ The GBG-PCB includes pads for adding connectors that match the connectors on som
 * J102 and J103 replace J5
 * J100 and J101 replace J7
 * J104 replaces J8
+
+### Other models of Raspberry Pi Pico (P1)
+If you want to be able to change settings and remote override the car over a wifi connection [(see information here)](https://github.com/gobabygocarswithjoysticks/car-code/blob/main/rcdocs/remote_control.md#notes-on-wifiwebsite-remote-control) then you can substitute a Pico 1W or Pico 2W for the standard Pico 1.
 

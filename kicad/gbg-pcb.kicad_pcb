@@ -31957,7 +31957,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "gobabygocarswithjoysticks@gmail.com\ngithub.com/gobabygocarswithjoysticks/gbg-pcb"
+	(gr_text "gbg-pcb@googlegroups.com\ngithub.com/gobabygocarswithjoysticks/gbg-pcb"
 		(at 103.632 76.3016 0)
 		(layer "B.SilkS")
 		(uuid "60ec743a-b100-4e6e-83d3-f28a60d4cb23")

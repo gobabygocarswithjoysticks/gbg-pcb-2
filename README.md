@@ -12,12 +12,19 @@ Two motors: one for each wheel so that the car can turn in place.
 
 For the previous version of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
-## questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
+## questions? email us at gbg-pcb@googlegroups.com
 
-# Want one?   [see this page!](https://gobabygocarswithjoysticks.github.io/gbg-pcb/how-to-get-boards)
+# Want one?
+* Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO). Thank you to PNWAT for supporting this project and being a supplier of these boards.
+* Use this PCBWay link to order fully assembled boards: [TODO]()
+* Email gobabygocarswithjoysticks@gmail.com. We may have a small number of assembled boards to sell or donate to you.
+* Or feel free to use these [files](/PCB_production) and get boards yourself.
 
-# [general instructions for using this PCB and links to instructions for specific models of cars](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
-
+# Instructions
+* [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
+* [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
+* [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (instructions are complete through electronics but don't include a backrest or joystick holder)
+* [coming soon](todo) (by PNW Assistive Tech)
 
 # [schematic of PCB](/schematic.pdf)
 
@@ -27,7 +34,6 @@ For the previous version of the GBG-PCB see https://github.com/gobabygocarswithj
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
 
 ![schematic](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
-
 
 # notes for people working on the KiCAD for this project
 Use KiCAD 10.0
