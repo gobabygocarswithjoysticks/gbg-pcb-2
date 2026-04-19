@@ -10143,7 +10143,7 @@
 	)
 	(text_box "weelye compatible header\n"
 		(exclude_from_sim no)
-		(at 154.94 133.35 0)
+		(at 157.48 133.35 0)
 		(size 44.45 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -10860,11 +10860,11 @@
 		(uuid "09ec9529-cb41-406a-b346-bcc4b61270b6")
 	)
 	(no_connect
-		(at 171.45 153.67)
+		(at 173.99 153.67)
 		(uuid "0ff22c11-e3f2-4b1f-b1a3-d64031c1ab79")
 	)
 	(no_connect
-		(at 171.45 158.75)
+		(at 173.99 158.75)
 		(uuid "1612256f-64df-4593-9270-e728a1c4b605")
 	)
 	(no_connect
@@ -10872,7 +10872,7 @@
 		(uuid "1ba7c164-0664-4089-b4cc-b92ea2ea75b4")
 	)
 	(no_connect
-		(at 171.45 156.21)
+		(at 173.99 156.21)
 		(uuid "3a34b2ea-d77f-485b-8066-eb65ed6d05b3")
 	)
 	(no_connect
@@ -10884,7 +10884,7 @@
 		(uuid "581f56dd-bc65-4667-8a33-6435a1506762")
 	)
 	(no_connect
-		(at 171.45 161.29)
+		(at 173.99 161.29)
 		(uuid "67a90b11-036c-432e-b61a-4bed9809c190")
 	)
 	(no_connect
@@ -10908,7 +10908,7 @@
 		(uuid "ac8271f6-d5fd-42ed-a280-42655da4be75")
 	)
 	(no_connect
-		(at 171.45 163.83)
+		(at 173.99 163.83)
 		(uuid "b731d934-d1c9-432d-8642-5da8fbb92215")
 	)
 	(no_connect
@@ -11211,7 +11211,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 143.51) (xy 190.5 147.32)
+			(xy 193.04 143.51) (xy 193.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11251,7 +11251,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 146.05) (xy 180.34 147.32)
+			(xy 182.88 146.05) (xy 182.88 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11501,7 +11501,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 148.59) (xy 179.07 152.4)
+			(xy 181.61 148.59) (xy 181.61 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11541,7 +11541,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 148.59) (xy 179.07 148.59)
+			(xy 173.99 148.59) (xy 181.61 148.59)
 		)
 		(stroke
 			(width 0)
@@ -12091,7 +12091,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 146.05) (xy 180.34 146.05)
+			(xy 173.99 146.05) (xy 182.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13581,7 +13581,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 152.4) (xy 179.07 152.4)
+			(xy 185.42 152.4) (xy 181.61 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13671,7 +13671,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 140.97) (xy 171.45 140.97)
+			(xy 175.26 140.97) (xy 173.99 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13751,7 +13751,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 147.32) (xy 182.88 147.32)
+			(xy 182.88 147.32) (xy 185.42 147.32)
 		)
 		(stroke
 			(width 0)
@@ -13831,7 +13831,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 151.13) (xy 175.26 151.13)
+			(xy 173.99 151.13) (xy 177.8 151.13)
 		)
 		(stroke
 			(width 0)
@@ -14009,7 +14009,7 @@
 	)
 	(global_label "switch"
 		(shape input)
-		(at 171.45 143.51 0)
+		(at 173.99 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14019,7 +14019,7 @@
 		)
 		(uuid "14d124db-48ae-4014-be6e-b9768fbe96ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3619 143.51 0)
+			(at 182.9019 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14753,7 +14753,7 @@
 	)
 	(global_label "bat-"
 		(shape input)
-		(at 182.88 152.4 0)
+		(at 185.42 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14763,7 +14763,7 @@
 		)
 		(uuid "e4aa6202-22ae-4b76-88df-688deca1a933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4613 152.4 0)
+			(at 193.0013 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15645,7 +15645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 151.13 0)
+		(at 177.8 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15655,7 +15655,7 @@
 		(dnp no)
 		(uuid "0b7470bb-68b0-4a0b-9263-be0ddb8cdb61")
 		(property "Reference" "#PWR045"
-			(at 175.26 157.48 0)
+			(at 177.8 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15666,7 +15666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.022 154.94 0)
+			(at 178.562 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15676,7 +15676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 151.13 0)
+			(at 177.8 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15687,7 +15687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 151.13 0)
+			(at 177.8 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15698,7 +15698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 151.13 0)
+			(at 177.8 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18273,7 +18273,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 190.5 143.51 0)
+		(at 193.04 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18283,7 +18283,7 @@
 		(dnp no)
 		(uuid "39315e21-d9b8-4944-b03c-8c180e4fc9b7")
 		(property "Reference" "#PWR044"
-			(at 190.5 147.32 0)
+			(at 193.04 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18294,7 +18294,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 194.056 140.97 0)
+			(at 196.596 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18304,7 +18304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 143.51 0)
+			(at 193.04 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18315,7 +18315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 143.51 0)
+			(at 193.04 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18326,7 +18326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 190.5 143.51 0)
+			(at 193.04 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19618,7 +19618,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 186.69 147.32 180)
+		(at 189.23 147.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19628,17 +19628,6 @@
 		(dnp no)
 		(uuid "497c8905-d6a4-42d2-8006-8f7c15747925")
 		(property "Reference" "D2"
-			(at 183.896 145.796 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Schottky"
 			(at 186.436 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19649,8 +19638,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "D_Schottky"
+			(at 188.976 145.796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19661,7 +19661,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/FS26/18667798"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19672,7 +19672,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19683,7 +19683,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Good-Ark Semiconductor"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19694,7 +19694,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FS26"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19705,7 +19705,7 @@
 			)
 		)
 		(property "price" "0.1"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19716,7 +19716,7 @@
 			)
 		)
 		(property "digikey_part_number" "4786-FS26CT-ND"
-			(at 181.102 151.384 0)
+			(at 183.642 151.384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19727,7 +19727,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 186.69 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21904,7 +21904,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
-		(at 166.37 151.13 0)
+		(at 168.91 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21914,7 +21914,7 @@
 		(dnp no)
 		(uuid "6be04ab1-a954-460d-85e1-418b1bc432d8")
 		(property "Reference" "J11"
-			(at 166.37 138.43 0)
+			(at 168.91 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21924,7 +21924,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_Pin"
-			(at 166.37 166.37 0)
+			(at 168.91 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21934,7 +21934,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21945,7 +21945,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/adam-tech/PH1-10-UA/9830653"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21956,7 +21956,7 @@
 			)
 		)
 		(property "Description" "10 header pins"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21967,7 +21967,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21978,7 +21978,7 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21989,7 +21989,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22000,7 +22000,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22011,7 +22011,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22022,7 +22022,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Any Manufacturer"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22033,7 +22033,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PH1-10-UA"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22044,7 +22044,7 @@
 			)
 		)
 		(property "digikey_part_number" "2057-PH1-10-UA-ND"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22055,7 +22055,7 @@
 			)
 		)
 		(property "price" ".12"
-			(at 166.37 151.13 0)
+			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23633,7 +23633,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 172.72 140.97 0)
+		(at 175.26 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23643,7 +23643,7 @@
 		(dnp no)
 		(uuid "89e596df-d343-4a23-9a50-6923a0c8d44f")
 		(property "Reference" "#PWR031"
-			(at 172.72 144.78 0)
+			(at 175.26 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23654,7 +23654,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 176.276 138.43 0)
+			(at 178.816 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23664,7 +23664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 140.97 0)
+			(at 175.26 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23675,7 +23675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 140.97 0)
+			(at 175.26 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23686,7 +23686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 172.72 140.97 0)
+			(at 175.26 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
