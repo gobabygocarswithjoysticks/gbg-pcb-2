@@ -18,7 +18,7 @@ Controls two motors: one for each wheel so that the car can turn in place.
 
 For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
-## questions? email our support line at gbg-pcb@googlegroups.com or post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting)
+## questions? Please email our support line at gbg-pcb@googlegroups.com
 
 # Want one?
 * Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO/gbg-pcb). Thank you to PNWAT for supporting this project and being a supplier of these boards.
@@ -61,7 +61,7 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 # credits
 
-## Sponsored by PNW Assistive Technology
+## Prototype boards sponsored by PNW Assistive Technology
 
 ## Copyright: gobabygocarswithjoysticks and Joshua Phelps, MIT License
 
