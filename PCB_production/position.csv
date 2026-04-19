@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-04-19T17:38:35 ###
+### Footprint positions - created on 2026-04-19T18:32:09 ###
 ### Printed by KiCad version 10.0.0
 ## Unit = inches, Angle = deg.
 ## Side : All
@@ -11,7 +11,7 @@ C6        0.1uF            C_0603_1608Metric                                  5.
 C7        56pF             C_0603_1608Metric                                  5.3470    -3.2770  -90.0000  top
 C8        47uF             C_1210_3225Metric                                  5.0750    -3.1150    0.0000  top
 D1        D_Schottky       D_SOD-123F                                         4.3898    -3.2086  -90.0000  top
-D2        D_Schottky       D_SOD-123F                                         2.6850    -2.5750    0.0000  top
+D2        D_Schottky       D_SOD-123F                                         2.6860    -2.5750    0.0000  top
 D3        18V_zener        D_SOD-123F                                         4.0241    -2.6331  180.0000  top
 J2        Conn_01x04       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     5.2891    -2.6659   90.0000  top
 L1        12uH             IND_SRR6038-120Y                                   4.8294    -3.2580   90.0000  top
