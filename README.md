@@ -10,9 +10,9 @@ V2.0
 
 Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries)
 
-Two motors: one for each wheel so that the car can turn in place.
+Controls two motors: one for each wheel so that the car can turn in place.
 
-For the previous version of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
+For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
 ## questions? email our support line at gbg-pcb@googlegroups.com or post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting)
 
