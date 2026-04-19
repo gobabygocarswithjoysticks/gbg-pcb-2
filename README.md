@@ -1,4 +1,4 @@
-# GBG PCB 2
+# GBG PCB
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
 
@@ -6,13 +6,15 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
+V2.0
+
 Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries)
 
 Two motors: one for each wheel so that the car can turn in place.
 
 For the previous version of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
-## questions? email us at gbg-pcb@googlegroups.com
+## questions? email our support line at gbg-pcb@googlegroups.com or post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting)
 
 # Want one?
 * Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO). Thank you to PNWAT for supporting this project and being a supplier of these boards.
