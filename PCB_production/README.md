@@ -19,6 +19,7 @@ please email gobabygocarswithjoysticks@gmail.com if components are out of stock 
 * 1.0mm board thickness
 * 5mil/5mil
 * 0.25mm holes
+* solder stencils should be 0.12mm
 
 ## other configurations
 

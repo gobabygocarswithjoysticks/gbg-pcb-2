@@ -22,7 +22,7 @@ For the previous versions of the GBG-PCB see https://github.com/gobabygocarswith
 
 # Want one?
 * Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO/gbg-pcb). Thank you to PNWAT for supporting this project and being a supplier of these boards.
-* Use this PCBWay link to order fully assembled boards: [TODO]()
+* Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_0_a8fd7fa3.html)
 * Email gobabygocarswithjoysticks@gmail.com. We may have a small number of assembled boards to sell or donate to you.
 * Or feel free to use these [files](/PCB_production) and get boards yourself.
 
