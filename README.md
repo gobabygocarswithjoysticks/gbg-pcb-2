@@ -63,5 +63,7 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 ## Prototype boards sponsored by PNW Assistive Technology
 
+## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powerwheels cars for kids with disabilities
+
 ## Copyright: gobabygocarswithjoysticks and Joshua Phelps, MIT License
 
