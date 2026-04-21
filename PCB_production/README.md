@@ -4,12 +4,14 @@
 
 ## The [position.csv](/PCB_production/position.csv) file has the locations for the surface mount components
 
-## The BOM can be imported to a Digikey list
+## The Bill Of Materials can be imported to a Digikey list
 please email gobabygocarswithjoysticks@gmail.com if components are out of stock and you need recommendations for alternatives
 
 [BOM.csv](/PCB_production/BOM.csv) is the normal list of parts (using screw terminals for connections).
 
 [BOM-with-DNP.csv](/PCB_production/BOM-with-DNP.csv) includes alternative parts that you could choose some of, for other configurations of the board.
+
+Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/Y049DLKCBV)
 
 ## [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
