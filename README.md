@@ -27,7 +27,7 @@ For the previous versions of the GBG-PCB see https://github.com/gobabygocarswith
 * Or feel free to use these [files](/PCB_production) and get boards yourself.
 
 # Software
-## The website for uploading software to a GBG-PCB a and adjusting settings is here: https://gobabygocarswithjoysticks.github.io/programmer/
+## The website for uploading software to a GBG-PCB and adjusting settings is here: https://gobabygocarswithjoysticks.github.io/programmer/
 
 # Instructions
 ## [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
