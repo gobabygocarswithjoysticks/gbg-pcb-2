@@ -22,6 +22,7 @@ Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/
 * 5mil/5mil
 * 0.25mm holes
 * solder stencils should be 0.12mm
+* solder stencils can be "non-framework"
 
 ## other configurations
 
