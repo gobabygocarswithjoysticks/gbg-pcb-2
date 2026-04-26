@@ -40,7 +40,7 @@ The GBG-PCB includes pads for adding connectors that match the connectors on som
 * J100 and J101 replace J7
 * J104 replaces J8
 
-### Other models of Raspberry Pi Pico (P1)
+### other models of Raspberry Pi Pico (P1)
 If you want to be able to change settings and remote override the car over a wifi connection [(see information here)](https://github.com/gobabygocarswithjoysticks/car-code/blob/main/rcdocs/remote_control.md#notes-on-wifiwebsite-remote-control) then you can substitute a Pico 1W or Pico 2W for the standard Pico 1.
 
 ### cost saving by removing optional features
