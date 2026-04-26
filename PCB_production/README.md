@@ -4,7 +4,7 @@
 
 ## The [position.csv](/PCB_production/position.csv) file has the locations for the surface mount components
 
-## The Bill Of Materials can be imported to a Digikey list
+## Bill Of Materials (BOM)
 please email gobabygocarswithjoysticks@gmail.com if components are out of stock and you need recommendations for alternatives
 
 [BOM.csv](/PCB_production/BOM.csv) is the normal list of parts (using screw terminals for connections).
