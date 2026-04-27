@@ -1,3 +1,5 @@
+## instructions for how to make GBG-PCBs by hand are [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards)
+
 ## send [gerbers.zip](/PCB_production/gerbers.zip) to a PCB fabrication company
 
 ## [F_SolderPasteMask.dxf](/PCB_production/F_SolderPasteMask.dxf) can be used to get a solder stencil
