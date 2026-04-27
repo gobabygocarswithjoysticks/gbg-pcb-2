@@ -70,3 +70,11 @@ J4
 #### [consider an alternate voltage regulator](https://github.com/gobabygocarswithjoysticks/gbg-pcb-2/blob/main/PCB_production/README.md#alternate-voltage-regulator-u5)
 
 Using a THT module might not be significantly cheaper but it could save you time during assembly.
+
+
+## questions for suppliers to ask
+* pico1 or pico1W?
+* include button jacks?
+* include chip that monitors voltage and current?
+* screw terminals or "weelye mode"?
+    * if weelye mode, the standard headers for J11 could be changed to match the specific boards you're using
