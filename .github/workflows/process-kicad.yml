@@ -72,7 +72,7 @@ jobs:
                     source /tmp/ihb-venv/bin/activate &&
                     pip install --no-deps InteractiveHtmlBom==2.11.1 &&
                     export INTERACTIVE_HTML_BOM_NO_DISPLAY=1 &&
-                    generate_interactive_bom --dest-dir /workspace/docs/ibom --include-tracks --include-nets --no-browser \
+                    generate_interactive_bom --dest-dir /workspace/docs/ibom --include-tracks --include-nets --no-browser --mark-when-checked Placed \
                     --show-fields 'Value,Footprint,Datasheet,digikey_part_number,Manufacturer_Part_Number,kicad_dnp,mount_type' \
                     --group-fields 'Value,Footprint,digikey_part_number,kicad_dnp,mount_type' \
                     /workspace/kicad/gbg-pcb.kicad_pcb
