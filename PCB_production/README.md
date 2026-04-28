@@ -18,6 +18,8 @@ Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/
 ## [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 This keeps you from needing to solder the joystick wires to a 4 wire cable.
 
+## [interactive BOM to help with assembly](https://gobabygocarswithjoysticks.github.io/gbg-pcb-2/ibom/ibom.html)
+
 ## parameters for PCBs:
 * 1oz copper
 * 1.0mm board thickness
