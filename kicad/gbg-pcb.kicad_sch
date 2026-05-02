@@ -10013,7 +10013,7 @@
 	)
 	(text "optionally replace J7 to be weelye compatible"
 		(exclude_from_sim no)
-		(at 272.034 87.122 0)
+		(at 271.78 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10328,7 +10328,7 @@
 		(uuid "03efcd0a-c4b6-4d36-9284-a43879a63ba5")
 	)
 	(junction
-		(at 76.2 208.28)
+		(at 77.47 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "041c38ce-f480-4aa0-b136-4567ac4689de")
@@ -10406,6 +10406,12 @@
 		(uuid "1fd3e0b6-5435-4228-bdef-51b53250049c")
 	)
 	(junction
+		(at 139.7 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2101babd-32fc-4a4d-b1ba-22919531c06a")
+	)
+	(junction
 		(at 297.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10434,12 +10440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37e4fd52-a77e-4368-9c2b-9656f434ecec")
-	)
-	(junction
-		(at 76.2 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "430141ab-bfd4-43d0-9b8f-212bbbe0e5f9")
 	)
 	(junction
 		(at 90.17 39.37)
@@ -10472,7 +10472,7 @@
 		(uuid "53391a42-a11a-4181-be10-3cfb6c172ddf")
 	)
 	(junction
-		(at 168.91 208.28)
+		(at 170.18 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "534ff7bd-e050-4afa-b863-99d299eee3d4")
@@ -10526,12 +10526,6 @@
 		(uuid "6e41eea1-68b8-4226-b793-42eded9d38ba")
 	)
 	(junction
-		(at 107.95 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72ce7768-4199-4597-b8cf-5b010ed92de5")
-	)
-	(junction
 		(at 167.64 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10580,12 +10574,6 @@
 		(uuid "84862833-e058-4e2b-a2ed-5866baeb5aac")
 	)
 	(junction
-		(at 138.43 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8955b9ee-e79e-430a-a20f-c6e33de7b0a9")
-	)
-	(junction
 		(at 167.64 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10616,7 +10604,7 @@
 		(uuid "9338fde1-a416-4ecc-9af0-2d300d1d75ee")
 	)
 	(junction
-		(at 107.95 208.28)
+		(at 109.22 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93a3bc89-bfd7-4176-b255-163b7e080b60")
@@ -10670,12 +10658,6 @@
 		(uuid "a9e40386-a3f5-431a-877b-1681b27e015f")
 	)
 	(junction
-		(at 138.43 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa83c87e-6374-4bf3-9005-704752441bc6")
-	)
-	(junction
 		(at 321.31 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10692,12 +10674,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ce38e5-6fe7-4062-8547-e3cdb73a098d")
-	)
-	(junction
-		(at 168.91 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1e03566-2e20-4c9a-aa15-8978cee0d522")
 	)
 	(junction
 		(at 138.43 245.11)
@@ -10872,6 +10848,10 @@
 		(uuid "1ba7c164-0664-4089-b4cc-b92ea2ea75b4")
 	)
 	(no_connect
+		(at 168.91 210.82)
+		(uuid "24aab4fa-f019-42a7-acfd-e16ce3def966")
+	)
+	(no_connect
 		(at 177.8 161.29)
 		(uuid "3a34b2ea-d77f-485b-8066-eb65ed6d05b3")
 	)
@@ -10886,6 +10866,10 @@
 	(no_connect
 		(at 177.8 166.37)
 		(uuid "67a90b11-036c-432e-b61a-4bed9809c190")
+	)
+	(no_connect
+		(at 138.43 210.82)
+		(uuid "69100cf7-27dc-4cc0-91f2-ef4074c8b7b5")
 	)
 	(no_connect
 		(at 297.18 118.11)
@@ -10912,6 +10896,14 @@
 		(uuid "b731d934-d1c9-432d-8642-5da8fbb92215")
 	)
 	(no_connect
+		(at 107.95 210.82)
+		(uuid "c58929cc-c418-4bc5-8952-b6b4ac2dce1e")
+	)
+	(no_connect
+		(at 76.2 210.82)
+		(uuid "cd15e4a0-bebe-4a6d-8b67-e4b95aea72be")
+	)
+	(no_connect
 		(at 135.89 165.1)
 		(uuid "ebfc4c60-2b4f-4be2-b887-f9c92a508a57")
 	)
@@ -10921,7 +10913,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 205.74) (xy 76.2 205.74)
+			(xy 55.88 205.74) (xy 77.47 205.74)
 		)
 		(stroke
 			(width 0)
@@ -11088,6 +11080,16 @@
 			(type default)
 		)
 		(uuid "0d53eb80-2e35-4ba6-8d3c-35013746e0ae")
+	)
+	(wire
+		(pts
+			(xy 139.7 204.47) (xy 118.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da48fd2-98b6-41c8-b08f-5f86c8e903f4")
 	)
 	(wire
 		(pts
@@ -11261,6 +11263,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 208.28) (xy 107.95 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192a3999-3696-484f-921b-f82f2f838995")
+	)
+	(wire
+		(pts
 			(xy 72.39 74.93) (xy 82.55 74.93)
 		)
 		(stroke
@@ -11368,6 +11380,16 @@
 			(type default)
 		)
 		(uuid "27644c81-6ff0-4a16-9f67-31dc4b121baf")
+	)
+	(wire
+		(pts
+			(xy 139.7 208.28) (xy 138.43 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29331239-a797-4c51-b24a-0db8ab0015ba")
 	)
 	(wire
 		(pts
@@ -11721,7 +11743,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 208.28) (xy 76.2 210.82)
+			(xy 77.47 208.28) (xy 77.47 210.82)
 		)
 		(stroke
 			(width 0)
@@ -12151,7 +12173,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 205.74) (xy 107.95 205.74)
+			(xy 87.63 205.74) (xy 109.22 205.74)
 		)
 		(stroke
 			(width 0)
@@ -12381,16 +12403,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 208.28) (xy 138.43 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e00e05e-1b03-4294-9990-3063479248ee")
-	)
-	(wire
-		(pts
 			(xy 285.75 152.4) (xy 285.75 139.7)
 		)
 		(stroke
@@ -12421,6 +12433,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 208.28) (xy 168.91 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811832eb-f055-4ae5-99c6-6f521681dcaa")
+	)
+	(wire
+		(pts
 			(xy 167.64 57.15) (xy 173.99 57.15)
 		)
 		(stroke
@@ -12438,16 +12460,6 @@
 			(type default)
 		)
 		(uuid "81469cc3-6c8c-49c1-988e-6d565ac4dc10")
-	)
-	(wire
-		(pts
-			(xy 118.11 205.74) (xy 138.43 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "840e6257-4980-4f58-9ec2-b2ca6128f5dc")
 	)
 	(wire
 		(pts
@@ -12871,6 +12883,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 208.28) (xy 139.7 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abadfda3-0db4-4abf-89e6-94103c702881")
+	)
+	(wire
+		(pts
 			(xy 344.17 227.33) (xy 344.17 237.49)
 		)
 		(stroke
@@ -12981,16 +13003,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 205.74) (xy 138.43 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5966b34-9a59-460b-b77c-f4cf8802d1b1")
-	)
-	(wire
-		(pts
 			(xy 297.18 143.51) (xy 297.18 146.05)
 		)
 		(stroke
@@ -13021,7 +13033,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 205.74) (xy 76.2 208.28)
+			(xy 77.47 205.74) (xy 77.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13151,7 +13163,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 208.28) (xy 107.95 210.82)
+			(xy 109.22 208.28) (xy 109.22 210.82)
 		)
 		(stroke
 			(width 0)
@@ -13171,7 +13183,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 205.74) (xy 168.91 205.74)
+			(xy 148.59 205.74) (xy 170.18 205.74)
 		)
 		(stroke
 			(width 0)
@@ -13201,7 +13213,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 208.28) (xy 168.91 210.82)
+			(xy 170.18 208.28) (xy 170.18 210.82)
 		)
 		(stroke
 			(width 0)
@@ -13251,6 +13263,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 210.82) (xy 139.7 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ae8928-15d2-4082-bc4b-c63290341c3a")
+	)
+	(wire
+		(pts
 			(xy 328.93 59.69) (xy 347.98 59.69)
 		)
 		(stroke
@@ -13291,7 +13313,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 205.74) (xy 118.11 208.28)
+			(xy 118.11 204.47) (xy 118.11 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13791,6 +13813,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 208.28) (xy 76.2 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeadfa94-1850-4929-b5d5-82a631e81543")
+	)
+	(wire
+		(pts
 			(xy 165.1 231.14) (xy 165.1 232.41)
 		)
 		(stroke
@@ -13811,7 +13843,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 205.74) (xy 107.95 208.28)
+			(xy 109.22 205.74) (xy 109.22 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13881,7 +13913,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 205.74) (xy 168.91 208.28)
+			(xy 170.18 205.74) (xy 170.18 208.28)
 		)
 		(stroke
 			(width 0)
@@ -18020,7 +18052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 210.82 0)
+		(at 170.18 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18031,7 +18063,7 @@
 		(fields_autoplaced yes)
 		(uuid "35451c4a-d804-440c-81eb-a75c7cf94695")
 		(property "Reference" "#PWR042"
-			(at 168.91 217.17 0)
+			(at 170.18 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18042,7 +18074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 215.9 0)
+			(at 170.18 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18052,7 +18084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 210.82 0)
+			(at 170.18 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18063,7 +18095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 210.82 0)
+			(at 170.18 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18074,7 +18106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 210.82 0)
+			(at 170.18 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20086,7 +20118,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 210.82 0)
+		(at 77.47 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20097,7 +20129,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dab8f8c-366e-4678-a13e-b532d1ba045b")
 		(property "Reference" "#PWR039"
-			(at 76.2 217.17 0)
+			(at 77.47 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20108,7 +20140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 215.9 0)
+			(at 77.47 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20118,7 +20150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 210.82 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20129,7 +20161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 210.82 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20140,7 +20172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 210.82 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21578,7 +21610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 210.82 0)
+		(at 109.22 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21589,7 +21621,7 @@
 		(fields_autoplaced yes)
 		(uuid "65785931-10d3-44bb-af92-f23cd78d23a9")
 		(property "Reference" "#PWR040"
-			(at 107.95 217.17 0)
+			(at 109.22 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21600,7 +21632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 215.9 0)
+			(at 109.22 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21610,7 +21642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 210.82 0)
+			(at 109.22 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21621,7 +21653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 210.82 0)
+			(at 109.22 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21632,7 +21664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 210.82 0)
+			(at 109.22 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24883,6 +24915,185 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 148.59 255.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f02df4e-3a71-4c1f-be87-b0052cfb7a3b")
+		(property "Reference" "R4"
+			(at 148.59 248.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 148.59 251.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 148.59 257.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KFKEA/1181013"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rfbt"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0805100KFKEA"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "541-100KCCT-ND"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e92be0ab-012a-48a5-83bf-d944bf0288cf")
+		)
+		(pin "1"
+			(uuid "974a0bad-aa90-49b2-a2e2-c443bd2b72ef")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 285.75 55.88 0)
 		(unit 1)
@@ -26730,7 +26941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 210.82 0)
+		(at 139.7 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26741,7 +26952,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e29da7-c36e-44b0-b0ec-64fe14ba1ef7")
 		(property "Reference" "#PWR041"
-			(at 138.43 217.17 0)
+			(at 139.7 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26752,7 +26963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 215.9 0)
+			(at 139.7 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26762,7 +26973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 210.82 0)
+			(at 139.7 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26773,7 +26984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 210.82 0)
+			(at 139.7 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26784,7 +26995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 210.82 0)
+			(at 139.7 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26979,141 +27190,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "NT6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 255.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3c5aa92-dd1c-4b1b-8b2e-bc901d6f6198")
-		(property "Reference" "R4"
-			(at 148.59 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "590k"
-			(at 148.59 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 148.59 257.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805590KFKEA/1175990"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "enable pull up"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Dale"
-			(at 148.59 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0805590KFKEA"
-			(at 148.59 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey_part_number" "541-590KCCT-ND"
-			(at 148.59 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 148.59 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "price" ".04"
-			(at 148.59 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ef20d1bc-5f84-460e-b875-f4585a1e4161")
-		)
-		(pin "1"
-			(uuid "5c22710e-6afe-4e3a-9e8e-a2480f80b82f")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -27378,7 +27454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB0011-350-03GR/27804498?s=N4IgTCBcDaICoCEAMSCMqC0BmArEjSWA4gEogC6AvkA"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB0011-350-03GR/27804498"
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)

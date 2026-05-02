@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,7 +130,23 @@
           ""
         ],
         [
+          "silk_overlap|111734600|67995800|2fa7b9d6-f9e1-4735-b6cd-6f09b7363516|5b95daf7-185d-4969-a37a-e15c599fa0a6",
+          ""
+        ],
+        [
+          "silk_overlap|119870871|60223399|50c7fa1c-b536-40ae-95ba-d2c3bead7b5a|89115eb7-bf36-4750-8eb1-451cf8e17531",
+          ""
+        ],
+        [
+          "silk_overlap|130126581|81737659|4c714996-50f2-4f34-b888-0c7eecec62f1|685c508e-35d0-42e8-9a36-003808165deb",
+          ""
+        ],
+        [
           "silk_overlap|69289482|49999900|67edcd8d-59ac-43dd-ab99-36a6141bf8dc|df7759a1-0fd2-4002-9116-0c6733611469",
+          ""
+        ],
+        [
+          "silk_overlap|86495271|51384199|002fe3ab-e581-4873-9959-7620e274b234|884a30dd-5f80-48fb-9ca8-c4a16e82a13c",
           ""
         ]
       ],
@@ -954,7 +970,7 @@
         "uuid": "3bb9adb4-655f-45ab-af84-44b563241ee2"
       }
     ],
-    "used_designators": "J9-10,J12,J101-103",
+    "used_designators": "R15,J9-10,J12,J101-103",
     "variants": []
   },
   "sheets": [
