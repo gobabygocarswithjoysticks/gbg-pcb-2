@@ -6,7 +6,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
-V2.0
+V2.1
 
 This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
@@ -52,8 +52,8 @@ Use KiCAD 10.0
 Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to any of the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
 
 # photos
-<!-- ![view of assembled PCB from the top](/photos/image0.jpg) -->
-<!-- ![view of assembled PCB](/photos/image1.jpg) -->
+![view of assembled PCB from the top](/photos/image0.jpg)
+![view of assembled PCB](/photos/image1.jpg)
 
 # images of CAD
 
