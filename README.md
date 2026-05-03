@@ -10,7 +10,7 @@ V2.0
 
 This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
-Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries)
+Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries, absolute maximum 4.6V-28V)
 
 Controls two motors: one for each wheel so that the car can turn in place.
 
