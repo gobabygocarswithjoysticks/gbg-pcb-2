@@ -16,15 +16,16 @@ Controls two motors: one for each wheel so that the car can turn in place.
 
 [New in version 2](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#new-in-v2-weelye-control-box-compatible): A V2 GBG-PCB can be configured with battery, motor, and signal plugs that match the plugs on the common weelye control boxes. This means some cars can be converted to joystick control without cutting any wires. V2 GBG-PCBs also run fron 6 to 24 volt batteries.
 
-For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
+### For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
+Version 1 GBG-PCBs had a higher, 10 amp current capacity and a lower part count but requires 12 volts.
 
-## questions? Please email our support line at gbg-pcb@googlegroups.com
+## Questions? Please email our support line at gbg-pcb@googlegroups.com
 
 # Want one?
 * Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](TODO/gbg-pcb). Thank you to PNWAT for supporting this project and being a supplier of these boards.
 * Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_0_a8fd7fa3.html)
-* Email gobabygocarswithjoysticks@gmail.com. We may have a small number of assembled boards to sell or donate to you.
-* Or feel free to use these [files](/PCB_production) and get boards yourself. Instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards)
+* Email gobabygocarswithjoysticks@gmail.com. I may have a small number of assembled V1 and V2 boards to sell or donate to you.
+* Or please feel free to use these [files](/PCB_production) and get boards yourself. Instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards)
 
 # Software
 ## The website for uploading software to a GBG-PCB and adjusting settings is here: https://gobabygocarswithjoysticks.github.io/programmer/
@@ -35,7 +36,6 @@ For the previous versions of the GBG-PCB see https://github.com/gobabygocarswith
 ## Index of Instructions for modifying specific models of cars using GBG-PCBs
 * [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions) (car is out of production)
 * [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (instructions are complete through electronics but don't include a backrest or joystick holder)
-* [coming soon](todo)
 
 ![schematic](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 

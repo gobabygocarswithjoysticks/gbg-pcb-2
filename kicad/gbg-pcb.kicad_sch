@@ -27938,7 +27938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2159151002"
+		(property "Value" "2159151002, https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1123723-2/686925"
 			(at 327.152 181.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27960,7 +27960,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/2159151002/16591336"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/2159151002/16591336, https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1123723-2/686925"
 			(at 323.85 181.61 0)
 			(hide yes)
 			(show_name no)
