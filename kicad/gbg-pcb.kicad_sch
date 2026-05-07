@@ -10031,16 +10031,6 @@
 		)
 		(uuid "4603fd5d-c6e2-4962-96ec-08ba83af0625")
 	)
-	(text "1.8-5.5v"
-		(exclude_from_sim no)
-		(at 171.958 20.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "802ceb67-aef5-42de-a81d-68864a9c2743")
-	)
 	(text "on/off switch"
 		(exclude_from_sim no)
 		(at 152.908 273.558 0)
@@ -21094,7 +21084,7 @@
 			)
 		)
 		(property "Value" "screw terminal"
-			(at 151.384 241.808 0)
+			(at 148.082 242.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
