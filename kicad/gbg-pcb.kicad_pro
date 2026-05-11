@@ -166,7 +166,7 @@
           ""
         ],
         [
-          "silk_overlap|111546700|69215000|2fa7b9d6-f9e1-4735-b6cd-6f09b7363516|5b95daf7-185d-4969-a37a-e15c599fa0a6",
+          "silk_overlap|111618711|70045752|2fa7b9d6-f9e1-4735-b6cd-6f09b7363516|5b95daf7-185d-4969-a37a-e15c599fa0a6",
           ""
         ],
         [
@@ -190,7 +190,7 @@
           ""
         ],
         [
-          "silk_overlap|136667581|53012955|2ef1ca67-48f8-4296-9ed5-e412aadfa06f|cce9d48d-5b4e-4617-852f-46ab1adea8cc",
+          "silk_overlap|136667581|51943000|2ef1ca67-48f8-4296-9ed5-e412aadfa06f|cce9d48d-5b4e-4617-852f-46ab1adea8cc",
           ""
         ],
         [
@@ -1034,7 +1034,7 @@
         "uuid": "3bb9adb4-655f-45ab-af84-44b563241ee2"
       }
     ],
-    "used_designators": "R15,J105",
+    "used_designators": "R15-18,J105",
     "variants": []
   },
   "sheets": [

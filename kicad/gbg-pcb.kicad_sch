@@ -6219,216 +6219,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:EXB34V182JV"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 22.86 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "EXB34V182JV"
-				(at 22.86 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "kicad libraries:C_ARRAY_EXB34V_PAN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "EXB34V182JV"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "EXB34V182JV"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_ARRAY_EXB34V_PAN C_ARRAY_EXB34V_PAN-M C_ARRAY_EXB34V_PAN-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "EXB34V182JV_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 20.32 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -7.62) (xy 20.32 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -2.54 180)
-					(length 7.62)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 0 180)
-					(length 7.62)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "library:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -10041,16 +9831,6 @@
 		)
 		(uuid "881a05e1-b0a6-49b8-b52a-ad3a5ad9dd8d")
 	)
-	(text "1.8k"
-		(exclude_from_sim no)
-		(at 82.55 184.912 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8adbaa39-91e7-42ee-8e35-7846eb0d0efc")
-	)
 	(text "+"
 		(exclude_from_sim no)
 		(at 332.486 165.608 0)
@@ -10063,7 +9843,7 @@
 	)
 	(text "pullup\nresistors"
 		(exclude_from_sim no)
-		(at 83.566 178.054 0)
+		(at 82.804 170.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10490,6 +10270,12 @@
 		(uuid "6369f78b-5027-414f-9b0f-47e0f6fe6c83")
 	)
 	(junction
+		(at 69.85 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65857d6f-d2e2-4f56-b328-5c32cbd115ab")
+	)
+	(junction
 		(at 347.98 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10538,12 +10324,6 @@
 		(uuid "7d6e7454-108a-4ea1-869c-44aeb3e4640d")
 	)
 	(junction
-		(at 69.85 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e1338d9-06b0-4067-b866-6c33f7c2584d")
-	)
-	(junction
 		(at 269.24 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10578,6 +10358,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e2ddc15-f4d0-448c-ad76-7ab9d38fbbf4")
+	)
+	(junction
+		(at 31.75 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92d8c1a4-d9d5-4c9c-ba4a-63dba7166ca7")
 	)
 	(junction
 		(at 347.98 59.69)
@@ -10692,12 +10478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6e32f09-6a37-4dfb-afa3-23e6390d504b")
-	)
-	(junction
-		(at 31.75 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6f60908-0d2b-4687-900a-a5a01ccf86e0")
 	)
 	(junction
 		(at 274.32 77.47)
@@ -11465,6 +11245,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 182.88) (xy 97.79 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30428441-79a8-4ec6-bb3a-55a5dfb69870")
+	)
+	(wire
+		(pts
 			(xy 165.1 248.92) (xy 165.1 265.43)
 		)
 		(stroke
@@ -11692,6 +11482,16 @@
 			(type default)
 		)
 		(uuid "41a73829-8302-447a-82bd-73e9cff89ed2")
+	)
+	(wire
+		(pts
+			(xy 69.85 180.34) (xy 69.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42487c74-1a57-4c64-ba3e-bd89e09788e7")
 	)
 	(wire
 		(pts
@@ -12805,16 +12605,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 180.34) (xy 69.85 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0df28bf-0020-4ce8-a8c9-1d702d46f71f")
-	)
-	(wire
-		(pts
 			(xy 101.6 49.53) (xy 101.6 74.93)
 		)
 		(stroke
@@ -12865,6 +12655,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 182.88) (xy 78.74 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ca02d7-fbf3-4dff-9589-f6156a212ff9")
+	)
+	(wire
+		(pts
 			(xy 33.02 85.09) (xy 116.84 85.09)
 		)
 		(stroke
@@ -12902,6 +12702,16 @@
 			(type default)
 		)
 		(uuid "abadfda3-0db4-4abf-89e6-94103c702881")
+	)
+	(wire
+		(pts
+			(xy 86.36 180.34) (xy 97.79 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac018962-a35b-4291-91cb-aeb759959663")
 	)
 	(wire
 		(pts
@@ -13772,6 +13582,16 @@
 			(type default)
 		)
 		(uuid "e9bfa85f-e1a0-4278-81d2-3f79c1f5cdcd")
+	)
+	(wire
+		(pts
+			(xy 69.85 180.34) (xy 78.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf5ba96-2e95-48ad-9dbb-c4293cda65a6")
 	)
 	(wire
 		(pts
@@ -16202,6 +16022,187 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 138.43 237.49 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15c5abd9-9f68-4efa-9b6f-2cb96a9987aa")
+		(property "Reference" "R3"
+			(at 136.906 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 137.16 239.014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 140.208 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08053K30FKEA/1175694"
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW08053K30FKEA"
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "541-3.30KCCT-ND"
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".05"
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 138.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee8cd1d1-d446-40e1-b645-e4aaa488a941")
+		)
+		(pin "1"
+			(uuid "b2a71047-540b-4a2f-a394-58c9ba3eed79")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 387.35 227.33 0)
 		(unit 1)
@@ -16919,148 +16920,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:EXB34V182JV")
-		(at 69.85 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "240849f3-6381-49a9-9089-5478000e338c")
-		(property "Reference" "R20"
-			(at 84.074 171.196 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "EXB34V182JV"
-			(at 84.074 173.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:C_ARRAY_EXB34V_PAN"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/EXB-34V182JV/256412"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "pullup resistors"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic Industry"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EXB-34V182JV"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey_part_number" "Y8182CT-ND"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "price" ".09"
-			(at 69.85 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3de73f2c-4551-4bac-a085-c7b9e692b268")
-		)
-		(pin "3"
-			(uuid "b4ea4dcd-3d5c-4c97-b968-c2f205b548a5")
-		)
-		(pin "4"
-			(uuid "b771f2bf-08b1-4b2b-98c6-5b29aed95b56")
-		)
-		(pin "1"
-			(uuid "d91bbe3f-5d7c-4898-a9f4-d865b1e3bfc7")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -22345,6 +22204,186 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 82.55 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "764ed533-2e84-415c-b82f-cc870f46e92e")
+		(property "Reference" "R15"
+			(at 81.2799 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 88.138 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.55 182.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08053K30FKEA/1175694"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW08053K30FKEA"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "541-3.30KCCT-ND"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".05"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1243a65c-5777-4b13-8f4f-5cdc6b048347")
+		)
+		(pin "1"
+			(uuid "c5e1b12a-288b-41b9-ab90-b866103fdc68")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_Shielded:Conn_01x04_Shielded")
 		(at 135.89 154.94 0)
 		(unit 1)
@@ -23378,140 +23417,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 237.49 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8946018a-df61-4104-98a1-049c0bca4b1f")
-		(property "Reference" "R3"
-			(at 135.636 236.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8.2k"
-			(at 134.874 239.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 140.208 237.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08058K20JNEA/1175220"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "mode selector (independent)"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Dale"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW08058K20JNEA"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "price" ".04"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey_part_number" "541-8.2KACT-ND"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 138.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3df64c66-6e02-42a3-99b1-b64d32f224a6")
-		)
-		(pin "1"
-			(uuid "f44d304a-54e3-4eb6-b4db-c8934177bf60")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -24752,185 +24657,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 255.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f02df4e-3a71-4c1f-be87-b0052cfb7a3b")
-		(property "Reference" "R4"
-			(at 148.59 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 148.59 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 148.59 257.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KFKEA/1181013"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rfbt"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Dale"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0805100KFKEA"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey_part_number" "541-100KCCT-ND"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "price" ".04"
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr" ""
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr PN" ""
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 148.59 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e92be0ab-012a-48a5-83bf-d944bf0288cf")
-		)
-		(pin "1"
-			(uuid "974a0bad-aa90-49b2-a2e2-c443bd2b72ef")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -27119,8 +26845,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 160.02 0)
-		(mirror y)
+		(at 82.55 182.88 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27128,9 +26854,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cddeb3bf-a487-4661-adf0-7c34b4784f40")
-		(property "Reference" "R14"
-			(at 29.21 158.7499 0)
+		(uuid "cfa4e4f7-bcc4-4b25-92d0-1328bfc356a6")
+		(property "Reference" "R16"
+			(at 81.2799 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27140,8 +26866,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7k"
-			(at 29.21 161.2899 0)
+		(property "Value" "3.3k"
+			(at 88.138 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27152,7 +26878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 33.528 160.02 90)
+			(at 82.55 181.102 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27162,8 +26888,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080513K7FKEA/1175765"
-			(at 31.75 160.02 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08053K30FKEA/1175694"
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27173,8 +26899,8 @@
 				)
 			)
 		)
-		(property "Description" "Rfbb"
-			(at 31.75 160.02 0)
+		(property "Description" ""
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27185,7 +26911,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 31.75 160.02 0)
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27195,8 +26921,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW080513K7FKEA"
-			(at 31.75 160.02 0)
+		(property "Manufacturer_Part_Number" "CRCW08053K30FKEA"
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27207,7 +26933,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 31.75 160.02 0)
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27217,8 +26943,8 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "541-13.7KCCT-ND"
-			(at 31.75 160.02 0)
+		(property "digikey_part_number" "541-3.30KCCT-ND"
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27228,8 +26954,52 @@
 				)
 			)
 		)
-		(property "price" ".04"
-			(at 31.75 160.02 0)
+		(property "price" ".05"
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27240,15 +27010,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a30ee237-6e68-48c0-b2f6-f3d80e6bf015")
+			(uuid "383e0596-c49b-488f-a63f-8b534951c40c")
 		)
 		(pin "1"
-			(uuid "5b57aae1-0c83-4ab0-b508-494c7d9c1382")
+			(uuid "db4db103-cfbe-4b1f-890a-df62bcbfb684")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -28113,6 +27883,143 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 255.27 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8515213-2089-4b74-ab1f-cf611ab1da66")
+		(property "Reference" "R4"
+			(at 149.352 257.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "13.7k"
+			(at 151.638 252.984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 148.59 253.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080513K7FKEA/1175765"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rfbb"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW080513K7FKEA"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "541-13.7KCCT-ND"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 148.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8d608ea-bfd1-43b9-baa5-653bab36bb8d")
+		)
+		(pin "1"
+			(uuid "29cdbc58-1385-4642-8916-930e65cea90b")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -29302,6 +29209,141 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 160.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e43667b2-fb64-4012-bbb2-43a5f573bcc8")
+		(property "Reference" "R14"
+			(at 27.432 158.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 27.432 161.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 33.528 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08058K20JNEA/1175220"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "mode selector (independent)"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW08058K20JNEA"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "541-8.2KACT-ND"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f51cab8b-74f4-4cb9-9c80-c5f91e00204a")
+		)
+		(pin "1"
+			(uuid "b0e649b0-4f33-4c9e-a335-a069cd064656")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "R14")
 					(unit 1)
 				)
 			)
