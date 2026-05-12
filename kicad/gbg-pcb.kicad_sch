@@ -14363,7 +14363,7 @@
 	)
 	(global_label "left_ipropi"
 		(shape input)
-		(at 40.64 172.72 180)
+		(at 41.91 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14373,7 +14373,7 @@
 		)
 		(uuid "86b9b0c0-582b-47f1-9808-d00dcf7ef71c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.0392 172.72 0)
+			(at 29.3092 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14531,7 +14531,7 @@
 	)
 	(global_label "right_ipropi"
 		(shape input)
-		(at 48.26 172.72 0)
+		(at 49.53 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14541,7 +14541,7 @@
 		)
 		(uuid "cd13b0a8-13e5-4fea-9f0a-d2588b177d84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.0703 172.72 0)
+			(at 63.3403 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17544,7 +17544,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 180.34 0)
+		(at 49.53 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17554,7 +17554,7 @@
 		(dnp no)
 		(uuid "32df3eeb-a4eb-4f86-892b-74c49dbc5e62")
 		(property "Reference" "#PWR057"
-			(at 48.26 186.69 0)
+			(at 49.53 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17565,7 +17565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 184.658 0)
+			(at 49.53 187.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17575,7 +17575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 180.34 0)
+			(at 49.53 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17586,7 +17586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 180.34 0)
+			(at 49.53 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17597,7 +17597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 180.34 0)
+			(at 49.53 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17621,7 +17621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 176.53 180)
+		(at 49.53 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17631,7 +17631,7 @@
 		(dnp no)
 		(uuid "331369d0-ba60-4a4d-8c0a-0396dae57d4d")
 		(property "Reference" "R12"
-			(at 43.688 176.53 90)
+			(at 44.958 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17641,7 +17641,7 @@
 			)
 		)
 		(property "Value" "604"
-			(at 46.228 176.53 90)
+			(at 47.498 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17651,7 +17651,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 50.038 176.53 90)
+			(at 51.308 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17662,7 +17662,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805604RFKEA/1175612"
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17673,7 +17673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17684,7 +17684,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17695,7 +17695,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0805604RFKEA"
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17706,7 +17706,7 @@
 			)
 		)
 		(property "price" ".044"
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17717,7 +17717,7 @@
 			)
 		)
 		(property "digikey_part_number" "541-604CCT-ND"
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17728,7 +17728,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17739,7 +17739,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17750,7 +17750,7 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17761,7 +17761,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17772,7 +17772,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 48.26 176.53 0)
+			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18444,7 +18444,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 40.64 172.72 0)
+		(at 41.91 175.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18455,7 +18455,7 @@
 		(dnp no)
 		(uuid "3ad735e8-d965-457b-9757-07332c77d8c4")
 		(property "Reference" "TP1"
-			(at 39.878 168.148 0)
+			(at 41.148 170.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18466,7 +18466,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 39.878 170.688 0)
+			(at 41.148 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18477,7 +18477,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 35.56 172.72 0)
+			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18488,7 +18488,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 35.56 172.72 0)
+			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18499,7 +18499,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18510,7 +18510,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18521,7 +18521,7 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18532,7 +18532,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18543,7 +18543,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18554,7 +18554,7 @@
 			)
 		)
 		(property "mount_type" "DNP"
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18565,7 +18565,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18576,7 +18576,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18587,7 +18587,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18598,7 +18598,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 40.64 172.72 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23031,7 +23031,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 48.26 172.72 0)
+		(at 49.53 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23041,7 +23041,7 @@
 		(dnp no)
 		(uuid "815c9a46-7909-4216-9088-150ff7ffffb2")
 		(property "Reference" "TP2"
-			(at 49.022 168.148 0)
+			(at 50.292 170.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23052,7 +23052,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 49.022 170.688 0)
+			(at 50.292 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23063,7 +23063,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 53.34 172.72 0)
+			(at 54.61 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23074,7 +23074,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 53.34 172.72 0)
+			(at 54.61 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23085,7 +23085,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23096,7 +23096,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23107,7 +23107,7 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23118,7 +23118,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23129,7 +23129,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23140,7 +23140,7 @@
 			)
 		)
 		(property "mount_type" "DNP"
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23151,7 +23151,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23162,7 +23162,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23173,7 +23173,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23184,7 +23184,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 48.26 172.72 0)
+			(at 49.53 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28104,7 +28104,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 176.53 180)
+		(at 41.91 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28114,7 +28114,7 @@
 		(dnp no)
 		(uuid "d9efeb6c-bb14-440a-abee-ce3286854727")
 		(property "Reference" "R11"
-			(at 35.306 176.53 90)
+			(at 36.576 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28124,7 +28124,7 @@
 			)
 		)
 		(property "Value" "604"
-			(at 37.846 176.53 90)
+			(at 39.116 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28134,7 +28134,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 42.418 176.53 90)
+			(at 43.688 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28145,7 +28145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805604RFKEA/1175612"
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28156,7 +28156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28167,7 +28167,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay Dale"
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28178,7 +28178,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0805604RFKEA"
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28189,7 +28189,7 @@
 			)
 		)
 		(property "price" ".044"
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28200,7 +28200,7 @@
 			)
 		)
 		(property "digikey_part_number" "541-604CCT-ND"
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28211,7 +28211,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28222,7 +28222,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28233,7 +28233,7 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28244,7 +28244,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28255,7 +28255,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 40.64 176.53 0)
+			(at 41.91 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31206,7 +31206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 180.34 0)
+		(at 41.91 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31216,7 +31216,7 @@
 		(dnp no)
 		(uuid "fcefc279-20bd-4fe7-8782-b46c915d8866")
 		(property "Reference" "#PWR056"
-			(at 40.64 186.69 0)
+			(at 41.91 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31227,7 +31227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 184.658 0)
+			(at 41.91 187.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31237,7 +31237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 180.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31248,7 +31248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 180.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31259,7 +31259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 180.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
