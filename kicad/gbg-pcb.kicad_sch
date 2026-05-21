@@ -10294,6 +10294,12 @@
 		(uuid "6e41eea1-68b8-4226-b793-42eded9d38ba")
 	)
 	(junction
+		(at 185.42 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f114f37-0acf-48b0-a50c-8751b53968d1")
+	)
+	(junction
 		(at 167.64 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11135,6 +11141,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 156.21) (xy 185.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275e2dd2-5400-43bd-9a38-c6d09b17c216")
+	)
+	(wire
+		(pts
 			(xy 185.42 77.47) (xy 167.64 77.47)
 		)
 		(stroke
@@ -11295,7 +11311,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 153.67) (xy 185.42 157.48)
+			(xy 185.42 153.67) (xy 185.42 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13705,7 +13721,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 156.21) (xy 181.61 156.21)
+			(xy 177.8 156.21) (xy 185.42 156.21)
 		)
 		(stroke
 			(width 0)
@@ -15512,83 +15528,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b7470bb-68b0-4a0b-9263-be0ddb8cdb61")
-		(property "Reference" "#PWR045"
-			(at 181.61 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.372 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29d09327-a295-4625-b675-27ca18dd57b4")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
